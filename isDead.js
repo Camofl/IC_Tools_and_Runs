@@ -1,14 +1,14 @@
 const fs = require("fs");
 
 const elements = fs
-    .readFileSync("./elements.txt", { encoding: "utf8" })
+    .readFileSync("./elements.txt", {encoding: "utf8"})
     .split("\n")
     .map((x) => x.trim());
 
 const revivedElements = Array.from(
     new Set(
         fs
-            .readFileSync("./revivedElements.txt", { encoding: "utf8" })
+            .readFileSync("./revivedElements.txt", {encoding: "utf8"})
             .split("\n")
             .map((x) => x.trim().toLowerCase()) // Normalize casing for case-insensitive checks
     )
@@ -34,10 +34,10 @@ const deadFile = "deadElements.txt";
     // Define a function to append results to the respective file
     await page.exposeFunction("writeResult", (data) => {
         try {
-            const { value } = JSON.parse(data);
-            const { element } = JSON.parse(data);
+            const {value} = JSON.parse(data);
+            const {element} = JSON.parse(data);
             const targetFile = value === "alive" ? aliveFile : deadFile;
-            fs.appendFileSync(targetFile, `${element}\n`, { encoding: "utf8" });
+            fs.appendFileSync(targetFile, `${element}\n`, {encoding: "utf8"});
         } catch (err) {
             console.error("Failed to write to file:", err);
         }
@@ -70,7 +70,7 @@ const deadFile = "deadElements.txt";
                     const controller = new AbortController();
                     const id = setTimeout(() => controller.abort(), timeout);
                     try {
-                        const response = await fetch(resource, { signal: controller.signal });
+                        const response = await fetch(resource, {signal: controller.signal});
                         clearTimeout(id);
                         return response;
                     } catch (error) {
@@ -102,12 +102,13 @@ const deadFile = "deadElements.txt";
                 const revivedSet = new Set(revivedElements);
 
                 for (let element of elements) {
+                    if (element.length > 30) continue
                     try {
                         const normalizedElement = element.trim().toLowerCase();
                         if (revivedSet.has(normalizedElement)) {
-                            console.log({ element, value: "alive", fromCache: true });
+                            console.log({element, value: "alive", fromCache: true});
                             await window.writeResult(
-                                JSON.stringify({ element, value: "alive", fromCache: true })
+                                JSON.stringify({element, value: "alive", fromCache: true})
                             );
                             continue;
                         }

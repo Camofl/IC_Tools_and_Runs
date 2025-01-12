@@ -8,15 +8,16 @@ puppeteer.use(StealthPlugin());
 
 
 // Settings
-const combineTime = 260;    // ms
+const combineTime = 400;    // ms
 const combineRetries = 3;   // Maximum retries for a failed combination
 const combineLogs = true;
 
-const stopAfterDepth = 5;
+const stopAfterDepth = 4;
 const parallelBots = 10;    // Number of concurrent workers (probably dont modify this)
 
 
-const baseElements = ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Delete List"].map(icCase);
+const baseElements = ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Apostrophe", "Full Stop", "End", "The", "The’", "Delete The", "Delete The."].map(icCase);
+// ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Delete List"]
 // ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Apostrophe", "Full Stop", "End", "The", "The’", "Delete The", "Letter", "The Quotation", "Letter Q", "Delete The Q"]
 // gen 5 done ["Plant", "Tree", "Ash", "Pencil", "Paper", "Book", "Homework", "Coffee", "A", "Alphabet", "Study", "Grammar", "Punctuation", "Ampersand", "@"]
 // gen 6 done ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation"]
