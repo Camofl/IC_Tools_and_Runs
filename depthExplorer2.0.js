@@ -8,7 +8,7 @@ puppeteer.use(StealthPlugin());
 
 
 // Settings
-const combineTime = 400;    // ms
+const combineTime = 310;    // ms
 const combineRetries = 3;   // Maximum retries for a failed combination
 const combineLogs = true;
 
@@ -16,7 +16,9 @@ const stopAfterDepth = 4;
 const parallelBots = 10;    // Number of concurrent workers (probably dont modify this)
 
 
-const baseElements = ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Apostrophe", "Full Stop", "End", "The", "The’", "Delete The", "Delete The."].map(icCase);
+const baseElements = ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Apostrophe", "Full Stop", "End", "The", "The’", "Delete The", "Letter", "The Quotation", "Letter Q", "Delete The Q"].map(icCase);
+    //["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Apostrophe", "Full Stop", "End", "The", "The’", "Delete The", "Alphabet Soup", "Potato", "Vowel", "Delete The E"]
+//["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Apostrophe", "Full Stop", "End", "The", "The’", "Delete The", "Delete The."]
 // ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Delete List"]
 // ["Plant", "Tree", "River", "Delta", "Paper", "Book", "Alphabet", "Word", "Sentence", "Phrase", "Quote", "Punctuation", "Period", "Comma", "List", "Stop", "Tweet", "Delete", "Delete.", "Apostrophe", "Full Stop", "End", "The", "The’", "Delete The", "Letter", "The Quotation", "Letter Q", "Delete The Q"]
 // gen 5 done ["Plant", "Tree", "Ash", "Pencil", "Paper", "Book", "Homework", "Coffee", "A", "Alphabet", "Study", "Grammar", "Punctuation", "Ampersand", "@"]
@@ -34,9 +36,9 @@ const tempElements = [];
 
 // const printLineagesFor = new Set(["Hashtag", "Punctuation", "Grammar", "Grammar", "Sentence", "Quote", "Phrase", "Period", "Comma", "Colon", "Semicolon", "Parenthesis", "Parentheses", "Slash", "Alphabetical", "Ampersand", "Abrreviation", "Not", "Quotation", "Hyphen", "Dash", "Addition", "Minus", "Plus", "Power", "Plural", "Cross", "Palindrome", "42", "Question", "Answer", "Universe"]);
 const printLineagesFor = new Set(["Delete The Parentheses", "Delete The Hyphen", "Delete The Dot", "Delete The Abc", "Delete The Abcd", "Delete The Mr."])
-// const printLineageCondition = (element) => (printLineagesFor.has(element) || element.length === 1 || /^Delete .{1,2}$/i.test(element) || /^Delete The .{1,2}$/i.test(element) || /^Delete The Letter .$/i.test(element) || /Delete First/i.test(element) || /Delete Last/i.test(element) || /Remove/i.test(element))
-const printLineageCondition = (element) => false
-const printProgressEvery = {time: 60 * 1000, elements: 1000}
+const printLineageCondition = (element) => (printLineagesFor.has(element) || /^Delete .{1,2}$/i.test(element) || /^Delete The .{1,2}$/i.test(element) || /^Delete The Letter .$/i.test(element) || /Delete First/i.test(element) || /Delete Last/i.test(element) || /Remove/i.test(element))
+// const printLineageCondition = (element) => (/remove/i.test(element))
+const printProgressEvery = {time: 300 * 1000, elements: 1000}
 
 
 // default set()s have a size limit of 2**24, so im using multiple!!
@@ -378,7 +380,7 @@ replServer.context.clearNothings = (onlyDead, onlyFromCurrentRun) => {
     let count = 0;
     for (const key in recipesIng) {
         if (onlyFromCurrentRun && !key.split('=').every(x => !encounteredElements.has(x))) continue;
-        if (recipesIng[key] === "Nothing" && (!onlyDead || key.split('=').some(x => x !== x.icCase()))) {
+        if (recipesIng[key] === "Nothing" && (!onlyDead || key.split('=').some(x => x !== icCase(x)))) {
             delete recipesIng[key]; // Remove the entry
             count++;
         }
