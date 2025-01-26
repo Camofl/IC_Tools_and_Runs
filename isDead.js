@@ -31,7 +31,6 @@ const deadFile = "deadElements.txt";
     page.setDefaultTimeout(0); // Disable page-level timeout
     page.setDefaultNavigationTimeout(0); // Disable navigation timeout
 
-
     await page.goto("https://neal.fun/infinite-craft", {
         waitUntil: "domcontentloaded",
     });
@@ -120,25 +119,22 @@ const deadFile = "deadElements.txt";
                     try {
                         const normalizedElement = element.trim().toLowerCase();
                         if (revivedSet.has(normalizedElement)) {
-                            console.log({ element, value: "alive", fromCache: true });
-                            await window.writeResult(
-                                JSON.stringify({ element, value: "alive", fromCache: true })
-                            );
-                            continue;
+                            console.log({ element, value: "revived", fromCache: true });
+                            continue; // Skip adding revived elements to alive file
                         }
 
                         let time = Date.now();
                         const status = {
                             element,
                             value: null,
-                            againstQM: await isDead(element, "?"),
+                            againstQM: await isDead(element),
                         };
                         status.value = status.againstQM;
 
                         if (status.againstQM === "dead") {
-                            await sleep(500 - (Date.now() - time));
+                            await sleep(300 - (Date.now() - time));
                             time = Date.now();
-                            status.againstTQM = await isDead(element, "???");
+                            status.againstTQM = await isDead(element, "?");
                             if (status.againstTQM === "alive") status.value = "alive";
                         }
 
