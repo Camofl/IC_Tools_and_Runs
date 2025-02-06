@@ -134,7 +134,7 @@ const deadFile = "deadElements.txt";
                         if (status.againstQM === "dead") {
                             await sleep(300 - (Date.now() - time));
                             time = Date.now();
-                            status.againstTQM = await isDead(element, "?");
+                            status.againstTQM = await isDead(element, "???");
                             if (status.againstTQM === "alive") status.value = "alive";
                         }
 

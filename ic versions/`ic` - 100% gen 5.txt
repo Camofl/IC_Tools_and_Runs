@@ -1,0 +1,4627 @@
+  // 0
+
+
+
+Gen 1 - 10 Elements -> 10 Total Elements
+Gen 2 - 24 Elements -> 34 Total Elements
+Gen 3 - 45 Elements -> 79 Total Elements
+Gen 4 - 94 Elements -> 173 Total Elements
+Gen 5 - 305 Elements -> 478 Total Elements
+
+
+
+1 - `volcano`: 
+`fire` + `fire` = `volcano`
+
+1 - `steam`: 
+`fire` + `water` = `steam`
+
+1 - `lake`: 
+`water` + `water` = `lake`
+
+1 - `ash`: 
+`fire` + `wind` = `ash`
+
+1 - `rain`: 
+`water` + `wind` = `rain`
+
+1 - `tornado`: 
+`wind` + `wind` = `tornado`
+
+1 - `lava`: 
+`earth` + `fire` = `lava`
+
+1 - `plant`: 
+`earth` + `water` = `plant`
+
+1 - `dust`: 
+`earth` + `wind` = `dust`
+
+1 - `mountain`: 
+`earth` + `earth` = `mountain`
+
+2 - `cloud`: 
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+
+2 - `ice`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+
+2 - `ocean`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+
+2 - `wave`: 
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+
+2 - `island`: 
+`water` + `water` = `lake`
+`earth` + `lake` = `island`
+
+2 - `cinder`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+
+2 - `tea`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+
+2 - `clay`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+
+2 - `rainwater`: 
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+
+2 - `storm`: 
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+
+2 - `tsunami`: 
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+
+2 - `hurricane`: 
+`wind` + `wind` = `tornado`
+`tornado` + `wind` = `hurricane`
+
+2 - `magma`: 
+`earth` + `fire` = `lava`
+`lava` + `lava` = `magma`
+
+2 - `stone`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+
+2 - `rock`: 
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+
+2 - `flower`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+
+2 - `coal`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+
+2 - `tree`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+
+2 - `sand`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+
+2 - `mud`: 
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+
+2 - `dust storm`: 
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+
+2 - `soil`: 
+`earth` + `wind` = `dust`
+`dust` + `earth` = `soil`
+
+2 - `mountain range`: 
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+
+2 - `cliff`: 
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+
+3 - `geyser`: 
+`fire` + `water` = `steam`
+`fire` + `fire` = `volcano`
+`steam` + `volcano` = `geyser`
+ ...
+`water` + `water` = `lake`
+`fire` + `fire` = `volcano`
+`lake` + `volcano` = `geyser`
+
+3 - `tornadon`: 
+`wind` + `wind` = `tornado`
+`fire` + `fire` = `volcano`
+`tornado` + `volcano` = `tornadon`
+
+3 - `eruption`: 
+`earth` + `fire` = `lava`
+`fire` + `fire` = `volcano`
+`lava` + `volcano` = `eruption`
+
+3 - `fog`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`lake` + `steam` = `fog`
+
+3 - `ash steam`: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `steam` = `ash steam`
+
+3 - `lightning`: 
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`cloud` + `fire` = `lightning`
+
+3 - `snow`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+
+3 - `iceberg`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `water` = `iceberg`
+
+3 - `pond`: 
+`water` + `water` = `lake`
+`water` + `wind` = `rain`
+`lake` + `rain` = `pond`
+
+3 - `swamp`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `plant` = `swamp`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`mud` + `mud` = `swamp`
+
+3 - `sea`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`lake` + `ocean` = `sea`
+ ...
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`lake` + `wave` = `sea`
+
+3 - `beach`: 
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+
+3 - `archipelago`: 
+`water` + `water` = `lake`
+`earth` + `lake` = `island`
+`island` + `island` = `archipelago`
+
+3 - `continent`: 
+`water` + `water` = `lake`
+`earth` + `lake` = `island`
+`earth` + `island` = `continent`
+
+3 - `acid rain`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+
+3 - `ashes`: 
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`ash` + `dust` = `ashes`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `cinder` = `ashes`
+
+3 - `matcha`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+
+3 - `chai`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`fire` + `tea` = `chai`
+
+3 - `typhoon`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+ ...
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`tsunami` + `wind` = `typhoon`
+
+3 - `pot`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+
+3 - `golem`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+
+3 - `brick`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+
+3 - `flood`: 
+`water` + `wind` = `rain`
+`wind` + `wind` = `tornado`
+`rain` + `tornado` = `flood`
+ ...
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`rain` + `storm` = `flood`
+
+3 - `waterfall`: 
+`earth` + `earth` = `mountain`
+`water` + `wind` = `rain`
+`mountain` + `rain` = `waterfall`
+ ...
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `water` = `waterfall`
+
+3 - `avalanche`: 
+`earth` + `earth` = `mountain`
+`wind` + `wind` = `tornado`
+`mountain` + `tornado` = `avalanche`
+
+3 - `cyclone`: 
+`wind` + `wind` = `tornado`
+`tornado` + `wind` = `hurricane`
+`hurricane` + `tornado` = `cyclone`
+
+3 - `obsidian`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+
+3 - `boulder`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`stone` + `stone` = `boulder`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `rock` = `boulder`
+
+3 - `rose`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+
+3 - `pollen`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+
+3 - `coal plant`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `plant` = `coal plant`
+
+3 - `diamond`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `fire` = `diamond`
+
+3 - `forest`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `tree` = `forest`
+
+3 - `leaf`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`tree` + `wind` = `leaf`
+
+3 - `wood`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+
+3 - `glass`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+
+3 - `desert`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`sand` + `sand` = `desert`
+
+3 - `dust Storm`: 
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+`dust storm` + `dust storm` = `dust Storm`
+ ...
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `wind` = `dust Storm`
+
+3 - `dust Bowl`: 
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+`dust storm` + `dust` = `dust Bowl`
+
+3 - `sandstorm`: 
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+`dust storm` + `fire` = `sandstorm`
+
+3 - `sand Storm`: 
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+`dust storm` + `wind` = `sand Storm`
+
+3 - `dirt`: 
+`earth` + `wind` = `dust`
+`dust` + `earth` = `soil`
+`dust` + `soil` = `dirt`
+
+3 - `mountain Range`: 
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `mountain range` = `mountain Range`
+
+3 - `river`: 
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `water` = `river`
+
+3 - `landslide`: 
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `mountain` = `landslide`
+
+4 - `atlantis`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`fire` + `fire` = `volcano`
+`ocean` + `volcano` = `atlantis`
+
+4 - `hot spring`: 
+`water` + `water` = `lake`
+`fire` + `fire` = `volcano`
+`lake` + `volcano` = `geyser`
+`geyser` + `lake` = `hot spring`
+
+4 - `hawaii`: 
+`water` + `water` = `lake`
+`fire` + `fire` = `volcano`
+`earth` + `lake` = `island`
+`island` + `volcano` = `hawaii`
+
+4 - `muddy`: 
+`water` + `wind` = `rain`
+`fire` + `fire` = `volcano`
+`rain` + `volcano` = `mud`
+`mud` + `rain` = `muddy`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`water` + `wind` = `rain`
+`mud` + `rain` = `muddy`
+
+4 - `earthquake`: 
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`fire` + `fire` = `volcano`
+`storm` + `volcano` = `earthquake`
+ ...
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`fire` + `fire` = `volcano`
+`tsunami` + `volcano` = `earthquake`
+ ...
+`wind` + `wind` = `tornado`
+`fire` + `fire` = `volcano`
+`tornado` + `wind` = `hurricane`
+`hurricane` + `volcano` = `earthquake`
+
+4 - `volcanodon`: 
+`wind` + `wind` = `tornado`
+`fire` + `fire` = `volcano`
+`tornado` + `volcano` = `tornadon`
+`tornadon` + `volcano` = `volcanodon`
+
+4 - `flower volcano`: 
+`earth` + `water` = `plant`
+`fire` + `fire` = `volcano`
+`plant` + `plant` = `flower`
+`flower` + `volcano` = `flower volcano`
+
+4 - `mist`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`lake` + `steam` = `fog`
+`fog` + `lake` = `mist`
+
+4 - `steamboat`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`earth` + `lake` = `island`
+`island` + `steam` = `steamboat`
+
+4 - `ice skating`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `lake` = `ice skating`
+
+4 - Boiling Ash: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `steam` = `ash steam`
+`ash steam` + `ash steam` = Boiling Ash
+
+4 - `steam engine`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`fire` + `water` = `steam`
+`cinder` + `steam` = `steam engine`
+
+4 - `teapot`: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `water` = `tea`
+`steam` + `tea` = `teapot`
+ ...
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`steam` + `tea` = `teapot`
+
+4 - `pottery`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`fire` + `water` = `steam`
+`clay` + `steam` = `pottery`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`dust` + `earth` = `soil`
+`ash` + `soil` = `pottery`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `water` = `tea`
+`clay` + `tea` = `pottery`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `fire` = `pottery`
+
+4 - `smoke`: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`ash` + `cloud` = `smoke`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`ash` + `dust` = `ashes`
+`ashes` + `fire` = `smoke`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `cinder` = `ashes`
+`ashes` + `fire` = `smoke`
+ ...
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`fire` + `pollen` = `smoke`
+
+4 - `rainbow`: 
+`water` + `wind` = `rain`
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`cloud` + `rain` = `rainbow`
+ ...
+`earth` + `earth` = `mountain`
+`water` + `wind` = `rain`
+`mountain` + `rain` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+ ...
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `water` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+
+4 - `steam tsunami`: 
+`fire` + `water` = `steam`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`steam` + `tsunami` = `steam tsunami`
+
+4 - `perfume`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `plant` = `flower`
+`flower` + `steam` = `perfume`
+
+4 - `herbal tea`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`plant` + `tea` = `herbal tea`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`ash` + `water` = `tea`
+`plant` + `tea` = `herbal tea`
+
+4 - `train`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`fire` + `plant` = `coal`
+`coal` + `steam` = `train`
+
+4 - `glacier`: 
+`earth` + `earth` = `mountain`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `mountain` = `glacier`
+
+4 - `thunder`: 
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`cloud` + `fire` = `lightning`
+`cloud` + `lightning` = `thunder`
+
+4 - `snowman`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+`ice` + `snow` = `snowman`
+
+4 - `snowball`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+`snow` + `snow` = `snowball`
+
+4 - `blizzard`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+`snow` + `wind` = `blizzard`
+ ...
+`earth` + `earth` = `mountain`
+`wind` + `wind` = `tornado`
+`mountain` + `tornado` = `avalanche`
+`avalanche` + `tornado` = `blizzard`
+
+4 - `latte`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`ash` + `water` = `tea`
+`lake` + `tea` = `latte`
+
+4 - `poseidon`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`ash` + `ocean` = `poseidon`
+
+4 - `rainforest`: 
+`water` + `water` = `lake`
+`water` + `wind` = `rain`
+`earth` + `lake` = `island`
+`island` + `rain` = `rainforest`
+
+4 - `seaweed`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`earth` + `water` = `plant`
+`ocean` + `plant` = `seaweed`
+ ...
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `wind` = `wave`
+`plant` + `wave` = `seaweed`
+
+4 - `marsh`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `plant` = `swamp`
+`lake` + `swamp` = `marsh`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`mud` + `mud` = `swamp`
+`swamp` + `swamp` = `marsh`
+
+4 - `coconut`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `lake` = `island`
+`island` + `plant` = `coconut`
+
+4 - `lotus`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `lake` = `lotus`
+
+4 - `coal lake`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `lake` = `coal lake`
+
+4 - `log`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`lake` + `tree` = `log`
+
+4 - `fjord`: 
+`water` + `water` = `lake`
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`lake` + `mountain range` = `fjord`
+
+4 - `atoll`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`earth` + `lake` = `island`
+`island` + `ocean` = `atoll`
+
+4 - `surf`: 
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`beach` + `wave` = `surf`
+
+4 - `bonfire`: 
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`beach` + `fire` = `bonfire`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`beach` + `fire` = `bonfire`
+
+4 - `land`: 
+`water` + `water` = `lake`
+`earth` + `lake` = `island`
+`earth` + `island` = `continent`
+`continent` + `earth` = `land`
+ ...
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `water` = `river`
+`earth` + `river` = `land`
+
+4 - Acid Lake: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `acid rain` = Acid Lake
+
+4 - `smog`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `ash` = `smog`
+
+4 - `acid Rain`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `rain` = `acid Rain`
+
+4 - `polluted Water`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `water` = `polluted Water`
+
+4 - `tear`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `water` = `tea`
+`rain` + `tea` = `tear`
+
+4 - `ash rain`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+`ash` + `rainwater` = `ash rain`
+
+4 - `ashstorm`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`ash` + `storm` = `ashstorm`
+
+4 - `teacup`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`wind` + `wind` = `tornado`
+`tea` + `tornado` = `teacup`
+
+4 - `statue`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`ash` + `stone` = `statue`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `earth` = `mountain`
+`clay` + `mountain` = `statue`
+ ...
+`earth` + `fire` = `lava`
+`water` + `wind` = `rain`
+`lava` + `water` = `stone`
+`rain` + `stone` = `statue`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`dust` + `stone` = `statue`
+
+4 - `ash tree`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`ash` + `tree` = `ash tree`
+
+4 - `charcoal`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`ash` + `coal` = `charcoal`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`fire` + `plant` = `coal`
+`coal` + `tree` = `charcoal`
+
+4 - `human`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `dust` = `human`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `dust` = `human`
+
+4 - `mountain tea`: 
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`ash` + `water` = `tea`
+`mountain` + `tea` = `mountain tea`
+
+4 - `ashcliff`: 
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`ash` + `cliff` = `ashcliff`
+
+4 - `hot tea`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `water` = `tea`
+`cinder` + `tea` = `hot tea`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`pot` + `tea` = `hot tea`
+
+4 - `match`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`ash` + `matcha` = `match`
+
+4 - `matcha tea`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`matcha` + `tea` = `matcha tea`
+
+4 - `ash typhoon`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`ash` + `typhoon` = `ash typhoon`
+
+4 - `typhoon tea`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`tea` + `typhoon` = `typhoon tea`
+
+4 - `potash`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`ash` + `pot` = `potash`
+
+4 - `cauldron`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`fire` + `pot` = `cauldron`
+
+4 - `kettle`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`pot` + `wind` = `kettle`
+
+4 - `lava golem`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`fire` + `golem` = `lava golem`
+
+4 - `wall`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `brick` = `wall`
+
+4 - `house`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `wind` = `house`
+
+4 - `meteorite`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`wind` + `wind` = `tornado`
+`stone` + `tornado` = `meteorite`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`wind` + `wind` = `tornado`
+`rock` + `tornado` = `meteorite`
+
+4 - `palm tree`: 
+`earth` + `water` = `plant`
+`wind` + `wind` = `tornado`
+`tornado` + `wind` = `hurricane`
+`hurricane` + `plant` = `palm tree`
+
+4 - `dust Devil`: 
+`earth` + `wind` = `dust`
+`wind` + `wind` = `tornado`
+`dust` + `wind` = `dust storm`
+`dust storm` + `tornado` = `dust Devil`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+`dust storm` + `dust` = `dust Bowl`
+`dust Bowl` + `fire` = `dust Devil`
+
+4 - `dustnami`: 
+`earth` + `wind` = `dust`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`dust` + `tsunami` = `dustnami`
+
+4 - `mudslide`: 
+`wind` + `wind` = `tornado`
+`tornado` + `wind` = `hurricane`
+`earth` + `hurricane` = `mud`
+`hurricane` + `mud` = `mudslide`
+
+4 - `knife`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`obsidian` + `stone` = `knife`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `rock` = `knife`
+
+4 - `cactus`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`dust` + `dust` = `sand`
+`plant` + `sand` = `cactus`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`dust` + `wind` = `dust storm`
+`dust storm` + `plant` = `cactus`
+ ...
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `wind` = `dust storm`
+`dust storm` + `plant` = `cactus`
+
+4 - `soot`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `dust` = `soot`
+
+4 - `burn`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`fire` + `rose` = `burn`
+
+4 - `petal`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`rose` + `wind` = `petal`
+
+4 - `pollination`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`flower` + `pollen` = `pollination`
+
+4 - `honey`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`pollen` + `water` = `honey`
+
+4 - `coal Plant`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `plant` = `coal plant`
+`coal plant` + `coal plant` = `coal Plant`
+
+4 - `wind Plant`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `plant` = `coal plant`
+`coal plant` + `wind` = `wind Plant`
+
+4 - `graphite`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `fire` = `diamond`
+`diamond` + `fire` = `graphite`
+
+4 - `jungle`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `tree` = `forest`
+`forest` + `forest` = `jungle`
+
+4 - `paper`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+`tree` + `wood` = `paper`
+
+4 - `dusty cliff`: 
+`earth` + `wind` = `dust`
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `dust` = `dusty cliff`
+
+4 - `mirror`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`dust` + `glass` = `mirror`
+
+4 - `lens`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`fire` + `glass` = `lens`
+
+4 - `drink`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `water` = `drink`
+
+4 - `window`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `wind` = `window`
+
+4 - `bottle`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`earth` + `glass` = `bottle`
+
+4 - `mirage`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`sand` + `sand` = `desert`
+`desert` + `fire` = `mirage`
+
+4 - `oasis`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`sand` + `sand` = `desert`
+`desert` + `water` = `oasis`
+
+4 - `mud Storm`: 
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `wind` = `dust storm`
+`dust storm` + `mud` = `mud Storm`
+
+4 - `quagmire`: 
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`mud` + `mud` = `swamp`
+`mud` + `swamp` = `quagmire`
+
+4 - `dust Bowl Storm`: 
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+`dust storm` + `dust` = `dust Bowl`
+`dust Bowl` + `dust storm` = `dust Bowl Storm`
+
+4 - `canyon`: 
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `water` = `river`
+`mountain range` + `river` = `canyon`
+
+4 - `sand Dune`: 
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `wind` = `dust Storm`
+`dust Storm` + `mountain range` = `sand Dune`
+
+5 - `geothermal`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`fire` + `fire` = `volcano`
+`steam` + `volcano` = `geyser`
+`geyser` + `plant` = `geothermal`
+ ...
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`fire` + `fire` = `volcano`
+`lake` + `volcano` = `geyser`
+`geyser` + `plant` = `geothermal`
+ ...
+`water` + `water` = `lake`
+`fire` + `fire` = `volcano`
+`lake` + `volcano` = `geyser`
+`geyser` + `lake` = `hot spring`
+`geyser` + `hot spring` = `geothermal`
+
+5 - `ice volcano`: 
+`fire` + `water` = `steam`
+`fire` + `fire` = `volcano`
+`steam` + `water` = `ice`
+`ice` + `water` = `iceberg`
+`iceberg` + `volcano` = `ice volcano`
+
+5 - `whale`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`fire` + `fire` = `volcano`
+`lake` + `volcano` = `geyser`
+`geyser` + `ocean` = `whale`
+
+5 - `hot Spring`: 
+`water` + `water` = `lake`
+`fire` + `fire` = `volcano`
+`lake` + `volcano` = `geyser`
+`geyser` + `lake` = `hot spring`
+`hot spring` + `hot spring` = `hot Spring`
+
+5 - `hawaiian island`: 
+`water` + `water` = `lake`
+`fire` + `fire` = `volcano`
+`earth` + `lake` = `island`
+`island` + `volcano` = `hawaii`
+`hawaii` + `island` = `hawaiian island`
+
+5 - `surfing`: 
+`water` + `water` = `lake`
+`fire` + `fire` = `volcano`
+`earth` + `lake` = `island`
+`island` + `volcano` = `hawaii`
+`hawaii` + `water` = `surfing`
+ ...
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`beach` + `wave` = `surf`
+`surf` + `wave` = `surfing`
+
+5 - `muddier`: 
+`water` + `wind` = `rain`
+`fire` + `fire` = `volcano`
+`rain` + `volcano` = `mud`
+`mud` + `rain` = `muddy`
+`mud` + `muddy` = `muddier`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`water` + `wind` = `rain`
+`mud` + `rain` = `muddy`
+`mud` + `muddy` = `muddier`
+
+5 - `muddy rain`: 
+`water` + `wind` = `rain`
+`fire` + `fire` = `volcano`
+`rain` + `volcano` = `mud`
+`mud` + `rain` = `muddy`
+`muddy` + `rain` = `muddy rain`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`water` + `wind` = `rain`
+`mud` + `rain` = `muddy`
+`muddy` + `rain` = `muddy rain`
+
+5 - `muddy water`: 
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+`fire` + `fire` = `volcano`
+`rain` + `volcano` = `mud`
+`mud` + `rainwater` = `muddy water`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+`mud` + `rainwater` = `muddy water`
+
+5 - `mudstorm`: 
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`fire` + `fire` = `volcano`
+`rain` + `volcano` = `mud`
+`mud` + `storm` = `mudstorm`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`mud` + `storm` = `mudstorm`
+ ...
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`rain` + `storm` = `flood`
+`earth` + `flood` = `mud`
+`mud` + `storm` = `mudstorm`
+ ...
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`storm` + `wind` = `hurricane`
+`earth` + `hurricane` = `mud`
+`mud` + `storm` = `mudstorm`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`mud` + `mud` = `swamp`
+`swamp` + `wind` = `storm`
+`mud` + `storm` = `mudstorm`
+
+5 - `dustnado`: 
+`earth` + `wind` = `dust`
+`wind` + `wind` = `tornado`
+`fire` + `fire` = `volcano`
+`tornado` + `volcano` = `tornadon`
+`dust` + `tornadon` = `dustnado`
+ ...
+`earth` + `wind` = `dust`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`dust` + `tsunami` = `dustnami`
+`dustnami` + `tornado` = `dustnado`
+
+5 - `tornadovolcanodon`: 
+`wind` + `wind` = `tornado`
+`fire` + `fire` = `volcano`
+`tornado` + `volcano` = `tornadon`
+`tornadon` + `volcano` = `volcanodon`
+`tornadon` + `volcanodon` = `tornadovolcanodon`
+
+5 - `rose volcano`: 
+`earth` + `water` = `plant`
+`fire` + `fire` = `volcano`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`rose` + `volcano` = `rose volcano`
+
+5 - `global Warming`: 
+`earth` + `water` = `plant`
+`fire` + `fire` = `volcano`
+`fire` + `plant` = `coal`
+`coal` + `plant` = `coal plant`
+`coal plant` + `volcano` = `global Warming`
+
+5 - `lava lamp`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`fire` + `fire` = `volcano`
+`dust` + `sand` = `glass`
+`glass` + `volcano` = `lava lamp`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`lava` + `pot` = `lava lamp`
+
+5 - `steamship`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`earth` + `lake` = `island`
+`island` + `island` = `archipelago`
+`archipelago` + `steam` = `steamship`
+ ...
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`earth` + `lake` = `island`
+`island` + `steam` = `steamboat`
+`island` + `steamboat` = `steamship`
+
+5 - `sailboat`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`earth` + `lake` = `island`
+`island` + `steam` = `steamboat`
+`steamboat` + `wind` = `sailboat`
+
+5 - `sky`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`earth` + `lake` = `island`
+`cloud` + `island` = `sky`
+
+5 - `igloo`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`earth` + `lake` = `island`
+`ice` + `island` = `igloo`
+
+5 - `rain Steam`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`fire` + `water` = `steam`
+`ash` + `steam` = `ash steam`
+`ash steam` + `rain` = `rain Steam`
+
+5 - Volcano: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `steam` = `ash steam`
+`ash steam` + `ash steam` = Boiling Ash
+Boiling Ash + Boiling Ash = Volcano
+ ...
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+`ash` + `rainwater` = `ash rain`
+`ash rain` + `ash rain` = Volcano
+ ...
+`earth` + `water` = `plant`
+`fire` + `fire` = `volcano`
+`plant` + `plant` = `flower`
+`flower` + `volcano` = `flower volcano`
+`flower volcano` + `flower volcano` = Volcano
+
+5 - Steam: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `steam` = `ash steam`
+`ash steam` + `ash steam` = Boiling Ash
+Boiling Ash + `ash steam` = Steam
+
+5 - Fire: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `steam` = `ash steam`
+`ash steam` + `ash steam` = Boiling Ash
+Boiling Ash + `fire` = Fire
+
+5 - Smoke: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `steam` = `ash steam`
+`ash steam` + `ash steam` = Boiling Ash
+Boiling Ash + `wind` = Smoke
+
+5 - Lava: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `steam` = `ash steam`
+`ash steam` + `ash steam` = Boiling Ash
+Boiling Ash + `earth` = Lava
+
+5 - `steam Engine`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`fire` + `water` = `steam`
+`cinder` + `steam` = `steam engine`
+`steam engine` + `steam engine` = `steam Engine`
+ ...
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`fire` + `plant` = `coal`
+`coal` + `plant` = `coal plant`
+`coal plant` + `steam` = `steam Engine`
+
+5 - `steam Locomotive`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`fire` + `water` = `steam`
+`cinder` + `steam` = `steam engine`
+`steam engine` + `steam` = `steam Locomotive`
+
+5 - `windmill`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`fire` + `water` = `steam`
+`cinder` + `steam` = `steam engine`
+`steam engine` + `wind` = `windmill`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `brick` = `wall`
+`wall` + `wind` = `windmill`
+
+5 - `cloud tea`: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `water` = `tea`
+`steam` + `steam` = `cloud`
+`cloud` + `tea` = `cloud tea`
+ ...
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`steam` + `steam` = `cloud`
+`cloud` + `tea` = `cloud tea`
+
+5 - `tea party`: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `water` = `tea`
+`steam` + `tea` = `teapot`
+`tea` + `teapot` = `tea party`
+ ...
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`steam` + `tea` = `teapot`
+`tea` + `teapot` = `tea party`
+
+5 - `iced tea`: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`ash` + `water` = `tea`
+`steam` + `water` = `ice`
+`ice` + `tea` = `iced tea`
+ ...
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`steam` + `water` = `ice`
+`ice` + `tea` = `iced tea`
+
+5 - `robot`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`fire` + `water` = `steam`
+`golem` + `steam` = `robot`
+
+5 - `vase`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`fire` + `water` = `steam`
+`clay` + `steam` = `pottery`
+`clay` + `pottery` = `vase`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `water` = `plant`
+`clay` + `plant` = `pot`
+`clay` + `pot` = `vase`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`dust` + `earth` = `soil`
+`ash` + `soil` = `pottery`
+`pottery` + `water` = `vase`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `water` = `tea`
+`clay` + `tea` = `pottery`
+`clay` + `pottery` = `vase`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`clay` + `pot` = `vase`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `fire` = `pottery`
+`clay` + `pottery` = `vase`
+
+5 - `ceramic`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`fire` + `water` = `steam`
+`clay` + `steam` = `pottery`
+`fire` + `pottery` = `ceramic`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`dust` + `earth` = `soil`
+`ash` + `soil` = `pottery`
+`fire` + `pottery` = `ceramic`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `water` = `tea`
+`clay` + `tea` = `pottery`
+`fire` + `pottery` = `ceramic`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `fire` = `pottery`
+`fire` + `pottery` = `ceramic`
+
+5 - `penguin`: 
+`fire` + `wind` = `ash`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `water` = `iceberg`
+`ash` + `iceberg` = `penguin`
+
+5 - `rainbow fire`: 
+`water` + `wind` = `rain`
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`cloud` + `rain` = `rainbow`
+`fire` + `rainbow` = `rainbow fire`
+ ...
+`earth` + `earth` = `mountain`
+`water` + `wind` = `rain`
+`mountain` + `rain` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+`fire` + `rainbow` = `rainbow fire`
+ ...
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `water` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+`fire` + `rainbow` = `rainbow fire`
+
+5 - `sleet`: 
+`water` + `wind` = `rain`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+`rain` + `snow` = `sleet`
+
+5 - `thunderstorm`: 
+`fire` + `water` = `steam`
+`wind` + `wind` = `tornado`
+`steam` + `steam` = `cloud`
+`cloud` + `fire` = `lightning`
+`lightning` + `tornado` = `thunderstorm`
+ ...
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`cloud` + `fire` = `lightning`
+`cloud` + `lightning` = `thunder`
+`lightning` + `thunder` = `thunderstorm`
+
+5 - `ice tornado`: 
+`fire` + `water` = `steam`
+`wind` + `wind` = `tornado`
+`steam` + `water` = `ice`
+`ice` + `water` = `iceberg`
+`iceberg` + `tornado` = `ice tornado`
+
+5 - `steam Tsunami`: 
+`fire` + `water` = `steam`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`steam` + `tsunami` = `steam tsunami`
+`steam tsunami` + `steam tsunami` = `steam Tsunami`
+
+5 - `ice cream`: 
+`earth` + `fire` = `lava`
+`fire` + `water` = `steam`
+`lava` + `water` = `stone`
+`steam` + `water` = `ice`
+`ice` + `stone` = `ice cream`
+
+5 - `scent`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `plant` = `flower`
+`flower` + `steam` = `perfume`
+`perfume` + `steam` = `scent`
+
+5 - `incense`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `plant` = `flower`
+`flower` + `steam` = `perfume`
+`fire` + `perfume` = `incense`
+ ...
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`fire` + `pollen` = `smoke`
+`flower` + `smoke` = `incense`
+
+5 - `cologne`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `plant` = `flower`
+`flower` + `steam` = `perfume`
+`perfume` + `water` = `cologne`
+
+5 - `tea flower`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`plant` + `plant` = `flower`
+`flower` + `tea` = `tea flower`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`ash` + `water` = `tea`
+`plant` + `plant` = `flower`
+`flower` + `tea` = `tea flower`
+ ...
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`rose` + `water` = `tea`
+`flower` + `tea` = `tea flower`
+
+5 - `snowflake`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `plant` = `flower`
+`steam` + `water` = `ice`
+`flower` + `ice` = `snowflake`
+
+5 - `herbal Tea`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`plant` + `tea` = `herbal tea`
+`herbal tea` + `herbal tea` = `herbal Tea`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`ash` + `water` = `tea`
+`plant` + `tea` = `herbal tea`
+`herbal tea` + `herbal tea` = `herbal Tea`
+
+5 - `tea leaf`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`plant` + `tea` = `herbal tea`
+`herbal tea` + `wind` = `tea leaf`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`ash` + `water` = `tea`
+`plant` + `tea` = `herbal tea`
+`herbal tea` + `wind` = `tea leaf`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`tree` + `wind` = `leaf`
+`leaf` + `water` = `tea`
+`leaf` + `tea` = `tea leaf`
+
+5 - `coal tea`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`fire` + `plant` = `coal`
+`coal` + `tea` = `coal tea`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`ash` + `water` = `tea`
+`fire` + `plant` = `coal`
+`coal` + `tea` = `coal tea`
+
+5 - `tea tree`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`plant` + `steam` = `tea`
+`earth` + `plant` = `tree`
+`tea` + `tree` = `tea tree`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`ash` + `water` = `tea`
+`earth` + `plant` = `tree`
+`tea` + `tree` = `tea tree`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`tree` + `wind` = `leaf`
+`leaf` + `water` = `tea`
+`tea` + `tree` = `tea tree`
+
+5 - `plantain`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`fire` + `plant` = `coal`
+`coal` + `steam` = `train`
+`plant` + `train` = `plantain`
+
+5 - `locomotive`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`fire` + `plant` = `coal`
+`coal` + `steam` = `train`
+`steam` + `train` = `locomotive`
+
+5 - `train wind`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`fire` + `plant` = `coal`
+`coal` + `steam` = `train`
+`train` + `wind` = `train wind`
+
+5 - `subway`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`fire` + `plant` = `coal`
+`coal` + `steam` = `train`
+`earth` + `train` = `subway`
+
+5 - `lightning plant`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`cloud` + `fire` = `lightning`
+`lightning` + `plant` = `lightning plant`
+
+5 - `iceberg lettuce`: 
+`earth` + `water` = `plant`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `water` = `iceberg`
+`iceberg` + `plant` = `iceberg lettuce`
+
+5 - `lightning bug`: 
+`earth` + `wind` = `dust`
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`cloud` + `fire` = `lightning`
+`dust` + `lightning` = `lightning bug`
+
+5 - `puddle`: 
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `mud` = `puddle`
+ ...
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+`ice` + `snow` = `snowman`
+`snowman` + `water` = `puddle`
+ ...
+`earth` + `fire` = `lava`
+`water` + `wind` = `rain`
+`lava` + `water` = `stone`
+`rain` + `stone` = `statue`
+`rain` + `statue` = `puddle`
+
+5 - `sand Castle`: 
+`earth` + `wind` = `dust`
+`fire` + `water` = `steam`
+`dust` + `wind` = `dust storm`
+`dust storm` + `wind` = `sand Storm`
+`sand Storm` + `steam` = `sand Castle`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `wind` = `dust storm`
+`dust storm` + `wind` = `sand Storm`
+`sand Storm` + `sand` = `sand Castle`
+
+5 - `hail`: 
+`fire` + `water` = `steam`
+`steam` + `steam` = `cloud`
+`steam` + `water` = `ice`
+`cloud` + `fire` = `lightning`
+`ice` + `lightning` = `hail`
+
+5 - `wet`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+`ice` + `snow` = `snowman`
+`fire` + `snowman` = `wet`
+
+5 - `fireball`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+`snow` + `snow` = `snowball`
+`fire` + `snowball` = `fireball`
+
+5 - `snowstorm`: 
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `ice` = `snow`
+`snow` + `wind` = `blizzard`
+`blizzard` + `blizzard` = `snowstorm`
+ ...
+`earth` + `earth` = `mountain`
+`wind` + `wind` = `tornado`
+`mountain` + `tornado` = `avalanche`
+`avalanche` + `tornado` = `blizzard`
+`blizzard` + `blizzard` = `snowstorm`
+
+5 - `phoenix`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`water` + `water` = `lake`
+`ash` + `cinder` = `ashes`
+`ashes` + `lake` = `phoenix`
+ ...
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `lake` = `lotus`
+`fire` + `lotus` = `phoenix`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`water` + `water` = `lake`
+`ash` + `dust` = `ashes`
+`ashes` + `lake` = `phoenix`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `dust` = `human`
+`ash` + `human` = `phoenix`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`sand` + `sand` = `desert`
+`ash` + `desert` = `phoenix`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `water` = `river`
+`ash` + `river` = `phoenix`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`fire` + `pot` = `cauldron`
+`ash` + `cauldron` = `phoenix`
+
+5 - `sea salt`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`cinder` + `ocean` = `sea salt`
+
+5 - `green tea`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`lake` + `matcha` = `green tea`
+
+5 - `ashlatte`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`ash` + `water` = `tea`
+`lake` + `tea` = `latte`
+`ash` + `latte` = `ashlatte`
+
+5 - `coffee`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`ash` + `water` = `tea`
+`lake` + `tea` = `latte`
+`lake` + `latte` = `coffee`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `water` = `drink`
+`drink` + `earth` = `coffee`
+
+5 - `cappuccino`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`ash` + `water` = `tea`
+`lake` + `tea` = `latte`
+`fire` + `latte` = `cappuccino`
+
+5 - `latte art`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`ash` + `water` = `tea`
+`lake` + `tea` = `latte`
+`latte` + `wind` = `latte art`
+
+5 - `tea island`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`ash` + `water` = `tea`
+`earth` + `lake` = `island`
+`island` + `tea` = `tea island`
+
+5 - `potluck`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`lake` + `pot` = `potluck`
+
+5 - `trident`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`ash` + `ocean` = `poseidon`
+`ocean` + `poseidon` = `trident`
+
+5 - `seashell`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`lake` + `ocean` = `sea`
+`ash` + `sea` = `seashell`
+ ...
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`lake` + `wave` = `sea`
+`ash` + `sea` = `seashell`
+ ...
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`lake` + `wave` = `sea`
+`beach` + `sea` = `seashell`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`beach` + `water` = `sea`
+`beach` + `sea` = `seashell`
+
+5 - `abeach`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`ash` + `beach` = `abeach`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`ash` + `beach` = `abeach`
+
+5 - `ash continent`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`earth` + `lake` = `island`
+`earth` + `island` = `continent`
+`ash` + `continent` = `ash continent`
+
+5 - `pondash`: 
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`water` + `wind` = `rain`
+`lake` + `rain` = `pond`
+`ash` + `pond` = `pondash`
+
+5 - `whirlpool`: 
+`water` + `water` = `lake`
+`water` + `wind` = `rain`
+`wind` + `wind` = `tornado`
+`lake` + `rain` = `pond`
+`pond` + `tornado` = `whirlpool`
+
+5 - `lily pad`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`water` + `wind` = `rain`
+`lake` + `rain` = `pond`
+`plant` + `pond` = `lily pad`
+ ...
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `lake` = `lotus`
+`lake` + `lotus` = `lily pad`
+
+5 - `seawater`: 
+`water` + `water` = `lake`
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+`lake` + `wind` = `wave`
+`rainwater` + `wave` = `seawater`
+
+5 - `amazon`: 
+`water` + `water` = `lake`
+`water` + `wind` = `rain`
+`earth` + `lake` = `island`
+`island` + `rain` = `rainforest`
+`lake` + `rainforest` = `amazon`
+
+5 - `shipwreck`: 
+`water` + `water` = `lake`
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`earth` + `lake` = `island`
+`island` + `storm` = `shipwreck`
+ ...
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `lake` = `island`
+`wave` + `wind` = `storm`
+`island` + `storm` = `shipwreck`
+
+5 - `islandstone`: 
+`water` + `water` = `lake`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`earth` + `lake` = `island`
+`island` + `stone` = `islandstone`
+
+5 - `island rock`: 
+`water` + `water` = `lake`
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`earth` + `lake` = `island`
+`island` + `rock` = `island rock`
+
+5 - `kelp`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`earth` + `water` = `plant`
+`ocean` + `plant` = `seaweed`
+`ocean` + `seaweed` = `kelp`
+ ...
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `wind` = `wave`
+`plant` + `wave` = `seaweed`
+`plant` + `seaweed` = `kelp`
+
+5 - `sushi`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`earth` + `water` = `plant`
+`ocean` + `plant` = `seaweed`
+`fire` + `seaweed` = `sushi`
+ ...
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `wind` = `wave`
+`plant` + `wave` = `seaweed`
+`fire` + `seaweed` = `sushi`
+
+5 - `kite`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`earth` + `water` = `plant`
+`ocean` + `plant` = `seaweed`
+`seaweed` + `wind` = `kite`
+ ...
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `wind` = `wave`
+`plant` + `wave` = `seaweed`
+`seaweed` + `wind` = `kite`
+ ...
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `lake` = `lotus`
+`lotus` + `wind` = `kite`
+ ...
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`beach` + `wave` = `surf`
+`surf` + `wind` = `kite`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+`tree` + `wood` = `paper`
+`paper` + `wind` = `kite`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`dust` + `glass` = `mirror`
+`mirror` + `wind` = `kite`
+
+5 - `coral`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `ocean` = `coral`
+
+5 - `marshmallow`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `plant` = `swamp`
+`lake` + `swamp` = `marsh`
+`marsh` + `swamp` = `marshmallow`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`mud` + `mud` = `swamp`
+`swamp` + `swamp` = `marsh`
+`marsh` + `swamp` = `marshmallow`
+
+5 - `fossil`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `plant` = `swamp`
+`fire` + `plant` = `coal`
+`coal` + `swamp` = `fossil`
+
+5 - `palm`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `plant` = `swamp`
+`earth` + `plant` = `tree`
+`swamp` + `tree` = `palm`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `tree` = `forest`
+`forest` + `water` = `swamp`
+`swamp` + `tree` = `palm`
+
+5 - `coal wave`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`lake` + `wind` = `wave`
+`fire` + `plant` = `coal`
+`coal` + `wave` = `coal wave`
+
+5 - `surfboard`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`lake` + `wind` = `wave`
+`tree` + `wave` = `surfboard`
+
+5 - `coconut tree`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `lake` = `island`
+`island` + `plant` = `coconut`
+`coconut` + `coconut` = `coconut tree`
+
+5 - `coconut island`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `lake` = `island`
+`island` + `plant` = `coconut`
+`coconut` + `island` = `coconut island`
+
+5 - `coconut milk`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `lake` = `island`
+`island` + `plant` = `coconut`
+`coconut` + `lake` = `coconut milk`
+
+5 - `roast`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `lake` = `island`
+`island` + `plant` = `coconut`
+`coconut` + `fire` = `roast`
+
+5 - `coconut water`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `lake` = `island`
+`island` + `plant` = `coconut`
+`coconut` + `water` = `coconut water`
+
+5 - `tulip`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`earth` + `lake` = `island`
+`flower` + `island` = `tulip`
+
+5 - `coal island`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`earth` + `lake` = `island`
+`coal` + `island` = `coal island`
+
+5 - `lotus flower`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `lake` = `lotus`
+`flower` + `lotus` = `lotus flower`
+
+5 - `coal Lake`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `lake` = `coal lake`
+`coal lake` + `coal lake` = `coal Lake`
+
+5 - `pollution`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `plant` = `coal plant`
+`coal plant` + `lake` = `pollution`
+ ...
+`fire` + `wind` = `ash`
+`water` + `water` = `lake`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `lake` = `pollution`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `plant` = `pollution`
+ ...
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `ash` = `smog`
+`acid rain` + `smog` = `pollution`
+
+5 - `dock`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`lake` + `tree` = `log`
+`lake` + `log` = `dock`
+
+5 - `lumberjack`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`lake` + `tree` = `log`
+`log` + `tree` = `lumberjack`
+
+5 - `firewood`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`lake` + `tree` = `log`
+`fire` + `log` = `firewood`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`cinder` + `tree` = `firewood`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`fire` + `plant` = `coal`
+`coal` + `tree` = `charcoal`
+`charcoal` + `tree` = `firewood`
+
+5 - `log water`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`lake` + `tree` = `log`
+`log` + `water` = `log water`
+
+5 - `sail`: 
+`water` + `water` = `lake`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`lake` + `tree` = `log`
+`log` + `wind` = `sail`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`ash` + `matcha` = `match`
+`match` + `wind` = `sail`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `water` = `drink`
+`drink` + `wind` = `sail`
+
+5 - `sandcastle`: 
+`earth` + `wind` = `dust`
+`water` + `water` = `lake`
+`dust` + `dust` = `sand`
+`lake` + `sand` = `beach`
+`beach` + `sand` = `sandcastle`
+ ...
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`beach` + `wind` = `sand`
+`beach` + `sand` = `sandcastle`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`beach` + `wind` = `sand`
+`beach` + `sand` = `sandcastle`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `dust` = `sand`
+`mud` + `sand` = `beach`
+`beach` + `sand` = `sandcastle`
+
+5 - `mud island`: 
+`earth` + `wind` = `dust`
+`water` + `water` = `lake`
+`dust` + `water` = `mud`
+`earth` + `lake` = `island`
+`island` + `mud` = `mud island`
+
+5 - `planet`: 
+`earth` + `wind` = `dust`
+`water` + `water` = `lake`
+`earth` + `lake` = `island`
+`earth` + `island` = `continent`
+`continent` + `dust` = `planet`
+
+5 - `norway`: 
+`water` + `water` = `lake`
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`lake` + `mountain range` = `fjord`
+`fjord` + `mountain range` = `norway`
+
+5 - `fjordwind`: 
+`water` + `water` = `lake`
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`lake` + `mountain range` = `fjord`
+`fjord` + `wind` = `fjordwind`
+
+5 - `lagoon`: 
+`water` + `water` = `lake`
+`lake` + `lake` = `ocean`
+`earth` + `lake` = `island`
+`island` + `ocean` = `atoll`
+`atoll` + `lake` = `lagoon`
+
+5 - `tropical island`: 
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`earth` + `lake` = `island`
+`beach` + `island` = `tropical island`
+
+5 - `surfer`: 
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`beach` + `wave` = `surf`
+`beach` + `surf` = `surfer`
+
+5 - `beach bonfire`: 
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`beach` + `fire` = `bonfire`
+`beach` + `bonfire` = `beach bonfire`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`beach` + `fire` = `bonfire`
+`beach` + `bonfire` = `beach bonfire`
+
+5 - `campfire`: 
+`water` + `water` = `lake`
+`lake` + `wind` = `wave`
+`earth` + `wave` = `beach`
+`beach` + `fire` = `bonfire`
+`bonfire` + `bonfire` = `campfire`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`beach` + `fire` = `bonfire`
+`bonfire` + `bonfire` = `campfire`
+
+5 - Swamp: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `acid rain` = Acid Lake
+Acid Lake + Acid Lake = Swamp
+
+5 - `Lake`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `acid rain` = Acid Lake
+Acid Lake + `ash` = `Lake`
+
+5 - Acid Rain: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `acid rain` = Acid Lake
+Acid Lake + `rain` = Acid Rain
+
+5 - `acid`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `acid rain` = Acid Lake
+Acid Lake + `water` = `acid`
+
+5 - `sulfur`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `acid rain` = Acid Lake
+Acid Lake + `earth` = `sulfur`
+
+5 - `Smoke`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `water` = `polluted Water`
+`ash` + `polluted Water` = `Smoke`
+
+5 - `polluted Lake`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `water` = `polluted Water`
+`polluted Water` + `polluted Water` = `polluted Lake`
+
+5 - `polluted Earth`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `rain` = `acid rain`
+`acid rain` + `water` = `polluted Water`
+`earth` + `polluted Water` = `polluted Earth`
+
+5 - `ashtear`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `water` = `tea`
+`rain` + `tea` = `tear`
+`ash` + `tear` = `ashtear`
+
+5 - `cry`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `water` = `tea`
+`rain` + `tea` = `tear`
+`tear` + `tear` = `cry`
+
+5 - `tempest`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`ash` + `water` = `tea`
+`storm` + `tea` = `tempest`
+
+5 - `rain pot`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`pot` + `rain` = `rain pot`
+
+5 - `ark`: 
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`rain` + `wind` = `storm`
+`rain` + `storm` = `flood`
+`ash` + `flood` = `ark`
+ ...
+`fire` + `wind` = `ash`
+`water` + `wind` = `rain`
+`wind` + `wind` = `tornado`
+`rain` + `tornado` = `flood`
+`ash` + `flood` = `ark`
+
+5 - `matcha tornado`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`wind` + `wind` = `tornado`
+`ash` + `tea` = `matcha`
+`matcha` + `tornado` = `matcha tornado`
+
+5 - `tea tsunami`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`tea` + `tsunami` = `tea tsunami`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`typhoon` + `water` = `tsunami`
+`tea` + `tsunami` = `tea tsunami`
+
+5 - `dust devil`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`wind` + `wind` = `tornado`
+`golem` + `tornado` = `dust devil`
+ ...
+`earth` + `wind` = `dust`
+`wind` + `wind` = `tornado`
+`dust` + `wind` = `dust storm`
+`dust storm` + `fire` = `sandstorm`
+`sandstorm` + `tornado` = `dust devil`
+
+5 - `lava matcha`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`lava` + `matcha` = `lava matcha`
+
+5 - `rock tea`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`ash` + `water` = `tea`
+`rock` + `tea` = `rock tea`
+
+5 - `lava brick`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `fire` = `lava`
+`clay` + `clay` = `brick`
+`brick` + `lava` = `lava brick`
+
+5 - `ash statue`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`ash` + `stone` = `statue`
+`ash` + `statue` = `ash statue`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `earth` = `mountain`
+`clay` + `mountain` = `statue`
+`ash` + `statue` = `ash statue`
+
+5 - `idol`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`ash` + `stone` = `statue`
+`statue` + `stone` = `idol`
+ ...
+`earth` + `fire` = `lava`
+`water` + `wind` = `rain`
+`lava` + `water` = `stone`
+`rain` + `stone` = `statue`
+`statue` + `stone` = `idol`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`dust` + `stone` = `statue`
+`statue` + `stone` = `idol`
+
+5 - `olympic torch`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`ash` + `stone` = `statue`
+`fire` + `statue` = `olympic torch`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `earth` = `mountain`
+`clay` + `mountain` = `statue`
+`fire` + `statue` = `olympic torch`
+ ...
+`earth` + `fire` = `lava`
+`water` + `wind` = `rain`
+`lava` + `water` = `stone`
+`rain` + `stone` = `statue`
+`fire` + `statue` = `olympic torch`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`dust` + `stone` = `statue`
+`fire` + `statue` = `olympic torch`
+
+5 - `fountain`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`ash` + `stone` = `statue`
+`statue` + `water` = `fountain`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `earth` = `mountain`
+`clay` + `mountain` = `statue`
+`statue` + `water` = `fountain`
+ ...
+`earth` + `fire` = `lava`
+`water` + `wind` = `rain`
+`lava` + `water` = `stone`
+`rain` + `stone` = `statue`
+`statue` + `water` = `fountain`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`dust` + `stone` = `statue`
+`statue` + `water` = `fountain`
+
+5 - `colossus`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`ash` + `stone` = `statue`
+`earth` + `statue` = `colossus`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `earth` = `mountain`
+`clay` + `mountain` = `statue`
+`earth` + `statue` = `colossus`
+ ...
+`earth` + `fire` = `lava`
+`water` + `wind` = `rain`
+`lava` + `water` = `stone`
+`rain` + `stone` = `statue`
+`earth` + `statue` = `colossus`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`dust` + `stone` = `statue`
+`earth` + `statue` = `colossus`
+
+5 - `blade`: 
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`ash` + `obsidian` = `blade`
+ ...
+`fire` + `wind` = `ash`
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`ash` + `obsidian` = `blade`
+ ...
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`obsidian` + `stone` = `knife`
+`knife` + `obsidian` = `blade`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `rock` = `knife`
+`knife` + `obsidian` = `blade`
+
+5 - `ash Tree`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`ash` + `tree` = `ash tree`
+`ash tree` + `ash tree` = `ash Tree`
+
+5 - `ash forest`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `tree` = `forest`
+`ash` + `forest` = `ash forest`
+
+5 - `cigarette`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`tree` + `wind` = `leaf`
+`ash` + `leaf` = `cigarette`
+
+5 - `ash rose`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`ash` + `rose` = `ash rose`
+
+5 - `ash pollen`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`ash` + `pollen` = `ash pollen`
+
+5 - `coke`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`ash` + `coal` = `charcoal`
+`charcoal` + `coal` = `coke`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`fire` + `plant` = `coal`
+`coal` + `tree` = `charcoal`
+`charcoal` + `coal` = `coke`
+
+5 - `barbecue`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`ash` + `coal` = `charcoal`
+`charcoal` + `fire` = `barbecue`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`fire` + `plant` = `coal`
+`coal` + `tree` = `charcoal`
+`charcoal` + `fire` = `barbecue`
+
+5 - `ink`: 
+`fire` + `wind` = `ash`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`ash` + `coal` = `charcoal`
+`charcoal` + `water` = `ink`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `dust` = `soot`
+`soot` + `water` = `ink`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`fire` + `plant` = `coal`
+`coal` + `tree` = `charcoal`
+`charcoal` + `water` = `ink`
+
+5 - `sandwich`: 
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`ash` + `water` = `tea`
+`sand` + `tea` = `sandwich`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `wind` = `window`
+`sand` + `window` = `sandwich`
+
+5 - `mud tea`: 
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`ash` + `water` = `tea`
+`mud` + `tea` = `mud tea`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `water` = `mud`
+`ash` + `water` = `tea`
+`mud` + `tea` = `mud tea`
+
+5 - `tea dust`: 
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`ash` + `water` = `tea`
+`dust` + `wind` = `dust storm`
+`dust storm` + `tea` = `tea dust`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`earth` + `typhoon` = `dust storm`
+`dust storm` + `tea` = `tea dust`
+
+5 - `tea bag`: 
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`dust` + `earth` = `soil`
+`ash` + `water` = `tea`
+`soil` + `tea` = `tea bag`
+
+5 - `mortar`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `clay` = `brick`
+`brick` + `dust` = `mortar`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `dust` = `mortar`
+
+5 - `dustman`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `dust` = `human`
+`dust` + `human` = `dustman`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `dust` = `human`
+`dust` + `human` = `dustman`
+
+5 - `family`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `dust` = `human`
+`human` + `human` = `family`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `dust` = `human`
+`human` + `human` = `family`
+
+5 - `witch`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `dust` = `human`
+`fire` + `human` = `witch`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`fire` + `pot` = `cauldron`
+`cauldron` + `tea` = `witch`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `dust` = `human`
+`fire` + `human` = `witch`
+
+5 - `swimmer`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `dust` = `human`
+`human` + `water` = `swimmer`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `dust` = `human`
+`human` + `water` = `swimmer`
+
+5 - `sailor`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `dust` = `human`
+`human` + `wind` = `sailor`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `dust` = `human`
+`human` + `wind` = `sailor`
+
+5 - `farmer`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `wind` = `dust`
+`clay` + `dust` = `human`
+`earth` + `human` = `farmer`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `dust` = `human`
+`earth` + `human` = `farmer`
+
+5 - `ash glass`: 
+`fire` + `wind` = `ash`
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`ash` + `glass` = `ash glass`
+
+5 - `mountain dew`: 
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`matcha` + `mountain` = `mountain dew`
+
+5 - `tea plantation`: 
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`ash` + `water` = `tea`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `tea` = `tea plantation`
+
+5 - `ash mountain Tea`: 
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`ash` + `water` = `tea`
+`mountain` + `tea` = `mountain tea`
+`ash` + `mountain tea` = `ash mountain Tea`
+
+5 - `mountain Tea`: 
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`ash` + `water` = `tea`
+`mountain` + `tea` = `mountain tea`
+`mountain tea` + `mountain tea` = `mountain Tea`
+
+5 - `cliff tea`: 
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`ash` + `water` = `tea`
+`earth` + `mountain` = `cliff`
+`cliff` + `tea` = `cliff tea`
+
+5 - `mountain golem`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`earth` + `earth` = `mountain`
+`golem` + `mountain` = `mountain golem`
+
+5 - `pyramid`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `earth` = `mountain`
+`clay` + `clay` = `brick`
+`brick` + `mountain` = `pyramid`
+ ...
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`stone` + `water` = `sand`
+`sand` + `sand` = `desert`
+`desert` + `stone` = `pyramid`
+
+5 - `mount rushmore`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`earth` + `earth` = `mountain`
+`clay` + `mountain` = `statue`
+`mountain` + `statue` = `mount rushmore`
+
+5 - `cinderella`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`cinder` + `matcha` = `cinderella`
+
+5 - `hot Ash Tea`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `water` = `tea`
+`cinder` + `tea` = `hot tea`
+`ash` + `hot tea` = `hot Ash Tea`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`pot` + `tea` = `hot tea`
+`ash` + `hot tea` = `hot Ash Tea`
+
+5 - `hot cinder`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `water` = `tea`
+`cinder` + `tea` = `hot tea`
+`cinder` + `hot tea` = `hot cinder`
+
+5 - `hot Tea`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `water` = `tea`
+`cinder` + `tea` = `hot tea`
+`hot tea` + `hot tea` = `hot Tea`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`pot` + `tea` = `hot tea`
+`hot tea` + `hot tea` = `hot Tea`
+
+5 - `hot Water`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `water` = `tea`
+`cinder` + `tea` = `hot tea`
+`fire` + `hot tea` = `hot Water`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`pot` + `tea` = `hot tea`
+`fire` + `hot tea` = `hot Water`
+
+5 - `ice Tea`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `water` = `tea`
+`cinder` + `tea` = `hot tea`
+`hot tea` + `water` = `ice Tea`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`pot` + `tea` = `hot tea`
+`hot tea` + `water` = `ice Tea`
+
+5 - `hot Air Balloon`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `water` = `tea`
+`cinder` + `tea` = `hot tea`
+`hot tea` + `wind` = `hot Air Balloon`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`pot` + `tea` = `hot tea`
+`hot tea` + `wind` = `hot Air Balloon`
+
+5 - `fireplace`: 
+`fire` + `wind` = `ash`
+`ash` + `fire` = `cinder`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `cinder` = `fireplace`
+ ...
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `wind` = `house`
+`fire` + `house` = `fireplace`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`beach` + `fire` = `bonfire`
+`bonfire` + `rock` = `fireplace`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `wind` = `window`
+`fire` + `window` = `fireplace`
+
+5 - `fish`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`ash` + `matcha` = `match`
+`match` + `water` = `fish`
+
+5 - `matcha Tea`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`ash` + `tea` = `matcha`
+`matcha` + `tea` = `matcha tea`
+`matcha tea` + `matcha tea` = `matcha Tea`
+
+5 - `matcha typhoon`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`ash` + `tea` = `matcha`
+`matcha` + `typhoon` = `matcha typhoon`
+
+5 - `tea golem`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`ash` + `water` = `tea`
+`golem` + `tea` = `tea golem`
+
+5 - `teabrick`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `water` = `tea`
+`clay` + `clay` = `brick`
+`brick` + `tea` = `teabrick`
+
+5 - `chaityphoon`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`fire` + `tea` = `chai`
+`chai` + `typhoon` = `chaityphoon`
+
+5 - `ash Typhoon`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`ash` + `typhoon` = `ash typhoon`
+`ash typhoon` + `ash typhoon` = `ash Typhoon`
+
+5 - `typhoon Tea`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`tea` + `typhoon` = `typhoon tea`
+`ash` + `typhoon tea` = `typhoon Tea`
+
+5 - `pottyphoon`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`tea` + `wind` = `typhoon`
+`earth` + `tea` = `pot`
+`pot` + `typhoon` = `pottyphoon`
+
+5 - `soda`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`ash` + `pot` = `potash`
+`ash` + `potash` = `soda`
+
+5 - `potassium`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`ash` + `pot` = `potash`
+`pot` + `potash` = `potassium`
+
+5 - `potash tea`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`ash` + `pot` = `potash`
+`potash` + `tea` = `potash tea`
+
+5 - `gunpowder`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`ash` + `pot` = `potash`
+`fire` + `potash` = `gunpowder`
+
+5 - `saltpeter`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`ash` + `pot` = `potash`
+`potash` + `water` = `saltpeter`
+
+5 - `salt`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`ash` + `pot` = `potash`
+`potash` + `wind` = `salt`
+
+5 - `alchemy`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`fire` + `pot` = `cauldron`
+`cauldron` + `pot` = `alchemy`
+
+5 - `potion`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`fire` + `pot` = `cauldron`
+`cauldron` + `fire` = `potion`
+
+5 - `soup`: 
+`fire` + `wind` = `ash`
+`ash` + `water` = `tea`
+`earth` + `tea` = `pot`
+`fire` + `pot` = `cauldron`
+`cauldron` + `water` = `soup`
+
+5 - `Phoenix`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`fire` + `golem` = `lava golem`
+`ash` + `lava golem` = `Phoenix`
+
+5 - `clay Golem`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`fire` + `golem` = `lava golem`
+`clay` + `lava golem` = `clay Golem`
+
+5 - `lava Golem`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`fire` + `golem` = `lava golem`
+`golem` + `lava golem` = `lava Golem`
+
+5 - `steam Golem`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`fire` + `golem` = `lava golem`
+`lava golem` + `water` = `steam Golem`
+
+5 - `sand golem`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`ash` + `clay` = `golem`
+`golem` + `wind` = `sandstorm`
+`golem` + `sandstorm` = `sand golem`
+
+5 - `firewall`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `brick` = `wall`
+`fire` + `wall` = `firewall`
+
+5 - `adobe`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `water` = `mud`
+`clay` + `clay` = `brick`
+`brick` + `mud` = `adobe`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `mud` = `adobe`
+
+5 - `ashhouse`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `wind` = `house`
+`ash` + `house` = `ashhouse`
+
+5 - `town`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `wind` = `house`
+`house` + `house` = `town`
+
+5 - `farm`: 
+`fire` + `wind` = `ash`
+`ash` + `earth` = `clay`
+`clay` + `clay` = `brick`
+`brick` + `wind` = `house`
+`earth` + `house` = `farm`
+ ...
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`obsidian` + `stone` = `knife`
+`earth` + `knife` = `farm`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `rock` = `knife`
+`earth` + `knife` = `farm`
+
+5 - `floodwater`: 
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+`wind` + `wind` = `tornado`
+`rain` + `tornado` = `flood`
+`flood` + `rainwater` = `floodwater`
+ ...
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+`rain` + `wind` = `storm`
+`rain` + `storm` = `flood`
+`flood` + `rainwater` = `floodwater`
+
+5 - `diamond rain`: 
+`earth` + `water` = `plant`
+`water` + `wind` = `rain`
+`fire` + `plant` = `coal`
+`coal` + `fire` = `diamond`
+`diamond` + `rain` = `diamond rain`
+
+5 - `coal water`: 
+`earth` + `water` = `plant`
+`water` + `wind` = `rain`
+`rain` + `water` = `rainwater`
+`fire` + `plant` = `coal`
+`coal` + `rainwater` = `coal water`
+
+5 - `mushroom`: 
+`earth` + `water` = `plant`
+`water` + `wind` = `rain`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+`rain` + `wood` = `mushroom`
+
+5 - `Niagara Falls`: 
+`earth` + `earth` = `mountain`
+`water` + `wind` = `rain`
+`mountain` + `rain` = `waterfall`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `waterfall` = `Niagara Falls`
+ ...
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `water` = `river`
+`river` + `wind` = `waterfall`
+`mountain range` + `waterfall` = `Niagara Falls`
+ ...
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`mountain` + `mountain` = `mountain range`
+`cliff` + `water` = `waterfall`
+`mountain range` + `waterfall` = `Niagara Falls`
+
+5 - `rainbow mountain`: 
+`earth` + `earth` = `mountain`
+`water` + `wind` = `rain`
+`mountain` + `rain` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+`mountain` + `rainbow` = `rainbow mountain`
+ ...
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `water` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+`mountain` + `rainbow` = `rainbow mountain`
+
+5 - `rainbow waterfall`: 
+`earth` + `earth` = `mountain`
+`water` + `wind` = `rain`
+`mountain` + `rain` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+`rainbow` + `waterfall` = `rainbow waterfall`
+ ...
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `water` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+`rainbow` + `waterfall` = `rainbow waterfall`
+
+5 - `meteor`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`wind` + `wind` = `tornado`
+`stone` + `tornado` = `meteorite`
+`meteorite` + `tornado` = `meteor`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`wind` + `wind` = `tornado`
+`rock` + `tornado` = `meteorite`
+`meteorite` + `tornado` = `meteor`
+
+5 - `life`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`wind` + `wind` = `tornado`
+`stone` + `tornado` = `meteorite`
+`meteorite` + `water` = `life`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`wind` + `wind` = `tornado`
+`rock` + `tornado` = `meteorite`
+`meteorite` + `water` = `life`
+
+5 - `rose tornado`: 
+`earth` + `water` = `plant`
+`wind` + `wind` = `tornado`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`rose` + `tornado` = `rose tornado`
+
+5 - `tsunami flower`: 
+`earth` + `water` = `plant`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`plant` + `plant` = `flower`
+`flower` + `tsunami` = `tsunami flower`
+
+5 - `coal tsunami`: 
+`earth` + `water` = `plant`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`fire` + `plant` = `coal`
+`coal` + `tsunami` = `coal tsunami`
+
+5 - `woodchips`: 
+`earth` + `water` = `plant`
+`wind` + `wind` = `tornado`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+`tornado` + `wood` = `woodchips`
+
+5 - Coconut: 
+`earth` + `water` = `plant`
+`wind` + `wind` = `tornado`
+`tornado` + `wind` = `hurricane`
+`hurricane` + `plant` = `palm tree`
+`palm tree` + `palm tree` = Coconut
+
+5 - Tornado: 
+`earth` + `wind` = `dust`
+`wind` + `wind` = `tornado`
+`dust` + `wind` = `dust storm`
+`dust storm` + `tornado` = `dust Devil`
+`dust Devil` + `dust Devil` = Tornado
+ ...
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+`dust storm` + `dust` = `dust Bowl`
+`dust Bowl` + `fire` = `dust Devil`
+`dust Devil` + `dust Devil` = Tornado
+
+5 - `fire Tornado`: 
+`earth` + `wind` = `dust`
+`wind` + `wind` = `tornado`
+`dust` + `wind` = `dust storm`
+`dust storm` + `tornado` = `dust Devil`
+`dust Devil` + `fire` = `fire Tornado`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `wind` = `dust storm`
+`dust storm` + `dust` = `dust Bowl`
+`dust Bowl` + `fire` = `dust Devil`
+`dust Devil` + `fire` = `fire Tornado`
+
+5 - `duststorm`: 
+`earth` + `wind` = `dust`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`dust` + `tsunami` = `dustnami`
+`dust` + `dustnami` = `duststorm`
+
+5 - `ash avalanche`: 
+`fire` + `wind` = `ash`
+`earth` + `earth` = `mountain`
+`wind` + `wind` = `tornado`
+`mountain` + `tornado` = `avalanche`
+`ash` + `avalanche` = `ash avalanche`
+
+5 - `snowpocalypse`: 
+`earth` + `earth` = `mountain`
+`wind` + `wind` = `tornado`
+`mountain` + `tornado` = `avalanche`
+`avalanche` + `tornado` = `blizzard`
+`avalanche` + `blizzard` = `snowpocalypse`
+
+5 - `snowicane`: 
+`earth` + `earth` = `mountain`
+`wind` + `wind` = `tornado`
+`mountain` + `tornado` = `avalanche`
+`avalanche` + `tornado` = `blizzard`
+`blizzard` + `tornado` = `snowicane`
+
+5 - `disaster`: 
+`earth` + `earth` = `mountain`
+`wind` + `wind` = `tornado`
+`tornado` + `water` = `tsunami`
+`mountain` + `tornado` = `avalanche`
+`avalanche` + `tsunami` = `disaster`
+ ...
+`wind` + `wind` = `tornado`
+`tornado` + `wind` = `hurricane`
+`earth` + `hurricane` = `mud`
+`hurricane` + `mud` = `mudslide`
+`hurricane` + `mudslide` = `disaster`
+
+5 - `natural disaster`: 
+`earth` + `earth` = `mountain`
+`wind` + `wind` = `tornado`
+`mountain` + `tornado` = `avalanche`
+`tornado` + `wind` = `hurricane`
+`avalanche` + `hurricane` = `natural disaster`
+
+5 - `mudnado`: 
+`wind` + `wind` = `tornado`
+`tornado` + `wind` = `hurricane`
+`earth` + `hurricane` = `mud`
+`hurricane` + `mud` = `mudslide`
+`mudslide` + `tornado` = `mudnado`
+
+5 - `alligator`: 
+`wind` + `wind` = `tornado`
+`tornado` + `wind` = `hurricane`
+`earth` + `hurricane` = `mud`
+`mud` + `mud` = `swamp`
+`hurricane` + `swamp` = `alligator`
+
+5 - `flowerpot`: 
+`earth` + `fire` = `lava`
+`earth` + `water` = `plant`
+`lava` + `water` = `stone`
+`plant` + `plant` = `flower`
+`flower` + `stone` = `flowerpot`
+
+5 - `sandstone`: 
+`earth` + `wind` = `dust`
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`dust` + `dust` = `sand`
+`rock` + `sand` = `sandstone`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `water` = `stone`
+`stone` + `water` = `sand`
+`rock` + `sand` = `sandstone`
+ ...
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`stone` + `stone` = `boulder`
+`stone` + `water` = `sand`
+`boulder` + `sand` = `sandstone`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `wind` = `sand`
+`rock` + `sand` = `sandstone`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`beach` + `wind` = `sand`
+`rock` + `sand` = `sandstone`
+
+5 - `dusty statue`: 
+`earth` + `wind` = `dust`
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`dust` + `stone` = `statue`
+`dust` + `statue` = `dusty statue`
+
+5 - `sword`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`obsidian` + `stone` = `knife`
+`knife` + `knife` = `sword`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `rock` = `knife`
+`knife` + `knife` = `sword`
+
+5 - `flint`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`obsidian` + `stone` = `knife`
+`knife` + `stone` = `flint`
+
+5 - `flamethrower`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`obsidian` + `stone` = `knife`
+`fire` + `knife` = `flamethrower`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `rock` = `knife`
+`fire` + `knife` = `flamethrower`
+
+5 - `blood`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`obsidian` + `stone` = `knife`
+`knife` + `water` = `blood`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `rock` = `knife`
+`knife` + `water` = `blood`
+
+5 - `cutting wind`: 
+`earth` + `fire` = `lava`
+`lava` + `water` = `stone`
+`lava` + `stone` = `obsidian`
+`obsidian` + `stone` = `knife`
+`knife` + `wind` = `cutting wind`
+ ...
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `rock` = `knife`
+`knife` + `wind` = `cutting wind`
+
+5 - `axe`: 
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`lava` + `rock` = `obsidian`
+`obsidian` + `rock` = `knife`
+`knife` + `rock` = `axe`
+
+5 - `black sand`: 
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`lava` + `rock` = `obsidian`
+`beach` + `obsidian` = `black sand`
+
+5 - `beach boulder`: 
+`earth` + `fire` = `lava`
+`earth` + `lava` = `rock`
+`rock` + `water` = `beach`
+`rock` + `rock` = `boulder`
+`beach` + `boulder` = `beach boulder`
+
+5 - `glasshouse`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `plant` = `glasshouse`
+
+5 - `saguaro`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`dust` + `dust` = `sand`
+`plant` + `sand` = `cactus`
+`cactus` + `fire` = `saguaro`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`dust` + `wind` = `dust storm`
+`dust storm` + `plant` = `cactus`
+`cactus` + `fire` = `saguaro`
+ ...
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `wind` = `dust storm`
+`dust storm` + `plant` = `cactus`
+`cactus` + `fire` = `saguaro`
+
+5 - `tumbleweed`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`dust` + `dust` = `sand`
+`plant` + `sand` = `cactus`
+`cactus` + `wind` = `tumbleweed`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`dust` + `wind` = `dust storm`
+`dust storm` + `tree` = `tumbleweed`
+ ...
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`dust` + `wind` = `dust storm`
+`dust storm` + `plant` = `cactus`
+`cactus` + `wind` = `tumbleweed`
+ ...
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `wind` = `dust storm`
+`dust storm` + `plant` = `cactus`
+`cactus` + `wind` = `tumbleweed`
+ ...
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`fire` + `plant` = `coal`
+`coal` + `wind` = `dust storm`
+`dust storm` + `tree` = `tumbleweed`
+
+5 - `chair`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+`dust` + `wood` = `chair`
+
+5 - `fairy`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `tree` = `forest`
+`dust` + `forest` = `fairy`
+
+5 - `crop`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`dust` + `wind` = `dust storm`
+`dust storm` + `dust` = `dust Bowl`
+`dust Bowl` + `plant` = `crop`
+
+5 - `allergy`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`dust` + `pollen` = `allergy`
+
+5 - `rose dust`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`dust` + `rose` = `rose dust`
+
+5 - `diamond dust`: 
+`earth` + `wind` = `dust`
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `fire` = `diamond`
+`diamond` + `dust` = `diamond dust`
+
+5 - `corn`: 
+`earth` + `earth` = `mountain`
+`earth` + `water` = `plant`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `water` = `river`
+`plant` + `river` = `corn`
+
+5 - `mountain flower`: 
+`earth` + `earth` = `mountain`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`mountain` + `mountain` = `mountain range`
+`flower` + `mountain range` = `mountain flower`
+
+5 - `treehouse`: 
+`earth` + `earth` = `mountain`
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`earth` + `mountain` = `cliff`
+`cliff` + `tree` = `treehouse`
+
+5 - `coal cliff`: 
+`earth` + `earth` = `mountain`
+`earth` + `water` = `plant`
+`earth` + `mountain` = `cliff`
+`fire` + `plant` = `coal`
+`cliff` + `coal` = `coal cliff`
+
+5 - `mountain rose`: 
+`earth` + `earth` = `mountain`
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`mountain` + `rose` = `mountain rose`
+
+5 - `rose tree`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`rose` + `tree` = `rose tree`
+
+5 - `rose tea`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`rose` + `water` = `tea`
+`rose` + `tea` = `rose tea`
+
+5 - `dandelion`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `plant` = `rose`
+`rose` + `wind` = `petal`
+`petal` + `wind` = `dandelion`
+ ...
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`flower` + `pollen` = `pollination`
+`pollination` + `wind` = `dandelion`
+
+5 - `fruit`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`flower` + `pollen` = `pollination`
+`flower` + `pollination` = `fruit`
+
+5 - `pollinator`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`flower` + `pollen` = `pollination`
+`pollen` + `pollination` = `pollinator`
+
+5 - `coal pollen`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`coal` + `pollen` = `coal pollen`
+
+5 - `weed`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`fire` + `pollen` = `smoke`
+`plant` + `smoke` = `weed`
+
+5 - `haze`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`fire` + `pollen` = `smoke`
+`pollen` + `smoke` = `haze`
+
+5 - `nectar`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`pollen` + `water` = `honey`
+`flower` + `honey` = `nectar`
+
+5 - `honeycomb`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`pollen` + `water` = `honey`
+`honey` + `honey` = `honeycomb`
+
+5 - `bee`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`pollen` + `water` = `honey`
+`honey` + `pollen` = `bee`
+
+5 - `mead`: 
+`earth` + `water` = `plant`
+`plant` + `plant` = `flower`
+`flower` + `wind` = `pollen`
+`pollen` + `water` = `honey`
+`fire` + `honey` = `mead`
+
+5 - `flower forest`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `plant` = `flower`
+`plant` + `tree` = `forest`
+`flower` + `forest` = `flower forest`
+
+5 - `rosewood`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+`plant` + `plant` = `flower`
+`flower` + `wood` = `rosewood`
+
+5 - `money tree`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`fire` + `plant` = `coal`
+`coal` + `fire` = `diamond`
+`diamond` + `tree` = `money tree`
+
+5 - `carbon`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `fire` = `diamond`
+`diamond` + `fire` = `graphite`
+`diamond` + `graphite` = `carbon`
+
+5 - `pencil`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `fire` = `diamond`
+`diamond` + `fire` = `graphite`
+`graphite` + `plant` = `pencil`
+
+5 - `lead`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `fire` = `diamond`
+`diamond` + `fire` = `graphite`
+`graphite` + `water` = `lead`
+
+5 - `monkey`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `tree` = `forest`
+`forest` + `forest` = `jungle`
+`jungle` + `tree` = `monkey`
+
+5 - `bog`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`plant` + `tree` = `forest`
+`forest` + `water` = `swamp`
+`forest` + `swamp` = `bog`
+
+5 - `book`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+`tree` + `wood` = `paper`
+`paper` + `paper` = `book`
+
+5 - `money`: 
+`earth` + `water` = `plant`
+`earth` + `plant` = `tree`
+`earth` + `tree` = `wood`
+`tree` + `wood` = `paper`
+`paper` + `water` = `money`
+
+5 - `dusty Cliff`: 
+`earth` + `wind` = `dust`
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `dust` = `dusty cliff`
+`cliff` + `dusty cliff` = `dusty Cliff`
+
+5 - `snow globe`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`dust` + `glass` = `mirror`
+`dust` + `mirror` = `snow globe`
+
+5 - `kaleidoscope`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`dust` + `glass` = `mirror`
+`glass` + `mirror` = `kaleidoscope`
+
+5 - `dragon`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`dust` + `glass` = `mirror`
+`fire` + `mirror` = `dragon`
+
+5 - `telescope`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`fire` + `glass` = `lens`
+`dust` + `lens` = `telescope`
+
+5 - `microscope`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`fire` + `glass` = `lens`
+`glass` + `lens` = `microscope`
+
+5 - `magnifying glass`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`fire` + `glass` = `lens`
+`fire` + `lens` = `magnifying glass`
+
+5 - `drunk`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `water` = `drink`
+`drink` + `drink` = `drunk`
+
+5 - `drink glass`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `water` = `drink`
+`drink` + `glass` = `drink glass`
+
+5 - `beer`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `water` = `drink`
+`drink` + `sand` = `beer`
+
+5 - `tequila`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `water` = `drink`
+`drink` + `fire` = `tequila`
+
+5 - `dustbin`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `wind` = `window`
+`dust` + `window` = `dustbin`
+ ...
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`earth` + `glass` = `bottle`
+`bottle` + `dust` = `dustbin`
+
+5 - `windo`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`glass` + `wind` = `window`
+`wind` + `window` = `windo`
+
+5 - `hour glass`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`earth` + `glass` = `bottle`
+`bottle` + `sand` = `hour glass`
+
+5 - `bomb`: 
+`earth` + `wind` = `dust`
+`dust` + `dust` = `sand`
+`dust` + `sand` = `glass`
+`earth` + `glass` = `bottle`
+`bottle` + `fire` = `bomb`
+
+5 - `muddy beach`: 
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `dust` = `sand`
+`mud` + `sand` = `beach`
+`beach` + `mud` = `muddy beach`
+
+5 - `monster`: 
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`dust` + `mud` = `clay`
+`clay` + `dust` = `human`
+`human` + `mud` = `monster`
+
+5 - `mire`: 
+`earth` + `wind` = `dust`
+`dust` + `water` = `mud`
+`mud` + `mud` = `swamp`
+`mud` + `swamp` = `quagmire`
+`quagmire` + `swamp` = `mire`
+
+5 - `grand canyon`: 
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `water` = `river`
+`mountain range` + `river` = `canyon`
+`canyon` + `mountain range` = `grand canyon`
+
+5 - `valley`: 
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `water` = `river`
+`mountain range` + `river` = `canyon`
+`canyon` + `mountain` = `valley`
+
+5 - Desert: 
+`earth` + `earth` = `mountain`
+`mountain` + `mountain` = `mountain range`
+`mountain range` + `wind` = `dust Storm`
+`dust Storm` + `mountain range` = `sand Dune`
+`sand Dune` + `sand Dune` = Desert
+
+5 - `rainbow bridge`: 
+`earth` + `earth` = `mountain`
+`earth` + `mountain` = `cliff`
+`cliff` + `water` = `waterfall`
+`waterfall` + `wind` = `rainbow`
+`cliff` + `rainbow` = `rainbow bridge`
+
+5 - `solar Plant`: 
+`earth` + `water` = `plant`
+`fire` + `plant` = `coal`
+`coal` + `plant` = `coal plant`
+`coal plant` + `wind` = `wind Plant`
+`coal plant` + `wind Plant` = `solar Plant`
+
+5 - `flower Volcano`: 
+`earth` + `water` = `plant`
+`fire` + `fire` = `volcano`
+`plant` + `plant` = `flower`
+`flower` + `volcano` = `flower volcano`
+`flower volcano` + `plant` = `flower Volcano`
+
+5 - Ice Rink: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `lake` = `ice skating`
+`ice skating` + `ice skating` = Ice Rink
+
+5 - `ice Skating`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `lake` = `ice skating`
+`ice skating` + `ice` = `ice Skating`
+
+5 - `hot Ice Skating`: 
+`water` + `water` = `lake`
+`fire` + `water` = `steam`
+`steam` + `water` = `ice`
+`ice` + `lake` = `ice skating`
+`fire` + `ice skating` = `hot Ice Skating`
+
+
+
+{
+  "`volcano`": 1,
+  "`steam`": 1,
+  "`lake`": 1,
+  "`ash`": 1,
+  "`rain`": 1,
+  "`tornado`": 1,
+  "`lava`": 1,
+  "`plant`": 1,
+  "`dust`": 1,
+  "`mountain`": 1,
+  "`cloud`": 2,
+  "`ice`": 2,
+  "`ocean`": 2,
+  "`wave`": 2,
+  "`island`": 2,
+  "`cinder`": 2,
+  "`tea`": 2,
+  "`clay`": 2,
+  "`rainwater`": 2,
+  "`storm`": 2,
+  "`tsunami`": 2,
+  "`hurricane`": 2,
+  "`magma`": 2,
+  "`stone`": 2,
+  "`rock`": 2,
+  "`flower`": 2,
+  "`coal`": 2,
+  "`tree`": 2,
+  "`sand`": 2,
+  "`mud`": 2,
+  "`dust storm`": 2,
+  "`soil`": 2,
+  "`mountain range`": 2,
+  "`cliff`": 2,
+  "`geyser`": 3,
+  "`tornadon`": 3,
+  "`eruption`": 3,
+  "`fog`": 3,
+  "`ash steam`": 3,
+  "`lightning`": 3,
+  "`snow`": 3,
+  "`iceberg`": 3,
+  "`pond`": 3,
+  "`swamp`": 3,
+  "`sea`": 3,
+  "`beach`": 3,
+  "`archipelago`": 3,
+  "`continent`": 3,
+  "`acid rain`": 3,
+  "`ashes`": 3,
+  "`matcha`": 3,
+  "`chai`": 3,
+  "`typhoon`": 3,
+  "`pot`": 3,
+  "`golem`": 3,
+  "`brick`": 3,
+  "`flood`": 3,
+  "`waterfall`": 3,
+  "`avalanche`": 3,
+  "`cyclone`": 3,
+  "`obsidian`": 3,
+  "`boulder`": 3,
+  "`rose`": 3,
+  "`pollen`": 3,
+  "`coal plant`": 3,
+  "`diamond`": 3,
+  "`forest`": 3,
+  "`leaf`": 3,
+  "`wood`": 3,
+  "`glass`": 3,
+  "`desert`": 3,
+  "`dust Storm`": 3,
+  "`dust Bowl`": 3,
+  "`sandstorm`": 3,
+  "`sand Storm`": 3,
+  "`dirt`": 3,
+  "`mountain Range`": 3,
+  "`river`": 3,
+  "`landslide`": 3,
+  "`atlantis`": 4,
+  "`hot spring`": 4,
+  "`hawaii`": 4,
+  "`muddy`": 4,
+  "`earthquake`": 4,
+  "`volcanodon`": 4,
+  "`flower volcano`": 4,
+  "`mist`": 4,
+  "`steamboat`": 4,
+  "`ice skating`": 4,
+  "Boiling Ash": 4,
+  "`steam engine`": 4,
+  "`teapot`": 4,
+  "`pottery`": 4,
+  "`smoke`": 4,
+  "`rainbow`": 4,
+  "`steam tsunami`": 4,
+  "`perfume`": 4,
+  "`herbal tea`": 4,
+  "`train`": 4,
+  "`glacier`": 4,
+  "`thunder`": 4,
+  "`snowman`": 4,
+  "`snowball`": 4,
+  "`blizzard`": 4,
+  "`latte`": 4,
+  "`poseidon`": 4,
+  "`rainforest`": 4,
+  "`seaweed`": 4,
+  "`marsh`": 4,
+  "`coconut`": 4,
+  "`lotus`": 4,
+  "`coal lake`": 4,
+  "`log`": 4,
+  "`fjord`": 4,
+  "`atoll`": 4,
+  "`surf`": 4,
+  "`bonfire`": 4,
+  "`land`": 4,
+  "Acid Lake": 4,
+  "`smog`": 4,
+  "`acid Rain`": 4,
+  "`polluted Water`": 4,
+  "`tear`": 4,
+  "`ash rain`": 4,
+  "`ashstorm`": 4,
+  "`teacup`": 4,
+  "`statue`": 4,
+  "`ash tree`": 4,
+  "`charcoal`": 4,
+  "`human`": 4,
+  "`mountain tea`": 4,
+  "`ashcliff`": 4,
+  "`hot tea`": 4,
+  "`match`": 4,
+  "`matcha tea`": 4,
+  "`ash typhoon`": 4,
+  "`typhoon tea`": 4,
+  "`potash`": 4,
+  "`cauldron`": 4,
+  "`kettle`": 4,
+  "`lava golem`": 4,
+  "`wall`": 4,
+  "`house`": 4,
+  "`meteorite`": 4,
+  "`palm tree`": 4,
+  "`dust Devil`": 4,
+  "`dustnami`": 4,
+  "`mudslide`": 4,
+  "`knife`": 4,
+  "`cactus`": 4,
+  "`soot`": 4,
+  "`burn`": 4,
+  "`petal`": 4,
+  "`pollination`": 4,
+  "`honey`": 4,
+  "`coal Plant`": 4,
+  "`wind Plant`": 4,
+  "`graphite`": 4,
+  "`jungle`": 4,
+  "`paper`": 4,
+  "`dusty cliff`": 4,
+  "`mirror`": 4,
+  "`lens`": 4,
+  "`drink`": 4,
+  "`window`": 4,
+  "`bottle`": 4,
+  "`mirage`": 4,
+  "`oasis`": 4,
+  "`mud Storm`": 4,
+  "`quagmire`": 4,
+  "`dust Bowl Storm`": 4,
+  "`canyon`": 4,
+  "`sand Dune`": 4,
+  "`geothermal`": 5,
+  "`ice volcano`": 5,
+  "`whale`": 5,
+  "`hot Spring`": 5,
+  "`hawaiian island`": 5,
+  "`surfing`": 5,
+  "`muddier`": 5,
+  "`muddy rain`": 5,
+  "`muddy water`": 5,
+  "`mudstorm`": 5,
+  "`dustnado`": 5,
+  "`tornadovolcanodon`": 5,
+  "`rose volcano`": 5,
+  "`global Warming`": 5,
+  "`lava lamp`": 5,
+  "`steamship`": 5,
+  "`sailboat`": 5,
+  "`sky`": 5,
+  "`igloo`": 5,
+  "`rain Steam`": 5,
+  "Volcano": 5,
+  "Steam": 5,
+  "Fire": 5,
+  "Smoke": 5,
+  "Lava": 5,
+  "`steam Engine`": 5,
+  "`steam Locomotive`": 5,
+  "`windmill`": 5,
+  "`cloud tea`": 5,
+  "`tea party`": 5,
+  "`iced tea`": 5,
+  "`robot`": 5,
+  "`vase`": 5,
+  "`ceramic`": 5,
+  "`penguin`": 5,
+  "`rainbow fire`": 5,
+  "`sleet`": 5,
+  "`thunderstorm`": 5,
+  "`ice tornado`": 5,
+  "`steam Tsunami`": 5,
+  "`ice cream`": 5,
+  "`scent`": 5,
+  "`incense`": 5,
+  "`cologne`": 5,
+  "`tea flower`": 5,
+  "`snowflake`": 5,
+  "`herbal Tea`": 5,
+  "`tea leaf`": 5,
+  "`coal tea`": 5,
+  "`tea tree`": 5,
+  "`plantain`": 5,
+  "`locomotive`": 5,
+  "`train wind`": 5,
+  "`subway`": 5,
+  "`lightning plant`": 5,
+  "`iceberg lettuce`": 5,
+  "`lightning bug`": 5,
+  "`puddle`": 5,
+  "`sand Castle`": 5,
+  "`hail`": 5,
+  "`wet`": 5,
+  "`fireball`": 5,
+  "`snowstorm`": 5,
+  "`phoenix`": 5,
+  "`sea salt`": 5,
+  "`green tea`": 5,
+  "`ashlatte`": 5,
+  "`coffee`": 5,
+  "`cappuccino`": 5,
+  "`latte art`": 5,
+  "`tea island`": 5,
+  "`potluck`": 5,
+  "`trident`": 5,
+  "`seashell`": 5,
+  "`abeach`": 5,
+  "`ash continent`": 5,
+  "`pondash`": 5,
+  "`whirlpool`": 5,
+  "`lily pad`": 5,
+  "`seawater`": 5,
+  "`amazon`": 5,
+  "`shipwreck`": 5,
+  "`islandstone`": 5,
+  "`island rock`": 5,
+  "`kelp`": 5,
+  "`sushi`": 5,
+  "`kite`": 5,
+  "`coral`": 5,
+  "`marshmallow`": 5,
+  "`fossil`": 5,
+  "`palm`": 5,
+  "`coal wave`": 5,
+  "`surfboard`": 5,
+  "`coconut tree`": 5,
+  "`coconut island`": 5,
+  "`coconut milk`": 5,
+  "`roast`": 5,
+  "`coconut water`": 5,
+  "`tulip`": 5,
+  "`coal island`": 5,
+  "`lotus flower`": 5,
+  "`coal Lake`": 5,
+  "`pollution`": 5,
+  "`dock`": 5,
+  "`lumberjack`": 5,
+  "`firewood`": 5,
+  "`log water`": 5,
+  "`sail`": 5,
+  "`sandcastle`": 5,
+  "`mud island`": 5,
+  "`planet`": 5,
+  "`norway`": 5,
+  "`fjordwind`": 5,
+  "`lagoon`": 5,
+  "`tropical island`": 5,
+  "`surfer`": 5,
+  "`beach bonfire`": 5,
+  "`campfire`": 5,
+  "Swamp": 5,
+  "`Lake`": 5,
+  "Acid Rain": 5,
+  "`acid`": 5,
+  "`sulfur`": 5,
+  "`Smoke`": 5,
+  "`polluted Lake`": 5,
+  "`polluted Earth`": 5,
+  "`ashtear`": 5,
+  "`cry`": 5,
+  "`tempest`": 5,
+  "`rain pot`": 5,
+  "`ark`": 5,
+  "`matcha tornado`": 5,
+  "`tea tsunami`": 5,
+  "`dust devil`": 5,
+  "`lava matcha`": 5,
+  "`rock tea`": 5,
+  "`lava brick`": 5,
+  "`ash statue`": 5,
+  "`idol`": 5,
+  "`olympic torch`": 5,
+  "`fountain`": 5,
+  "`colossus`": 5,
+  "`blade`": 5,
+  "`ash Tree`": 5,
+  "`ash forest`": 5,
+  "`cigarette`": 5,
+  "`ash rose`": 5,
+  "`ash pollen`": 5,
+  "`coke`": 5,
+  "`barbecue`": 5,
+  "`ink`": 5,
+  "`sandwich`": 5,
+  "`mud tea`": 5,
+  "`tea dust`": 5,
+  "`tea bag`": 5,
+  "`mortar`": 5,
+  "`dustman`": 5,
+  "`family`": 5,
+  "`witch`": 5,
+  "`swimmer`": 5,
+  "`sailor`": 5,
+  "`farmer`": 5,
+  "`ash glass`": 5,
+  "`mountain dew`": 5,
+  "`tea plantation`": 5,
+  "`ash mountain Tea`": 5,
+  "`mountain Tea`": 5,
+  "`cliff tea`": 5,
+  "`mountain golem`": 5,
+  "`pyramid`": 5,
+  "`mount rushmore`": 5,
+  "`cinderella`": 5,
+  "`hot Ash Tea`": 5,
+  "`hot cinder`": 5,
+  "`hot Tea`": 5,
+  "`hot Water`": 5,
+  "`ice Tea`": 5,
+  "`hot Air Balloon`": 5,
+  "`fireplace`": 5,
+  "`fish`": 5,
+  "`matcha Tea`": 5,
+  "`matcha typhoon`": 5,
+  "`tea golem`": 5,
+  "`teabrick`": 5,
+  "`chaityphoon`": 5,
+  "`ash Typhoon`": 5,
+  "`typhoon Tea`": 5,
+  "`pottyphoon`": 5,
+  "`soda`": 5,
+  "`potassium`": 5,
+  "`potash tea`": 5,
+  "`gunpowder`": 5,
+  "`saltpeter`": 5,
+  "`salt`": 5,
+  "`alchemy`": 5,
+  "`potion`": 5,
+  "`soup`": 5,
+  "`Phoenix`": 5,
+  "`clay Golem`": 5,
+  "`lava Golem`": 5,
+  "`steam Golem`": 5,
+  "`sand golem`": 5,
+  "`firewall`": 5,
+  "`adobe`": 5,
+  "`ashhouse`": 5,
+  "`town`": 5,
+  "`farm`": 5,
+  "`floodwater`": 5,
+  "`diamond rain`": 5,
+  "`coal water`": 5,
+  "`mushroom`": 5,
+  "`Niagara Falls`": 5,
+  "`rainbow mountain`": 5,
+  "`rainbow waterfall`": 5,
+  "`meteor`": 5,
+  "`life`": 5,
+  "`rose tornado`": 5,
+  "`tsunami flower`": 5,
+  "`coal tsunami`": 5,
+  "`woodchips`": 5,
+  "Coconut": 5,
+  "Tornado": 5,
+  "`fire Tornado`": 5,
+  "`duststorm`": 5,
+  "`ash avalanche`": 5,
+  "`snowpocalypse`": 5,
+  "`snowicane`": 5,
+  "`disaster`": 5,
+  "`natural disaster`": 5,
+  "`mudnado`": 5,
+  "`alligator`": 5,
+  "`flowerpot`": 5,
+  "`sandstone`": 5,
+  "`dusty statue`": 5,
+  "`sword`": 5,
+  "`flint`": 5,
+  "`flamethrower`": 5,
+  "`blood`": 5,
+  "`cutting wind`": 5,
+  "`axe`": 5,
+  "`black sand`": 5,
+  "`beach boulder`": 5,
+  "`glasshouse`": 5,
+  "`saguaro`": 5,
+  "`tumbleweed`": 5,
+  "`chair`": 5,
+  "`fairy`": 5,
+  "`crop`": 5,
+  "`allergy`": 5,
+  "`rose dust`": 5,
+  "`diamond dust`": 5,
+  "`corn`": 5,
+  "`mountain flower`": 5,
+  "`treehouse`": 5,
+  "`coal cliff`": 5,
+  "`mountain rose`": 5,
+  "`rose tree`": 5,
+  "`rose tea`": 5,
+  "`dandelion`": 5,
+  "`fruit`": 5,
+  "`pollinator`": 5,
+  "`coal pollen`": 5,
+  "`weed`": 5,
+  "`haze`": 5,
+  "`nectar`": 5,
+  "`honeycomb`": 5,
+  "`bee`": 5,
+  "`mead`": 5,
+  "`flower forest`": 5,
+  "`rosewood`": 5,
+  "`money tree`": 5,
+  "`carbon`": 5,
+  "`pencil`": 5,
+  "`lead`": 5,
+  "`monkey`": 5,
+  "`bog`": 5,
+  "`book`": 5,
+  "`money`": 5,
+  "`dusty Cliff`": 5,
+  "`snow globe`": 5,
+  "`kaleidoscope`": 5,
+  "`dragon`": 5,
+  "`telescope`": 5,
+  "`microscope`": 5,
+  "`magnifying glass`": 5,
+  "`drunk`": 5,
+  "`drink glass`": 5,
+  "`beer`": 5,
+  "`tequila`": 5,
+  "`dustbin`": 5,
+  "`windo`": 5,
+  "`hour glass`": 5,
+  "`bomb`": 5,
+  "`muddy beach`": 5,
+  "`monster`": 5,
+  "`mire`": 5,
+  "`grand canyon`": 5,
+  "`valley`": 5,
+  "Desert": 5,
+  "`rainbow bridge`": 5,
+  "`solar Plant`": 5,
+  "`flower Volcano`": 5,
+  "Ice Rink": 5,
+  "`ice Skating`": 5,
+  "`hot Ice Skating`": 5
+}

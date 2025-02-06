@@ -1,0 +1,4722 @@
+  // 0
+
+
+
+Gen 1 - 9 Elements -> 9 Total Elements
+Gen 2 - 21 Elements -> 30 Total Elements
+Gen 3 - 44 Elements -> 74 Total Elements
+Gen 4 - 121 Elements -> 195 Total Elements
+Gen 5 - 259 Elements -> 454 Total Elements
+
+
+
+1 - .lava: 
+.fire + .fire = .lava
+
+1 - .steam: 
+.fire + .water = .steam
+
+1 - .lake: 
+.water + .water = .lake
+
+1 - .plant: 
+.earth + .water = .plant
+
+1 - .mountain: 
+.earth + .earth = .mountain
+
+1 - .smoke: 
+.fire + .wind = .smoke
+
+1 - .rain: 
+.water + .wind = .rain
+
+1 - .dust: 
+.earth + .wind = .dust
+
+1 - Tornado: 
+.wind + .wind = Tornado
+
+2 - Lava: 
+.fire + .fire = .lava
+.lava + .lava = Lava
+
+2 - .magma: 
+.fire + .fire = .lava
+.fire + .lava = .magma
+
+2 - .stone: 
+.fire + .fire = .lava
+.lava + .water = .stone
+
+2 - .volcano: 
+.fire + .fire = .lava
+.earth + .lava = .volcano
+ ...
+.earth + .earth = .mountain
+.fire + .mountain = .volcano
+
+2 - .ash: 
+.fire + .fire = .lava
+.lava + .wind = .ash
+ ...
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+ ...
+.earth + .wind = .dust
+.dust + .fire = .ash
+
+2 - .cloud: 
+.fire + .water = .steam
+.steam + .wind = .cloud
+
+2 - .ocean: 
+.water + .water = .lake
+.lake + .lake = .ocean
+
+2 - .mud: 
+.water + .water = .lake
+.earth + .lake = .mud
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+
+2 - .wave: 
+.water + .water = .lake
+.lake + .wind = .wave
+
+2 - Tree: 
+.earth + .water = .plant
+.plant + .plant = Tree
+
+2 - .coal: 
+.earth + .water = .plant
+.fire + .plant = .coal
+
+2 - .swamp: 
+.earth + .water = .plant
+.plant + .water = .swamp
+
+2 - .tree: 
+.earth + .water = .plant
+.earth + .plant = .tree
+
+2 - Mountain: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+
+2 - .rainwater: 
+.water + .wind = .rain
+.rain + .water = .rainwater
+
+2 - .rainbow: 
+.water + .wind = .rain
+.rain + .wind = .rainbow
+
+2 - .soil: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+
+2 - .duststorm: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+
+2 - Hurricane: 
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+
+2 - Fire Tornado: 
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+
+2 - Tsunami: 
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+
+3 - .lava lake: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lake + .lava = .lava lake
+
+3 - Volcano: 
+.fire + .fire = .lava
+.wind + .wind = Tornado
+.lava + Tornado = Volcano
+ ...
+.fire + .fire = .lava
+.lava + .lava = Lava
+Lava + Lava = Volcano
+ ...
+.earth + .earth = .mountain
+.wind + .wind = Tornado
+.mountain + Tornado = Volcano
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.fire + Mountain = Volcano
+ ...
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.fire + Hurricane = Volcano
+ ...
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.earth + Fire Tornado = Volcano
+
+3 - Magma: 
+.fire + .fire = .lava
+.lava + .lava = Lava
+.fire + Lava = Magma
+
+3 - Steam: 
+.fire + .fire = .lava
+.lava + .lava = Lava
+.water + Lava = Steam
+
+3 - .obsidian: 
+.fire + .fire = .lava
+.fire + .lava = .magma
+.lava + .magma = .obsidian
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .stone = .obsidian
+
+3 - .boulder: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .stone = .boulder
+
+3 - .sand: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+
+3 - .ashfire: 
+.fire + .fire = .lava
+.lava + .wind = .ash
+.ash + .fire = .ashfire
+ ...
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .fire = .ashfire
+ ...
+.earth + .wind = .dust
+.dust + .fire = .ash
+.ash + .fire = .ashfire
+
+3 - .evaporation: 
+.water + .water = .lake
+.fire + .water = .steam
+.lake + .steam = .evaporation
+
+3 - .plantsteam: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+
+3 - .tornado: 
+.fire + .water = .steam
+.wind + .wind = Tornado
+.steam + Tornado = .tornado
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.swamp + .wind = .tornado
+
+3 - .fog: 
+.water + .water = .lake
+.fire + .wind = .smoke
+.lake + .smoke = .fog
+
+3 - .sea: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.lake + .ocean = .sea
+
+3 - .island: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+
+3 - .brick: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+
+3 - .muddy: 
+.water + .water = .lake
+.earth + .lake = .mud
+.mud + .water = .muddy
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.mud + .water = .muddy
+
+3 - .clay: 
+.water + .water = .lake
+.earth + .lake = .mud
+.earth + .mud = .clay
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.earth + .mud = .clay
+
+3 - .tsunami: 
+.water + .water = .lake
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+ ...
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.fire + Tsunami = .tsunami
+
+3 - .surf: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+
+3 - .windwave: 
+.water + .water = .lake
+.lake + .wind = .wave
+.wave + .wind = .windwave
+
+3 - .weed: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+
+3 - .flower: 
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .rain = .flower
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+
+3 - Forest: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.plant + Tree = Forest
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.tree + .tree = Forest
+
+3 - Smoke: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + Tree = Smoke
+
+3 - Plant: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.water + Tree = Plant
+
+3 - Leaf: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.wind + Tree = Leaf
+
+3 - .diamond: 
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+
+3 - .mushroom: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .swamp = .mushroom
+
+3 - .dragon: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.fire + .swamp = .dragon
+
+3 - .forest: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.plant + .tree = .forest
+
+3 - Mountain Range: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+
+3 - Windmill: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+
+3 - .acid rain: 
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+
+3 - Smog: 
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+
+3 - .ashes: 
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .smoke = .ashes
+
+3 - Flood: 
+.water + .wind = .rain
+.wind + .wind = Tornado
+.rain + Tornado = Flood
+
+3 - Dust Storm: 
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+
+3 - .ashdust: 
+.earth + .wind = .dust
+.dust + .fire = .ash
+.ash + .dust = .ashdust
+
+3 - .dirt: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+.dust + .soil = .dirt
+
+3 - Dirt: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+
+3 - .dustbowl: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.dust + .duststorm = .dustbowl
+
+3 - .duststormwind: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.duststorm + .wind = .duststormwind
+
+3 - Destruction: 
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+
+3 - Earthquake: 
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.earth + Tsunami = Earthquake
+
+4 - .steamstone: 
+.fire + .fire = .lava
+.fire + .water = .steam
+.lava + .water = .stone
+.steam + .stone = .steamstone
+
+4 - .ashsteam: 
+.fire + .fire = .lava
+.fire + .water = .steam
+.lava + .wind = .ash
+.ash + .steam = .ashsteam
+ ...
+.fire + .wind = .smoke
+.fire + .water = .steam
+.earth + .smoke = .ash
+.ash + .steam = .ashsteam
+ ...
+.earth + .wind = .dust
+.fire + .water = .steam
+.dust + .fire = .ash
+.ash + .steam = .ashsteam
+
+4 - Lava Lake: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lava + .lava = Lava
+.lake + Lava = Lava Lake
+
+4 - .beach: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lava + .water = .stone
+.lake + .stone = .beach
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .water = .beach
+ ...
+.water + .water = .lake
+.earth + .earth = .mountain
+.lake + .wind = .wave
+.mountain + .wave = .beach
+
+4 - .ashlake: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lava + .wind = .ash
+.ash + .lake = .ashlake
+ ...
+.water + .water = .lake
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .lake = .ashlake
+ ...
+.earth + .wind = .dust
+.water + .water = .lake
+.dust + .fire = .ash
+.ash + .lake = .ashlake
+
+4 - Lava Lamp: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.lava + .lava = Lava
+.plant + Lava = Lava Lamp
+
+4 - .rock: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.lava + .water = .stone
+.plant + .stone = .rock
+ ...
+.fire + .fire = .lava
+.earth + .earth = .mountain
+.lava + .water = .stone
+.mountain + .stone = .rock
+ ...
+.fire + .fire = .lava
+.water + .wind = .rain
+.lava + .water = .stone
+.rain + .stone = .rock
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .stone = .boulder
+.boulder + .stone = .rock
+
+4 - Stone: 
+.fire + .fire = .lava
+.water + .wind = .rain
+.lava + .lava = Lava
+.rain + Lava = Stone
+
+4 - .ashrain: 
+.fire + .fire = .lava
+.water + .wind = .rain
+.lava + .wind = .ash
+.ash + .rain = .ashrain
+ ...
+.water + .wind = .rain
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .rain = .ashrain
+ ...
+.earth + .wind = .dust
+.water + .wind = .rain
+.dust + .fire = .ash
+.ash + .rain = .ashrain
+
+4 - .rainbowlava: 
+.fire + .fire = .lava
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.lava + .rainbow = .rainbowlava
+
+4 - Cinder: 
+.earth + .wind = .dust
+.fire + .fire = .lava
+.lava + .lava = Lava
+.dust + Lava = Cinder
+
+4 - Eruption: 
+.fire + .fire = .lava
+.wind + .wind = Tornado
+.lava + Tornado = Volcano
+Tornado + Volcano = Eruption
+ ...
+.fire + .fire = .lava
+.earth + .lava = .volcano
+.wind + .wind = Tornado
+.volcano + Tornado = Eruption
+ ...
+.fire + .fire = .lava
+.lava + .lava = Lava
+Lava + Lava = Volcano
+Lava + Volcano = Eruption
+ ...
+.earth + .earth = .mountain
+.wind + .wind = Tornado
+.mountain + Tornado = Volcano
+Tornado + Volcano = Eruption
+ ...
+.earth + .earth = .mountain
+.fire + .mountain = .volcano
+.wind + .wind = Tornado
+.volcano + Tornado = Eruption
+ ...
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.fire + Hurricane = Volcano
+Tornado + Volcano = Eruption
+ ...
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.earth + Fire Tornado = Volcano
+Tornado + Volcano = Eruption
+
+4 - Ash: 
+.fire + .fire = .lava
+.wind + .wind = Tornado
+.lava + Tornado = Volcano
+.wind + Volcano = Ash
+ ...
+.fire + .fire = .lava
+.lava + .lava = Lava
+Lava + Lava = Volcano
+.wind + Volcano = Ash
+ ...
+.earth + .earth = .mountain
+.wind + .wind = Tornado
+.mountain + Tornado = Volcano
+.wind + Volcano = Ash
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.fire + Mountain = Volcano
+.wind + Volcano = Ash
+ ...
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.fire + Hurricane = Volcano
+.wind + Volcano = Ash
+ ...
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.earth + Fire Tornado = Volcano
+.wind + Volcano = Ash
+
+4 - Dust: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.wind + .wind = Tornado
+.stone + Tornado = Dust
+ ...
+.fire + .fire = .lava
+.wind + .wind = Tornado
+.lava + .wind = .ash
+.ash + Tornado = Dust
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.earth + .smoke = .ash
+.ash + Tornado = Dust
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + .fire = .ash
+.ash + Tornado = Dust
+ ...
+.earth + .wind = .dust
+.dust + .earth = .soil
+.wind + .wind = Tornado
+.soil + Tornado = Dust
+ ...
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.wind + Dirt = Dust
+
+4 - Obsidian: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .lava = Lava
+.stone + Lava = Obsidian
+
+4 - Rock: 
+.fire + .fire = .lava
+.earth + .lava = .volcano
+.lava + .lava = Lava
+.volcano + Lava = Rock
+
+4 - Cloud: 
+.fire + .fire = .lava
+.lava + .lava = Lava
+.water + Lava = Steam
+Steam + Steam = Cloud
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + Tree = Smoke
+Smoke + Smoke = Cloud
+
+4 - .ice: 
+.fire + .fire = .lava
+.fire + .lava = .magma
+.lava + .magma = .obsidian
+.obsidian + .water = .ice
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .stone = .obsidian
+.obsidian + .water = .ice
+ ...
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .water = .ice
+
+4 - .ashstone: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .wind = .ash
+.ash + .stone = .ashstone
+
+4 - .waterfall: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .stone = .boulder
+.boulder + .water = .waterfall
+ ...
+.earth + .earth = .mountain
+.water + .wind = .rain
+.rain + .water = .rainwater
+.mountain + .rainwater = .waterfall
+
+4 - .glass: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.lava + .sand = .glass
+
+4 - Sand: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .sand = Sand
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.dust + Tsunami = Sand
+
+4 - .desert: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.earth + .sand = .desert
+
+4 - .dune: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .wind = .dune
+
+4 - .ashwind: 
+.fire + .fire = .lava
+.lava + .wind = .ash
+.ash + .fire = .ashfire
+.ashfire + .wind = .ashwind
+ ...
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .fire = .ashfire
+.ashfire + .wind = .ashwind
+ ...
+.earth + .wind = .dust
+.dust + .fire = .ash
+.ash + .fire = .ashfire
+.ashfire + .wind = .ashwind
+
+4 - .steam tree: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .plant = Tree
+.steam + Tree = .steam tree
+
+4 - .plantsteamsteam: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.plantsteam + .steam = .plantsteamsteam
+
+4 - .plantsteamwater: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.plantsteam + .water = .plantsteamwater
+
+4 - .tea: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.earth + .plantsteam = .tea
+
+4 - .windplantsteam: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.plantsteam + .wind = .windplantsteam
+
+4 - .train: 
+.earth + .water = .plant
+.fire + .water = .steam
+.fire + .plant = .coal
+.coal + .steam = .train
+
+4 - .quicksand: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .water = .swamp
+.steam + .swamp = .quicksand
+
+4 - Storm: 
+.fire + .water = .steam
+.wind + .wind = Tornado
+.steam + .wind = .cloud
+.cloud + Tornado = Storm
+
+4 - Steam Tornado: 
+.fire + .water = .steam
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.steam + Fire Tornado = Steam Tornado
+
+4 - .coral: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .water = .plant
+.ocean + .plant = .coral
+
+4 - .marsh: 
+.water + .water = .lake
+.earth + .water = .plant
+.plant + .water = .swamp
+.lake + .swamp = .marsh
+ ...
+.water + .water = .lake
+.earth + .lake = .mud
+.lake + .mud = .swamp
+.lake + .swamp = .marsh
+ ...
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .water = .swamp
+.rain + .swamp = .marsh
+
+4 - .mudplant: 
+.water + .water = .lake
+.earth + .lake = .mud
+.earth + .water = .plant
+.mud + .plant = .mudplant
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.earth + .water = .plant
+.mud + .plant = .mudplant
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.earth + .swamp = .mud
+.mud + .plant = .mudplant
+
+4 - .seaweed: 
+.water + .water = .lake
+.earth + .water = .plant
+.lake + .wind = .wave
+.plant + .wave = .seaweed
+
+4 - Swamp: 
+.water + .water = .lake
+.earth + .water = .plant
+.plant + .plant = Tree
+.lake + Tree = Swamp
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.plant + Tree = Forest
+.water + Forest = Swamp
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.tree + .tree = Forest
+.water + Forest = Swamp
+
+4 - .coal lake: 
+.water + .water = .lake
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .lake = .coal lake
+
+4 - .log: 
+.water + .water = .lake
+.earth + .water = .plant
+.earth + .plant = .tree
+.lake + .tree = .log
+
+4 - .mist: 
+.water + .water = .lake
+.fire + .wind = .smoke
+.lake + .smoke = .fog
+.fog + .lake = .mist
+
+4 - .rainwave: 
+.water + .water = .lake
+.water + .wind = .rain
+.lake + .wind = .wave
+.rain + .wave = .rainwave
+
+4 - Mudslide: 
+.water + .water = .lake
+.earth + .lake = .mud
+.wind + .wind = Tornado
+.mud + Tornado = Mudslide
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.wind + .wind = Tornado
+.mud + Tornado = Mudslide
+
+4 - Ocean: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.lake + .ocean = .sea
+.sea + .sea = Ocean
+ ...
+.water + .wind = .rain
+.wind + .wind = Tornado
+.rain + Tornado = Flood
+Flood + Flood = Ocean
+
+4 - .seawater: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.lake + .ocean = .sea
+.sea + .water = .seawater
+
+4 - .storm: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.lake + .ocean = .sea
+.sea + .wind = .storm
+
+4 - Island: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .island = Island
+
+4 - .islandlake: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .lake = .islandlake
+
+4 - .atoll: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .ocean = .atoll
+
+4 - .continent: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.earth + .island = .continent
+
+4 - .tropical: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .wind = .tropical
+
+4 - .quagmire: 
+.water + .water = .lake
+.earth + .lake = .mud
+.lake + .mud = .swamp
+.mud + .swamp = .quagmire
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.earth + .swamp = .mud
+.mud + .swamp = .quagmire
+
+4 - Wall: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+
+4 - .house: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+
+4 - .pizza: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+
+4 - .muddier: 
+.water + .water = .lake
+.earth + .lake = .mud
+.mud + .water = .muddy
+.mud + .muddy = .muddier
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.mud + .water = .muddy
+.mud + .muddy = .muddier
+
+4 - .pottery: 
+.water + .water = .lake
+.earth + .lake = .mud
+.earth + .mud = .clay
+.clay + .earth = .pottery
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.earth + .mud = .clay
+.clay + .earth = .pottery
+
+4 - .flood: 
+.water + .water = .lake
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+.lake + .tsunami = .flood
+
+4 - .hurricane: 
+.water + .water = .lake
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+.tsunami + .wind = .hurricane
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.swamp + .wind = .tornado
+.swamp + .tornado = .hurricane
+ ...
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .wind = .hurricane
+ ...
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.fire + Tsunami = .tsunami
+.tsunami + .wind = .hurricane
+
+4 - .waves: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.lake + .surf = .waves
+
+4 - .surfboard: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.surf + .wave = .surfboard
+
+4 - .flame: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.fire + .surf = .flame
+ ...
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .rain = .flower
+.fire + .flower = .flame
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+.fire + .flower = .flame
+
+4 - .surfing: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.earth + .surf = .surfing
+
+4 - .firewave: 
+.water + .water = .lake
+.lake + .wind = .wave
+.wave + .wind = .windwave
+.fire + .windwave = .firewave
+
+4 - .pot: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.plant + .weed = .pot
+
+4 - .high: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.smoke + .weed = .high
+
+4 - .joint: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.fire + .weed = .joint
+
+4 - .smog: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.fire + .plant = .coal
+.coal + .smoke = .smog
+
+4 - .mosquito: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .water = .swamp
+.smoke + .swamp = .mosquito
+
+4 - Rainforest: 
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .plant = Tree
+.rain + Tree = Rainforest
+
+4 - .rose: 
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .rain = .flower
+.flower + .plant = .rose
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+.flower + .plant = .rose
+
+4 - .coalwash: 
+.earth + .water = .plant
+.water + .wind = .rain
+.fire + .plant = .coal
+.coal + .rain = .coalwash
+
+4 - .pollen: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+.dust + .flower = .pollen
+
+4 - .cactus: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.earth + .water = .plant
+.duststorm + .plant = .cactus
+
+4 - .soot: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .dust = .soot
+
+4 - .wood: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.earth + .plant = .tree
+.dust + .tree = .wood
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.plant + .tree = .forest
+.forest + .tree = .wood
+
+4 - Wood: 
+.earth + .water = .plant
+.wind + .wind = Tornado
+.plant + .plant = Tree
+Tornado + Tree = Wood
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.plant + Tree = Forest
+Forest + Tree = Wood
+
+4 - Palm Tree: 
+.earth + .water = .plant
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.plant + Hurricane = Palm Tree
+
+4 - Jungle: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.plant + Tree = Forest
+Forest + Forest = Jungle
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.tree + .tree = Forest
+Forest + Forest = Jungle
+
+4 - Charcoal: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + .plant = .coal
+.coal + Tree = Charcoal
+
+4 - Mangrove: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .plant = Tree
+.swamp + Tree = Mangrove
+
+4 - Fire: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + Tree = Smoke
+Smoke + Tree = Fire
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.smoke + Fire Tornado = Fire
+ ...
+.water + .wind = .rain
+.wind + .wind = Tornado
+.rain + Tornado = Flood
+.fire + Flood = Fire
+
+4 - .leaf: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.water + Tree = Plant
+.wind + Plant = .leaf
+
+4 - .graphite: 
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.coal + .diamond = .graphite
+
+4 - Diamond: 
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .diamond = Diamond
+
+4 - .charcoal: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.fire + .plant = .coal
+.coal + .tree = .charcoal
+
+4 - .coal swamp: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.fire + .plant = .coal
+.coal + .swamp = .coal swamp
+
+4 - .toadstool: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .swamp = .mushroom
+.mushroom + .swamp = .toadstool
+
+4 - .truffle: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .swamp = .mushroom
+.earth + .mushroom = .truffle
+
+4 - .alligator: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.earth + .plant = .tree
+.swamp + .tree = .alligator
+
+4 - .dragon egg: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.fire + .swamp = .dragon
+.dragon + .dragon = .dragon egg
+
+4 - .dragonfly: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.fire + .swamp = .dragon
+.dragon + .swamp = .dragonfly
+
+4 - .dragonfire: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.fire + .swamp = .dragon
+.dragon + .fire = .dragonfire
+
+4 - .sea dragon: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.fire + .swamp = .dragon
+.dragon + .water = .sea dragon
+
+4 - .jungle: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.plant + .tree = .forest
+.forest + .forest = .jungle
+
+4 - Woods: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.tree + .tree = Forest
+.tree + Forest = Woods
+
+4 - .ash.tree: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.fire + .tree = .ash
+.ash + .tree = .ash.tree
+
+4 - Waterfall: 
+.earth + .earth = .mountain
+.water + .wind = .rain
+.mountain + .mountain = Mountain
+.rain + Mountain = Waterfall
+
+4 - .avalanche: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.earth + .earth = .mountain
+.duststorm + .mountain = .avalanche
+
+4 - River: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.water + Mountain Range = River
+
+4 - Wind: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.mountain + Windmill = Wind
+
+4 - Wind Farm: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+Windmill + Windmill = Wind Farm
+
+4 - Energy: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.fire + Windmill = Energy
+
+4 - .acid Rain: 
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .acid rain = .acid Rain
+
+4 - .acid: 
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .rain = .acid
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.water + Smog = .acid
+
+4 - .acid Smoke: 
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .smoke = .acid Smoke
+
+4 - .rainbow smoke: 
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.fire + .wind = .smoke
+.rainbow + .smoke = .rainbow smoke
+
+4 - Pollution: 
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.smoke + Smog = Pollution
+
+4 - Smoke Tsunami: 
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.smoke + Tsunami = Smoke Tsunami
+
+4 - .rainbowdust: 
+.earth + .wind = .dust
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.dust + .rainbow = .rainbowdust
+
+4 - Mud: 
+.water + .wind = .rain
+.wind + .wind = Tornado
+.rain + Tornado = Flood
+.earth + Flood = Mud
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+.water + Dust Storm = Mud
+ ...
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.soil + Dirt = Mud
+
+4 - Rainbow: 
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.wind + .wind = Tornado
+.rainbow + Tornado = Rainbow
+
+4 - Sandstorm: 
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+.dust + Dust Storm = Sandstorm
+
+4 - Dust Devil: 
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+Dust Storm + Tornado = Dust Devil
+ ...
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.wind + .wind = Tornado
+.duststorm + Tornado = Dust Devil
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.dust + Fire Tornado = Dust Devil
+
+4 - Dust Bowl: 
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+.earth + Dust Storm = Dust Bowl
+
+4 - Soil: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.dust + Dirt = Soil
+
+4 - Grass: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+Dirt + Dirt = Grass
+
+4 - .oasis: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.dust + .duststorm = .dustbowl
+.dustbowl + .water = .oasis
+
+4 - Disaster: 
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+
+4 - Explosion: 
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+
+5 - .ashocean: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lake + .lake = .ocean
+.lava + .wind = .ash
+.ash + .ocean = .ashocean
+ ...
+.water + .water = .lake
+.lake + .lake = .ocean
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .ocean = .ashocean
+ ...
+.earth + .wind = .dust
+.water + .water = .lake
+.lake + .lake = .ocean
+.dust + .fire = .ash
+.ash + .ocean = .ashocean
+
+5 - Lava Wave: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lake + .wind = .wave
+.lava + .lava = Lava
+.wave + Lava = Lava Wave
+
+5 - .lava surf: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lake + .wind = .wave
+.water + .wave = .surf
+.lava + .surf = .lava surf
+
+5 - .lavawave: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lake + .wind = .wave
+.wave + .wind = .windwave
+.lava + .windwave = .lavawave
+
+5 - .lava beach: 
+.water + .water = .lake
+.fire + .fire = .lava
+.lava + .water = .stone
+.lake + .stone = .beach
+.beach + .lava = .lava beach
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .water = .beach
+.beach + .lava = .lava beach
+
+5 - Venus Fly Trap: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.lava + .lava = Lava
+.plant + Lava = Lava Lamp
+.plant + Lava Lamp = Venus Fly Trap
+
+5 - .ashplant: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.lava + .wind = .ash
+.ash + .fire = .ashfire
+.ashfire + .plant = .ashplant
+ ...
+.earth + .water = .plant
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .fire = .ashfire
+.ashfire + .plant = .ashplant
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .fire = .ash
+.ash + .fire = .ashfire
+.ashfire + .plant = .ashplant
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.fire + .tree = .ash
+.ash + .fire = .ashfire
+.ashfire + .plant = .ashplant
+
+5 - Ash Tree: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.plant + .plant = Tree
+.lava + .wind = .ash
+.ash + Tree = Ash Tree
+ ...
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .plant = Tree
+.earth + .smoke = .ash
+.ash + Tree = Ash Tree
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.plant + .plant = Tree
+.dust + .fire = .ash
+.ash + Tree = Ash Tree
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.plant + .plant = Tree
+.fire + .tree = .ash
+.ash + Tree = Ash Tree
+
+5 - .ashcoal: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.lava + .wind = .ash
+.fire + .plant = .coal
+.ash + .coal = .ashcoal
+ ...
+.earth + .water = .plant
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.fire + .plant = .coal
+.ash + .coal = .ashcoal
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .fire = .ash
+.fire + .plant = .coal
+.ash + .coal = .ashcoal
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.fire + .tree = .ash
+.fire + .plant = .coal
+.ash + .coal = .ashcoal
+
+5 - Cactus: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.plant + .plant = Tree
+.water + Tree = Plant
+.lava + Plant = Cactus
+ ...
+.earth + .water = .plant
+.wind + .wind = Tornado
+.fire + .plant = .coal
+.coal + Tornado = Dust Storm
+.plant + Dust Storm = Cactus
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+.plant + Dust Storm = Cactus
+
+5 - .molten: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .swamp = .mushroom
+.lava + .mushroom = .molten
+
+5 - Geothermal: 
+.fire + .fire = .lava
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.lava + Windmill = Geothermal
+ ...
+.earth + .earth = .mountain
+.fire + .mountain = .volcano
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.volcano + Windmill = Geothermal
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.fire + Mountain = Volcano
+.wind + Mountain = Windmill
+Volcano + Windmill = Geothermal
+
+5 - Statue: 
+.fire + .fire = .lava
+.water + .wind = .rain
+.lava + .lava = Lava
+.rain + Lava = Stone
+.rain + Stone = Statue
+
+5 - Boulder: 
+.fire + .fire = .lava
+.water + .wind = .rain
+.lava + .lava = Lava
+.rain + Lava = Stone
+Stone + Stone = Boulder
+
+5 - Oven: 
+.fire + .fire = .lava
+.water + .wind = .rain
+.lava + .lava = Lava
+.rain + Lava = Stone
+.fire + Stone = Oven
+
+5 - .rainbowstone: 
+.fire + .fire = .lava
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.lava + .water = .stone
+.rainbow + .stone = .rainbowstone
+
+5 - .ashwater: 
+.fire + .fire = .lava
+.water + .wind = .rain
+.rain + .water = .rainwater
+.lava + .wind = .ash
+.ash + .rainwater = .ashwater
+ ...
+.water + .wind = .rain
+.rain + .water = .rainwater
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .rainwater = .ashwater
+ ...
+.earth + .wind = .dust
+.water + .wind = .rain
+.rain + .water = .rainwater
+.dust + .fire = .ash
+.ash + .rainwater = .ashwater
+
+5 - Phoenix: 
+.fire + .fire = .lava
+.wind + .wind = Tornado
+.lava + Tornado = Volcano
+.wind + Volcano = Ash
+.fire + Ash = Phoenix
+ ...
+.fire + .fire = .lava
+.lava + .lava = Lava
+Lava + Lava = Volcano
+.wind + Volcano = Ash
+.fire + Ash = Phoenix
+ ...
+.earth + .earth = .mountain
+.wind + .wind = Tornado
+.mountain + Tornado = Volcano
+.wind + Volcano = Ash
+.fire + Ash = Phoenix
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.fire + Mountain = Volcano
+.wind + Volcano = Ash
+.fire + Ash = Phoenix
+ ...
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.fire + Hurricane = Volcano
+.wind + Volcano = Ash
+.fire + Ash = Phoenix
+ ...
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.earth + Fire Tornado = Volcano
+.wind + Volcano = Ash
+.fire + Ash = Phoenix
+
+5 - Planet: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.wind + .wind = Tornado
+.stone + Tornado = Dust
+.earth + Dust = Planet
+ ...
+.fire + .fire = .lava
+.wind + .wind = Tornado
+.lava + .wind = .ash
+.ash + Tornado = Dust
+.earth + Dust = Planet
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.fire + Windmill = Energy
+.earth + Energy = Planet
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.earth + .smoke = .ash
+.ash + Tornado = Dust
+.earth + Dust = Planet
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + .fire = .ash
+.ash + Tornado = Dust
+.earth + Dust = Planet
+ ...
+.earth + .wind = .dust
+.dust + .earth = .soil
+.wind + .wind = Tornado
+.soil + Tornado = Dust
+.earth + Dust = Planet
+ ...
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.wind + Dirt = Dust
+.earth + Dust = Planet
+
+5 - Meteor: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.stone + Hurricane = Meteor
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.stone + Fire Tornado = Meteor
+ ...
+.fire + .fire = .lava
+.earth + .lava = .volcano
+.lava + .lava = Lava
+.volcano + Lava = Rock
+.earth + Rock = Meteor
+ ...
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+.earth + Disaster = Meteor
+ ...
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+.earth + Explosion = Meteor
+
+5 - Ash Tornado: 
+.fire + .fire = .lava
+.wind + .wind = Tornado
+.lava + .wind = .ash
+.fire + Tornado = Fire Tornado
+.ash + Fire Tornado = Ash Tornado
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.earth + .smoke = .ash
+.fire + Tornado = Fire Tornado
+.ash + Fire Tornado = Ash Tornado
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + .fire = .ash
+.fire + Tornado = Fire Tornado
+.ash + Fire Tornado = Ash Tornado
+
+5 - .ashTsunami: 
+.fire + .fire = .lava
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.lava + .wind = .ash
+.ash + Tsunami = .ashTsunami
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.earth + .smoke = .ash
+.ash + Tsunami = .ashTsunami
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.dust + .fire = .ash
+.ash + Tsunami = .ashTsunami
+
+5 - Nether: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .lava = Lava
+.stone + Lava = Obsidian
+.fire + Obsidian = Nether
+
+5 - Glass: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .lava = Lava
+.stone + .water = .sand
+.sand + Lava = Glass
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .sand = Sand
+.lava + Sand = Glass
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.dust + Tsunami = Sand
+.fire + Sand = Glass
+
+5 - Steam Engine: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .lava = Lava
+.water + Lava = Steam
+.stone + Steam = Steam Engine
+
+5 - Rain: 
+.fire + .fire = .lava
+.lava + .lava = Lava
+.water + Lava = Steam
+Steam + Steam = Cloud
+Cloud + Cloud = Rain
+ ...
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .plant = Tree
+.steam + .wind = .cloud
+.cloud + Tree = Rain
+ ...
+.fire + .water = .steam
+.wind + .wind = Tornado
+.steam + .wind = .cloud
+.cloud + Tornado = Storm
+.cloud + Storm = Rain
+ ...
+.water + .water = .lake
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.lake + .smoke = .fog
+.fog + Tornado = Rain
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + Tree = Smoke
+Smoke + Smoke = Cloud
+Cloud + Cloud = Rain
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.mountain + Windmill = Wind
+.water + Wind = Rain
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.wind + Smog = .fog
+.fog + Tornado = Rain
+ ...
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.wind + .wind = Tornado
+.rainbow + Tornado = Rainbow
+.water + Rainbow = Rain
+
+5 - Ice: 
+.fire + .fire = .lava
+.fire + .lava = .magma
+.lava + .magma = .obsidian
+.obsidian + .water = .ice
+.ice + .ice = Ice
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .stone = .obsidian
+.obsidian + .water = .ice
+.ice + .ice = Ice
+ ...
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .diamond = Diamond
+.water + Diamond = Ice
+ ...
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .water = .ice
+.ice + .ice = Ice
+
+5 - .snow: 
+.fire + .fire = .lava
+.fire + .lava = .magma
+.lava + .magma = .obsidian
+.obsidian + .water = .ice
+.earth + .ice = .snow
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .stone = .obsidian
+.obsidian + .water = .ice
+.earth + .ice = .snow
+ ...
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .water = .ice
+.earth + .ice = .snow
+ ...
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.earth + .earth = .mountain
+.duststorm + .mountain = .avalanche
+.avalanche + .dust = .snow
+
+5 - .grass: 
+.fire + .fire = .lava
+.fire + .lava = .magma
+.lava + .magma = .obsidian
+.earth + .obsidian = .dirt
+.dirt + .obsidian = .grass
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .stone = .obsidian
+.earth + .obsidian = .dirt
+.dirt + .obsidian = .grass
+
+5 - .emerald: 
+.fire + .fire = .lava
+.fire + .lava = .magma
+.lava + .magma = .obsidian
+.obsidian + .wind = .diamond
+.diamond + .obsidian = .emerald
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .stone = .obsidian
+.obsidian + .wind = .diamond
+.diamond + .obsidian = .emerald
+
+5 - .wall: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.lava + .stone = .obsidian
+.obsidian + .stone = .brick
+.brick + .stone = .wall
+ ...
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.earth + .mud = .clay
+.brick + .clay = .wall
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.earth + .mud = .clay
+.brick + .clay = .wall
+
+5 - .lavafall: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .stone = .boulder
+.boulder + .water = .waterfall
+.lava + .waterfall = .lavafall
+
+5 - .sandstone: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .stone = .boulder
+.stone + .water = .sand
+.boulder + .sand = .sandstone
+
+5 - .time: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.lava + .sand = .glass
+.glass + .sand = .time
+
+5 - .mirror: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.lava + .sand = .glass
+.glass + .stone = .mirror
+
+5 - .magnifying glass: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.lava + .sand = .glass
+.fire + .glass = .magnifying glass
+
+5 - .wine: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.lava + .sand = .glass
+.glass + .water = .wine
+
+5 - .bottle: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.lava + .sand = .glass
+.earth + .glass = .bottle
+
+5 - Desert: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .sand = Sand
+Sand + Sand = Desert
+ ...
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .wind = .dune
+.dune + .dune = Desert
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+.earth + Dust Storm = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.dust + Tsunami = Sand
+Sand + Sand = Desert
+
+5 - Beach: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .sand = Sand
+.water + Sand = Beach
+ ...
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .island = Island
+.ocean + Island = Beach
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.dust + Tsunami = Sand
+.water + Sand = Beach
+
+5 - Dune: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .sand = Sand
+.wind + Sand = Dune
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.dust + Tsunami = Sand
+.wind + Sand = Dune
+
+5 - .castle: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.sand + .water = .beach
+.beach + .sand = .castle
+
+5 - .pyramid: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.earth + .sand = .desert
+.desert + .stone = .pyramid
+ ...
+.water + .water = .lake
+.earth + .earth = .mountain
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .mountain = .pyramid
+ ...
+.earth + .earth = .mountain
+.water + .wind = .rain
+.mountain + .rain = .mud
+.fire + .mud = .brick
+.brick + .mountain = .pyramid
+ ...
+.earth + .wind = .dust
+.earth + .earth = .mountain
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .mountain = .pyramid
+
+5 - .sandstorm: 
+.fire + .fire = .lava
+.lava + .water = .stone
+.stone + .water = .sand
+.earth + .sand = .desert
+.desert + .wind = .sandstorm
+
+5 - .ashstorm: 
+.fire + .fire = .lava
+.lava + .wind = .ash
+.ash + .fire = .ashfire
+.ashfire + .wind = .ashwind
+.ashfire + .ashwind = .ashstorm
+ ...
+.fire + .wind = .smoke
+.earth + .smoke = .ash
+.ash + .fire = .ashfire
+.ashfire + .wind = .ashwind
+.ashfire + .ashwind = .ashstorm
+ ...
+.earth + .wind = .dust
+.dust + .fire = .ash
+.ash + .fire = .ashfire
+.ashfire + .wind = .ashwind
+.ashfire + .ashwind = .ashstorm
+ ...
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.dust + .fire = .ash
+.ash + .fire = .ashfire
+.ashfire + .duststorm = .ashstorm
+
+5 - .islandsteam: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.fire + .water = .steam
+.earth + .ocean = .island
+.island + .steam = .islandsteam
+
+5 - .clean: 
+.water + .water = .lake
+.earth + .lake = .mud
+.mud + .water = .muddy
+.fire + .water = .steam
+.muddy + .steam = .clean
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.mud + .water = .muddy
+.fire + .water = .steam
+.muddy + .steam = .clean
+
+5 - .steam Tree: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .plant = Tree
+.steam + Tree = .steam tree
+.steam tree + .steam tree = .steam Tree
+
+5 - Tea: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .plant = Tree
+.wind + Tree = Leaf
+.steam + Leaf = Tea
+
+5 - .smokeplantsteam: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.plantsteam + .smoke = .smokeplantsteam
+
+5 - .rainforest: 
+.earth + .water = .plant
+.water + .wind = .rain
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.plantsteam + .rain = .rainforest
+ ...
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .wind = .tropical
+.earth + .tropical = .rainforest
+ ...
+.earth + .water = .plant
+.water + .wind = .rain
+.earth + .plant = .tree
+.plant + .tree = .forest
+.forest + .rain = .rainforest
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.plant + .tree = .forest
+.forest + .forest = .jungle
+.forest + .jungle = .rainforest
+
+5 - .plantsteamsteamsteam: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.plantsteam + .steam = .plantsteamsteam
+.plantsteam + .plantsteamsteam = .plantsteamsteamsteam
+
+5 - .plantsteamwaterwater: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.plantsteam + .water = .plantsteamwater
+.plantsteam + .plantsteamwater = .plantsteamwaterwater
+
+5 - .herb: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.earth + .plantsteam = .tea
+.plant + .tea = .herb
+
+5 - .teaplant: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.earth + .plantsteam = .tea
+.plantsteam + .tea = .teaplant
+
+5 - .team: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.earth + .plantsteam = .tea
+.steam + .tea = .team
+
+5 - .teapot: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.earth + .plantsteam = .tea
+.tea + .tea = .teapot
+
+5 - .typhoon: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .steam = .plantsteam
+.earth + .plantsteam = .tea
+.tea + .wind = .typhoon
+ ...
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .ocean = .atoll
+.atoll + .wind = .typhoon
+
+5 - .cloudsteam: 
+.earth + .water = .plant
+.fire + .water = .steam
+.steam + .wind = .cloud
+.plant + .steam = .plantsteam
+.cloud + .plantsteam = .cloudsteam
+
+5 - .locomotive: 
+.earth + .water = .plant
+.fire + .water = .steam
+.fire + .plant = .coal
+.coal + .steam = .train
+.coal + .train = .locomotive
+
+5 - .railway: 
+.earth + .water = .plant
+.fire + .water = .steam
+.fire + .plant = .coal
+.coal + .steam = .train
+.plant + .train = .railway
+
+5 - .subway: 
+.earth + .water = .plant
+.fire + .water = .steam
+.fire + .plant = .coal
+.coal + .steam = .train
+.train + .water = .subway
+
+5 - .trainwreck: 
+.earth + .water = .plant
+.fire + .water = .steam
+.fire + .plant = .coal
+.coal + .steam = .train
+.train + .wind = .trainwreck
+
+5 - .dragonsteam: 
+.earth + .water = .plant
+.fire + .water = .steam
+.plant + .water = .swamp
+.fire + .swamp = .dragon
+.dragon + .steam = .dragonsteam
+
+5 - .steamboat: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.fire + .water = .steam
+.dust + .duststorm = .dustbowl
+.dustbowl + .steam = .steamboat
+
+5 - .rainstorm: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.fire + .water = .steam
+.steam + .wind = .cloud
+.cloud + .duststorm = .rainstorm
+
+5 - .tornadovolcano: 
+.fire + .water = .steam
+.wind + .wind = Tornado
+.steam + Tornado = .tornado
+.fire + .tornado = .volcano
+.tornado + .volcano = .tornadovolcano
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.swamp + .wind = .tornado
+.fire + .tornado = .volcano
+.tornado + .volcano = .tornadovolcano
+
+5 - Tornami: 
+.fire + .water = .steam
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.steam + Tornado = .tornado
+.tornado + Tsunami = Tornami
+
+5 - Lightning: 
+.fire + .water = .steam
+.wind + .wind = Tornado
+.steam + .wind = .cloud
+.cloud + Tornado = Storm
+.fire + Storm = Lightning
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.fire + Windmill = Energy
+Energy + Energy = Lightning
+
+5 - .coral reef: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .water = .plant
+.ocean + .plant = .coral
+.coral + .coral = .coral reef
+
+5 - .reef: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .water = .plant
+.ocean + .plant = .coral
+.coral + .ocean = .reef
+ ...
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .ocean = .atoll
+.atoll + .atoll = .reef
+
+5 - Palm: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .water = .plant
+.plant + .plant = Tree
+.ocean + Tree = Palm
+ ...
+.water + .water = .lake
+.earth + .water = .plant
+.lake + .wind = .wave
+.plant + .plant = Tree
+.wave + Tree = Palm
+ ...
+.earth + .water = .plant
+.wind + .wind = Tornado
+.plant + .plant = Tree
+Tornado + Tornado = Hurricane
+Hurricane + Tree = Palm
+
+5 - .coast: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .ocean = .coast
+
+5 - .palm: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .water = .plant
+.earth + .plant = .tree
+.ocean + .tree = .palm
+
+5 - .swave: 
+.water + .water = .lake
+.earth + .water = .plant
+.plant + .water = .swamp
+.lake + .wind = .wave
+.swamp + .wave = .swave
+ ...
+.water + .water = .lake
+.earth + .lake = .mud
+.lake + .mud = .swamp
+.lake + .wind = .wave
+.swamp + .wave = .swave
+
+5 - .kelp: 
+.water + .water = .lake
+.earth + .water = .plant
+.lake + .wind = .wave
+.plant + .wave = .seaweed
+.lake + .seaweed = .kelp
+
+5 - Bog: 
+.water + .water = .lake
+.earth + .water = .plant
+.plant + .plant = Tree
+.lake + Tree = Swamp
+.lake + Swamp = Bog
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.plant + Tree = Forest
+.water + Forest = Swamp
+Swamp + Swamp = Bog
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.tree + .tree = Forest
+.water + Forest = Swamp
+Swamp + Swamp = Bog
+
+5 - Dragon: 
+.water + .water = .lake
+.earth + .water = .plant
+.plant + .plant = Tree
+.lake + Tree = Swamp
+.fire + Swamp = Dragon
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.plant + Tree = Forest
+.water + Forest = Swamp
+.fire + Swamp = Dragon
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .plant = Tree
+.swamp + Tree = Mangrove
+.fire + Mangrove = Dragon
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.tree + .tree = Forest
+.water + Forest = Swamp
+.fire + Swamp = Dragon
+
+5 - Fog: 
+.water + .water = .lake
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + Tree = Smoke
+.lake + Smoke = Fog
+ ...
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .plant = Tree
+.fire + Tree = Smoke
+.rain + Smoke = Fog
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .plant = Tree
+.fire + Tree = Smoke
+.swamp + Smoke = Fog
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + Tree = Smoke
+Smoke + Smoke = Cloud
+Cloud + Smoke = Fog
+
+5 - Lily: 
+.water + .water = .lake
+.earth + .water = .plant
+.plant + .plant = Tree
+.wind + Tree = Leaf
+.lake + Leaf = Lily
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .plant = Tree
+.water + Tree = Plant
+.swamp + Plant = Lily
+
+5 - .beaver: 
+.water + .water = .lake
+.earth + .water = .plant
+.earth + .plant = .tree
+.lake + .tree = .log
+.lake + .log = .beaver
+
+5 - .planet: 
+.water + .water = .lake
+.earth + .water = .plant
+.earth + .plant = .tree
+.lake + .tree = .log
+.earth + .log = .planet
+
+5 - .wind.log: 
+.water + .water = .lake
+.earth + .water = .plant
+.earth + .plant = .tree
+.lake + .tree = .log
+.log + .wind = .wind.log
+
+5 - .mudslide: 
+.water + .water = .lake
+.earth + .earth = .mountain
+.earth + .lake = .mud
+.mud + .water = .muddy
+.mountain + .muddy = .mudslide
+ ...
+.water + .water = .lake
+.earth + .lake = .mud
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+.mud + .tsunami = .mudslide
+ ...
+.earth + .earth = .mountain
+.water + .wind = .rain
+.mountain + .rain = .mud
+.mud + .water = .muddy
+.mountain + .muddy = .mudslide
+ ...
+.earth + .wind = .dust
+.earth + .earth = .mountain
+.dust + .water = .mud
+.mud + .water = .muddy
+.mountain + .muddy = .mudslide
+
+5 - .statue: 
+.water + .water = .lake
+.earth + .earth = .mountain
+.earth + .lake = .mud
+.earth + .mud = .clay
+.clay + .mountain = .statue
+ ...
+.earth + .earth = .mountain
+.water + .wind = .rain
+.mountain + .rain = .mud
+.earth + .mud = .clay
+.clay + .mountain = .statue
+ ...
+.earth + .wind = .dust
+.earth + .earth = .mountain
+.dust + .water = .mud
+.earth + .mud = .clay
+.clay + .mountain = .statue
+
+5 - Fjord: 
+.water + .water = .lake
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.lake + Mountain Range = Fjord
+
+5 - .smokewave: 
+.water + .water = .lake
+.fire + .wind = .smoke
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+.smoke + .tsunami = .smokewave
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.fire + Tsunami = .tsunami
+.smoke + .tsunami = .smokewave
+
+5 - .smurf: 
+.water + .water = .lake
+.fire + .wind = .smoke
+.lake + .wind = .wave
+.water + .wave = .surf
+.smoke + .surf = .smurf
+
+5 - .rainsea: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.water + .wind = .rain
+.lake + .ocean = .sea
+.rain + .sea = .rainsea
+
+5 - .rainbow wave: 
+.water + .water = .lake
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.lake + .wind = .wave
+.rainbow + .wave = .rainbow wave
+
+5 - Mudnado: 
+.water + .water = .lake
+.earth + .lake = .mud
+.wind + .wind = Tornado
+.mud + Tornado = Mudslide
+Mudslide + Tornado = Mudnado
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.wind + .wind = Tornado
+.mud + Tornado = Mudslide
+Mudslide + Tornado = Mudnado
+
+5 - House: 
+.water + .water = .lake
+.earth + .lake = .mud
+.wind + .wind = Tornado
+.fire + .mud = .brick
+.brick + Tornado = House
+ ...
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.brick + Wall = House
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.wind + .wind = Tornado
+.fire + .mud = .brick
+.brick + Tornado = House
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.brick + Wall = House
+
+5 - Pottery: 
+.water + .water = .lake
+.earth + .lake = .mud
+.wind + .wind = Tornado
+.earth + .mud = .clay
+.clay + Tornado = Pottery
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.wind + .wind = Tornado
+.earth + .mud = .clay
+.clay + Tornado = Pottery
+
+5 - Wave: 
+.water + .water = .lake
+.lake + .wind = .wave
+.wind + .wind = Tornado
+.water + .wave = .surf
+.surf + Tornado = Wave
+
+5 - .mudsea: 
+.water + .water = .lake
+.earth + .lake = .mud
+.lake + .lake = .ocean
+.lake + .ocean = .sea
+.mud + .sea = .mudsea
+
+5 - Sea: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.lake + .ocean = .sea
+.sea + .sea = Ocean
+.lake + Ocean = Sea
+ ...
+.water + .wind = .rain
+.wind + .wind = Tornado
+.rain + Tornado = Flood
+Flood + Flood = Ocean
+Ocean + Ocean = Sea
+
+5 - Poseidon: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.lake + .ocean = .sea
+.sea + .sea = Ocean
+.sea + Ocean = Poseidon
+
+5 - .salt: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.lake + .ocean = .sea
+.sea + .water = .seawater
+.seawater + .wind = .salt
+ ...
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .rain = .acid
+.acid + .water = .salt
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.water + Smog = .acid
+.acid + .water = .salt
+
+5 - .mud island: 
+.water + .water = .lake
+.earth + .lake = .mud
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .mud = .mud island
+ ...
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .lake = .island
+.island + .mud = .mud island
+
+5 - Hawaii: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .island = Island
+.lake + Island = Hawaii
+ ...
+.earth + .earth = .mountain
+.fire + .mountain = .volcano
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.volcano + Mountain Range = Hawaii
+
+5 - Continent: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .island = Island
+Island + Island = Continent
+
+5 - .islandlakeisland: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .lake = .islandlake
+.island + .islandlake = .islandlakeisland
+
+5 - .islandlakefire: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .lake = .islandlake
+.fire + .islandlake = .islandlakefire
+
+5 - .archipelago: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .ocean = .atoll
+.atoll + .island = .archipelago
+ ...
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.earth + .island = .continent
+.continent + .island = .archipelago
+
+5 - Pangaea: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.earth + .island = .continent
+.continent + .continent = Pangaea
+
+5 - .paradise: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .wind = .tropical
+.island + .tropical = .paradise
+
+5 - .lagoon: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .wind = .tropical
+.lake + .tropical = .lagoon
+
+5 - .tropicalocean: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .wind = .tropical
+.ocean + .tropical = .tropicalocean
+
+5 - .tropicalwater: 
+.water + .water = .lake
+.lake + .lake = .ocean
+.earth + .ocean = .island
+.island + .wind = .tropical
+.tropical + .water = .tropicalwater
+
+5 - .mudwave: 
+.water + .water = .lake
+.earth + .lake = .mud
+.lake + .wind = .wave
+.wave + .wind = .windwave
+.mud + .windwave = .mudwave
+
+5 - Dam: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.lake + Wall = Dam
+
+5 - Brick: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.mud + Wall = Brick
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.mud + Wall = Brick
+
+5 - Firewall: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.fire + Wall = Firewall
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.fire + Wall = Firewall
+
+5 - Fence: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.earth + Wall = Fence
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.earth + Wall = Fence
+
+5 - .home: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.brick + .house = .home
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.brick + .house = .home
+
+5 - .mansion: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.house + .house = .mansion
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.house + .house = .mansion
+
+5 - .pigsty: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.house + .mud = .pigsty
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.house + .mud = .pigsty
+
+5 - .firehouse: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.fire + .house = .firehouse
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.fire + .house = .firehouse
+
+5 - .lakehouse: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.house + .water = .lakehouse
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .mud = .house
+.house + .water = .lakehouse
+
+5 - .mudpizza: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+.mud + .pizza = .mudpizza
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+.mud + .pizza = .mudpizza
+
+5 - .pie: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+.fire + .pizza = .pie
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+.fire + .pizza = .pie
+
+5 - .pizza.water: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+.pizza + .water = .pizza.water
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+.pizza + .water = .pizza.water
+
+5 - .pizzazz: 
+.water + .water = .lake
+.earth + .lake = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+.pizza + .wind = .pizzazz
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .fire = .pizza
+.pizza + .wind = .pizzazz
+
+5 - .vase: 
+.water + .water = .lake
+.earth + .lake = .mud
+.earth + .mud = .clay
+.clay + .earth = .pottery
+.clay + .pottery = .vase
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.earth + .mud = .clay
+.clay + .earth = .pottery
+.clay + .pottery = .vase
+
+5 - .ceramic: 
+.water + .water = .lake
+.earth + .lake = .mud
+.earth + .mud = .clay
+.clay + .earth = .pottery
+.lake + .pottery = .ceramic
+
+5 - .fireflood: 
+.water + .water = .lake
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+.lake + .tsunami = .flood
+.fire + .flood = .fireflood
+
+5 - .ark: 
+.water + .water = .lake
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+.lake + .tsunami = .flood
+.earth + .flood = .ark
+
+5 - .earthquake: 
+.water + .water = .lake
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+.fire + .tsunami = .volcano
+.tsunami + .volcano = .earthquake
+ ...
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.fire + Tsunami = .tsunami
+.fire + .tsunami = .volcano
+.tsunami + .volcano = .earthquake
+
+5 - .disaster: 
+.water + .water = .lake
+.lake + .wind = .wave
+.lake + .wave = .tsunami
+.tsunami + .wind = .hurricane
+.hurricane + .tsunami = .disaster
+ ...
+.earth + .water = .plant
+.plant + .water = .swamp
+.swamp + .wind = .tornado
+.swamp + .tornado = .hurricane
+.earth + .hurricane = .disaster
+ ...
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .wind = .hurricane
+.earth + .hurricane = .disaster
+ ...
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.fire + Tsunami = .tsunami
+.tsunami + .wind = .hurricane
+.hurricane + .tsunami = .disaster
+
+5 - .surf.waves: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.lake + .surf = .waves
+.surf + .waves = .surf.waves
+
+5 - .surfer: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.surf + .wave = .surfboard
+.lake + .surfboard = .surfer
+
+5 - Surfer: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.surf + .wave = .surfboard
+.surf + .surfboard = Surfer
+
+5 - Surfboard: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.surf + .wave = .surfboard
+.surfboard + .surfboard = Surfboard
+
+5 - .fireball: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.fire + .surf = .flame
+.fire + .flame = .fireball
+ ...
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .rain = .flower
+.fire + .flower = .flame
+.fire + .flame = .fireball
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+.fire + .flower = .flame
+.fire + .flame = .fireball
+
+5 - .wakeboarding: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.earth + .surf = .surfing
+.lake + .surfing = .wakeboarding
+
+5 - .fire surfing: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.earth + .surf = .surfing
+.fire + .surfing = .fire surfing
+
+5 - .surfing.earth: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.earth + .surf = .surfing
+.earth + .surfing = .surfing.earth
+
+5 - .kitesurfing: 
+.water + .water = .lake
+.lake + .wind = .wave
+.water + .wave = .surf
+.earth + .surf = .surfing
+.surfing + .wind = .kitesurfing
+
+5 - .surfwindwave: 
+.water + .water = .lake
+.lake + .wind = .wave
+.wave + .wind = .windwave
+.water + .wave = .surf
+.surf + .windwave = .surfwindwave
+
+5 - .firewind: 
+.water + .water = .lake
+.lake + .wind = .wave
+.wave + .wind = .windwave
+.fire + .windwave = .firewave
+.firewave + .windwave = .firewind
+
+5 - Pot: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.plant + .plant = Tree
+.weed + Tree = Pot
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + Tree = Smoke
+.plant + Smoke = .weed
+.weed + Tree = Pot
+
+5 - Weed: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .plant = Tree
+.water + Tree = Plant
+.smoke + Plant = Weed
+
+5 - Cigarette: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .plant = Tree
+.wind + Tree = Leaf
+.smoke + Leaf = Cigarette
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.wind + Tree = Leaf
+.fire + Tree = Smoke
+Leaf + Smoke = Cigarette
+
+5 - .drug: 
+.fire + .fire = .lava
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.lava + .weed = .drug
+
+5 - .bong: 
+.earth + .earth = .mountain
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.mountain + .weed = .bong
+ ...
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.plant + .weed = .pot
+.pot + .smoke = .bong
+ ...
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.smoke + .weed = .high
+.high + .smoke = .bong
+ ...
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.fire + .weed = .joint
+.joint + .weed = .bong
+
+5 - .rainweed: 
+.earth + .water = .plant
+.water + .wind = .rain
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.rain + .weed = .rainweed
+
+5 - .dustweed: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.dust + .weed = .dustweed
+
+5 - .potwind: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.plant + .weed = .pot
+.pot + .wind = .potwind
+
+5 - .swampweed: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .water = .swamp
+.plant + .smoke = .weed
+.swamp + .weed = .swampweed
+
+5 - .bush: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.earth + .plant = .tree
+.plant + .smoke = .weed
+.tree + .weed = .bush
+
+5 - .highweed: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.smoke + .weed = .high
+.high + .weed = .highweed
+
+5 - .sky: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.smoke + .weed = .high
+.earth + .high = .sky
+
+5 - .kite: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.smoke + .weed = .high
+.high + .wind = .kite
+
+5 - .hash: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.earth + .smoke = .ash
+.ash + .weed = .hash
+
+5 - .marijuana: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.fire + .weed = .joint
+.joint + .plant = .marijuana
+
+5 - .jointwind: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .smoke = .weed
+.fire + .weed = .joint
+.joint + .wind = .jointwind
+
+5 - .pollution: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.fire + .plant = .coal
+.coal + .smoke = .smog
+.coal + .smog = .pollution
+
+5 - .shroom: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .water = .swamp
+.plant + .swamp = .mushroom
+.mushroom + .smoke = .shroom
+
+5 - .malaria: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .water = .swamp
+.smoke + .swamp = .mosquito
+.mosquito + .swamp = .malaria
+
+5 - .firefly: 
+.earth + .water = .plant
+.fire + .wind = .smoke
+.plant + .water = .swamp
+.smoke + .swamp = .mosquito
+.fire + .mosquito = .firefly
+
+5 - Flower: 
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .plant = Tree
+.plant + .rain = .flower
+.flower + Tree = Flower
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.plant + .plant = Tree
+.dust + .plant = .flower
+.flower + Tree = Flower
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.plant + Dirt = Flower
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.plant + .plant = Tree
+.water + Tree = Plant
+.dust + Plant = Flower
+ ...
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.earth + Dirt = Plant
+.dust + Plant = Flower
+ ...
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+.earth + Destruction = Plant
+Destruction + Plant = Flower
+
+5 - Amazon: 
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .plant = Tree
+.rain + Tree = Rainforest
+.plant + Rainforest = Amazon
+
+5 - Paper: 
+.earth + .water = .plant
+.water + .wind = .rain
+.rain + .water = .rainwater
+.plant + .plant = Tree
+.rainwater + Tree = Paper
+ ...
+.earth + .water = .plant
+.wind + .wind = Tornado
+.plant + .plant = Tree
+Tornado + Tree = Wood
+Tree + Wood = Paper
+ ...
+.earth + .water = .plant
+.plant + .plant = Tree
+.plant + Tree = Forest
+Forest + Tree = Wood
+Tree + Wood = Paper
+
+5 - Unicorn: 
+.earth + .water = .plant
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.plant + .plant = Tree
+.rainbow + Tree = Unicorn
+
+5 - .flowersteam: 
+.earth + .water = .plant
+.water + .wind = .rain
+.fire + .water = .steam
+.plant + .rain = .flower
+.flower + .steam = .flowersteam
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.fire + .water = .steam
+.dust + .plant = .flower
+.flower + .steam = .flowersteam
+
+5 - .lotus: 
+.water + .water = .lake
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .rain = .flower
+.flower + .lake = .lotus
+ ...
+.earth + .wind = .dust
+.water + .water = .lake
+.earth + .water = .plant
+.dust + .plant = .flower
+.flower + .lake = .lotus
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.earth + .water = .plant
+.dust + .plant = .flower
+.flower + .mud = .lotus
+
+5 - .incense: 
+.earth + .water = .plant
+.water + .wind = .rain
+.fire + .wind = .smoke
+.plant + .rain = .flower
+.flower + .smoke = .incense
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.fire + .wind = .smoke
+.dust + .plant = .flower
+.flower + .smoke = .incense
+
+5 - .fire rose: 
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .rain = .flower
+.flower + .plant = .rose
+.fire + .rose = .fire rose
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+.flower + .plant = .rose
+.fire + .rose = .fire rose
+
+5 - .rosewater: 
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .rain = .flower
+.flower + .plant = .rose
+.rose + .water = .rosewater
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+.flower + .plant = .rose
+.rose + .water = .rosewater
+
+5 - .flamer: 
+.earth + .water = .plant
+.water + .wind = .rain
+.plant + .rain = .flower
+.fire + .flower = .flame
+.flame + .flower = .flamer
+ ...
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+.fire + .flower = .flame
+.flame + .flower = .flamer
+
+5 - .coalwashplant: 
+.earth + .water = .plant
+.water + .wind = .rain
+.fire + .plant = .coal
+.coal + .rain = .coalwash
+.coalwash + .plant = .coalwashplant
+
+5 - .coal ash: 
+.earth + .water = .plant
+.water + .wind = .rain
+.rain + .water = .rainwater
+.fire + .plant = .coal
+.coal + .rainwater = .coal ash
+
+5 - .swampwater: 
+.earth + .water = .plant
+.water + .wind = .rain
+.rain + .water = .rainwater
+.plant + .water = .swamp
+.rainwater + .swamp = .swampwater
+
+5 - .rainbow swamp: 
+.earth + .water = .plant
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.plant + .water = .swamp
+.rainbow + .swamp = .rainbow swamp
+
+5 - .rainbow tree: 
+.earth + .water = .plant
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.earth + .plant = .tree
+.rainbow + .tree = .rainbow tree
+
+5 - .seed: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .plant = .flower
+.dust + .flower = .pollen
+.flower + .pollen = .seed
+
+5 - .ashflower: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.dust + .fire = .ash
+.dust + .plant = .flower
+.ash + .flower = .ashflower
+
+5 - .tumbleweed: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.earth + .water = .plant
+.duststorm + .plant = .cactus
+.cactus + .duststorm = .tumbleweed
+
+5 - Tumbleweed: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.earth + .water = .plant
+.plant + .plant = Tree
+.duststorm + Tree = Tumbleweed
+ ...
+.earth + .water = .plant
+.wind + .wind = Tornado
+.plant + .plant = Tree
+.wind + Tree = Leaf
+Leaf + Tornado = Tumbleweed
+
+5 - .spore: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .swamp = .mushroom
+.dust + .mushroom = .spore
+
+5 - .chair: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.earth + .plant = .tree
+.dust + .tree = .wood
+.dust + .wood = .chair
+
+5 - .paper: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.earth + .plant = .tree
+.dust + .tree = .wood
+.tree + .wood = .paper
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.plant + .tree = .forest
+.forest + .tree = .wood
+.tree + .wood = .paper
+
+5 - .windmill: 
+.earth + .wind = .dust
+.earth + .water = .plant
+.earth + .plant = .tree
+.dust + .tree = .wood
+.wind + .wood = .windmill
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.plant + .tree = .forest
+.forest + .tree = .wood
+.wind + .wood = .windmill
+
+5 - Coal Tsunami: 
+.earth + .water = .plant
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+.fire + .plant = .coal
+.coal + Tsunami = Coal Tsunami
+
+5 - Fungi: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.wind + .wind = Tornado
+.plant + .swamp = .mushroom
+.mushroom + Tornado = Fungi
+
+5 - Dragon Tornado: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.wind + .wind = Tornado
+.fire + .swamp = .dragon
+.dragon + Tornado = Dragon Tornado
+
+5 - Oasis: 
+.earth + .water = .plant
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.plant + Hurricane = Palm Tree
+.plant + Palm Tree = Oasis
+
+5 - Coconut: 
+.earth + .water = .plant
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.plant + Hurricane = Palm Tree
+Hurricane + Palm Tree = Coconut
+
+5 - Tarzan: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.plant + Tree = Forest
+Forest + Forest = Jungle
+.earth + Jungle = Tarzan
+ ...
+.earth + .water = .plant
+.earth + .plant = .tree
+.tree + .tree = Forest
+Forest + Forest = Jungle
+.earth + Jungle = Tarzan
+
+5 - Money Tree: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + Tree = Money Tree
+
+5 - Pencil: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + .plant = .coal
+.coal + Tree = Charcoal
+.plant + Charcoal = Pencil
+
+5 - Coal: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + .plant = .coal
+.coal + Tree = Charcoal
+Charcoal + Charcoal = Coal
+ ...
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .diamond = Diamond
+.fire + Diamond = Coal
+
+5 - Barbecue: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + .plant = .coal
+.coal + Tree = Charcoal
+.fire + Charcoal = Barbecue
+
+5 - Toadstool: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .plant = Tree
+.plant + .swamp = .mushroom
+.mushroom + Tree = Toadstool
+
+5 - Mangrove Forest: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .plant = Tree
+.swamp + Tree = Mangrove
+Mangrove + Mangrove = Mangrove Forest
+
+5 - .dragonfruit: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .plant = Tree
+.fire + .swamp = .dragon
+.dragon + Tree = .dragonfruit
+
+5 - Lily Pad: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .plant = Tree
+.wind + Tree = Leaf
+.swamp + Leaf = Lily Pad
+
+5 - Bong: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.fire + Tree = Smoke
+.plant + Smoke = .weed
+.weed + Smoke = Bong
+
+5 - Incense: 
+.earth + .water = .plant
+.plant + .plant = Tree
+.water + Tree = Plant
+.fire + Tree = Smoke
+Plant + Smoke = Incense
+
+5 - .lead: 
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.coal + .diamond = .graphite
+.graphite + .water = .lead
+
+5 - .money: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .tree = .money
+
+5 - Pressure: 
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .diamond = Diamond
+.coal + Diamond = Pressure
+
+5 - Diamond Block: 
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .diamond = Diamond
+Diamond + Diamond = Diamond Block
+
+5 - Ring: 
+.earth + .water = .plant
+.fire + .plant = .coal
+.coal + .coal = .diamond
+.diamond + .diamond = Diamond
+.earth + Diamond = Ring
+
+5 - .chocolate: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .swamp = .mushroom
+.earth + .mushroom = .truffle
+.fire + .truffle = .chocolate
+
+5 - .trufflewind: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.plant + .swamp = .mushroom
+.earth + .mushroom = .truffle
+.truffle + .wind = .trufflewind
+
+5 - .mudpie: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.earth + .swamp = .mud
+.plant + .swamp = .mushroom
+.mud + .mushroom = .mudpie
+
+5 - .fungus: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.swamp + .wind = .tornado
+.plant + .swamp = .mushroom
+.mushroom + .tornado = .fungus
+
+5 - .crocodile: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.earth + .plant = .tree
+.swamp + .tree = .alligator
+.alligator + .plant = .crocodile
+
+5 - .dragon tree: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.earth + .plant = .tree
+.fire + .swamp = .dragon
+.dragon + .tree = .dragon tree
+
+5 - .dragon Fruit: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.fire + .swamp = .dragon
+.dragon + .dragon = .dragon egg
+.dragon egg + .plant = .dragon Fruit
+
+5 - .butterfly: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.fire + .swamp = .dragon
+.dragon + .swamp = .dragonfly
+.dragonfly + .wind = .butterfly
+
+5 - .hurricado: 
+.earth + .water = .plant
+.plant + .water = .swamp
+.swamp + .wind = .tornado
+.swamp + .tornado = .hurricane
+.hurricane + .tornado = .hurricado
+
+5 - .ashforest: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.fire + .tree = .ash
+.plant + .tree = .forest
+.ash + .forest = .ashforest
+
+5 - Campfire: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.tree + .tree = Forest
+.tree + Forest = Woods
+.fire + Woods = Campfire
+
+5 - .ash.forest: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.fire + .tree = .ash
+.ash + .tree = .ash.tree
+.ash.tree + .ash.tree = .ash.forest
+
+5 - .ash.: 
+.earth + .water = .plant
+.earth + .plant = .tree
+.fire + .tree = .ash
+.ash + .tree = .ash.tree
+.ash.tree + .fire = .ash.
+
+5 - Niagara Falls: 
+.earth + .earth = .mountain
+.water + .wind = .rain
+.mountain + .mountain = Mountain
+.rain + Mountain = Waterfall
+.mountain + Waterfall = Niagara Falls
+
+5 - Water: 
+.earth + .earth = .mountain
+.water + .wind = .rain
+.mountain + .mountain = Mountain
+.rain + Mountain = Waterfall
+.rain + Waterfall = Water
+
+5 - .blizzard: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.earth + .earth = .mountain
+.duststorm + .mountain = .avalanche
+.avalanche + .duststorm = .blizzard
+
+5 - .landslide: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.earth + .earth = .mountain
+.duststorm + .mountain = .avalanche
+.avalanche + .earth = .landslide
+
+5 - Rocky Mountains: 
+.earth + .wind = .dust
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.dust + Mountain Range = Rocky Mountains
+
+5 - Electricity: 
+.earth + .wind = .dust
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.dust + Windmill = Electricity
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + .wind = Tornado
+.wind + Mountain = Windmill
+Tornado + Windmill = Electricity
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.mountain + Windmill = Wind
+Wind + Windmill = Electricity
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+Windmill + Windmill = Wind Farm
+.wind + Wind Farm = Electricity
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.fire + Windmill = Energy
+Energy + Windmill = Electricity
+
+5 - Avalanche: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.wind + .wind = Tornado
+Mountain Range + Tornado = Avalanche
+ ...
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.mountain + Windmill = Wind
+Mountain + Wind = Avalanche
+
+5 - Yellowstone: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.fire + Mountain = Volcano
+Mountain Range + Volcano = Yellowstone
+
+5 - Canyon: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.water + Mountain Range = River
+.mountain + River = Canyon
+
+5 - Lake: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.water + Mountain Range = River
+River + River = Lake
+
+5 - Sail: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+Mountain + Mountain = Mountain Range
+.water + Mountain Range = River
+.wind + River = Sail
+
+5 - Wind Turbine: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+Windmill + Windmill = Wind Farm
+Wind Farm + Wind Farm = Wind Turbine
+
+5 - Sun: 
+.earth + .earth = .mountain
+.mountain + .mountain = Mountain
+.wind + Mountain = Windmill
+.fire + Windmill = Energy
+.fire + Energy = Sun
+
+5 - .acid Steam: 
+.water + .wind = .rain
+.fire + .wind = .smoke
+.fire + .water = .steam
+.rain + .smoke = .acid rain
+.acid rain + .steam = .acid Steam
+
+5 - .acid Lake: 
+.water + .water = .lake
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .lake = .acid Lake
+
+5 - .acid Dust: 
+.earth + .wind = .dust
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .dust = .acid Dust
+
+5 - .acidsmoke: 
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .rain = .acid
+.acid + .smoke = .acidsmoke
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.water + Smog = .acid
+.acid + .smoke = .acidsmoke
+
+5 - .acid Cloud: 
+.water + .wind = .rain
+.fire + .wind = .smoke
+.rain + .smoke = .acid rain
+.acid rain + .smoke = .acid Smoke
+.acid rain + .acid Smoke = .acid Cloud
+
+5 - Acid Rain: 
+.fire + .fire = .lava
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.lava + Smog = Acid Rain
+ ...
+.water + .water = .lake
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.lake + Smog = Acid Rain
+ ...
+.water + .wind = .rain
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.rain + Smog = Acid Rain
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.smoke + Smog = Pollution
+Pollution + Smog = Acid Rain
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.smoke + Tornado = Smog
+Hurricane + Smog = Acid Rain
+ ...
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.water + Smog = .acid
+.acid + Tornado = Acid Rain
+
+5 - Toxic Waste: 
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.smoke + Smog = Pollution
+Pollution + Pollution = Toxic Waste
+
+5 - .polluted water: 
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.smoke + Smog = Pollution
+.water + Pollution = .polluted water
+
+5 - Global Warming: 
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.smoke + Tornado = Smog
+.smoke + Smog = Pollution
+.earth + Pollution = Global Warming
+
+5 - Smash: 
+.fire + .wind = .smoke
+.wind + .wind = Tornado
+.earth + .smoke = .ash
+.smoke + Tornado = Smog
+.ash + Smog = Smash
+
+5 - .farmland: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.water + .wind = .rain
+.dust + .duststorm = .dustbowl
+.dustbowl + .rain = .farmland
+
+5 - Puddle: 
+.water + .wind = .rain
+.wind + .wind = Tornado
+.rain + Tornado = Flood
+.earth + Flood = Mud
+.rain + Mud = Puddle
+
+5 - Clay: 
+.water + .wind = .rain
+.wind + .wind = Tornado
+.rain + Tornado = Flood
+.earth + Flood = Mud
+Flood + Mud = Clay
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+.water + Dust Storm = Mud
+Mud + Mud = Clay
+ ...
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.soil + Dirt = Mud
+Mud + Mud = Clay
+
+5 - Rainbow Fire Tornado: 
+.water + .wind = .rain
+.rain + .wind = .rainbow
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.rainbow + Fire Tornado = Rainbow Fire Tornado
+
+5 - Fire Devil: 
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+Dust Storm + Tornado = Dust Devil
+.fire + Dust Devil = Fire Devil
+ ...
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.wind + .wind = Tornado
+.duststorm + Tornado = Dust Devil
+.fire + Dust Devil = Fire Devil
+ ...
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.fire + Tornado = Fire Tornado
+.dust + Fire Tornado = Dust Devil
+.fire + Dust Devil = Fire Devil
+
+5 - Fire Storm: 
+.earth + .wind = .dust
+.wind + .wind = Tornado
+.dust + Tornado = Dust Storm
+.fire + Tornado = Fire Tornado
+Dust Storm + Fire Tornado = Fire Storm
+
+5 - .ashbrick: 
+.earth + .wind = .dust
+.dust + .water = .mud
+.dust + .fire = .ash
+.fire + .mud = .brick
+.ash + .brick = .ashbrick
+
+5 - Cave: 
+.earth + .wind = .dust
+.dust + .water = .mud
+.fire + .mud = .brick
+.brick + .brick = Wall
+.dust + Wall = Cave
+
+5 - Earth: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.dust + Dirt = Soil
+.dust + Soil = Earth
+ ...
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.wind + Dirt = Dust
+Dirt + Dust = Earth
+
+5 - Lawn: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+Dirt + Dirt = Grass
+.dust + Grass = Lawn
+
+5 - Firefly: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+Dirt + Dirt = Grass
+.fire + Grass = Firefly
+
+5 - Garden: 
+.earth + .wind = .dust
+.dust + .earth = .soil
+.soil + .soil = Dirt
+.earth + Dirt = Plant
+.soil + Plant = Garden
+
+5 - .mirage: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.dust + .duststorm = .dustbowl
+.dustbowl + .water = .oasis
+.duststorm + .oasis = .mirage
+
+5 - .dustbowlwind: 
+.earth + .wind = .dust
+.dust + .wind = .duststorm
+.duststorm + .wind = .duststormwind
+.dust + .duststorm = .dustbowl
+.dustbowl + .duststormwind = .dustbowlwind
+
+5 - Twister: 
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+Disaster + Tornado = Twister
+
+5 - Steamboat: 
+.wind + .wind = Tornado
+Tornado + Tornado = Hurricane
+.fire + Hurricane = Volcano
+.water + Volcano = Steam
+Hurricane + Steam = Steamboat
+
+5 - Chaos: 
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+
+5 - Fireworks: 
+.wind + .wind = Tornado
+.water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+.fire + Explosion = Fireworks
+
+5 - .muddiest: 
+.water + .water = .lake
+.earth + .lake = .mud
+.mud + .water = .muddy
+.mud + .muddy = .muddier
+.mud + .muddier = .muddiest
+ ...
+.earth + .wind = .dust
+.dust + .water = .mud
+.mud + .water = .muddy
+.mud + .muddy = .muddier
+.mud + .muddier = .muddiest
+
+
+
+{
+  ".lava": 1,
+  ".steam": 1,
+  ".lake": 1,
+  ".plant": 1,
+  ".mountain": 1,
+  ".smoke": 1,
+  ".rain": 1,
+  ".dust": 1,
+  "Tornado": 1,
+  "Lava": 2,
+  ".magma": 2,
+  ".stone": 2,
+  ".volcano": 2,
+  ".ash": 2,
+  ".cloud": 2,
+  ".ocean": 2,
+  ".mud": 2,
+  ".wave": 2,
+  "Tree": 2,
+  ".coal": 2,
+  ".swamp": 2,
+  ".tree": 2,
+  "Mountain": 2,
+  ".rainwater": 2,
+  ".rainbow": 2,
+  ".soil": 2,
+  ".duststorm": 2,
+  "Hurricane": 2,
+  "Fire Tornado": 2,
+  "Tsunami": 2,
+  ".lava lake": 3,
+  "Volcano": 3,
+  "Magma": 3,
+  "Steam": 3,
+  ".obsidian": 3,
+  ".boulder": 3,
+  ".sand": 3,
+  ".ashfire": 3,
+  ".evaporation": 3,
+  ".plantsteam": 3,
+  ".tornado": 3,
+  ".fog": 3,
+  ".sea": 3,
+  ".island": 3,
+  ".brick": 3,
+  ".muddy": 3,
+  ".clay": 3,
+  ".tsunami": 3,
+  ".surf": 3,
+  ".windwave": 3,
+  ".weed": 3,
+  ".flower": 3,
+  "Forest": 3,
+  "Smoke": 3,
+  "Plant": 3,
+  "Leaf": 3,
+  ".diamond": 3,
+  ".mushroom": 3,
+  ".dragon": 3,
+  ".forest": 3,
+  "Mountain Range": 3,
+  "Windmill": 3,
+  ".acid rain": 3,
+  "Smog": 3,
+  ".ashes": 3,
+  "Flood": 3,
+  "Dust Storm": 3,
+  ".ashdust": 3,
+  ".dirt": 3,
+  "Dirt": 3,
+  ".dustbowl": 3,
+  ".duststormwind": 3,
+  "Destruction": 3,
+  "Earthquake": 3,
+  ".steamstone": 4,
+  ".ashsteam": 4,
+  "Lava Lake": 4,
+  ".beach": 4,
+  ".ashlake": 4,
+  "Lava Lamp": 4,
+  ".rock": 4,
+  "Stone": 4,
+  ".ashrain": 4,
+  ".rainbowlava": 4,
+  "Cinder": 4,
+  "Eruption": 4,
+  "Ash": 4,
+  "Dust": 4,
+  "Obsidian": 4,
+  "Rock": 4,
+  "Cloud": 4,
+  ".ice": 4,
+  ".ashstone": 4,
+  ".waterfall": 4,
+  ".glass": 4,
+  "Sand": 4,
+  ".desert": 4,
+  ".dune": 4,
+  ".ashwind": 4,
+  ".steam tree": 4,
+  ".plantsteamsteam": 4,
+  ".plantsteamwater": 4,
+  ".tea": 4,
+  ".windplantsteam": 4,
+  ".train": 4,
+  ".quicksand": 4,
+  "Storm": 4,
+  "Steam Tornado": 4,
+  ".coral": 4,
+  ".marsh": 4,
+  ".mudplant": 4,
+  ".seaweed": 4,
+  "Swamp": 4,
+  ".coal lake": 4,
+  ".log": 4,
+  ".mist": 4,
+  ".rainwave": 4,
+  "Mudslide": 4,
+  "Ocean": 4,
+  ".seawater": 4,
+  ".storm": 4,
+  "Island": 4,
+  ".islandlake": 4,
+  ".atoll": 4,
+  ".continent": 4,
+  ".tropical": 4,
+  ".quagmire": 4,
+  "Wall": 4,
+  ".house": 4,
+  ".pizza": 4,
+  ".muddier": 4,
+  ".pottery": 4,
+  ".flood": 4,
+  ".hurricane": 4,
+  ".waves": 4,
+  ".surfboard": 4,
+  ".flame": 4,
+  ".surfing": 4,
+  ".firewave": 4,
+  ".pot": 4,
+  ".high": 4,
+  ".joint": 4,
+  ".smog": 4,
+  ".mosquito": 4,
+  "Rainforest": 4,
+  ".rose": 4,
+  ".coalwash": 4,
+  ".pollen": 4,
+  ".cactus": 4,
+  ".soot": 4,
+  ".wood": 4,
+  "Wood": 4,
+  "Palm Tree": 4,
+  "Jungle": 4,
+  "Charcoal": 4,
+  "Mangrove": 4,
+  "Fire": 4,
+  ".leaf": 4,
+  ".graphite": 4,
+  "Diamond": 4,
+  ".charcoal": 4,
+  ".coal swamp": 4,
+  ".toadstool": 4,
+  ".truffle": 4,
+  ".alligator": 4,
+  ".dragon egg": 4,
+  ".dragonfly": 4,
+  ".dragonfire": 4,
+  ".sea dragon": 4,
+  ".jungle": 4,
+  "Woods": 4,
+  ".ash.tree": 4,
+  "Waterfall": 4,
+  ".avalanche": 4,
+  "River": 4,
+  "Wind": 4,
+  "Wind Farm": 4,
+  "Energy": 4,
+  ".acid Rain": 4,
+  ".acid": 4,
+  ".acid Smoke": 4,
+  ".rainbow smoke": 4,
+  "Pollution": 4,
+  "Smoke Tsunami": 4,
+  ".rainbowdust": 4,
+  "Mud": 4,
+  "Rainbow": 4,
+  "Sandstorm": 4,
+  "Dust Devil": 4,
+  "Dust Bowl": 4,
+  "Soil": 4,
+  "Grass": 4,
+  ".oasis": 4,
+  "Disaster": 4,
+  "Explosion": 4,
+  ".ashocean": 5,
+  "Lava Wave": 5,
+  ".lava surf": 5,
+  ".lavawave": 5,
+  ".lava beach": 5,
+  "Venus Fly Trap": 5,
+  ".ashplant": 5,
+  "Ash Tree": 5,
+  ".ashcoal": 5,
+  "Cactus": 5,
+  ".molten": 5,
+  "Geothermal": 5,
+  "Statue": 5,
+  "Boulder": 5,
+  "Oven": 5,
+  ".rainbowstone": 5,
+  ".ashwater": 5,
+  "Phoenix": 5,
+  "Planet": 5,
+  "Meteor": 5,
+  "Ash Tornado": 5,
+  ".ashTsunami": 5,
+  "Nether": 5,
+  "Glass": 5,
+  "Steam Engine": 5,
+  "Rain": 5,
+  "Ice": 5,
+  ".snow": 5,
+  ".grass": 5,
+  ".emerald": 5,
+  ".wall": 5,
+  ".lavafall": 5,
+  ".sandstone": 5,
+  ".time": 5,
+  ".mirror": 5,
+  ".magnifying glass": 5,
+  ".wine": 5,
+  ".bottle": 5,
+  "Desert": 5,
+  "Beach": 5,
+  "Dune": 5,
+  ".castle": 5,
+  ".pyramid": 5,
+  ".sandstorm": 5,
+  ".ashstorm": 5,
+  ".islandsteam": 5,
+  ".clean": 5,
+  ".steam Tree": 5,
+  "Tea": 5,
+  ".smokeplantsteam": 5,
+  ".rainforest": 5,
+  ".plantsteamsteamsteam": 5,
+  ".plantsteamwaterwater": 5,
+  ".herb": 5,
+  ".teaplant": 5,
+  ".team": 5,
+  ".teapot": 5,
+  ".typhoon": 5,
+  ".cloudsteam": 5,
+  ".locomotive": 5,
+  ".railway": 5,
+  ".subway": 5,
+  ".trainwreck": 5,
+  ".dragonsteam": 5,
+  ".steamboat": 5,
+  ".rainstorm": 5,
+  ".tornadovolcano": 5,
+  "Tornami": 5,
+  "Lightning": 5,
+  ".coral reef": 5,
+  ".reef": 5,
+  "Palm": 5,
+  ".coast": 5,
+  ".palm": 5,
+  ".swave": 5,
+  ".kelp": 5,
+  "Bog": 5,
+  "Dragon": 5,
+  "Fog": 5,
+  "Lily": 5,
+  ".beaver": 5,
+  ".planet": 5,
+  ".wind.log": 5,
+  ".mudslide": 5,
+  ".statue": 5,
+  "Fjord": 5,
+  ".smokewave": 5,
+  ".smurf": 5,
+  ".rainsea": 5,
+  ".rainbow wave": 5,
+  "Mudnado": 5,
+  "House": 5,
+  "Pottery": 5,
+  "Wave": 5,
+  ".mudsea": 5,
+  "Sea": 5,
+  "Poseidon": 5,
+  ".salt": 5,
+  ".mud island": 5,
+  "Hawaii": 5,
+  "Continent": 5,
+  ".islandlakeisland": 5,
+  ".islandlakefire": 5,
+  ".archipelago": 5,
+  "Pangaea": 5,
+  ".paradise": 5,
+  ".lagoon": 5,
+  ".tropicalocean": 5,
+  ".tropicalwater": 5,
+  ".mudwave": 5,
+  "Dam": 5,
+  "Brick": 5,
+  "Firewall": 5,
+  "Fence": 5,
+  ".home": 5,
+  ".mansion": 5,
+  ".pigsty": 5,
+  ".firehouse": 5,
+  ".lakehouse": 5,
+  ".mudpizza": 5,
+  ".pie": 5,
+  ".pizza.water": 5,
+  ".pizzazz": 5,
+  ".vase": 5,
+  ".ceramic": 5,
+  ".fireflood": 5,
+  ".ark": 5,
+  ".earthquake": 5,
+  ".disaster": 5,
+  ".surf.waves": 5,
+  ".surfer": 5,
+  "Surfer": 5,
+  "Surfboard": 5,
+  ".fireball": 5,
+  ".wakeboarding": 5,
+  ".fire surfing": 5,
+  ".surfing.earth": 5,
+  ".kitesurfing": 5,
+  ".surfwindwave": 5,
+  ".firewind": 5,
+  "Pot": 5,
+  "Weed": 5,
+  "Cigarette": 5,
+  ".drug": 5,
+  ".bong": 5,
+  ".rainweed": 5,
+  ".dustweed": 5,
+  ".potwind": 5,
+  ".swampweed": 5,
+  ".bush": 5,
+  ".highweed": 5,
+  ".sky": 5,
+  ".kite": 5,
+  ".hash": 5,
+  ".marijuana": 5,
+  ".jointwind": 5,
+  ".pollution": 5,
+  ".shroom": 5,
+  ".malaria": 5,
+  ".firefly": 5,
+  "Flower": 5,
+  "Amazon": 5,
+  "Paper": 5,
+  "Unicorn": 5,
+  ".flowersteam": 5,
+  ".lotus": 5,
+  ".incense": 5,
+  ".fire rose": 5,
+  ".rosewater": 5,
+  ".flamer": 5,
+  ".coalwashplant": 5,
+  ".coal ash": 5,
+  ".swampwater": 5,
+  ".rainbow swamp": 5,
+  ".rainbow tree": 5,
+  ".seed": 5,
+  ".ashflower": 5,
+  ".tumbleweed": 5,
+  "Tumbleweed": 5,
+  ".spore": 5,
+  ".chair": 5,
+  ".paper": 5,
+  ".windmill": 5,
+  "Coal Tsunami": 5,
+  "Fungi": 5,
+  "Dragon Tornado": 5,
+  "Oasis": 5,
+  "Coconut": 5,
+  "Tarzan": 5,
+  "Money Tree": 5,
+  "Pencil": 5,
+  "Coal": 5,
+  "Barbecue": 5,
+  "Toadstool": 5,
+  "Mangrove Forest": 5,
+  ".dragonfruit": 5,
+  "Lily Pad": 5,
+  "Bong": 5,
+  "Incense": 5,
+  ".lead": 5,
+  ".money": 5,
+  "Pressure": 5,
+  "Diamond Block": 5,
+  "Ring": 5,
+  ".chocolate": 5,
+  ".trufflewind": 5,
+  ".mudpie": 5,
+  ".fungus": 5,
+  ".crocodile": 5,
+  ".dragon tree": 5,
+  ".dragon Fruit": 5,
+  ".butterfly": 5,
+  ".hurricado": 5,
+  ".ashforest": 5,
+  "Campfire": 5,
+  ".ash.forest": 5,
+  ".ash.": 5,
+  "Niagara Falls": 5,
+  "Water": 5,
+  ".blizzard": 5,
+  ".landslide": 5,
+  "Rocky Mountains": 5,
+  "Electricity": 5,
+  "Avalanche": 5,
+  "Yellowstone": 5,
+  "Canyon": 5,
+  "Lake": 5,
+  "Sail": 5,
+  "Wind Turbine": 5,
+  "Sun": 5,
+  ".acid Steam": 5,
+  ".acid Lake": 5,
+  ".acid Dust": 5,
+  ".acidsmoke": 5,
+  ".acid Cloud": 5,
+  "Acid Rain": 5,
+  "Toxic Waste": 5,
+  ".polluted water": 5,
+  "Global Warming": 5,
+  "Smash": 5,
+  ".farmland": 5,
+  "Puddle": 5,
+  "Clay": 5,
+  "Rainbow Fire Tornado": 5,
+  "Fire Devil": 5,
+  "Fire Storm": 5,
+  ".ashbrick": 5,
+  "Cave": 5,
+  "Earth": 5,
+  "Lawn": 5,
+  "Firefly": 5,
+  "Garden": 5,
+  ".mirage": 5,
+  ".dustbowlwind": 5,
+  "Twister": 5,
+  "Steamboat": 5,
+  "Chaos": 5,
+  "Fireworks": 5,
+  ".muddiest": 5
+}

@@ -1,0 +1,1277 @@
+  // 0
+
+
+
+Gen 1 - 5 Elements -> 5 Total Elements
+Gen 2 - 7 Elements -> 12 Total Elements
+Gen 3 - 15 Elements -> 27 Total Elements
+Gen 4 - 24 Elements -> 51 Total Elements
+Gen 5 - 31 Elements -> 82 Total Elements
+Gen 6 - 59 Elements -> 141 Total Elements
+
+
+
+1 - ~steam: 
+~fire + ~water = ~steam
+
+1 - ~lake: 
+~water + ~water = ~lake
+
+1 - ~plant: 
+~earth + ~water = ~plant
+
+1 - ~smoke: 
+~fire + ~wind = ~smoke
+
+1 - ~ice: 
+~water + ~wind = ~ice
+
+2 - ~cloud: 
+~fire + ~water = ~steam
+~steam + ~wind = ~cloud
+
+2 - ~land: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+
+2 - ~wave: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+
+2 - ~tree: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+
+2 - ~ash: 
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+
+2 - ~dust: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+
+2 - ~snow: 
+~water + ~wind = ~ice
+~ice + ~wind = ~snow
+
+3 - ~rain: 
+~fire + ~water = ~steam
+~steam + ~wind = ~cloud
+~cloud + ~fire = ~rain
+
+3 - ~swamp: 
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~lake + ~plant = ~swamp
+
+3 - ~fog: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~lake + ~smoke = ~fog
+ ...
+~water + ~wind = ~ice
+~fire + ~wind = ~smoke
+~ice + ~smoke = ~fog
+
+3 - ~lava: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+
+3 - ~sea: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~water = ~sea
+
+3 - ~dirt: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~earth + ~land = ~dirt
+ ...
+~water + ~wind = ~ice
+~ice + ~wind = ~snow
+~earth + ~snow = ~dirt
+
+3 - ~ocean: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~water + ~wave = ~ocean
+
+3 - ~sand: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+ ...
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+
+3 - ~storm: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~wave + ~wind = ~storm
+
+3 - ~air: 
+~earth + ~water = ~plant
+~fire + ~wind = ~smoke
+~plant + ~smoke = ~air
+
+3 - ~forest: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~plant + ~tree = ~forest
+
+3 - ~leaf: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~tree + ~wind = ~leaf
+
+3 - ~salt: 
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+
+3 - ~dust storm: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+
+3 - ~blizzard: 
+~water + ~wind = ~ice
+~ice + ~wind = ~snow
+~snow + ~wind = ~blizzard
+
+4 - ~rainbow: 
+~fire + ~water = ~steam
+~steam + ~wind = ~cloud
+~cloud + ~fire = ~rain
+~cloud + ~rain = ~rainbow
+
+4 - ~marsh: 
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~lake + ~plant = ~swamp
+~lake + ~swamp = ~marsh
+
+4 - ~mud: 
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~lake + ~plant = ~swamp
+~earth + ~swamp = ~mud
+
+4 - ~mist: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~lake + ~smoke = ~fog
+~fog + ~lake = ~mist
+
+4 - ~smokewave: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~lake + ~wind = ~wave
+~smoke + ~wave = ~smokewave
+
+4 - ~icewave: 
+~water + ~wind = ~ice
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~ice + ~wave = ~icewave
+
+4 - ~stone: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~lake + ~lava = ~stone
+
+4 - ~volcano: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~land + ~lava = ~volcano
+
+4 - ~river: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~water = ~sea
+~lake + ~sea = ~river
+ ...
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~water + ~wave = ~ocean
+~lake + ~ocean = ~river
+
+4 - ~soil: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~earth + ~land = ~dirt
+~dirt + ~earth = ~soil
+ ...
+~water + ~wind = ~ice
+~ice + ~wind = ~snow
+~earth + ~snow = ~dirt
+~dirt + ~earth = ~soil
+
+4 - ~dustland: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~wind = ~dust
+~dust + ~land = ~dustland
+
+4 - ~poseidon: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~water + ~wave = ~ocean
+~fire + ~ocean = ~poseidon
+
+4 - ~beach: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~lake + ~sand = ~beach
+
+4 - ~desert: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~sand + ~sand = ~desert
+ ...
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~sand + ~sand = ~desert
+
+4 - ~glass: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~fire + ~sand = ~glass
+ ...
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~fire + ~sand = ~glass
+
+4 - ~tsunami: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~wave + ~wind = ~storm
+~storm + ~wave = ~tsunami
+
+4 - ~wood: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~plant + ~tree = ~forest
+~forest + ~tree = ~wood
+
+4 - ~apple: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~tree + ~wind = ~leaf
+~leaf + ~tree = ~apple
+
+4 - ~ashdust: 
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~smoke + ~wind = ~dust
+~ash + ~dust = ~ashdust
+
+4 - ~saltwater: 
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+
+4 - Sand: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+
+4 - ~dust Storm: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~dust storm = ~dust Storm
+
+4 - ~smog: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~smoke = ~smog
+
+4 - ~sand Storm: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~wind = ~sand Storm
+
+5 - ~sky: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~water = ~steam
+~steam + ~wind = ~cloud
+~cloud + ~land = ~sky
+
+5 - Rainbow: 
+~fire + ~water = ~steam
+~steam + ~wind = ~cloud
+~cloud + ~fire = ~rain
+~cloud + ~rain = ~rainbow
+~rainbow + ~rainbow = Rainbow
+
+5 - ~wetland: 
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~lake + ~plant = ~swamp
+~lake + ~swamp = ~marsh
+~marsh + ~swamp = ~wetland
+
+5 - ~stump: 
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~lake + ~plant = ~swamp
+~earth + ~plant = ~tree
+~swamp + ~tree = ~stump
+ ...
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~plant + ~tree = ~forest
+~forest + ~water = ~swamp
+~swamp + ~tree = ~stump
+
+5 - ~fresh water: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~lake + ~salt = ~fresh water
+
+5 - ~magma: 
+~water + ~wind = ~ice
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~ice + ~lava = ~magma
+
+5 - ~iceberg: 
+~water + ~wind = ~ice
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~ice + ~wave = ~icewave
+~icewave + ~lake = ~iceberg
+ ...
+~water + ~wind = ~ice
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~water + ~wave = ~ocean
+~ice + ~ocean = ~iceberg
+
+5 - ~lava wave: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~lake + ~wind = ~wave
+~lava + ~wave = ~lava wave
+
+5 - ~boulder: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~lake + ~lava = ~stone
+~stone + ~stone = ~boulder
+
+5 - ~island: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~land + ~lava = ~volcano
+~lake + ~volcano = ~island
+
+5 - ~calm: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~water = ~sea
+~sea + ~wind = ~storm
+~sea + ~storm = ~calm
+
+5 - ~duststorm: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~wind = ~dust
+~dust + ~land = ~dustland
+~dustland + ~wind = ~duststorm
+
+5 - ~atlantis: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~water + ~wave = ~ocean
+~fire + ~ocean = ~poseidon
+~lake + ~poseidon = ~atlantis
+
+5 - ~king: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~water + ~wave = ~ocean
+~fire + ~ocean = ~poseidon
+~ocean + ~poseidon = ~king
+
+5 - ~oasis: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~sand + ~sand = ~desert
+~desert + ~lake = ~oasis
+ ...
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~sand + ~sand = ~desert
+~desert + ~sand = ~oasis
+
+5 - ~wine: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~fire + ~sand = ~glass
+~glass + ~water = ~wine
+ ...
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~fire + ~sand = ~glass
+~glass + ~water = ~wine
+
+5 - ~earthquake: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~wave + ~wind = ~storm
+~storm + ~wave = ~tsunami
+~earth + ~tsunami = ~earthquake
+
+5 - ~hurricane: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~wave + ~wind = ~storm
+~storm + ~wave = ~tsunami
+~tsunami + ~wind = ~hurricane
+
+5 - ~lumber: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~plant + ~tree = ~forest
+~forest + ~tree = ~wood
+~tree + ~wood = ~lumber
+
+5 - ~cider: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~tree + ~wind = ~leaf
+~leaf + ~tree = ~apple
+~apple + ~fire = ~cider
+
+5 - ~juice: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~tree + ~wind = ~leaf
+~leaf + ~tree = ~apple
+~apple + ~water = ~juice
+
+5 - ~mirage: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~sand + ~sand = ~desert
+~desert + ~smoke = ~mirage
+
+5 - ~mirror: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~fire + ~sand = ~glass
+~glass + ~smoke = ~mirror
+
+5 - ~sailboat: 
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+~saltwater + ~wind = ~sailboat
+
+5 - ~acid Rain: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~smoke = ~smog
+~dust storm + ~smog = ~acid Rain
+
+5 - Dust Storm: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~wind = ~sand Storm
+~dust + ~sand Storm = Dust Storm
+
+5 - Dust: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~wind = ~sand Storm
+~earth + ~sand Storm = Dust
+
+5 - Desert: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + Sand = Desert
+
+5 - Glass: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~dust = Glass
+
+5 - Sandstorm: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~dust storm = Sandstorm
+
+5 - Dune: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~wind = Dune
+
+6 - ~flower: 
+~earth + ~water = ~plant
+~fire + ~water = ~steam
+~steam + ~wind = ~cloud
+~cloud + ~fire = ~rain
+~cloud + ~rain = ~rainbow
+~plant + ~rainbow = ~flower
+
+6 - ~rainbow smoke: 
+~fire + ~wind = ~smoke
+~fire + ~water = ~steam
+~steam + ~wind = ~cloud
+~cloud + ~fire = ~rain
+~cloud + ~rain = ~rainbow
+~rainbow + ~smoke = ~rainbow smoke
+
+6 - ~mistwave: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~lake + ~wind = ~wave
+~lake + ~smoke = ~fog
+~fog + ~lake = ~mist
+~mist + ~wave = ~mistwave
+
+6 - ~freshwater: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+~lake + ~saltwater = ~freshwater
+ ...
+~water + ~wind = ~ice
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+~ice + ~saltwater = ~freshwater
+
+6 - ~clay: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~earth + ~water = ~plant
+~lake + ~plant = ~swamp
+~earth + ~swamp = ~mud
+~land + ~mud = ~clay
+
+6 - ~sandwave: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~smoke + ~wave = ~smokewave
+~sand + ~smokewave = ~sandwave
+
+6 - ~dustwave: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~lake + ~wind = ~wave
+~land + ~wind = ~dust
+~dust + ~land = ~dustland
+~dustland + ~wave = ~dustwave
+ ...
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~lake + ~wind = ~wave
+~smoke + ~wind = ~dust
+~smoke + ~wave = ~smokewave
+~dust + ~smokewave = ~dustwave
+
+6 - ~moss: 
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~fire + ~wind = ~smoke
+~lake + ~smoke = ~fog
+~fog + ~lake = ~mist
+~mist + ~plant = ~moss
+ ...
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~fire + ~wind = ~smoke
+~lake + ~plant = ~swamp
+~smoke + ~swamp = ~mist
+~mist + ~plant = ~moss
+
+6 - ~airwave: 
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~fire + ~wind = ~smoke
+~lake + ~wind = ~wave
+~plant + ~smoke = ~air
+~air + ~wave = ~airwave
+
+6 - ~fogwave: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~lake + ~wind = ~wave
+~lake + ~smoke = ~fog
+~smoke + ~wave = ~smokewave
+~fog + ~smokewave = ~fogwave
+
+6 - ~desertland: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~wind = ~dust
+~dust + ~land = ~dustland
+~dustland + ~lake = ~desert
+~desert + ~dustland = ~desertland
+
+6 - ~sun: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~wave + ~wind = ~storm
+~lake + ~sand = ~beach
+~beach + ~storm = ~sun
+
+6 - ~flood: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~water = ~sea
+~sea + ~wind = ~storm
+~lake + ~sea = ~river
+~river + ~storm = ~flood
+ ...
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~water + ~wave = ~ocean
+~lake + ~ocean = ~river
+~wave + ~wind = ~storm
+~river + ~storm = ~flood
+ ...
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~wave + ~wind = ~storm
+~storm + ~wave = ~tsunami
+~lake + ~storm = ~rain
+~rain + ~tsunami = ~flood
+
+6 - ~snowman: 
+~water + ~wind = ~ice
+~earth + ~water = ~plant
+~ice + ~wind = ~snow
+~earth + ~plant = ~tree
+~snow + ~wind = ~blizzard
+~blizzard + ~tree = ~snowman
+ ...
+~water + ~wind = ~ice
+~earth + ~water = ~plant
+~ice + ~wind = ~snow
+~earth + ~plant = ~tree
+~plant + ~tree = ~forest
+~forest + ~snow = ~snowman
+
+6 - ~sandstorm: 
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~wave + ~wind = ~storm
+~sand + ~sand = ~desert
+~desert + ~storm = ~sandstorm
+
+6 - ~fogforest: 
+~earth + ~water = ~plant
+~fire + ~wind = ~smoke
+~earth + ~plant = ~tree
+~plant + ~tree = ~forest
+~forest + ~smoke = ~fog
+~fog + ~forest = ~fogforest
+
+6 - ~dustbowl: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~land = ~dustland
+~dust storm + ~dustland = ~dustbowl
+ ...
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~land + ~wind = ~dust
+~dust + ~land = ~dustland
+~dustland + ~wind = ~duststorm
+~dust + ~duststorm = ~dustbowl
+
+6 - ~apple pie: 
+~earth + ~water = ~plant
+~fire + ~wind = ~smoke
+~earth + ~plant = ~tree
+~tree + ~wind = ~leaf
+~leaf + ~tree = ~apple
+~apple + ~smoke = ~apple pie
+
+6 - ~sugar: 
+~earth + ~water = ~plant
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+~plant + ~saltwater = ~sugar
+ ...
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~fire + ~tree = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+~plant + ~saltwater = ~sugar
+
+6 - ~ashwood: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~fire + ~tree = ~ash
+~plant + ~tree = ~forest
+~forest + ~tree = ~wood
+~ash + ~wood = ~ashwood
+ ...
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~fire + ~tree = ~ash
+~ash + ~earth = ~dust
+~dust + ~tree = ~wood
+~ash + ~wood = ~ashwood
+
+6 - Cactus: 
+~earth + ~water = ~plant
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~plant = Cactus
+
+6 - Blizzard: 
+~water + ~wind = ~ice
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~wind = ~sand Storm
+~ice + ~sand Storm = Blizzard
+
+6 - ~sandcastle: 
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+~ash + ~salt = ~sand
+~saltwater + ~sand = ~sandcastle
+
+6 - Rain: 
+~fire + ~water = ~steam
+~steam + ~wind = ~cloud
+~cloud + ~fire = ~rain
+~cloud + ~rain = ~rainbow
+~rainbow + ~rainbow = Rainbow
+Rainbow + ~cloud = Rain
+
+6 - ~tornado: 
+~water + ~water = ~lake
+~earth + ~water = ~plant
+~lake + ~plant = ~swamp
+~lake + ~swamp = ~marsh
+~marsh + ~swamp = ~wetland
+~wetland + ~wind = ~tornado
+ ...
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~lake + ~wind = ~wave
+~lava + ~wave = ~lava wave
+~lava wave + ~wind = ~tornado
+ ...
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~land + ~lava = ~volcano
+~lake + ~volcano = ~island
+~island + ~wind = ~tornado
+ ...
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~wave + ~wind = ~storm
+~storm + ~wave = ~tsunami
+~earth + ~tsunami = ~earthquake
+~earthquake + ~wind = ~tornado
+ ...
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~wave + ~wind = ~storm
+~storm + ~wave = ~tsunami
+~tsunami + ~wind = ~hurricane
+~hurricane + ~hurricane = ~tornado
+ ...
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~smoke = ~smog
+~dust storm + ~smog = ~acid Rain
+~acid Rain + ~wind = ~tornado
+
+6 - ~lava Wave: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~lake + ~wind = ~wave
+~lava + ~wave = ~lava wave
+~lava wave + ~lava wave = ~lava Wave
+
+6 - ~salt Water: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~lake + ~salt = ~fresh water
+~ash + ~fresh water = ~salt Water
+
+6 - ~fresh Lake: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~lake + ~salt = ~fresh water
+~fresh water + ~fresh water = ~fresh Lake
+
+6 - Salt Water: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~lake + ~salt = ~fresh water
+~fire + ~fresh water = Salt Water
+
+6 - ~fresh Water: 
+~water + ~water = ~lake
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~lake + ~salt = ~fresh water
+~fresh water + ~water = ~fresh Water
+
+6 - ~tea: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~tree + ~wind = ~leaf
+~leaf + ~tree = ~apple
+~apple + ~water = ~juice
+~juice + ~leaf = ~tea
+
+6 - Tornado: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~wind = ~sand Storm
+~dust + ~sand Storm = Dust Storm
+Dust Storm + Dust Storm = Tornado
+
+6 - Dust Bowl: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~wind = ~sand Storm
+~dust + ~sand Storm = Dust Storm
+Dust Storm + ~sand Storm = Dust Bowl
+
+6 - Window: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~dust = Glass
+Glass + Glass = Window
+
+6 - Hourglass: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~dust = Glass
+Glass + Sand = Hourglass
+
+6 - Mirror: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~dust = Glass
+Glass + ~smoke = Mirror
+
+6 - Ice: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~dust = Glass
+Glass + ~fire = Ice
+
+6 - Bottle: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + ~dust = Glass
+Glass + ~wind = Bottle
+
+6 - Pyramid: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+
+6 - Mirage: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust + ~dust storm = Sand
+Sand + Sand = Desert
+Desert + ~smoke = Mirage
+
+6 - ~continent: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~land + ~lava = ~volcano
+~lake + ~volcano = ~island
+~earth + ~island = ~continent
+
+6 - Ash: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~wind = ~sand Storm
+~earth + ~sand Storm = Dust
+Dust + ~smoke = Ash
+
+6 - ~reflection: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~fire + ~sand = ~glass
+~glass + ~smoke = ~mirror
+~glass + ~mirror = ~reflection
+
+6 - ~rock: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~lake + ~lava = ~stone
+~stone + ~stone = ~boulder
+~boulder + ~boulder = ~rock
+
+6 - ~mountain: 
+~water + ~water = ~lake
+~earth + ~lake = ~land
+~fire + ~land = ~lava
+~lake + ~lava = ~stone
+~stone + ~stone = ~boulder
+~boulder + ~land = ~mountain
+
+6 - ~drunk: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~fire + ~sand = ~glass
+~glass + ~water = ~wine
+~smoke + ~wine = ~drunk
+
+6 - ~vine: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~fire + ~sand = ~glass
+~glass + ~water = ~wine
+~earth + ~wine = ~vine
+ ...
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~fire + ~sand = ~glass
+~glass + ~water = ~wine
+~earth + ~wine = ~vine
+
+6 - ~whine: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~fire + ~sand = ~glass
+~glass + ~water = ~wine
+~wind + ~wine = ~whine
+ ...
+~water + ~water = ~lake
+~lake + ~wind = ~wave
+~earth + ~wave = ~sand
+~fire + ~sand = ~glass
+~glass + ~water = ~wine
+~wave + ~wine = ~whine
+
+6 - oasis: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~water = ~sand
+~sand + ~sand = ~desert
+~desert + ~smoke = ~mirage
+~desert + ~mirage = oasis
+
+6 - ~apple cider: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~tree + ~wind = ~leaf
+~leaf + ~tree = ~apple
+~apple + ~fire = ~cider
+~apple + ~cider = ~apple cider
+
+6 - ~apple juice: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~tree + ~wind = ~leaf
+~leaf + ~tree = ~apple
+~apple + ~fire = ~cider
+~cider + ~water = ~apple juice
+
+6 - ~paper: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~plant + ~tree = ~forest
+~forest + ~tree = ~wood
+~tree + ~wood = ~lumber
+~lumber + ~plant = ~paper
+
+6 - ~sawmill: 
+~earth + ~water = ~plant
+~earth + ~plant = ~tree
+~plant + ~tree = ~forest
+~forest + ~tree = ~wood
+~tree + ~wood = ~lumber
+~lumber + ~wind = ~sawmill
+
+6 - ~acid Dust: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~smoke = ~smog
+~dust storm + ~smog = ~acid Rain
+~acid Rain + ~dust = ~acid Dust
+
+6 - ~acid Storm: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~smoke = ~smog
+~dust storm + ~smog = ~acid Rain
+~acid Rain + ~dust storm = ~acid Storm
+
+6 - ~pollution: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~smoke = ~smog
+~dust storm + ~smog = ~acid Rain
+~acid Rain + ~smog = ~pollution
+
+6 - ~acid: 
+~fire + ~wind = ~smoke
+~smoke + ~wind = ~dust
+~dust + ~wind = ~dust storm
+~dust storm + ~smoke = ~smog
+~dust storm + ~smog = ~acid Rain
+~acid Rain + ~water = ~acid
+
+6 - ~ship: 
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+~saltwater + ~wind = ~sailboat
+~ash + ~sailboat = ~ship
+
+6 - ~steamboat: 
+~fire + ~wind = ~smoke
+~earth + ~smoke = ~ash
+~ash + ~water = ~salt
+~salt + ~water = ~saltwater
+~saltwater + ~wind = ~sailboat
+~sailboat + ~smoke = ~steamboat
+
+
+
+{
+  "~steam": 1,
+  "~lake": 1,
+  "~plant": 1,
+  "~smoke": 1,
+  "~ice": 1,
+  "~cloud": 2,
+  "~land": 2,
+  "~wave": 2,
+  "~tree": 2,
+  "~ash": 2,
+  "~dust": 2,
+  "~snow": 2,
+  "~rain": 3,
+  "~swamp": 3,
+  "~fog": 3,
+  "~lava": 3,
+  "~sea": 3,
+  "~dirt": 3,
+  "~ocean": 3,
+  "~sand": 3,
+  "~storm": 3,
+  "~air": 3,
+  "~forest": 3,
+  "~leaf": 3,
+  "~salt": 3,
+  "~dust storm": 3,
+  "~blizzard": 3,
+  "~rainbow": 4,
+  "~marsh": 4,
+  "~mud": 4,
+  "~mist": 4,
+  "~smokewave": 4,
+  "~icewave": 4,
+  "~stone": 4,
+  "~volcano": 4,
+  "~river": 4,
+  "~soil": 4,
+  "~dustland": 4,
+  "~poseidon": 4,
+  "~beach": 4,
+  "~desert": 4,
+  "~glass": 4,
+  "~tsunami": 4,
+  "~wood": 4,
+  "~apple": 4,
+  "~ashdust": 4,
+  "~saltwater": 4,
+  "Sand": 4,
+  "~dust Storm": 4,
+  "~smog": 4,
+  "~sand Storm": 4,
+  "~sky": 5,
+  "Rainbow": 5,
+  "~wetland": 5,
+  "~stump": 5,
+  "~fresh water": 5,
+  "~magma": 5,
+  "~iceberg": 5,
+  "~lava wave": 5,
+  "~boulder": 5,
+  "~island": 5,
+  "~calm": 5,
+  "~duststorm": 5,
+  "~atlantis": 5,
+  "~king": 5,
+  "~oasis": 5,
+  "~wine": 5,
+  "~earthquake": 5,
+  "~hurricane": 5,
+  "~lumber": 5,
+  "~cider": 5,
+  "~juice": 5,
+  "~mirage": 5,
+  "~mirror": 5,
+  "~sailboat": 5,
+  "~acid Rain": 5,
+  "Dust Storm": 5,
+  "Dust": 5,
+  "Desert": 5,
+  "Glass": 5,
+  "Sandstorm": 5,
+  "Dune": 5,
+  "~flower": 6,
+  "~rainbow smoke": 6,
+  "~mistwave": 6,
+  "~freshwater": 6,
+  "~clay": 6,
+  "~sandwave": 6,
+  "~dustwave": 6,
+  "~moss": 6,
+  "~airwave": 6,
+  "~fogwave": 6,
+  "~desertland": 6,
+  "~sun": 6,
+  "~flood": 6,
+  "~snowman": 6,
+  "~sandstorm": 6,
+  "~fogforest": 6,
+  "~dustbowl": 6,
+  "~apple pie": 6,
+  "~sugar": 6,
+  "~ashwood": 6,
+  "Cactus": 6,
+  "Blizzard": 6,
+  "~sandcastle": 6,
+  "Rain": 6,
+  "~tornado": 6,
+  "~lava Wave": 6,
+  "~salt Water": 6,
+  "~fresh Lake": 6,
+  "Salt Water": 6,
+  "~fresh Water": 6,
+  "~tea": 6,
+  "Tornado": 6,
+  "Dust Bowl": 6,
+  "Window": 6,
+  "Hourglass": 6,
+  "Mirror": 6,
+  "Ice": 6,
+  "Bottle": 6,
+  "Pyramid": 6,
+  "Mirage": 6,
+  "~continent": 6,
+  "Ash": 6,
+  "~reflection": 6,
+  "~rock": 6,
+  "~mountain": 6,
+  "~drunk": 6,
+  "~vine": 6,
+  "~whine": 6,
+  "oasis": 6,
+  "~apple cider": 6,
+  "~apple juice": 6,
+  "~paper": 6,
+  "~sawmill": 6,
+  "~acid Dust": 6,
+  "~acid Storm": 6,
+  "~pollution": 6,
+  "~acid": 6,
+  "~ship": 6,
+  "~steamboat": 6
+}

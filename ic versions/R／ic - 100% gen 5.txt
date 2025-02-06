@@ -1,0 +1,3874 @@
+  // 0
+
+
+
+Gen 1 - 8 Elements -> 8 Total Elements
+Gen 2 - 16 Elements -> 24 Total Elements
+Gen 3 - 48 Elements -> 72 Total Elements
+Gen 4 - 99 Elements -> 171 Total Elements
+Gen 5 - 231 Elements -> 402 Total Elements
+
+
+
+1 - Volcano: 
+R/fire + R/fire = Volcano
+
+1 - R/steam: 
+R/fire + R/water = R/steam
+
+1 - River: 
+R/water + R/water = River
+
+1 - R/firewind: 
+R/fire + R/wind = R/firewind
+
+1 - R/rain: 
+R/water + R/wind = R/rain
+
+1 - Tornado: 
+R/wind + R/wind = Tornado
+
+1 - R/plant: 
+R/earth + R/water = R/plant
+
+1 - R/mountain: 
+R/earth + R/earth = R/mountain
+
+2 - Mountain: 
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/mountain = Mountain
+
+2 - Lava: 
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+
+2 - Eruption: 
+R/fire + R/fire = Volcano
+R/wind + Volcano = Eruption
+
+2 - R/cloud: 
+R/fire + R/water = R/steam
+R/steam + R/wind = R/cloud
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/wind = R/cloud
+
+2 - R/train: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+
+2 - Lake: 
+R/water + R/water = River
+River + River = Lake
+
+2 - Ocean: 
+R/water + R/water = River
+R/water + River = Ocean
+
+2 - Sail: 
+R/water + R/water = River
+R/wind + River = Sail
+
+2 - Delta: 
+R/water + R/water = River
+R/earth + River = Delta
+
+2 - R/river: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+
+2 - Storm: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+
+2 - Hurricane: 
+R/wind + R/wind = Tornado
+Tornado + Tornado = Hurricane
+
+2 - Tsunami: 
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+
+2 - Dust: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+
+2 - R/tree: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+
+2 - R/volcano: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+
+3 - Geyser: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+
+3 - Firewind: 
+R/fire + R/wind = R/firewind
+R/fire + R/fire = Volcano
+R/firewind + Volcano = Firewind
+ ...
+R/fire + R/wind = R/firewind
+R/water + R/water = River
+R/firewind + River = Firewind
+
+3 - Mountain Range: 
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/mountain = Mountain
+Mountain + Mountain = Mountain Range
+
+3 - Stone: 
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+
+3 - Steamboat: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/steam + River = Steamboat
+
+3 - R/steamwind: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/firewind + R/steam = R/steamwind
+
+3 - Cloud: 
+R/fire + R/water = R/steam
+R/steam + R/wind = R/cloud
+R/cloud + R/cloud = Cloud
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/wind = R/cloud
+R/cloud + R/cloud = Cloud
+
+3 - R/locomotive: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/steam + R/train = R/locomotive
+
+3 - R/steam train: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+
+3 - R/boat: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+
+3 - R/subway: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+
+3 - Flood: 
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/rain + River = Flood
+ ...
+R/water + R/water = River
+R/wind + R/wind = Tornado
+River + Tornado = Flood
+
+3 - Tree: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+
+3 - Land: 
+R/water + R/water = River
+River + River = Lake
+Lake + R/earth = Land
+
+3 - Sea: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + Ocean = Sea
+
+3 - Poseidon: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+
+3 - Island: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/earth = Island
+
+3 - Ship: 
+R/water + R/water = River
+R/wind + River = Sail
+River + Sail = Ship
+
+3 - Boat: 
+R/water + R/water = River
+R/wind + River = Sail
+Sail + Sail = Boat
+
+3 - Pirate: 
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+
+3 - Sailboat: 
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+
+3 - Nile: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + River = Nile
+
+3 - Pyramid: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+
+3 - Dirt: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+
+3 - R/storm: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+
+3 - Fire Tornado: 
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+R/firewind + Tornado = Fire Tornado
+
+3 - R/fireplant: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+
+3 - R/flower: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+
+3 - R/waterfall: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/mountain + R/rain = R/waterfall
+
+3 - R/rainbow: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/rain + R/river = R/rainbow
+
+3 - R/ocean: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/earth + R/river = R/ocean
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/river = R/ocean
+
+3 - Thunder: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/rain + Storm = Thunder
+
+3 - Lightning: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/fire + Storm = Lightning
+
+3 - Rain: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/water + Storm = Rain
+
+3 - Tumbleweed: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/plant + Tornado = Tumbleweed
+
+3 - Destruction: 
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+
+3 - Earthquake: 
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/earth + Tsunami = Earthquake
+
+3 - Sand: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+
+3 - Dust Storm: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Tornado = Dust Storm
+
+3 - Phoenix: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/fire = Phoenix
+
+3 - Mud: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+
+3 - Sandstorm: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/wind = Sandstorm
+
+3 - Planet: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+
+3 - R/forest: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/plant + R/tree = R/forest
+
+3 - R/fire tree: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/fire + R/tree = R/fire tree
+
+3 - R/leaf: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+
+3 - R/lava: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/mountain + R/volcano = R/lava
+
+3 - R/ash: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/volcano + R/wind = R/ash
+
+4 - Waterfall: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+Geyser + River = Waterfall
+ ...
+R/water + R/wind = R/rain
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + R/rain = Waterfall
+ ...
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/mountain + R/mountain = Mountain
+Mountain + R/rain = Waterfall
+ ...
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/river + R/river = Lake
+Lake + R/river = Waterfall
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/river + R/river = Lake
+Lake + R/river = Waterfall
+
+4 - Steam: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+Geyser + R/water = Steam
+ ...
+R/fire + R/wind = R/firewind
+R/fire + R/fire = Volcano
+R/firewind + Volcano = Firewind
+Firewind + R/water = Steam
+ ...
+R/fire + R/water = R/steam
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/steam + Tsunami = Steam
+ ...
+R/fire + R/wind = R/firewind
+R/water + R/water = River
+R/firewind + River = Firewind
+Firewind + R/water = Steam
+ ...
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+R/firewind + Tornado = Fire Tornado
+Fire Tornado + R/water = Steam
+ ...
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/water + Storm = Rain
+R/fire + Rain = Steam
+
+4 - Canyon: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + River = Canyon
+ ...
+R/earth + R/earth = R/mountain
+R/water + R/water = River
+R/mountain + R/mountain = Mountain
+Mountain + River = Canyon
+
+4 - Fire: 
+R/fire + R/wind = R/firewind
+R/fire + R/fire = Volcano
+R/firewind + Volcano = Firewind
+Firewind + Firewind = Fire
+ ...
+R/fire + R/wind = R/firewind
+R/water + R/water = River
+R/firewind + River = Firewind
+Firewind + Firewind = Fire
+ ...
+R/fire + R/wind = R/firewind
+R/water + R/water = River
+River + River = Lake
+Lake + R/firewind = Fire
+ ...
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + R/firewind = Fire
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/fire = Phoenix
+Phoenix + R/wind = Fire
+
+4 - Ash: 
+R/wind + R/wind = Tornado
+R/fire + R/fire = Volcano
+R/earth + Tornado = Dust
+Dust + Volcano = Ash
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/fire = Phoenix
+Dust + Phoenix = Ash
+
+4 - Yellowstone: 
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+
+4 - Obsidian: 
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+Lava + Stone = Obsidian
+
+4 - Boulder: 
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+Stone + Stone = Boulder
+
+4 - Fountain: 
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+R/water + Stone = Fountain
+
+4 - Rock: 
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+R/earth + Stone = Rock
+
+4 - Mark Twain: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/steam + River = Steamboat
+River + Steamboat = Mark Twain
+
+4 - Bridge: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/water + R/water = River
+R/train + River = Bridge
+
+4 - Mist: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+River + River = Lake
+Lake + R/steam = Mist
+
+4 - D/river: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/steam = D/river
+
+4 - R/cloudwind: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/steam + R/wind = R/cloud
+R/cloud + R/firewind = R/cloudwind
+ ...
+R/fire + R/wind = R/firewind
+R/earth + R/earth = R/mountain
+R/mountain + R/wind = R/cloud
+R/cloud + R/firewind = R/cloudwind
+
+4 - R/steamtrain: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/firewind + R/train = R/steamtrain
+
+4 - Rain Train: 
+R/water + R/wind = R/rain
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/rain + R/train = Rain Train
+
+4 - R/planttrain: 
+R/earth + R/water = R/plant
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/plant + R/train = R/planttrain
+
+4 - R/trainwreck: 
+R/earth + R/earth = R/mountain
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/mountain + R/train = R/trainwreck
+
+4 - R/cloudtrain: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/steam + R/wind = R/cloud
+R/cloud + R/train = R/cloudtrain
+
+4 - R/steamboat: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/boat + R/steam = R/steamboat
+
+4 - R/plane: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/boat + R/train = R/plane
+
+4 - R/steamsubway: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/steam + R/subway = R/steamsubway
+
+4 - R/transit: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/subway + R/train = R/transit
+
+4 - R/fire_subway: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/fire + R/subway = R/fire_subway
+
+4 - R/submarine: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/subway + R/water = R/submarine
+
+4 - Sailor: 
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/wind + River = Sail
+R/rain + Sail = Sailor
+ ...
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+R/water + Sailboat = Sailor
+
+4 - Shipwreck: 
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + R/wind = Tornado
+Sail + Tornado = Shipwreck
+
+4 - Forest: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/plant + Tree = Forest
+
+4 - Paper: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+River + Tree = Paper
+
+4 - Pine: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/fire + Tree = Pine
+
+4 - Palm: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/wind + Tree = Palm
+
+4 - Apple: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/earth + Tree = Apple
+
+4 - Lily: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+River + River = Lake
+Lake + R/plant = Lily
+
+4 - Coral: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/plant = Coral
+
+4 - Desert: 
+R/water + R/water = River
+River + River = Lake
+Lake + R/earth = Land
+Land + Land = Desert
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+
+4 - Fish: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Ocean + Poseidon = Fish
+
+4 - Triton: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Poseidon + Poseidon = Triton
+
+4 - Atlantis: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Poseidon + R/earth = Atlantis
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/earth = Island
+Island + Ocean = Atlantis
+
+4 - Continent: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/earth = Island
+Island + Island = Continent
+
+4 - Ferry: 
+R/water + R/water = River
+R/wind + River = Sail
+Sail + Sail = Boat
+Boat + River = Ferry
+
+4 - Pirate Ship: 
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + Pirate = Pirate Ship
+
+4 - Treasure: 
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + River = Treasure
+
+4 - Pirate ship: 
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + R/fire = Pirate ship
+
+4 - Yacht: 
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+Sailboat + Sailboat = Yacht
+
+4 - Egypt: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + River = Nile
+Nile + River = Egypt
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+Delta + Pyramid = Egypt
+
+4 - Ra: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + River = Nile
+Nile + R/fire = Ra
+
+4 - Sphinx: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + River = Nile
+Nile + R/wind = Sphinx
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+Pyramid + Pyramid = Sphinx
+
+4 - Tomb: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+Pyramid + R/water = Tomb
+
+4 - Grass: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + Dirt = Grass
+
+4 - Pot: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + R/earth = Pot
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/earth = Pot
+
+4 - R/lightning: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/firewind + R/storm = R/lightning
+
+4 - Rainstorm: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/rain + R/storm = Rainstorm
+
+4 - R/hurricane: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/storm + R/wind = R/hurricane
+
+4 - R/earthstorm: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/earth + R/storm = R/earthstorm
+
+4 - R/firefire: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+R/fireplant + R/firewind = R/firefire
+
+4 - R/steak: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+R/earth + R/fireplant = R/steak
+
+4 - R/firetree: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/firewind + R/tree = R/firetree
+
+4 - R/rose: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/flower + R/plant = R/rose
+
+4 - R/dandelion: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/flower + R/wind = R/dandelion
+
+4 - Rainforest: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/fire + R/plant = R/tree
+R/rain + R/tree = Rainforest
+
+4 - Niagara Falls: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/mountain + R/rain = R/waterfall
+R/mountain + R/waterfall = Niagara Falls
+
+4 - R/ainbow: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/earth + R/mountain = R/volcano
+R/rain + R/volcano = R/ainbow
+ ...
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/fire + R/river = R/volcano
+R/rain + R/volcano = R/ainbow
+
+4 - Rainbow: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/rain + R/river = R/rainbow
+R/rain + R/rainbow = Rainbow
+ ...
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/water + Storm = Rain
+R/rain + Rain = Rainbow
+
+4 - R/fire rainbow: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/rain + R/river = R/rainbow
+R/fire + R/rainbow = R/fire rainbow
+
+4 - R/oar: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/fire + R/river = R/volcano
+R/river + R/volcano = R/oar
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/mountain = R/volcano
+R/river + R/volcano = R/oar
+
+4 - R/sea: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/earth + R/river = R/ocean
+R/ocean + R/river = R/sea
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/river = R/ocean
+R/ocean + R/river = R/sea
+
+4 - R/poseidon: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/earth + R/river = R/ocean
+R/fire + R/ocean = R/poseidon
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/river = R/ocean
+R/fire + R/ocean = R/poseidon
+
+4 - Zeus: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/rain + Storm = Thunder
+R/earth + Thunder = Zeus
+
+4 - Cactus: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/plant + Tornado = Tumbleweed
+R/plant + Tumbleweed = Cactus
+
+4 - Dust Devil: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/plant + Tornado = Tumbleweed
+Tornado + Tumbleweed = Dust Devil
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Tornado = Dust Storm
+Dust Storm + Tornado = Dust Devil
+
+4 - Fireball: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/plant + Tornado = Tumbleweed
+R/fire + Tumbleweed = Fireball
+
+4 - Palm Tree: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + R/plant = Palm Tree
+
+4 - Crop: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/plant = Crop
+
+4 - Disaster: 
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+
+4 - Explosion: 
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+
+4 - Glass: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/fire + Sand = Glass
+
+4 - Beach: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/water + Sand = Beach
+
+4 - Dune: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/wind + Sand = Dune
+
+4 - Firebird: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/fire = Phoenix
+Phoenix + Tornado = Firebird
+
+4 - Clay: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Dust + Mud = Clay
+
+4 - Brick: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/fire = Brick
+
+4 - Earth: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Dust + Planet = Earth
+
+4 - Star: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + Planet = Star
+
+4 - Cyclone: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + Tornado = Cyclone
+
+4 - Sun: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/fire = Sun
+
+4 - Saturn: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/earth = Saturn
+
+4 - R/tornado: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/plant + R/tree = R/forest
+R/forest + R/wind = R/tornado
+ ...
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/wind = R/tornado
+
+4 - R/fireleaf: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/fire + R/leaf = R/fireleaf
+
+4 - R/tea: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/water = R/tea
+
+4 - R/island: 
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/river = R/ocean
+R/mountain + R/ocean = R/island
+
+4 - R/magma: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/mountain + R/volcano = R/lava
+R/fire + R/lava = R/magma
+
+4 - R/ash Mountain: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/volcano + R/wind = R/ash
+R/ash + R/mountain = R/ash Mountain
+
+4 - R/ashfire: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/volcano + R/wind = R/ash
+R/ash + R/fire = R/ashfire
+
+4 - R/ashwind: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/volcano + R/wind = R/ash
+R/ash + R/wind = R/ashwind
+
+4 - R/fire Tree: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/fire + R/tree = R/fire tree
+R/fire tree + R/fire tree = R/fire Tree
+
+4 - Fire Tree: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/fire + R/tree = R/fire tree
+R/fire tree + R/wind = Fire Tree
+
+4 - R/steam Train: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+R/steam train + R/steam train = R/steam Train
+
+4 - R/steam Engine: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+R/fire + R/steam train = R/steam Engine
+
+5 - Statue: 
+R/fire + R/water = R/steam
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+R/steam + Stone = Statue
+ ...
+R/fire + R/wind = R/firewind
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+R/firewind + Stone = Statue
+ ...
+R/water + R/wind = R/rain
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+R/rain + Stone = Statue
+ ...
+R/earth + R/water = R/plant
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+R/plant + Stone = Statue
+ ...
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+R/water + Stone = Fountain
+Fountain + Stone = Statue
+
+5 - Train: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/fire = Volcano
+R/steam + R/train = R/locomotive
+R/locomotive + Volcano = Train
+ ...
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+Geyser + R/water = Steam
+R/earth + Steam = Train
+ ...
+R/fire + R/wind = R/firewind
+R/fire + R/fire = Volcano
+R/firewind + Volcano = Firewind
+Firewind + R/water = Steam
+R/earth + Steam = Train
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/water + R/water = River
+R/train + River = Bridge
+Bridge + R/steam = Train
+ ...
+R/fire + R/water = R/steam
+R/water + R/water = River
+River + River = Lake
+Lake + R/earth = Land
+Land + R/steam = Train
+ ...
+R/water + R/wind = R/rain
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+R/rain + R/steam train = Train
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/wind + R/wind = Tornado
+R/steam + R/train = R/locomotive
+R/locomotive + Tornado = Train
+ ...
+R/fire + R/water = R/steam
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/steam + Tsunami = Steam
+R/earth + Steam = Train
+ ...
+R/fire + R/wind = R/firewind
+R/water + R/water = River
+R/firewind + River = Firewind
+Firewind + R/water = Steam
+R/earth + Steam = Train
+ ...
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+R/firewind + Tornado = Fire Tornado
+Fire Tornado + R/water = Steam
+R/earth + Steam = Train
+ ...
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/water + Storm = Rain
+R/fire + Rain = Steam
+R/earth + Steam = Train
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+R/fire + R/steam train = R/steam Engine
+R/steam + R/steam Engine = Train
+
+5 - Tunnel: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + R/train = Tunnel
+ ...
+R/earth + R/earth = R/mountain
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/mountain + R/mountain = Mountain
+Mountain + R/train = Tunnel
+
+5 - Hawaii: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + River = Lake
+Lake + Volcano = Island
+Island + Volcano = Hawaii
+ ...
+R/water + R/water = River
+R/fire + R/fire = Volcano
+R/water + River = Ocean
+Ocean + R/earth = Island
+Island + Volcano = Hawaii
+ ...
+R/water + R/water = River
+R/fire + R/fire = Volcano
+R/earth + River = Delta
+Delta + Volcano = Island
+Island + Volcano = Hawaii
+
+5 - Hot Spring: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+River + River = Lake
+Geyser + Lake = Hot Spring
+
+5 - Fjord: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + River = Lake
+Volcano + Volcano = Mountain
+Lake + Mountain = Fjord
+ ...
+R/earth + R/earth = R/mountain
+R/water + R/water = River
+River + River = Lake
+R/mountain + R/mountain = Mountain
+Lake + Mountain = Fjord
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/river + R/river = Lake
+R/mountain + R/mountain = Mountain
+Lake + Mountain = Fjord
+
+5 - Water: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+Geyser + River = Waterfall
+River + Waterfall = Water
+ ...
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+R/water + Stone = Fountain
+Fountain + R/wind = Water
+
+5 - Steam Engine: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+Geyser + R/water = Steam
+R/fire + Steam = Steam Engine
+ ...
+R/fire + R/wind = R/firewind
+R/fire + R/fire = Volcano
+R/firewind + Volcano = Firewind
+Firewind + R/water = Steam
+R/fire + Steam = Steam Engine
+ ...
+R/fire + R/water = R/steam
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/steam + Tsunami = Steam
+R/fire + Steam = Steam Engine
+ ...
+R/fire + R/wind = R/firewind
+R/water + R/water = River
+R/firewind + River = Firewind
+Firewind + R/water = Steam
+R/fire + Steam = Steam Engine
+ ...
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+R/firewind + Tornado = Fire Tornado
+Fire Tornado + R/water = Steam
+R/fire + Steam = Steam Engine
+ ...
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/water + Storm = Rain
+R/fire + Rain = Steam
+R/fire + Steam = Steam Engine
+
+5 - Tea: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+Geyser + R/water = Steam
+R/water + Steam = Tea
+ ...
+R/fire + R/wind = R/firewind
+R/fire + R/fire = Volcano
+R/firewind + Volcano = Firewind
+Firewind + R/water = Steam
+R/water + Steam = Tea
+ ...
+R/fire + R/water = R/steam
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/steam + Tsunami = Steam
+R/water + Steam = Tea
+ ...
+R/fire + R/wind = R/firewind
+R/water + R/water = River
+R/firewind + River = Firewind
+Firewind + R/water = Steam
+R/water + Steam = Tea
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + R/earth = Pot
+Pot + R/water = Tea
+ ...
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+R/firewind + Tornado = Fire Tornado
+Fire Tornado + R/water = Steam
+R/water + Steam = Tea
+ ...
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/water + Storm = Rain
+R/fire + Rain = Steam
+R/water + Steam = Tea
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/earth = Pot
+Pot + R/water = Tea
+
+5 - Whale: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+River + Volcano = Geyser
+R/water + River = Ocean
+Geyser + Ocean = Whale
+
+5 - Grand Canyon: 
+R/water + R/water = River
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + River = Canyon
+Canyon + River = Grand Canyon
+ ...
+R/earth + R/earth = R/mountain
+R/water + R/water = River
+R/mountain + R/mountain = Mountain
+Mountain + River = Canyon
+Canyon + River = Grand Canyon
+
+5 - Unicorn: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/fire + R/fire = Volcano
+R/rain + R/river = R/rainbow
+R/rainbow + Volcano = Unicorn
+ ...
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/wind + R/wind = Tornado
+R/rain + R/river = R/rainbow
+R/rainbow + Tornado = Unicorn
+
+5 - Avalanche: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Storm = Avalanche
+ ...
+R/wind + R/wind = Tornado
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Tornado = Avalanche
+ ...
+R/wind + R/wind = Tornado
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+Stone + Tornado = Avalanche
+ ...
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/mountain + R/mountain = Mountain
+Mountain + Storm = Avalanche
+ ...
+R/earth + R/earth = R/mountain
+R/wind + R/wind = Tornado
+R/mountain + R/mountain = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Tornado = Avalanche
+
+5 - Cinder: 
+R/wind + R/wind = Tornado
+R/fire + R/fire = Volcano
+R/earth + Tornado = Dust
+Dust + Volcano = Ash
+Ash + Dust = Cinder
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/fire = Phoenix
+Dust + Phoenix = Ash
+Ash + Dust = Cinder
+
+5 - Cannabis: 
+R/earth + R/water = R/plant
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + R/plant = Cannabis
+ ...
+R/earth + R/earth = R/mountain
+R/earth + R/water = R/plant
+R/mountain + R/mountain = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + R/plant = Cannabis
+
+5 - Magma: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/volcano = Magma
+ ...
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/water + R/water = River
+R/volcano + River = Lava
+Lava + R/volcano = Magma
+
+5 - Super Volcano: 
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Mountain Range + Yellowstone = Super Volcano
+
+5 - Supervolcano: 
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Volcano + Yellowstone = Supervolcano
+
+5 - Geysers: 
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+R/water + Yellowstone = Geysers
+
+5 - Old Faithful: 
+R/fire + R/fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+R/wind + Yellowstone = Old Faithful
+
+5 - Blade: 
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+Lava + Stone = Obsidian
+Obsidian + Stone = Blade
+
+5 - Meteor: 
+R/fire + R/fire = Volcano
+R/fire + Volcano = Lava
+Lava + R/water = Stone
+Stone + Stone = Boulder
+Boulder + Volcano = Meteor
+
+5 - Titanic: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/steam + River = Steamboat
+R/wind + R/wind = Tornado
+Steamboat + Tornado = Titanic
+ ...
+R/fire + R/water = R/steam
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/steam + Tsunami = Steam
+Steam + Tsunami = Titanic
+ ...
+R/earth + R/earth = R/mountain
+R/water + R/water = River
+R/wind + River = Sail
+River + Sail = Ship
+R/mountain + Ship = Titanic
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Ocean + R/wind = Tsunami
+Poseidon + Tsunami = Titanic
+
+5 - Steamboat Willie: 
+R/earth + R/earth = R/mountain
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/steam + River = Steamboat
+R/mountain + Steamboat = Steamboat Willie
+
+5 - Tom Sawyer: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/steam + River = Steamboat
+River + Steamboat = Mark Twain
+Mark Twain + River = Tom Sawyer
+
+5 - Subway: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/water + R/water = River
+R/train + River = Bridge
+Bridge + R/train = Subway
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/water + R/water = River
+River + River = Lake
+Lake + R/train = Subway
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/wind + R/wind = Tornado
+R/earth + R/train = R/subway
+R/subway + Tornado = Subway
+
+5 - Troll: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/water + R/water = River
+R/train + River = Bridge
+Bridge + R/water = Troll
+
+5 - Kite: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/water + R/water = River
+R/train + River = Bridge
+Bridge + R/wind = Kite
+ ...
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+River + Tree = Paper
+Paper + R/wind = Kite
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + R/earth = Pot
+Pot + R/wind = Kite
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/earth = Pot
+Pot + R/wind = Kite
+
+5 - Submarine: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/water + R/water = River
+R/earth + R/train = R/subway
+R/subway + River = Submarine
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/train = Submarine
+
+5 - Fog: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+River + River = Lake
+Lake + R/steam = Mist
+Lake + Mist = Fog
+
+5 - Smoke: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+River + River = Lake
+Lake + R/steam = Mist
+Mist + R/fire = Smoke
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + Dirt = Grass
+Grass + R/fire = Smoke
+
+5 - Steamship: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/wind + River = Sail
+River + Sail = Ship
+R/steam + Ship = Steamship
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/boat + R/boat = Ship
+R/steam + Ship = Steamship
+
+5 - Canoe: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/steam = D/river
+D/river + River = Canoe
+
+5 - R/iver: 
+R/fire + R/water = R/steam
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/steam = D/river
+D/river + R/wind = R/iver
+
+5 - R/cloudfire: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/steam + R/wind = R/cloud
+R/cloud + R/firewind = R/cloudwind
+R/cloudwind + R/firewind = R/cloudfire
+ ...
+R/fire + R/wind = R/firewind
+R/earth + R/earth = R/mountain
+R/mountain + R/wind = R/cloud
+R/cloud + R/firewind = R/cloudwind
+R/cloudwind + R/firewind = R/cloudfire
+
+5 - R/steamlocomotive: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/firewind + R/train = R/steamtrain
+R/firewind + R/steamtrain = R/steamlocomotive
+
+5 - Steam Train: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/firewind + R/train = R/steamtrain
+R/steam + R/steamtrain = Steam Train
+ ...
+R/water + R/wind = R/rain
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/rain + R/train = Rain Train
+R/steam + Rain Train = Steam Train
+
+5 - R/steam engine: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/steam + R/train = R/locomotive
+R/firewind + R/locomotive = R/steam engine
+
+5 - R/steam Locomotive: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+R/firewind + R/steam train = R/steam Locomotive
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+R/fire + R/steam train = R/steam Engine
+R/steam Engine + R/steam train = R/steam Locomotive
+
+5 - R/fireway: 
+R/fire + R/wind = R/firewind
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/firewind + R/subway = R/fireway
+
+5 - R/railroad: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/river + R/train = R/railroad
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/river + R/train = R/railroad
+
+5 - Steam Tornado: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/wind + R/wind = Tornado
+R/fire + R/train = R/steam train
+R/steam train + Tornado = Steam Tornado
+ ...
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+R/firewind + Tornado = Fire Tornado
+Fire Tornado + R/water = Steam
+Fire Tornado + Steam = Steam Tornado
+
+5 - Surf: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/train + Tsunami = Surf
+
+5 - Dustbin: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/train = Dustbin
+
+5 - Muddy: 
+R/fire + R/water = R/steam
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/steam = Muddy
+ ...
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/firewind = Muddy
+
+5 - R/steam Tree: 
+R/earth + R/water = R/plant
+R/fire + R/water = R/steam
+R/fire + R/plant = R/tree
+R/fire + R/tree = R/fire tree
+R/fire tree + R/steam = R/steam Tree
+
+5 - Planttrain: 
+R/earth + R/water = R/plant
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/plant + R/train = R/planttrain
+R/plant + R/planttrain = Planttrain
+
+5 - R/plantwind: 
+R/earth + R/water = R/plant
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/plant + R/train = R/planttrain
+R/planttrain + R/wind = R/plantwind
+
+5 - R/plantsubway: 
+R/earth + R/water = R/plant
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/plant + R/subway = R/plantsubway
+
+5 - R/ashsteam: 
+R/earth + R/earth = R/mountain
+R/fire + R/water = R/steam
+R/earth + R/mountain = R/volcano
+R/volcano + R/wind = R/ash
+R/ash + R/steam = R/ashsteam
+
+5 - R/mountaindew: 
+R/earth + R/earth = R/mountain
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/mountain + R/train = R/trainwreck
+R/mountain + R/trainwreck = R/mountaindew
+
+5 - R/steamtrainwreck: 
+R/earth + R/earth = R/mountain
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/mountain + R/train = R/trainwreck
+R/steam + R/trainwreck = R/steamtrainwreck
+
+5 - R/firetrainwreck: 
+R/earth + R/earth = R/mountain
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/mountain + R/train = R/trainwreck
+R/fire + R/trainwreck = R/firetrainwreck
+
+5 - R/earthtrain: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/steam + R/wind = R/cloud
+R/cloud + R/train = R/cloudtrain
+R/cloudtrain + R/earth = R/earthtrain
+
+5 - R/cloudsubway: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/steam + R/wind = R/cloud
+R/earth + R/train = R/subway
+R/cloud + R/subway = R/cloudsubway
+
+5 - R/steamship: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/boat + R/steam = R/steamboat
+R/boat + R/steamboat = R/steamship
+
+5 - R/sailboat: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/boat + R/steam = R/steamboat
+R/steamboat + R/wind = R/sailboat
+
+5 - R/rocket: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/boat + R/train = R/plane
+R/boat + R/plane = R/rocket
+
+5 - R/fireplane: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/boat + R/train = R/plane
+R/fire + R/plane = R/fireplane
+
+5 - R/kite: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/boat + R/train = R/plane
+R/plane + R/wind = R/kite
+
+5 - R/steam Ship: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/train + R/water = R/boat
+R/fire + R/train = R/steam train
+R/boat + R/steam train = R/steam Ship
+
+5 - Steam Subway: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/steam + R/subway = R/steamsubway
+R/steam + R/steamsubway = Steam Subway
+
+5 - R/steamtransit: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/subway + R/train = R/transit
+R/steam + R/transit = R/steamtransit
+
+5 - R/nyc: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/subway + R/train = R/transit
+R/subway + R/transit = R/nyc
+
+5 - R/air: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/subway + R/train = R/transit
+R/transit + R/wind = R/air
+ ...
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/fire + R/subway = R/fire_subway
+R/fire_subway + R/wind = R/air
+
+5 - R/steam_subway: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/fire + R/subway = R/fire_subway
+R/fire_subway + R/steam = R/steam_subway
+
+5 - R/fire_subway_subway: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/fire + R/subway = R/fire_subway
+R/fire + R/fire_subway = R/fire_subway_subway
+
+5 - R/steamsub: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/subway + R/water = R/submarine
+R/steam + R/submarine = R/steamsub
+
+5 - R/fire submarine: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/earth + R/train = R/subway
+R/subway + R/water = R/submarine
+R/fire + R/submarine = R/fire submarine
+
+5 - R/metro: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+R/earth + R/train = R/subway
+R/steam train + R/subway = R/metro
+
+5 - Swamp: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/rain + River = Flood
+Flood + R/plant = Swamp
+ ...
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/rain + River = Flood
+Flood + R/earth = Mud
+Mud + River = Swamp
+ ...
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/wind + R/wind = Tornado
+River + Tornado = Flood
+Flood + R/plant = Swamp
+ ...
+R/water + R/water = River
+R/wind + R/wind = Tornado
+River + Tornado = Flood
+Flood + R/earth = Mud
+Mud + River = Swamp
+ ...
+R/water + R/water = River
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + River = Swamp
+ ...
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/plant + Tree = Forest
+Forest + R/water = Swamp
+ ...
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+River + River = Lake
+Lake + Tree = Swamp
+ ...
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/water + R/water = River
+River + River = Lake
+Lake + R/tree = Swamp
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + Dirt = Grass
+Grass + R/water = Swamp
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + River = Mud
+Mud + River = Swamp
+ ...
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/plant = Swamp
+
+5 - Noah: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/rain + River = Flood
+Flood + R/mountain = Noah
+ ...
+R/earth + R/earth = R/mountain
+R/water + R/water = River
+R/wind + R/wind = Tornado
+River + Tornado = Flood
+Flood + R/mountain = Noah
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/wind + R/wind = Tornado
+R/river + Tornado = Flood
+Flood + R/mountain = Noah
+
+5 - Ark: 
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/wind + River = Sail
+River + Sail = Ship
+R/rain + Ship = Ark
+ ...
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/wind + River = Sail
+Sail + Sail = Boat
+Boat + R/rain = Ark
+
+5 - Regatta: 
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+R/rain + Sailboat = Regatta
+
+5 - Dust Bowl: 
+R/water + R/water = River
+R/wind + R/wind = Tornado
+River + River = Lake
+Lake + R/earth = Land
+Land + Tornado = Dust Bowl
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Tornado = Dust Storm
+Dust + R/wind = Sandstorm
+Dust Storm + Sandstorm = Dust Bowl
+
+5 - Leaf: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/plant + River = Tree
+R/rain + Tree = Leaf
+ ...
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/plant + Storm = Tree
+R/rain + Tree = Leaf
+ ...
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/leaf = Tree
+R/leaf + Tree = Leaf
+
+5 - Wood: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/wind + R/wind = Tornado
+R/plant + River = Tree
+Tornado + Tree = Wood
+ ...
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/plant + Tree = Forest
+Forest + Tree = Wood
+
+5 - Treehouse: 
+R/earth + R/earth = R/mountain
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/mountain + Tree = Treehouse
+ ...
+R/earth + R/earth = R/mountain
+R/earth + R/water = R/plant
+R/mountain + R/mountain = Mountain
+Mountain + R/plant = Tree
+R/mountain + Tree = Treehouse
+
+5 - Jungle: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/plant + Tree = Forest
+Forest + Forest = Jungle
+ ...
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/fire + R/plant = R/tree
+R/rain + R/tree = Rainforest
+Rainforest + Rainforest = Jungle
+
+5 - Book: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+River + Tree = Paper
+Paper + Paper = Book
+
+5 - Reed: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+River + Tree = Paper
+Paper + R/plant = Reed
+
+5 - Paper Boat: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+River + Tree = Paper
+Paper + River = Paper Boat
+
+5 - Map: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+River + Tree = Paper
+Paper + R/earth = Map
+
+5 - Pinecone: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/fire + Tree = Pine
+Pine + Pine = Pinecone
+
+5 - Pineapple: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/fire + Tree = Pine
+Pine + R/plant = Pineapple
+
+5 - Trident: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/water + Tree = Poseidon
+Poseidon + R/plant = Trident
+ ...
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Poseidon + R/plant = Trident
+
+5 - Coconut: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/wind + Tree = Palm
+Palm + Palm = Coconut
+ ...
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + R/plant = Palm Tree
+Hurricane + Palm Tree = Coconut
+
+5 - Oasis: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/wind + Tree = Palm
+Palm + River = Oasis
+ ...
+R/water + R/water = River
+River + River = Lake
+Lake + R/earth = Land
+Land + Land = Desert
+Desert + Lake = Oasis
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+Desert + R/water = Oasis
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/wind + Sand = Dune
+Dune + R/water = Oasis
+
+5 - Palm tree: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/wind + Tree = Palm
+Palm + R/wind = Palm tree
+
+5 - Apple Tree: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/earth + Tree = Apple
+Apple + Apple = Apple Tree
+
+5 - Apple tree: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/earth + Tree = Apple
+Apple + R/plant = Apple tree
+
+5 - Cider: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/earth + Tree = Apple
+Apple + River = Cider
+
+5 - Baked Apple: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/earth + Tree = Apple
+Apple + R/fire = Baked Apple
+
+5 - Apple Pie: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/plant + River = Tree
+R/earth + Tree = Apple
+Apple + R/wind = Apple Pie
+
+5 - Amazon: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/water + R/water = River
+R/plant + R/tree = R/forest
+R/forest + River = Amazon
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/earth = Island
+Island + Island = Continent
+Continent + River = Amazon
+ ...
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/fire + R/plant = R/tree
+R/rain + R/tree = Rainforest
+R/plant + Rainforest = Amazon
+
+5 - Lotus: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+River + River = Lake
+Lake + R/plant = Lily
+Lake + Lily = Lotus
+
+5 - Flower: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+River + River = Lake
+Lake + R/plant = Lily
+Lily + Lily = Flower
+ ...
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + R/plant = Flower
+ ...
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/water + Storm = Rain
+R/plant + Rain = Flower
+
+5 - Lily pad: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+River + River = Lake
+Lake + R/plant = Lily
+Lily + R/plant = Lily pad
+
+5 - Farm: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+River + River = Lake
+Lake + R/earth = Land
+Land + R/plant = Farm
+
+5 - Seaweed: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + Ocean = Sea
+R/plant + Sea = Seaweed
+
+5 - Reef: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/plant = Coral
+Coral + Coral = Reef
+
+5 - Coral Reef: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/plant = Coral
+Coral + R/fire = Coral Reef
+
+5 - Parrot: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + R/plant = Parrot
+
+5 - Papyrus: 
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/earth + River = Delta
+Delta + River = Nile
+Nile + R/plant = Papyrus
+
+5 - Shark: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+Fish + Fish = Shark
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Ocean + Poseidon = Fish
+Fish + Fish = Shark
+
+5 - Salmon: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+Fish + River = Salmon
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Ocean + Poseidon = Fish
+Fish + River = Salmon
+
+5 - Mermaid: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+Fish + Sea = Mermaid
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Ocean + Ocean = Sea
+Poseidon + Sea = Mermaid
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Ocean + Poseidon = Fish
+Fish + Poseidon = Mermaid
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Poseidon + Poseidon = Triton
+Poseidon + Triton = Mermaid
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Poseidon + R/earth = Atlantis
+Atlantis + Poseidon = Mermaid
+
+5 - Fishing rod: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+Fish + R/fire = Fishing rod
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Ocean + Poseidon = Fish
+Fish + R/fire = Fishing rod
+
+5 - Fishing: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+Fish + R/earth = Fishing
+ ...
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/fire = Poseidon
+Ocean + Poseidon = Fish
+Fish + R/earth = Fishing
+
+5 - Pangaea: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/earth = Island
+Island + Island = Continent
+Continent + Continent = Pangaea
+
+5 - Archipelago: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/earth = Island
+Island + Island = Continent
+Continent + Island = Archipelago
+
+5 - Asia: 
+R/water + R/water = River
+R/water + River = Ocean
+Ocean + R/earth = Island
+Island + Island = Continent
+Continent + R/earth = Asia
+
+5 - Captain: 
+R/water + R/water = River
+R/wind + River = Sail
+River + Sail = Ship
+R/fire + Sail = Pirate
+Pirate + Ship = Captain
+ ...
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + Pirate = Pirate Ship
+Pirate + Pirate Ship = Captain
+ ...
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + R/fire = Pirate ship
+Pirate + Pirate ship = Captain
+ ...
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+R/fire + Sail = Pirate
+Pirate + Sailboat = Captain
+
+5 - Cruise: 
+R/water + R/water = River
+R/wind + River = Sail
+River + Sail = Ship
+Sail + Sail = Boat
+Boat + Ship = Cruise
+ ...
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+Sailboat + Sailboat = Yacht
+River + Yacht = Cruise
+
+5 - Ferryman: 
+R/water + R/water = River
+R/wind + River = Sail
+Sail + Sail = Boat
+Boat + River = Ferry
+Ferry + River = Ferryman
+
+5 - Chest: 
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + River = Treasure
+Pirate + Treasure = Chest
+
+5 - Gold: 
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + River = Treasure
+River + Treasure = Gold
+
+5 - Dragon: 
+R/water + R/water = River
+R/wind + River = Sail
+R/fire + Sail = Pirate
+Pirate + River = Treasure
+R/fire + Treasure = Dragon
+
+5 - Cruise Ship: 
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+Sailboat + Sailboat = Yacht
+Yacht + Yacht = Cruise Ship
+
+5 - Fireboat: 
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+Sailboat + Sailboat = Yacht
+R/fire + Yacht = Fireboat
+
+5 - Rich: 
+R/water + R/water = River
+R/wind + River = Sail
+R/wind + Sail = Sailboat
+Sailboat + Sailboat = Yacht
+R/water + Yacht = Rich
+
+5 - Wind Raider: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + River = Nile
+Nile + R/fire = Ra
+R/wind + Ra = Wind Raider
+
+5 - Cleopatra: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + River = Nile
+Nile + R/wind = Sphinx
+R/water + Sphinx = Cleopatra
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+Pyramid + Pyramid = Sphinx
+R/water + Sphinx = Cleopatra
+
+5 - Ozymandias: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + River = Nile
+Nile + R/wind = Sphinx
+R/wind + Sphinx = Ozymandias
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+Pyramid + Pyramid = Sphinx
+R/wind + Sphinx = Ozymandias
+
+5 - Mummy: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Delta + R/fire = Pyramid
+Dirt + Pyramid = Mummy
+ ...
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+Pyramid + R/water = Tomb
+Pyramid + Tomb = Mummy
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/fire = Phoenix
+Dust + Dust = Sand
+Phoenix + Sand = Mummy
+
+5 - Grave: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+Pyramid + R/water = Tomb
+Tomb + Tomb = Grave
+
+5 - Moses: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/fire = Pyramid
+Pyramid + R/water = Tomb
+R/water + Tomb = Moses
+
+5 - Lawn: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + Dirt = Grass
+Dirt + Grass = Lawn
+
+5 - Marsh: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + Dirt = Grass
+Grass + River = Marsh
+
+5 - Plant: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + R/earth = Pot
+Dirt + Pot = Plant
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Dust + Planet = Earth
+Earth + R/water = Plant
+
+5 - Pottery: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + R/earth = Pot
+Pot + Pot = Pottery
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Dust + Mud = Clay
+Clay + Dust = Pottery
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/earth = Pot
+Pot + Pot = Pottery
+
+5 - Potamus: 
+R/water + R/water = River
+R/earth + River = Delta
+Delta + R/earth = Dirt
+Dirt + R/earth = Pot
+Pot + River = Potamus
+
+5 - R/thunderstorm: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/fire + R/water = R/steam
+R/firewind + R/rain = R/storm
+R/steam + R/storm = R/thunderstorm
+
+5 - R/plantstorm: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/plant + R/storm = R/plantstorm
+
+5 - R/firelightning: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/firewind + R/storm = R/lightning
+R/firewind + R/lightning = R/firelightning
+
+5 - R/thunder: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/firewind + R/storm = R/lightning
+R/lightning + R/wind = R/thunder
+
+5 - Thunderstorm: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/rain + R/storm = Rainstorm
+R/storm + Rainstorm = Thunderstorm
+ ...
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/rain + R/wind = Storm
+R/storm + Storm = Thunderstorm
+
+5 - R/firehurricane: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/storm + R/wind = R/hurricane
+R/firewind + R/hurricane = R/firehurricane
+
+5 - R/tsunami: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/storm + R/wind = R/hurricane
+R/hurricane + R/water = R/tsunami
+
+5 - R/earthquake: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/earth + R/storm = R/earthstorm
+R/earthstorm + R/earthstorm = R/earthquake
+
+5 - R/earthwind: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/earth + R/storm = R/earthstorm
+R/earthstorm + R/firewind = R/earthwind
+
+5 - R/earthstormrain: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/earth + R/storm = R/earthstorm
+R/earthstorm + R/rain = R/earthstormrain
+
+5 - R/earthstormstorm: 
+R/fire + R/wind = R/firewind
+R/water + R/wind = R/rain
+R/firewind + R/rain = R/storm
+R/earth + R/storm = R/earthstorm
+R/earthstorm + R/storm = R/earthstormstorm
+
+5 - Fire Tsunami: 
+R/fire + R/wind = R/firewind
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/firewind + Tsunami = Firewind
+Firewind + Tsunami = Fire Tsunami
+
+5 - R/steamplant: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/fire + R/water = R/steam
+R/firewind + R/plant = R/fireplant
+R/fireplant + R/steam = R/steamplant
+
+5 - Fireplant: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/water + R/water = River
+R/firewind + R/plant = R/fireplant
+R/fireplant + River = Fireplant
+
+5 - R/firehuman: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+R/fireplant + R/firewind = R/firefire
+R/firefire + R/fireplant = R/firehuman
+
+5 - R/firefirewind: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+R/fireplant + R/firewind = R/firefire
+R/firefire + R/firewind = R/firefirewind
+
+5 - R/firefirefire: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+R/fireplant + R/firewind = R/firefire
+R/fire + R/firefire = R/firefirefire
+
+5 - R/fireplantsteak: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+R/earth + R/fireplant = R/steak
+R/fireplant + R/steak = R/fireplantsteak
+
+5 - R/firewindsteak: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+R/earth + R/fireplant = R/steak
+R/firewind + R/steak = R/firewindsteak
+
+5 - R/burger: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/firewind + R/plant = R/fireplant
+R/earth + R/fireplant = R/steak
+R/plant + R/steak = R/burger
+
+5 - R/treeonfire: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/firewind + R/plant = R/fireplant
+R/fireplant + R/tree = R/treeonfire
+
+5 - R/fireforest: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/plant + R/tree = R/forest
+R/firewind + R/forest = R/fireforest
+
+5 - R/ashfirewind: 
+R/fire + R/wind = R/firewind
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/volcano + R/wind = R/ash
+R/ash + R/firewind = R/ashfirewind
+
+5 - Water Lily: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/water + R/water = River
+R/plant + R/rain = R/flower
+R/flower + River = Water Lily
+
+5 - R/fireflower: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/firewind + R/flower = R/fireflower
+
+5 - R/mountain flower: 
+R/earth + R/earth = R/mountain
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/flower + R/mountain = R/mountain flower
+
+5 - R/roses: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/flower + R/plant = R/rose
+R/flower + R/rose = R/roses
+
+5 - R/rosebush: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/flower + R/plant = R/rose
+R/plant + R/rose = R/rosebush
+
+5 - R/royal: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/flower + R/plant = R/rose
+R/rain + R/rose = R/royal
+
+5 - Rose: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/flower + R/plant = R/rose
+R/rose + R/rose = Rose
+
+5 - R/fire rose: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/plant + R/rain = R/flower
+R/flower + R/plant = R/rose
+R/fire + R/rose = R/fire rose
+
+5 - R/rainforest: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/fire + R/plant = R/tree
+R/plant + R/tree = R/forest
+R/forest + R/rain = R/rainforest
+
+5 - R/rain Tree: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/fire + R/plant = R/tree
+R/fire + R/tree = R/fire tree
+R/fire tree + R/rain = R/rain Tree
+
+5 - R/seaweed: 
+R/earth + R/water = R/plant
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/earth + R/river = R/ocean
+R/ocean + R/plant = R/seaweed
+ ...
+R/earth + R/earth = R/mountain
+R/earth + R/water = R/plant
+R/mountain + R/water = R/river
+R/earth + R/river = R/ocean
+R/ocean + R/plant = R/seaweed
+
+5 - Hydroelectricity: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/mountain + R/rain = R/waterfall
+R/mountain + R/waterfall = Niagara Falls
+Niagara Falls + R/waterfall = Hydroelectricity
+
+5 - Horseshoe Falls: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/mountain + R/rain = R/waterfall
+R/mountain + R/waterfall = Niagara Falls
+Niagara Falls + R/earth = Horseshoe Falls
+
+5 - R/rapids: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/mountain + R/rain = R/waterfall
+R/river + R/waterfall = R/rapids
+
+5 - R/ain: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/earth + R/mountain = R/volcano
+R/rain + R/volcano = R/ainbow
+R/ainbow + R/rain = R/ain
+ ...
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/fire + R/river = R/volcano
+R/rain + R/volcano = R/ainbow
+R/ainbow + R/rain = R/ain
+
+5 - R/ainbow Volcano: 
+R/earth + R/earth = R/mountain
+R/water + R/wind = R/rain
+R/earth + R/mountain = R/volcano
+R/rain + R/volcano = R/ainbow
+R/ainbow + R/volcano = R/ainbow Volcano
+ ...
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/fire + R/river = R/volcano
+R/rain + R/volcano = R/ainbow
+R/ainbow + R/volcano = R/ainbow Volcano
+
+5 - R/fire Rainbow: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/rain + R/river = R/rainbow
+R/fire + R/rainbow = R/fire rainbow
+R/fire rainbow + R/fire rainbow = R/fire Rainbow
+
+5 - Electric Eel: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/rain + R/wind = Storm
+R/fire + Storm = Lightning
+Lightning + R/river = Electric Eel
+
+5 - R/oarain: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/fire + R/river = R/volcano
+R/river + R/volcano = R/oar
+R/oar + R/rain = R/oarain
+
+5 - Row: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/fire + R/river = R/volcano
+R/river + R/volcano = R/oar
+R/oar + R/river = Row
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/mountain = R/volcano
+R/river + R/volcano = R/oar
+R/oar + R/river = Row
+
+5 - R/king: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/earth + R/river = R/ocean
+R/fire + R/ocean = R/poseidon
+R/ocean + R/poseidon = R/king
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/river = R/ocean
+R/fire + R/ocean = R/poseidon
+R/ocean + R/poseidon = R/king
+
+5 - R/fireposeidon: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/earth + R/river = R/ocean
+R/fire + R/ocean = R/poseidon
+R/fire + R/poseidon = R/fireposeidon
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/river = R/ocean
+R/fire + R/ocean = R/poseidon
+R/fire + R/poseidon = R/fireposeidon
+
+5 - R/atlantis: 
+R/water + R/wind = R/rain
+R/rain + R/water = R/river
+R/earth + R/river = R/ocean
+R/fire + R/ocean = R/poseidon
+R/earth + R/poseidon = R/atlantis
+ ...
+R/earth + R/earth = R/mountain
+R/mountain + R/water = R/river
+R/earth + R/river = R/ocean
+R/fire + R/ocean = R/poseidon
+R/earth + R/poseidon = R/atlantis
+
+5 - Prometheus: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/rain + Storm = Thunder
+R/earth + Thunder = Zeus
+R/fire + Zeus = Prometheus
+
+5 - Squid: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/fire + Storm = Lightning
+Lightning + R/water = Ocean
+Lightning + Ocean = Squid
+
+5 - Mudslide: 
+R/water + R/wind = R/rain
+R/rain + R/wind = Storm
+R/water + Storm = Rain
+R/earth + Rain = Mud
+Mud + Storm = Mudslide
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Tornado + Tornado = Hurricane
+Dust + R/water = Mud
+Hurricane + Mud = Mudslide
+ ...
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + Tsunami = Mudslide
+
+5 - Fireworks: 
+R/fire + R/wind = R/firewind
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/plant + Tornado = Tumbleweed
+R/firewind + Tumbleweed = Fireworks
+ ...
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/plant + Tornado = Tumbleweed
+R/fire + Tumbleweed = Fireball
+Fireball + Tumbleweed = Fireworks
+
+5 - Prickly Pear: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/plant + Tornado = Tumbleweed
+R/plant + Tumbleweed = Cactus
+Cactus + R/earth = Prickly Pear
+
+5 - Dust Bunny: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/plant + Tornado = Tumbleweed
+Tornado + Tumbleweed = Dust Devil
+Dust Devil + Tumbleweed = Dust Bunny
+
+5 - Weed: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + R/plant = Weed
+
+5 - Field: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/plant = Crop
+Crop + Crop = Field
+
+5 - Wheat: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/plant = Crop
+Crop + R/plant = Wheat
+
+5 - Toast: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/plant = Crop
+Crop + R/fire = Toast
+
+5 - Rice: 
+R/earth + R/water = R/plant
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/plant = Crop
+Crop + R/water = Rice
+
+5 - Moon: 
+R/earth + R/earth = R/mountain
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/mountain = Moon
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Dust + Planet = Earth
+Earth + Planet = Moon
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + Planet = Star
+R/water + Star = Moon
+
+5 - Twister: 
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+Disaster + Tornado = Twister
+
+5 - Chaos: 
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+
+5 - Tsunamic: 
+R/wind + R/wind = Tornado
+R/water + Tornado = Tsunami
+R/earth + Tornado = Dust
+Dust + R/fire = Phoenix
+Phoenix + Tsunami = Tsunamic
+
+5 - Telescope: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/fire + Sand = Glass
+Dust + Glass = Telescope
+
+5 - Window: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/fire + Sand = Glass
+Glass + Glass = Window
+
+5 - Hourglass: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/fire + Sand = Glass
+Glass + Sand = Hourglass
+
+5 - Shatter: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/fire + Sand = Glass
+Glass + Tornado = Shatter
+
+5 - Lens: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/fire + Sand = Glass
+Glass + R/fire = Lens
+
+5 - Wine: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/fire + Sand = Glass
+Glass + R/water = Wine
+
+5 - Sandcastle: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Dust = Sand
+R/water + Sand = Beach
+Beach + Sand = Sandcastle
+
+5 - Mars: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + Tornado = Dust Storm
+Dust + R/earth = Planet
+Dust Storm + Planet = Mars
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Dust + R/wind = Sandstorm
+Planet + Sandstorm = Mars
+
+5 - Rebirth: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/fire = Phoenix
+Dust + Phoenix = Ash
+Ash + Phoenix = Rebirth
+
+5 - Bird: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Dust + R/fire = Phoenix
+Mud + Phoenix = Bird
+
+5 - Wall: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/fire = Brick
+Brick + Brick = Wall
+
+5 - Adobe: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/fire = Brick
+Brick + Mud = Adobe
+
+5 - House: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/fire = Brick
+Brick + Tornado = House
+
+5 - Dustpan: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/water = Mud
+Mud + R/earth = Pot
+Dust + Pot = Dustpan
+
+5 - Comet: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + Planet = Star
+Dust + Star = Comet
+
+5 - Solar System: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + Planet = Star
+Planet + Star = Solar System
+ ...
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/fire = Sun
+Planet + Sun = Solar System
+
+5 - Galaxy: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + Planet = Star
+Star + Star = Galaxy
+
+5 - Black Hole: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + Planet = Star
+Star + Tornado = Black Hole
+
+5 - Jupiter: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + Tornado = Cyclone
+Cyclone + Planet = Jupiter
+
+5 - Sunflower: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/fire = Sun
+Sun + Sun = Sunflower
+
+5 - Solar Flare: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/fire = Sun
+Sun + Tornado = Solar Flare
+
+5 - Solar: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/fire = Sun
+R/fire + Sun = Solar
+
+5 - Rings: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/earth = Saturn
+Dust + Saturn = Rings
+
+5 - Ring: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/earth = Saturn
+Planet + Saturn = Ring
+
+5 - Titan: 
+R/wind + R/wind = Tornado
+R/earth + Tornado = Dust
+Dust + R/earth = Planet
+Planet + R/earth = Saturn
+R/wind + Saturn = Titan
+
+5 - R/dust: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/plant + R/tree = R/forest
+R/forest + R/wind = R/tornado
+R/earth + R/tornado = R/dust
+ ...
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/wind = R/tornado
+R/earth + R/tornado = R/dust
+
+5 - R/treeleaf: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/fire + R/leaf = R/fireleaf
+R/fireleaf + R/tree = R/treeleaf
+
+5 - R/tobacco: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/fire + R/leaf = R/fireleaf
+R/earth + R/fireleaf = R/tobacco
+
+5 - R/tea leaf: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/water = R/tea
+R/leaf + R/tea = R/tea leaf
+
+5 - R/teapot: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/water = R/tea
+R/plant + R/tea = R/teapot
+
+5 - R/tea/tree: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/water = R/tea
+R/tea + R/tree = R/tea/tree
+
+5 - R/twist: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/water = R/tea
+R/tea + R/wind = R/twist
+
+5 - R/tea/rth: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/water = R/tea
+R/earth + R/tea = R/tea/rth
+
+5 - R/tornado leaf: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/tree + R/wind = R/leaf
+R/leaf + R/wind = R/tornado
+R/leaf + R/tornado = R/tornado leaf
+
+5 - Snow: 
+R/earth + R/earth = R/mountain
+R/mountain + R/mountain = Mountain
+R/mountain + R/wind = R/cloud
+R/cloud + R/cloud = Cloud
+Cloud + Mountain = Snow
+
+5 - R/ash Wind: 
+R/earth + R/earth = R/mountain
+R/earth + R/mountain = R/volcano
+R/volcano + R/wind = R/ash
+R/ash + R/mountain = R/ash Mountain
+R/ash Mountain + R/wind = R/ash Wind
+
+5 - Firewood: 
+R/earth + R/water = R/plant
+R/fire + R/plant = R/tree
+R/fire + R/tree = R/fire tree
+R/fire tree + R/wind = Fire Tree
+Fire Tree + R/plant = Firewood
+
+5 - R/windmill: 
+R/fire + R/water = R/steam
+R/earth + R/steam = R/train
+R/fire + R/train = R/steam train
+R/fire + R/steam train = R/steam Engine
+R/steam Engine + R/wind = R/windmill
+
+
+
+{
+  "Volcano": 1,
+  "R/steam": 1,
+  "River": 1,
+  "R/firewind": 1,
+  "R/rain": 1,
+  "Tornado": 1,
+  "R/plant": 1,
+  "R/mountain": 1,
+  "Mountain": 2,
+  "Lava": 2,
+  "Eruption": 2,
+  "R/cloud": 2,
+  "R/train": 2,
+  "Lake": 2,
+  "Ocean": 2,
+  "Sail": 2,
+  "Delta": 2,
+  "R/river": 2,
+  "Storm": 2,
+  "Hurricane": 2,
+  "Tsunami": 2,
+  "Dust": 2,
+  "R/tree": 2,
+  "R/volcano": 2,
+  "Geyser": 3,
+  "Firewind": 3,
+  "Mountain Range": 3,
+  "Stone": 3,
+  "Steamboat": 3,
+  "R/steamwind": 3,
+  "Cloud": 3,
+  "R/locomotive": 3,
+  "R/steam train": 3,
+  "R/boat": 3,
+  "R/subway": 3,
+  "Flood": 3,
+  "Tree": 3,
+  "Land": 3,
+  "Sea": 3,
+  "Poseidon": 3,
+  "Island": 3,
+  "Ship": 3,
+  "Boat": 3,
+  "Pirate": 3,
+  "Sailboat": 3,
+  "Nile": 3,
+  "Pyramid": 3,
+  "Dirt": 3,
+  "R/storm": 3,
+  "Fire Tornado": 3,
+  "R/fireplant": 3,
+  "R/flower": 3,
+  "R/waterfall": 3,
+  "R/rainbow": 3,
+  "R/ocean": 3,
+  "Thunder": 3,
+  "Lightning": 3,
+  "Rain": 3,
+  "Tumbleweed": 3,
+  "Destruction": 3,
+  "Earthquake": 3,
+  "Sand": 3,
+  "Dust Storm": 3,
+  "Phoenix": 3,
+  "Mud": 3,
+  "Sandstorm": 3,
+  "Planet": 3,
+  "R/forest": 3,
+  "R/fire tree": 3,
+  "R/leaf": 3,
+  "R/lava": 3,
+  "R/ash": 3,
+  "Waterfall": 4,
+  "Steam": 4,
+  "Canyon": 4,
+  "Fire": 4,
+  "Ash": 4,
+  "Yellowstone": 4,
+  "Obsidian": 4,
+  "Boulder": 4,
+  "Fountain": 4,
+  "Rock": 4,
+  "Mark Twain": 4,
+  "Bridge": 4,
+  "Mist": 4,
+  "D/river": 4,
+  "R/cloudwind": 4,
+  "R/steamtrain": 4,
+  "Rain Train": 4,
+  "R/planttrain": 4,
+  "R/trainwreck": 4,
+  "R/cloudtrain": 4,
+  "R/steamboat": 4,
+  "R/plane": 4,
+  "R/steamsubway": 4,
+  "R/transit": 4,
+  "R/fire_subway": 4,
+  "R/submarine": 4,
+  "Sailor": 4,
+  "Shipwreck": 4,
+  "Forest": 4,
+  "Paper": 4,
+  "Pine": 4,
+  "Palm": 4,
+  "Apple": 4,
+  "Lily": 4,
+  "Coral": 4,
+  "Desert": 4,
+  "Fish": 4,
+  "Triton": 4,
+  "Atlantis": 4,
+  "Continent": 4,
+  "Ferry": 4,
+  "Pirate Ship": 4,
+  "Treasure": 4,
+  "Pirate ship": 4,
+  "Yacht": 4,
+  "Egypt": 4,
+  "Ra": 4,
+  "Sphinx": 4,
+  "Tomb": 4,
+  "Grass": 4,
+  "Pot": 4,
+  "R/lightning": 4,
+  "Rainstorm": 4,
+  "R/hurricane": 4,
+  "R/earthstorm": 4,
+  "R/firefire": 4,
+  "R/steak": 4,
+  "R/firetree": 4,
+  "R/rose": 4,
+  "R/dandelion": 4,
+  "Rainforest": 4,
+  "Niagara Falls": 4,
+  "R/ainbow": 4,
+  "Rainbow": 4,
+  "R/fire rainbow": 4,
+  "R/oar": 4,
+  "R/sea": 4,
+  "R/poseidon": 4,
+  "Zeus": 4,
+  "Cactus": 4,
+  "Dust Devil": 4,
+  "Fireball": 4,
+  "Palm Tree": 4,
+  "Crop": 4,
+  "Disaster": 4,
+  "Explosion": 4,
+  "Glass": 4,
+  "Beach": 4,
+  "Dune": 4,
+  "Firebird": 4,
+  "Clay": 4,
+  "Brick": 4,
+  "Earth": 4,
+  "Star": 4,
+  "Cyclone": 4,
+  "Sun": 4,
+  "Saturn": 4,
+  "R/tornado": 4,
+  "R/fireleaf": 4,
+  "R/tea": 4,
+  "R/island": 4,
+  "R/magma": 4,
+  "R/ash Mountain": 4,
+  "R/ashfire": 4,
+  "R/ashwind": 4,
+  "R/fire Tree": 4,
+  "Fire Tree": 4,
+  "R/steam Train": 4,
+  "R/steam Engine": 4,
+  "Statue": 5,
+  "Train": 5,
+  "Tunnel": 5,
+  "Hawaii": 5,
+  "Hot Spring": 5,
+  "Fjord": 5,
+  "Water": 5,
+  "Steam Engine": 5,
+  "Tea": 5,
+  "Whale": 5,
+  "Grand Canyon": 5,
+  "Unicorn": 5,
+  "Avalanche": 5,
+  "Cinder": 5,
+  "Cannabis": 5,
+  "Magma": 5,
+  "Super Volcano": 5,
+  "Supervolcano": 5,
+  "Geysers": 5,
+  "Old Faithful": 5,
+  "Blade": 5,
+  "Meteor": 5,
+  "Titanic": 5,
+  "Steamboat Willie": 5,
+  "Tom Sawyer": 5,
+  "Subway": 5,
+  "Troll": 5,
+  "Kite": 5,
+  "Submarine": 5,
+  "Fog": 5,
+  "Smoke": 5,
+  "Steamship": 5,
+  "Canoe": 5,
+  "R/iver": 5,
+  "R/cloudfire": 5,
+  "R/steamlocomotive": 5,
+  "Steam Train": 5,
+  "R/steam engine": 5,
+  "R/steam Locomotive": 5,
+  "R/fireway": 5,
+  "R/railroad": 5,
+  "Steam Tornado": 5,
+  "Surf": 5,
+  "Dustbin": 5,
+  "Muddy": 5,
+  "R/steam Tree": 5,
+  "Planttrain": 5,
+  "R/plantwind": 5,
+  "R/plantsubway": 5,
+  "R/ashsteam": 5,
+  "R/mountaindew": 5,
+  "R/steamtrainwreck": 5,
+  "R/firetrainwreck": 5,
+  "R/earthtrain": 5,
+  "R/cloudsubway": 5,
+  "R/steamship": 5,
+  "R/sailboat": 5,
+  "R/rocket": 5,
+  "R/fireplane": 5,
+  "R/kite": 5,
+  "R/steam Ship": 5,
+  "Steam Subway": 5,
+  "R/steamtransit": 5,
+  "R/nyc": 5,
+  "R/air": 5,
+  "R/steam_subway": 5,
+  "R/fire_subway_subway": 5,
+  "R/steamsub": 5,
+  "R/fire submarine": 5,
+  "R/metro": 5,
+  "Swamp": 5,
+  "Noah": 5,
+  "Ark": 5,
+  "Regatta": 5,
+  "Dust Bowl": 5,
+  "Leaf": 5,
+  "Wood": 5,
+  "Treehouse": 5,
+  "Jungle": 5,
+  "Book": 5,
+  "Reed": 5,
+  "Paper Boat": 5,
+  "Map": 5,
+  "Pinecone": 5,
+  "Pineapple": 5,
+  "Trident": 5,
+  "Coconut": 5,
+  "Oasis": 5,
+  "Palm tree": 5,
+  "Apple Tree": 5,
+  "Apple tree": 5,
+  "Cider": 5,
+  "Baked Apple": 5,
+  "Apple Pie": 5,
+  "Amazon": 5,
+  "Lotus": 5,
+  "Flower": 5,
+  "Lily pad": 5,
+  "Farm": 5,
+  "Seaweed": 5,
+  "Reef": 5,
+  "Coral Reef": 5,
+  "Parrot": 5,
+  "Papyrus": 5,
+  "Shark": 5,
+  "Salmon": 5,
+  "Mermaid": 5,
+  "Fishing rod": 5,
+  "Fishing": 5,
+  "Pangaea": 5,
+  "Archipelago": 5,
+  "Asia": 5,
+  "Captain": 5,
+  "Cruise": 5,
+  "Ferryman": 5,
+  "Chest": 5,
+  "Gold": 5,
+  "Dragon": 5,
+  "Cruise Ship": 5,
+  "Fireboat": 5,
+  "Rich": 5,
+  "Wind Raider": 5,
+  "Cleopatra": 5,
+  "Ozymandias": 5,
+  "Mummy": 5,
+  "Grave": 5,
+  "Moses": 5,
+  "Lawn": 5,
+  "Marsh": 5,
+  "Plant": 5,
+  "Pottery": 5,
+  "Potamus": 5,
+  "R/thunderstorm": 5,
+  "R/plantstorm": 5,
+  "R/firelightning": 5,
+  "R/thunder": 5,
+  "Thunderstorm": 5,
+  "R/firehurricane": 5,
+  "R/tsunami": 5,
+  "R/earthquake": 5,
+  "R/earthwind": 5,
+  "R/earthstormrain": 5,
+  "R/earthstormstorm": 5,
+  "Fire Tsunami": 5,
+  "R/steamplant": 5,
+  "Fireplant": 5,
+  "R/firehuman": 5,
+  "R/firefirewind": 5,
+  "R/firefirefire": 5,
+  "R/fireplantsteak": 5,
+  "R/firewindsteak": 5,
+  "R/burger": 5,
+  "R/treeonfire": 5,
+  "R/fireforest": 5,
+  "R/ashfirewind": 5,
+  "Water Lily": 5,
+  "R/fireflower": 5,
+  "R/mountain flower": 5,
+  "R/roses": 5,
+  "R/rosebush": 5,
+  "R/royal": 5,
+  "Rose": 5,
+  "R/fire rose": 5,
+  "R/rainforest": 5,
+  "R/rain Tree": 5,
+  "R/seaweed": 5,
+  "Hydroelectricity": 5,
+  "Horseshoe Falls": 5,
+  "R/rapids": 5,
+  "R/ain": 5,
+  "R/ainbow Volcano": 5,
+  "R/fire Rainbow": 5,
+  "Electric Eel": 5,
+  "R/oarain": 5,
+  "Row": 5,
+  "R/king": 5,
+  "R/fireposeidon": 5,
+  "R/atlantis": 5,
+  "Prometheus": 5,
+  "Squid": 5,
+  "Mudslide": 5,
+  "Fireworks": 5,
+  "Prickly Pear": 5,
+  "Dust Bunny": 5,
+  "Weed": 5,
+  "Field": 5,
+  "Wheat": 5,
+  "Toast": 5,
+  "Rice": 5,
+  "Moon": 5,
+  "Twister": 5,
+  "Chaos": 5,
+  "Tsunamic": 5,
+  "Telescope": 5,
+  "Window": 5,
+  "Hourglass": 5,
+  "Shatter": 5,
+  "Lens": 5,
+  "Wine": 5,
+  "Sandcastle": 5,
+  "Mars": 5,
+  "Rebirth": 5,
+  "Bird": 5,
+  "Wall": 5,
+  "Adobe": 5,
+  "House": 5,
+  "Dustpan": 5,
+  "Comet": 5,
+  "Solar System": 5,
+  "Galaxy": 5,
+  "Black Hole": 5,
+  "Jupiter": 5,
+  "Sunflower": 5,
+  "Solar Flare": 5,
+  "Solar": 5,
+  "Rings": 5,
+  "Ring": 5,
+  "Titan": 5,
+  "R/dust": 5,
+  "R/treeleaf": 5,
+  "R/tobacco": 5,
+  "R/tea leaf": 5,
+  "R/teapot": 5,
+  "R/tea/tree": 5,
+  "R/twist": 5,
+  "R/tea/rth": 5,
+  "R/tornado leaf": 5,
+  "Snow": 5,
+  "R/ash Wind": 5,
+  "Firewood": 5,
+  "R/windmill": 5
+}

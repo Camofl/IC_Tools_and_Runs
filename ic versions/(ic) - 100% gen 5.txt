@@ -1,0 +1,3326 @@
+  // 0
+
+
+
+Gen 1 - 7 Elements -> 7 Total Elements
+Gen 2 - 17 Elements -> 24 Total Elements
+Gen 3 - 39 Elements -> 63 Total Elements
+Gen 4 - 71 Elements -> 134 Total Elements
+Gen 5 - 183 Elements -> 317 Total Elements
+
+
+
+1 - (steam): 
+(fire) + (water) = (steam)
+
+1 - (lake): 
+(water) + (water) = (lake)
+
+1 - (plant): 
+(earth) + (fire) = (plant)
+
+1 - (ash): 
+(fire) + (wind) = (ash)
+
+1 - (cloud): 
+(water) + (wind) = (cloud)
+
+1 - (dust): 
+(earth) + (wind) = (dust)
+
+1 - Tornado: 
+(wind) + (wind) = Tornado
+
+2 - (ice): 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+
+2 - (pond): 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+
+2 - (island): 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+
+2 - (wave): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+
+2 - (smoke): 
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+ ...
+(fire) + (wind) = (ash)
+(ash) + (fire) = (smoke)
+
+2 - (tree): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+
+2 - (mud): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+
+2 - Rain: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+
+2 - (lightning): 
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+
+2 - rain: 
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+
+2 - (rain): 
+(water) + (wind) = (cloud)
+(cloud) + (earth) = (rain)
+
+2 - (dirt): 
+(earth) + (wind) = (dust)
+(dust) + (earth) = (dirt)
+
+2 - (dust storm): 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+
+2 - Hurricane: 
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+
+2 - Fire Tornado: 
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+
+2 - Tsunami: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+
+2 - Dust: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+
+3 - Snow: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (ice) = Snow
+
+3 - (snow): 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (ice) = (snow)
+
+3 - snow: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (wind) = snow
+
+3 - (swamp): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+
+3 - (volcano): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(ash) + (lake) = (volcano)
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(fire) + (island) = (volcano)
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(fire) + (lightning) = (volcano)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (fire) = (volcano)
+
+3 - (ocean): 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(lake) + (pond) = (ocean)
+
+3 - (windmill): 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+
+3 - Continent: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+
+3 - (continent): 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(earth) + (island) = (continent)
+
+3 - (tornado): 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (wind) = (tornado)
+
+3 - (sea): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(lake) + (wave) = (sea)
+
+3 - (surf): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+
+3 - Dust Bowl: 
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(plant) + Tornado = Dust Bowl
+
+3 - Cloud: 
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+(smoke) + (smoke) = Cloud
+ ...
+(fire) + (wind) = (ash)
+(ash) + (fire) = (smoke)
+(smoke) + (smoke) = Cloud
+
+3 - (forest): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(plant) + (tree) = (forest)
+
+3 - (wood): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+
+3 - (leaf): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(tree) + (wind) = (leaf)
+
+3 - (ashes): 
+(fire) + (wind) = (ash)
+(earth) + (wind) = (dust)
+(ash) + (dust) = (ashes)
+
+3 - (clay): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+
+3 - (brick): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+
+3 - (dust cloud): 
+(water) + (wind) = (cloud)
+(earth) + (wind) = (dust)
+(cloud) + (dust) = (dust cloud)
+
+3 - Rainbow: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(cloud) + Rain = Rainbow
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(cloud) + rain = Rainbow
+
+3 - Steam: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(fire) + Rain = Steam
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(fire) + rain = Steam
+
+3 - Flood: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(water) + Rain = Flood
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(water) + rain = Flood
+
+3 - Mud: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(water) + Dust = Mud
+
+3 - Storm: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(wind) + Rain = Storm
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(lightning) + (wind) = Storm
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(wind) + rain = Storm
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (earth) = (rain)
+(rain) + (wind) = Storm
+
+3 - Thunder: 
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (lightning) = Thunder
+
+3 - (rainbow): 
+(water) + (wind) = (cloud)
+(cloud) + (earth) = (rain)
+(cloud) + (rain) = (rainbow)
+
+3 - Dust Devil: 
+(earth) + (wind) = (dust)
+(wind) + (wind) = Tornado
+(dust) + Tornado = Dust Devil
+
+3 - (soil): 
+(earth) + (wind) = (dust)
+(dust) + (earth) = (dirt)
+(dirt) + (earth) = (soil)
+
+3 - (dust Storm): 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (dust) = (dust Storm)
+
+3 - mud: 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+
+3 - (dust Bowl): 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (earth) = (dust Bowl)
+
+3 - (dust Devil): 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (wind) = (dust Devil)
+
+3 - Volcano: 
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(fire) + Hurricane = Volcano
+ ...
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(earth) + Fire Tornado = Volcano
+
+3 - Destruction: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+
+3 - Sand: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+
+3 - Dust Storm: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Tornado = Dust Storm
+
+3 - Ash: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+
+4 - (thunder): 
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(fire) + (water) = (steam)
+(lightning) + (steam) = (thunder)
+ ...
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (fire) = (lightning)
+(lake) + (lightning) = (thunder)
+ ...
+(fire) + (wind) = (ash)
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(ash) + (lightning) = (thunder)
+
+4 - (sand Storm): 
+(earth) + (wind) = (dust)
+(fire) + (water) = (steam)
+(dust) + (wind) = (dust storm)
+(dust storm) + (steam) = (sand Storm)
+
+4 - Snowman: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (ice) = Snow
+(ice) + Snow = Snowman
+ ...
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (wind) = snow
+(ice) + snow = Snowman
+
+4 - Ice: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (ice) = Snow
+(steam) + Snow = Ice
+ ...
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (ice) = (snow)
+(snow) + (water) = Ice
+ ...
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (wind) = snow
+(steam) + snow = Ice
+
+4 - Water: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (ice) = Snow
+(fire) + Snow = Water
+ ...
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (wind) = snow
+(fire) + snow = Water
+
+4 - (snowman): 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (ice) = (snow)
+(ice) + (snow) = (snowman)
+
+4 - Snowball: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (ice) = (snow)
+(snow) + (snow) = Snowball
+
+4 - Blizzard: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (ice) = (snow)
+(snow) + (wind) = Blizzard
+
+4 - (marsh): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+(lake) + (swamp) = (marsh)
+
+4 - (mushroom): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+(plant) + (swamp) = (mushroom)
+
+4 - (dragon): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+(fire) + (swamp) = (dragon)
+
+4 - (seaweed): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (wind) = (wave)
+(plant) + (wave) = (seaweed)
+
+4 - (fog): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+(lake) + (smoke) = (fog)
+ ...
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(ash) + (fire) = (smoke)
+(lake) + (smoke) = (fog)
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+(cloud) + (smoke) = (fog)
+ ...
+(fire) + (wind) = (ash)
+(water) + (wind) = (cloud)
+(ash) + (fire) = (smoke)
+(cloud) + (smoke) = (fog)
+
+4 - (lava): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(ash) + (lake) = (volcano)
+(ash) + (volcano) = (lava)
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(fire) + (island) = (volcano)
+(fire) + (volcano) = (lava)
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(fire) + (lightning) = (volcano)
+(fire) + (volcano) = (lava)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (fire) = (volcano)
+(fire) + (volcano) = (lava)
+
+4 - (ash pond): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(ash) + (pond) = (ash pond)
+
+4 - (tsunami): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(ash) + (wave) = (tsunami)
+
+4 - Puddle: 
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (cloud) = Rain
+(lake) + Rain = Puddle
+ ...
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (water) = rain
+(lake) + rain = Puddle
+
+4 - (sand): 
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(dust) + (wave) = (sand)
+
+4 - Ocean: 
+(water) + (water) = (lake)
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+(lake) + Tsunami = Ocean
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(water) + Continent = Ocean
+ ...
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wave) = Tsunami
+(lake) + Tsunami = Ocean
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(water) + Rain = Flood
+Flood + Flood = Ocean
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(water) + rain = Flood
+Flood + Flood = Ocean
+
+4 - Whirlpool: 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(wind) + (wind) = Tornado
+(pond) + Tornado = Whirlpool
+
+4 - (storm): 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(lake) + (pond) = (ocean)
+(ocean) + (wind) = (storm)
+
+4 - Windmill: 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+(windmill) + (windmill) = Windmill
+
+4 - (electricity): 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+(fire) + (windmill) = (electricity)
+
+4 - Pangaea: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(island) + Continent = Pangaea
+
+4 - Island: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(lake) + Continent = Island
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(earth) + (island) = (continent)
+(continent) + (continent) = Island
+
+4 - Australia: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(fire) + Continent = Australia
+
+4 - (dust devil): 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (wind) = (tornado)
+(earth) + (tornado) = (dust devil)
+
+4 - (beach): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(earth) + (lake) = (island)
+(island) + (wave) = (beach)
+
+4 - (land): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(lake) + (wave) = (sea)
+(earth) + (sea) = (land)
+
+4 - Surfing: 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wave) = Surfing
+
+4 - (surf and turf): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(fire) + (surf) = (surf and turf)
+
+4 - (turf): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(earth) + (surf) = (turf)
+
+4 - (kite): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wind) = (kite)
+
+4 - Flower: 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(plant) + Rain = Flower
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(plant) + rain = Flower
+
+4 - (flower): 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (earth) = (rain)
+(plant) + (rain) = (flower)
+
+4 - (cactus): 
+(earth) + (wind) = (dust)
+(earth) + (fire) = (plant)
+(dust) + (wind) = (dust storm)
+(dust storm) + (plant) = (cactus)
+
+4 - Desert: 
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(plant) + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (earth) = (dust Bowl)
+(dust Bowl) + (dust Bowl) = Desert
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+
+4 - (paper): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+(tree) + (wood) = (paper)
+
+4 - Mudslide: 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(wind) + (wind) = Tornado
+(mud) + Tornado = Mudslide
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(wind) + (wind) = Tornado
+(mud) + Tornado = Mudslide
+
+4 - (smog): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (fire) = (smoke)
+(mud) + (smoke) = (smog)
+
+4 - (pottery): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(ash) + (clay) = (pottery)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (fire) = (pottery)
+
+4 - (golem): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(clay) + (wind) = (golem)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (wind) = (golem)
+
+4 - (brick wall): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (brick) = (brick wall)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (brick) = (brick wall)
+
+4 - (adobe): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (mud) = (adobe)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (mud) = (adobe)
+
+4 - (house): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+
+4 - (mud Storm): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(mud) + (wind) = (dust storm)
+(dust storm) + (mud) = (mud Storm)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(dust) + (wind) = (dust storm)
+(dust storm) + (mud) = (mud Storm)
+
+4 - (dust Cloud): 
+(water) + (wind) = (cloud)
+(earth) + (wind) = (dust)
+(cloud) + (dust) = (dust cloud)
+(dust cloud) + (dust) = (dust Cloud)
+ ...
+(water) + (wind) = (cloud)
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(cloud) + (dust storm) = (dust Cloud)
+
+4 - (muddy cloud): 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+(cloud) + Mud = (muddy cloud)
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(cloud) + Mud = (muddy cloud)
+
+4 - Clay: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+Mud + Mud = Clay
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+Mud + Mud = Clay
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+mud + mud = Clay
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(water) + Dust = Mud
+Mud + Mud = Clay
+
+4 - Lightning: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(wind) + Rain = Storm
+(fire) + Storm = Lightning
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (lightning) = Thunder
+(fire) + Thunder = Lightning
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(lightning) + (wind) = Storm
+(fire) + Storm = Lightning
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(wind) + rain = Storm
+(fire) + Storm = Lightning
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (earth) = (rain)
+(rain) + (wind) = Storm
+(fire) + Storm = Lightning
+
+4 - Thunderstorm: 
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (lightning) = Thunder
+(cloud) + Thunder = Thunderstorm
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(lightning) + (wind) = Storm
+(lightning) + Storm = Thunderstorm
+
+4 - (earthquake): 
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(fire) + (lightning) = (volcano)
+(lightning) + (volcano) = (earthquake)
+
+4 - Fire Devil: 
+(earth) + (wind) = (dust)
+(wind) + (wind) = Tornado
+(dust) + Tornado = Dust Devil
+(fire) + Dust Devil = Fire Devil
+
+4 - (human): 
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (dust) = (human)
+
+4 - (mortar): 
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (dust) = (mortar)
+
+4 - (volcanic ash): 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (fire) = (volcano)
+(dust storm) + (volcano) = (volcanic ash)
+
+4 - Adam: 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(dust) + mud = Adam
+
+4 - (fire tornado): 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (wind) = (dust Devil)
+(dust Devil) + (fire) = (fire tornado)
+
+4 - Disaster: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+
+4 - Eruption: 
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(fire) + Hurricane = Volcano
+Tornado + Volcano = Eruption
+ ...
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(earth) + Fire Tornado = Volcano
+Tornado + Volcano = Eruption
+
+4 - Mountain: 
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(fire) + Hurricane = Volcano
+Volcano + Volcano = Mountain
+ ...
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(earth) + Fire Tornado = Volcano
+Volcano + Volcano = Mountain
+
+4 - Lava: 
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(fire) + Hurricane = Volcano
+(fire) + Volcano = Lava
+ ...
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(earth) + Fire Tornado = Volcano
+(fire) + Volcano = Lava
+
+4 - Explosion: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+
+4 - Earthquake: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Tsunami = Earthquake
+
+4 - Sandstorm: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+Dust + Sand = Sandstorm
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Tornado = Dust Storm
+Dust + Dust Storm = Sandstorm
+
+4 - Glass: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(fire) + Sand = Glass
+
+4 - Beach: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(water) + Sand = Beach
+
+4 - Stone: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+Ash + Ash = Stone
+
+4 - Cinder: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+Ash + Dust = Cinder
+
+4 - Phoenix: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+(fire) + Ash = Phoenix
+
+4 - Salt: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+(water) + Ash = Salt
+
+5 - electricity: 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(fire) + (water) = (steam)
+(pond) + (wind) = (windmill)
+(steam) + (windmill) = electricity
+
+5 - igloo: 
+(water) + (water) = (lake)
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (lake) = (island)
+(ice) + (island) = igloo
+
+5 - (iceberg): 
+(water) + (water) = (lake)
+(fire) + (water) = (steam)
+(lake) + (wind) = (wave)
+(steam) + (water) = (ice)
+(ice) + (wave) = (iceberg)
+
+5 - (steam engine): 
+(earth) + (fire) = (plant)
+(fire) + (water) = (steam)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+(steam) + (wood) = (steam engine)
+ ...
+(earth) + (wind) = (dust)
+(fire) + (water) = (steam)
+(dust) + (wind) = (dust storm)
+(dust storm) + (earth) = (dust Bowl)
+(dust Bowl) + (steam) = (steam engine)
+
+5 - Christmas Tree: 
+(earth) + (fire) = (plant)
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (ice) = Snow
+(plant) + Snow = Christmas Tree
+ ...
+(earth) + (fire) = (plant)
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (wind) = snow
+(plant) + snow = Christmas Tree
+
+5 - (train): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (water) = (steam)
+(fire) + (mud) = (brick)
+(brick) + (steam) = (train)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (water) = (steam)
+(fire) + (mud) = (brick)
+(brick) + (steam) = (train)
+
+5 - Hail: 
+(water) + (wind) = (cloud)
+(fire) + (water) = (steam)
+(cloud) + (cloud) = Rain
+(steam) + (water) = (ice)
+(ice) + Rain = Hail
+ ...
+(water) + (wind) = (cloud)
+(fire) + (water) = (steam)
+(cloud) + (water) = rain
+(steam) + (water) = (ice)
+(ice) + rain = Hail
+
+5 - (desert): 
+(earth) + (wind) = (dust)
+(fire) + (water) = (steam)
+(dust) + (wind) = (dust storm)
+(dust storm) + (steam) = (sand Storm)
+(earth) + (sand Storm) = (desert)
+ ...
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(dust) + (wave) = (sand)
+(earth) + (sand) = (desert)
+
+5 - Ice Tornado: 
+(fire) + (water) = (steam)
+(wind) + (wind) = Tornado
+(steam) + (water) = (ice)
+(fire) + Tornado = Fire Tornado
+(ice) + Fire Tornado = Ice Tornado
+
+5 - Iceberg: 
+(fire) + (water) = (steam)
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+(steam) + (water) = (ice)
+(ice) + Tsunami = Iceberg
+ ...
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (ice) = Snow
+(fire) + Snow = Water
+(ice) + Water = Iceberg
+ ...
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (wind) = snow
+(fire) + snow = Water
+(ice) + Water = Iceberg
+
+5 - Lake: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (ice) = Snow
+(fire) + Snow = Water
+Water + Water = Lake
+ ...
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (wind) = snow
+(fire) + snow = Water
+Water + Water = Lake
+
+5 - Wave: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (ice) = Snow
+(fire) + Snow = Water
+(wind) + Water = Wave
+ ...
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(ice) + (wind) = snow
+(fire) + snow = Water
+(wind) + Water = Wave
+ ...
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wave) = Surfing
+(lake) + Surfing = Wave
+
+5 - (puddle): 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (ice) = (snow)
+(ice) + (snow) = (snowman)
+(snowman) + (water) = (puddle)
+
+5 - Ice Cream: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (ice) = (snow)
+(snow) + (water) = Ice
+(snow) + Ice = Ice Cream
+
+5 - Snowstorm: 
+(fire) + (water) = (steam)
+(steam) + (water) = (ice)
+(earth) + (ice) = (snow)
+(snow) + (wind) = Blizzard
+(snow) + Blizzard = Snowstorm
+
+5 - (bog): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+(lake) + (swamp) = (marsh)
+(marsh) + (swamp) = (bog)
+ ...
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(plant) + (tree) = (forest)
+(forest) + (water) = (swamp)
+(forest) + (swamp) = (bog)
+
+5 - (toadstool): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+(plant) + (swamp) = (mushroom)
+(lake) + (mushroom) = (toadstool)
+
+5 - (swamp tree): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+(earth) + (plant) = (tree)
+(swamp) + (tree) = (swamp tree)
+ ...
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(plant) + (tree) = (forest)
+(forest) + (water) = (swamp)
+(swamp) + (tree) = (swamp tree)
+
+5 - (sea serpent): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+(fire) + (swamp) = (dragon)
+(dragon) + (lake) = (sea serpent)
+
+5 - (dragonfly): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (plant) = (swamp)
+(fire) + (swamp) = (dragon)
+(dragon) + (swamp) = (dragonfly)
+
+5 - Tree: 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(plant) + Continent = Tree
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(earth) + (fire) = (plant)
+(cloud) + (lightning) = Thunder
+(plant) + Thunder = Tree
+ ...
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+(wind) + (wind) = Tornado
+(wood) + Tornado = Tree
+
+5 - (algae): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (wind) = (wave)
+(plant) + (wave) = (seaweed)
+(plant) + (seaweed) = (algae)
+
+5 - (sushi): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (wind) = (wave)
+(plant) + (wave) = (seaweed)
+(fire) + (seaweed) = (sushi)
+
+5 - (surfboard): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(lake) + (wind) = (wave)
+(tree) + (wave) = (surfboard)
+ ...
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(plant) + (surf) = (surfboard)
+
+5 - (mist): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+(lake) + (smoke) = (fog)
+(fog) + (lake) = (mist)
+ ...
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(ash) + (fire) = (smoke)
+(lake) + (smoke) = (fog)
+(fog) + (lake) = (mist)
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+(cloud) + (smoke) = (fog)
+(earth) + (fog) = (mist)
+ ...
+(fire) + (wind) = (ash)
+(water) + (wind) = (cloud)
+(ash) + (fire) = (smoke)
+(cloud) + (smoke) = (fog)
+(earth) + (fog) = (mist)
+
+5 - (boat): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+(lake) + (wood) = (boat)
+ ...
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(house) + (water) = (boat)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(house) + (water) = (boat)
+
+5 - (lily pad): 
+(water) + (water) = (lake)
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(tree) + (wind) = (leaf)
+(lake) + (leaf) = (lily pad)
+
+5 - Magma: 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(ash) + (lake) = (volcano)
+(ash) + (volcano) = (lava)
+(lava) + (lava) = Magma
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(fire) + (island) = (volcano)
+(fire) + (volcano) = (lava)
+(lava) + (lava) = Magma
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(fire) + (lightning) = (volcano)
+(fire) + (volcano) = (lava)
+(lava) + (lava) = Magma
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (fire) = (volcano)
+(fire) + (volcano) = (lava)
+(lava) + (lava) = Magma
+
+5 - (eruption): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(ash) + (lake) = (volcano)
+(ash) + (volcano) = (lava)
+(lava) + (volcano) = (eruption)
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(fire) + (island) = (volcano)
+(fire) + (volcano) = (lava)
+(lava) + (volcano) = (eruption)
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(fire) + (lightning) = (volcano)
+(fire) + (volcano) = (lava)
+(lava) + (volcano) = (eruption)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (fire) = (volcano)
+(fire) + (volcano) = (lava)
+(lava) + (volcano) = (eruption)
+
+5 - (geyser): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(ash) + (lake) = (volcano)
+(pond) + (volcano) = (geyser)
+ ...
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(earth) + (lake) = (island)
+(fire) + (island) = (volcano)
+(pond) + (volcano) = (geyser)
+
+5 - (mud island): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(ash) + (water) = (mud)
+(earth) + (lake) = (island)
+(island) + (mud) = (mud island)
+ ...
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(dust) + (water) = (mud)
+(earth) + (lake) = (island)
+(island) + (mud) = (mud island)
+ ...
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(earth) + (lake) = (island)
+(earth) + (pond) = (mud)
+(island) + (mud) = (mud island)
+
+5 - (ash Pond): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(ash) + (pond) = (ash pond)
+(ash pond) + (lake) = (ash Pond)
+
+5 - (flood): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(ash) + (wave) = (tsunami)
+(lake) + (tsunami) = (flood)
+ ...
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(lake) + (pond) = (ocean)
+(ocean) + (wind) = (storm)
+(pond) + (storm) = (flood)
+
+5 - (hurricane): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(ash) + (wave) = (tsunami)
+(tsunami) + (wind) = (hurricane)
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (wind) = (tornado)
+(earth) + (tornado) = (dust devil)
+(dust devil) + (tornado) = (hurricane)
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (earth) = (rain)
+(cloud) + (rain) = (rainbow)
+(rainbow) + (wind) = (tornado)
+(rain) + (tornado) = (hurricane)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (wind) = (dust Devil)
+(dust Devil) + (water) = (tornado)
+(dust Devil) + (tornado) = (hurricane)
+
+5 - (salt): 
+(fire) + (wind) = (ash)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(lake) + (wave) = (sea)
+(ash) + (sea) = (salt)
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+(water) + Ash = Salt
+(fire) + Salt = (salt)
+
+5 - Pond: 
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (cloud) = Rain
+(lake) + Rain = Puddle
+(lake) + Puddle = Pond
+ ...
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (water) = rain
+(lake) + rain = Puddle
+(lake) + Puddle = Pond
+
+5 - Fog: 
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (cloud) = Rain
+(fire) + Rain = Steam
+(lake) + Steam = Fog
+ ...
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (water) = rain
+(fire) + rain = Steam
+(lake) + Steam = Fog
+
+5 - Swamp: 
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+(lake) + Mud = Swamp
+ ...
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(lake) + Mud = Swamp
+ ...
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(lake) + mud = Swamp
+ ...
+(water) + (water) = (lake)
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(water) + Dust = Mud
+(lake) + Mud = Swamp
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(water) + Rain = Flood
+(plant) + Flood = Swamp
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+(plant) + Mud = Swamp
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(water) + rain = Flood
+(plant) + Flood = Swamp
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(plant) + Mud = Swamp
+ ...
+(earth) + (wind) = (dust)
+(earth) + (fire) = (plant)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(plant) + mud = Swamp
+ ...
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(water) + Dust = Mud
+(plant) + Mud = Swamp
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(fire) + Rain = Steam
+(earth) + Rain = Mud
+Mud + Steam = Swamp
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(fire) + rain = Steam
+Mud + Steam = Swamp
+
+5 - (rainbow lake): 
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (earth) = (rain)
+(cloud) + (rain) = (rainbow)
+(lake) + (rainbow) = (rainbow lake)
+
+5 - Poseidon: 
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(cloud) + (fire) = (lightning)
+(lake) + (wind) = (wave)
+(lightning) + (wave) = Poseidon
+ ...
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(fire) + (surf) = (surf and turf)
+(surf and turf) + (wave) = Poseidon
+
+5 - (surf cloud): 
+(water) + (wind) = (cloud)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(cloud) + (surf) = (surf cloud)
+
+5 - (desert island): 
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(dust) + (wind) = (dust storm)
+(earth) + (lake) = (island)
+(dust storm) + (island) = (desert island)
+
+5 - (Tsunami): 
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(dust) + (wind) = (dust storm)
+(dust storm) + (wave) = (Tsunami)
+
+5 - beach: 
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(dust) + (wave) = (sand)
+(sand) + (wave) = beach
+
+5 - (glass): 
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(dust) + (wave) = (sand)
+(fire) + (sand) = (glass)
+
+5 - (life): 
+(earth) + (wind) = (dust)
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(lake) + (wave) = (sea)
+(dust) + (sea) = (life)
+
+5 - Sea: 
+(water) + (water) = (lake)
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+(lake) + Tsunami = Ocean
+(lake) + Ocean = Sea
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(water) + Continent = Ocean
+(lake) + Ocean = Sea
+ ...
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wave) = Tsunami
+(lake) + Tsunami = Ocean
+(lake) + Ocean = Sea
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(water) + Rain = Flood
+Flood + Flood = Ocean
+Ocean + Ocean = Sea
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(water) + rain = Flood
+Flood + Flood = Ocean
+Ocean + Ocean = Sea
+
+5 - Vortex: 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(wind) + (wind) = Tornado
+(pond) + Tornado = Whirlpool
+(lake) + Whirlpool = Vortex
+
+5 - (wind turbine): 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+(earth) + (lake) = (island)
+(island) + (windmill) = (wind turbine)
+
+5 - (pond surf): 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(pond) + (surf) = (pond surf)
+
+5 - (frog): 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(earth) + (pond) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (pond) = (frog)
+ ...
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+(fire) + (windmill) = (electricity)
+(electricity) + (pond) = (frog)
+
+5 - Wind: 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+(windmill) + (windmill) = Windmill
+(lake) + Windmill = Wind
+
+5 - Wind Farm: 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+(windmill) + (windmill) = Windmill
+Windmill + Windmill = Wind Farm
+
+5 - Energy: 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+(windmill) + (windmill) = Windmill
+(fire) + Windmill = Energy
+
+5 - Electricity: 
+(water) + (water) = (lake)
+(lake) + (water) = (pond)
+(pond) + (wind) = (windmill)
+(windmill) + (windmill) = Windmill
+(wind) + Windmill = Electricity
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (cloud) = Rain
+(fire) + Rain = Steam
+(lightning) + Steam = Electricity
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (cloud) = Rain
+(water) + Rain = Flood
+(lightning) + Flood = Electricity
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (water) = rain
+(fire) + rain = Steam
+(lightning) + Steam = Electricity
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (water) = rain
+(water) + rain = Flood
+(lightning) + Flood = Electricity
+
+5 - Supercontinent: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(island) + Continent = Pangaea
+Pangaea + Pangaea = Supercontinent
+
+5 - Hawaii: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(fire) + (island) = (volcano)
+(island) + (island) = Continent
+(volcano) + Continent = Hawaii
+
+5 - Archipelago: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(lake) + Continent = Island
+(island) + Island = Archipelago
+ ...
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(earth) + (island) = (continent)
+(continent) + (continent) = Island
+(island) + Island = Archipelago
+
+5 - Tasmania: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(fire) + Continent = Australia
+(island) + Australia = Tasmania
+
+5 - Lake Eyre: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(fire) + Continent = Australia
+(lake) + Australia = Lake Eyre
+
+5 - Bushfire: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(fire) + Continent = Australia
+(fire) + Australia = Bushfire
+
+5 - Drought: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(fire) + Continent = Australia
+(water) + Australia = Drought
+
+5 - Oz: 
+(water) + (water) = (lake)
+(earth) + (lake) = (island)
+(island) + (island) = Continent
+(fire) + Continent = Australia
+(earth) + Australia = Oz
+
+5 - (beach island): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(earth) + (lake) = (island)
+(island) + (wave) = (beach)
+(beach) + (island) = (beach island)
+
+5 - (bonfire): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(earth) + (lake) = (island)
+(island) + (wave) = (beach)
+(beach) + (fire) = (bonfire)
+
+5 - (surfing): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(earth) + (lake) = (island)
+(wave) + (wind) = (surf)
+(island) + (surf) = (surfing)
+ ...
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wind) = (kite)
+(kite) + (surf) = (surfing)
+
+5 - Surfer: 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wave) = Surfing
+(wave) + Surfing = Surfer
+
+5 - Surfboard: 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wave) = Surfing
+Surfing + Surfing = Surfboard
+
+5 - (seafood): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(fire) + (surf) = (surf and turf)
+(lake) + (surf and turf) = (seafood)
+
+5 - Surf And Turf: 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(fire) + (surf) = (surf and turf)
+(surf and turf) + (surf and turf) = Surf And Turf
+
+5 - Turf: 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(fire) + (surf) = (surf and turf)
+(surf and turf) + (surf) = Turf
+
+5 - (barbecue): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(fire) + (surf) = (surf and turf)
+(fire) + (surf and turf) = (barbecue)
+
+5 - (poseidon): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(fire) + (surf) = (surf and turf)
+(surf and turf) + (water) = (poseidon)
+
+5 - (surf And Turf): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(fire) + (surf) = (surf and turf)
+(surf and turf) + (wind) = (surf And Turf)
+
+5 - (steak): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(earth) + (surf) = (turf)
+(fire) + (turf) = (steak)
+
+5 - (grass): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(earth) + (surf) = (turf)
+(earth) + (turf) = (grass)
+
+5 - (windsurfer): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wind) = (kite)
+(kite) + (lake) = (windsurfer)
+
+5 - (surfer): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wind) = (kite)
+(kite) + (wave) = (surfer)
+
+5 - (flight): 
+(water) + (water) = (lake)
+(lake) + (wind) = (wave)
+(wave) + (wind) = (surf)
+(surf) + (wind) = (kite)
+(kite) + (wind) = (flight)
+
+5 - (cigarette): 
+(fire) + (wind) = (ash)
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(tree) + (wind) = (leaf)
+(ash) + (leaf) = (cigarette)
+ ...
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+(earth) + (plant) = (tree)
+(tree) + (wind) = (leaf)
+(leaf) + (smoke) = (cigarette)
+
+5 - (pot): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(earth) + (fire) = (plant)
+(ash) + (mud) = (clay)
+(clay) + (plant) = (pot)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (fire) = (plant)
+(earth) + (mud) = (clay)
+(clay) + (plant) = (pot)
+
+5 - Bouquet: 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(plant) + Rain = Flower
+(plant) + Flower = Bouquet
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(plant) + rain = Flower
+(plant) + Flower = Bouquet
+
+5 - Garden: 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(plant) + Rain = Flower
+Flower + Flower = Garden
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(plant) + rain = Flower
+Flower + Flower = Garden
+
+5 - Pollen: 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(plant) + Rain = Flower
+Flower + Rain = Pollen
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(plant) + rain = Flower
+Flower + rain = Pollen
+
+5 - Lily: 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(plant) + Rain = Flower
+(water) + Flower = Lily
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(plant) + rain = Flower
+(water) + Flower = Lily
+
+5 - Plant: 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(plant) + Rain = Flower
+(earth) + Flower = Plant
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(plant) + rain = Flower
+(earth) + Flower = Plant
+
+5 - Dandelion: 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(plant) + Rain = Flower
+(wind) + Flower = Dandelion
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(plant) + rain = Flower
+(wind) + Flower = Dandelion
+
+5 - Tea: 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (cloud) = Rain
+(fire) + Rain = Steam
+(plant) + Steam = Tea
+ ...
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (water) = rain
+(fire) + rain = Steam
+(plant) + Steam = Tea
+
+5 - (rose): 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (earth) = (rain)
+(plant) + (rain) = (flower)
+(fire) + (flower) = (rose)
+
+5 - (dandelion): 
+(water) + (wind) = (cloud)
+(earth) + (fire) = (plant)
+(cloud) + (earth) = (rain)
+(plant) + (rain) = (flower)
+(flower) + (wind) = (dandelion)
+
+5 - (chair): 
+(earth) + (wind) = (dust)
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+(dust) + (wood) = (chair)
+
+5 - (dust Tree): 
+(earth) + (wind) = (dust)
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(dust) + (wind) = (dust storm)
+(dust storm) + (tree) = (dust Tree)
+
+5 - (tumbleweed): 
+(earth) + (wind) = (dust)
+(earth) + (fire) = (plant)
+(dust) + (wind) = (dust storm)
+(dust storm) + (plant) = (cactus)
+(cactus) + (dust storm) = (tumbleweed)
+
+5 - (crop): 
+(earth) + (wind) = (dust)
+(earth) + (fire) = (plant)
+(dust) + (wind) = (dust storm)
+(dust storm) + (earth) = (dust Bowl)
+(dust Bowl) + (plant) = (crop)
+
+5 - Cactus: 
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(plant) + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+(plant) + Desert = Cactus
+ ...
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(plant) + Tornado = Dust Bowl
+(wind) + Dust Bowl = Dust Storm
+(plant) + Dust Storm = Cactus
+ ...
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+(wind) + (wind) = Tornado
+(smoke) + Tornado = Dust Storm
+(plant) + Dust Storm = Cactus
+ ...
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(plant) + Sand = Cactus
+ ...
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Tornado = Dust Storm
+(plant) + Dust Storm = Cactus
+
+5 - Oasis: 
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(plant) + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+(water) + Desert = Oasis
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (earth) = (dust Bowl)
+(dust Bowl) + (dust Bowl) = Desert
+(water) + Desert = Oasis
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+(water) + Desert = Oasis
+
+5 - Tumbleweed: 
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(plant) + Tornado = Dust Bowl
+Dust Bowl + Tornado = Dust Devil
+(plant) + Dust Devil = Tumbleweed
+ ...
+(earth) + (wind) = (dust)
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(dust) + Tornado = Dust Devil
+(plant) + Dust Devil = Tumbleweed
+
+5 - Fire Storm: 
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(plant) + Tornado = Dust Bowl
+(fire) + Tornado = Fire Tornado
+Dust Bowl + Fire Tornado = Fire Storm
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Tornado = Dust Storm
+(fire) + Tornado = Fire Tornado
+Dust Storm + Fire Tornado = Fire Storm
+
+5 - Dustnami: 
+(earth) + (fire) = (plant)
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+(plant) + Tornado = Dust Bowl
+Dust Bowl + Tsunami = Dustnami
+
+5 - Smoke: 
+(earth) + (fire) = (plant)
+(fire) + (plant) = (smoke)
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(smoke) + Hurricane = Smoke
+ ...
+(fire) + (wind) = (ash)
+(ash) + (fire) = (smoke)
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(smoke) + Hurricane = Smoke
+
+5 - Palm: 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(tree) + Hurricane = Palm
+
+5 - Forest: 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+(tree) + Tsunami = Forest
+
+5 - (wooden house): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(plant) + (tree) = (forest)
+(forest) + (wind) = (tornado)
+(tornado) + (tree) = (wooden house)
+
+5 - (book): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+(tree) + (wood) = (paper)
+(paper) + (plant) = (book)
+
+5 - (paper boat): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+(tree) + (wood) = (paper)
+(paper) + (water) = (paper boat)
+
+5 - (scissors): 
+(earth) + (fire) = (plant)
+(earth) + (plant) = (tree)
+(earth) + (tree) = (wood)
+(tree) + (wood) = (paper)
+(earth) + (paper) = (scissors)
+
+5 - Pottery: 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(wind) + (wind) = Tornado
+(ash) + (mud) = (clay)
+(clay) + Tornado = Pottery
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+Mud + Mud = Clay
+Clay + Mud = Pottery
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+Mud + Mud = Clay
+Clay + Mud = Pottery
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(wind) + (wind) = Tornado
+(earth) + (mud) = (clay)
+(clay) + Tornado = Pottery
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+mud + mud = Clay
+Clay + mud = Pottery
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(water) + Dust = Mud
+Mud + Mud = Clay
+Clay + Mud = Pottery
+
+5 - Rock: 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(wind) + (wind) = Tornado
+(mud) + Tornado = Mudslide
+Mudslide + Mudslide = Rock
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(wind) + (wind) = Tornado
+(mud) + Tornado = Mudslide
+Mudslide + Mudslide = Rock
+ ...
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(fire) + Hurricane = Volcano
+(fire) + Volcano = Lava
+(earth) + Lava = Rock
+ ...
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(earth) + Fire Tornado = Volcano
+(fire) + Volcano = Lava
+(earth) + Lava = Rock
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+Ash + Ash = Stone
+(earth) + Stone = Rock
+
+5 - Mudnado: 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(wind) + (wind) = Tornado
+(mud) + Tornado = Mudslide
+Mudslide + Tornado = Mudnado
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(wind) + (wind) = Tornado
+(mud) + Tornado = Mudslide
+Mudslide + Tornado = Mudnado
+
+5 - House: 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(wind) + (wind) = Tornado
+(fire) + (mud) = (brick)
+(brick) + Tornado = House
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(wind) + (wind) = Tornado
+(fire) + (mud) = (brick)
+(brick) + Tornado = House
+
+5 - Mud Tornado: 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(mud) + Fire Tornado = Mud Tornado
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(mud) + Fire Tornado = Mud Tornado
+
+5 - (statue): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (fire) = (smoke)
+(ash) + (mud) = (clay)
+(clay) + (smoke) = (statue)
+ ...
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(clay) + (wind) = (golem)
+(earth) + (golem) = (statue)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (wind) = (golem)
+(earth) + (golem) = (statue)
+
+5 - (smudge): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (fire) = (smoke)
+(mud) + (smoke) = (smog)
+(mud) + (smog) = (smudge)
+
+5 - acid rain: 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (fire) = (smoke)
+(mud) + (smoke) = (smog)
+(smog) + (water) = acid rain
+
+5 - (pollution): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (fire) = (smoke)
+(mud) + (smoke) = (smog)
+(earth) + (smog) = (pollution)
+
+5 - (vase): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(ash) + (clay) = (pottery)
+(ash) + (pottery) = (vase)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (fire) = (pottery)
+(clay) + (pottery) = (vase)
+
+5 - (ceramic): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(ash) + (clay) = (pottery)
+(fire) + (pottery) = (ceramic)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (fire) = (pottery)
+(fire) + (pottery) = (ceramic)
+
+5 - (pottery wheel): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(ash) + (clay) = (pottery)
+(pottery) + (wind) = (pottery wheel)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (fire) = (pottery)
+(pottery) + (wind) = (pottery wheel)
+
+5 - (ash golem): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(clay) + (wind) = (golem)
+(ash) + (golem) = (ash golem)
+
+5 - (lava golem): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(clay) + (wind) = (golem)
+(fire) + (golem) = (lava golem)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (wind) = (golem)
+(fire) + (golem) = (lava golem)
+
+5 - (air): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(ash) + (mud) = (clay)
+(clay) + (wind) = (golem)
+(golem) + (wind) = (air)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (wind) = (golem)
+(golem) + (wind) = (air)
+
+5 - Wall: 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (brick) = (brick wall)
+(brick wall) + (brick wall) = Wall
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (brick) = (brick wall)
+(brick wall) + (brick wall) = Wall
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (dust) = (mortar)
+(brick) + (mortar) = Wall
+
+5 - (brick Wall): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (brick) = (brick wall)
+(brick wall) + (fire) = (brick Wall)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (brick) = (brick wall)
+(brick wall) + (fire) = (brick Wall)
+
+5 - (ash house): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(ash) + (house) = (ash house)
+
+5 - (mud house): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(house) + (mud) = (mud house)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(house) + (mud) = (mud house)
+
+5 - (fireplace): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(fire) + (house) = (fireplace)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(fire) + (house) = (fireplace)
+
+5 - (castle): 
+(fire) + (wind) = (ash)
+(ash) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(earth) + (house) = (castle)
+ ...
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(earth) + (house) = (castle)
+
+5 - Rainbow Dash: 
+(water) + (wind) = (cloud)
+(earth) + (wind) = (dust)
+(cloud) + (cloud) = Rain
+(cloud) + Rain = Rainbow
+(dust) + Rainbow = Rainbow Dash
+ ...
+(water) + (wind) = (cloud)
+(earth) + (wind) = (dust)
+(cloud) + (water) = rain
+(cloud) + rain = Rainbow
+(dust) + Rainbow = Rainbow Dash
+
+5 - (rainbow dust): 
+(water) + (wind) = (cloud)
+(earth) + (wind) = (dust)
+(cloud) + (earth) = (rain)
+(cloud) + (rain) = (rainbow)
+(dust) + (rainbow) = (rainbow dust)
+
+5 - Noah: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(cloud) + Rain = Rainbow
+(water) + Rain = Flood
+Flood + Rainbow = Noah
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(water) + rain = Flood
+(cloud) + rain = Rainbow
+Flood + Rainbow = Noah
+
+5 - Pig: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(cloud) + Rain = Rainbow
+(earth) + Rain = Mud
+Mud + Rainbow = Pig
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(cloud) + rain = Rainbow
+Mud + Rainbow = Pig
+ ...
+(earth) + (wind) = (dust)
+(dust) + (earth) = (dirt)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(dirt) + mud = Pig
+
+5 - (fossil): 
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+(lightning) + Mud = (fossil)
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(lightning) + Mud = (fossil)
+
+5 - Muddy Cloud: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+(cloud) + Mud = (muddy cloud)
+(muddy cloud) + Mud = Muddy Cloud
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(cloud) + Mud = (muddy cloud)
+(muddy cloud) + Mud = Muddy Cloud
+
+5 - (muddy Rain): 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+(cloud) + Mud = (muddy cloud)
+(muddy cloud) + (water) = (muddy Rain)
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(cloud) + Mud = (muddy cloud)
+(muddy cloud) + (water) = (muddy Rain)
+
+5 - (muddy earth): 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+(cloud) + Mud = (muddy cloud)
+(earth) + (muddy cloud) = (muddy earth)
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+(cloud) + Mud = (muddy cloud)
+(earth) + (muddy cloud) = (muddy earth)
+
+5 - Golem: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+Mud + Mud = Clay
+(cloud) + Clay = Golem
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+Mud + Mud = Clay
+(cloud) + Clay = Golem
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+mud + mud = Clay
+(dust storm) + Clay = Golem
+
+5 - Brick: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+Mud + Mud = Clay
+Clay + Clay = Brick
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+Mud + Mud = Clay
+Clay + Clay = Brick
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+mud + mud = Clay
+Clay + Clay = Brick
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(water) + Dust = Mud
+Mud + Mud = Clay
+Clay + Clay = Brick
+
+5 - Pot: 
+(water) + (wind) = (cloud)
+(cloud) + (cloud) = Rain
+(earth) + Rain = Mud
+Mud + Mud = Clay
+(earth) + Clay = Pot
+ ...
+(water) + (wind) = (cloud)
+(cloud) + (water) = rain
+(earth) + rain = Mud
+Mud + Mud = Clay
+(earth) + Clay = Pot
+ ...
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+mud + mud = Clay
+(earth) + Clay = Pot
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(water) + Dust = Mud
+Mud + Mud = Clay
+(earth) + Clay = Pot
+
+5 - (mountain): 
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(fire) + (lightning) = (volcano)
+(lightning) + (volcano) = (earthquake)
+(earth) + (earthquake) = (mountain)
+
+5 - (typhoon): 
+(water) + (wind) = (cloud)
+(cloud) + (fire) = (lightning)
+(fire) + (lightning) = (volcano)
+(lightning) + (volcano) = (earthquake)
+(earthquake) + (wind) = (typhoon)
+
+5 - Double Rainbow: 
+(water) + (wind) = (cloud)
+(cloud) + (earth) = (rain)
+(cloud) + (rain) = (rainbow)
+(rainbow) + (rainbow) = Rainbow
+(rainbow) + Rainbow = Double Rainbow
+
+5 - (rainbow tornado): 
+(water) + (wind) = (cloud)
+(cloud) + (earth) = (rain)
+(cloud) + (rain) = (rainbow)
+(rainbow) + (wind) = (tornado)
+(rainbow) + (tornado) = (rainbow tornado)
+
+5 - Dust Bunny: 
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(wind) + (wind) = Tornado
+(dust) + Tornado = Dust Devil
+(mud) + Dust Devil = Dust Bunny
+
+5 - Sandy: 
+(earth) + (wind) = (dust)
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+(dust) + (wind) = (dust storm)
+(dust storm) + Tsunami = Sandy
+
+5 - (robot): 
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (dust) = (human)
+(dust) + (human) = (robot)
+
+5 - (robe): 
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(earth) + (mud) = (clay)
+(clay) + (dust) = (human)
+(earth) + (human) = (robe)
+
+5 - (pestle): 
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (dust) = (mortar)
+(fire) + (mortar) = (pestle)
+
+5 - (cement): 
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (dust) = (mortar)
+(mortar) + (water) = (cement)
+
+5 - (dusty house): 
+(earth) + (wind) = (dust)
+(dust) + (water) = (mud)
+(fire) + (mud) = (brick)
+(brick) + (wind) = (house)
+(dust) + (house) = (dusty house)
+
+5 - Mud Bowl: 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(dust storm) + (earth) = (dust Bowl)
+(dust Bowl) + mud = Mud Bowl
+
+5 - Mud Devil: 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(dust storm) + (wind) = (dust Devil)
+(dust Devil) + mud = Mud Devil
+
+5 - Sandman: 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(dust) + mud = Adam
+(dust storm) + Adam = Sandman
+
+5 - Human: 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(dust) + mud = Adam
+(dust) + Adam = Human
+
+5 - Eve: 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (water) = mud
+(dust) + mud = Adam
+(fire) + Adam = Eve
+
+5 - Twister: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+Disaster + Tornado = Twister
+
+5 - Firefighter: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+(fire) + Disaster = Firefighter
+
+5 - Geyser: 
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(fire) + Hurricane = Volcano
+Tornado + Volcano = Eruption
+(water) + Eruption = Geyser
+ ...
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(earth) + Fire Tornado = Volcano
+Tornado + Volcano = Eruption
+(water) + Eruption = Geyser
+
+5 - Mountain Range: 
+(wind) + (wind) = Tornado
+Tornado + Tornado = Hurricane
+(fire) + Hurricane = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+ ...
+(wind) + (wind) = Tornado
+(fire) + Tornado = Fire Tornado
+(earth) + Fire Tornado = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+
+5 - Chaos: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+
+5 - Fireworks: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+(fire) + Explosion = Fireworks
+
+5 - Meteor: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+(earth) + Explosion = Meteor
+
+5 - Crack: 
+(wind) + (wind) = Tornado
+(water) + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Tsunami = Earthquake
+(earth) + Earthquake = Crack
+
+5 - Dune: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+Dust + Sand = Sandstorm
+(earth) + Sandstorm = Dune
+ ...
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Tornado = Dust Storm
+Dust + Dust Storm = Sandstorm
+(earth) + Sandstorm = Dune
+
+5 - Pyramid: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+
+5 - Telescope: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(fire) + Sand = Glass
+Dust + Glass = Telescope
+
+5 - Window: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(fire) + Sand = Glass
+Glass + Glass = Window
+
+5 - Hourglass: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(fire) + Sand = Glass
+Glass + Sand = Hourglass
+
+5 - Shatter: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(fire) + Sand = Glass
+Glass + Tornado = Shatter
+
+5 - Lens: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(fire) + Sand = Glass
+(fire) + Glass = Lens
+
+5 - Wine: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(fire) + Sand = Glass
+(water) + Glass = Wine
+
+5 - Bottle: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(fire) + Sand = Glass
+(earth) + Glass = Bottle
+
+5 - Sandcastle: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+Dust + Dust = Sand
+(water) + Sand = Beach
+Beach + Sand = Sandcastle
+
+5 - Statue: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+
+5 - Boulder: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+Ash + Ash = Stone
+Stone + Stone = Boulder
+
+5 - Avalanche: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+Ash + Ash = Stone
+Stone + Tornado = Avalanche
+
+5 - Fountain: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+Ash + Ash = Stone
+(water) + Stone = Fountain
+
+5 - Rebirth: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+(fire) + Ash = Phoenix
+Ash + Phoenix = Rebirth
+
+5 - Firebird: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+(fire) + Ash = Phoenix
+Phoenix + Tornado = Firebird
+
+5 - Fire: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+(fire) + Ash = Phoenix
+(wind) + Phoenix = Fire
+
+5 - Sodium: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+(water) + Ash = Salt
+Ash + Salt = Sodium
+
+5 - Salt Lick: 
+(wind) + (wind) = Tornado
+(earth) + Tornado = Dust
+(fire) + Dust = Ash
+(water) + Ash = Salt
+Salt + Salt = Salt Lick
+
+5 - Volcanic Rock: 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (fire) = (volcano)
+(dust storm) + (volcano) = (volcanic ash)
+(volcanic ash) + (volcanic ash) = Volcanic Rock
+
+5 - (fire Tornado): 
+(earth) + (wind) = (dust)
+(dust) + (wind) = (dust storm)
+(dust storm) + (wind) = (dust Devil)
+(dust Devil) + (fire) = (fire tornado)
+(fire tornado) + (wind) = (fire Tornado)
+
+
+
+{
+  "(steam)": 1,
+  "(lake)": 1,
+  "(plant)": 1,
+  "(ash)": 1,
+  "(cloud)": 1,
+  "(dust)": 1,
+  "Tornado": 1,
+  "(ice)": 2,
+  "(pond)": 2,
+  "(island)": 2,
+  "(wave)": 2,
+  "(smoke)": 2,
+  "(tree)": 2,
+  "(mud)": 2,
+  "Rain": 2,
+  "(lightning)": 2,
+  "rain": 2,
+  "(rain)": 2,
+  "(dirt)": 2,
+  "(dust storm)": 2,
+  "Hurricane": 2,
+  "Fire Tornado": 2,
+  "Tsunami": 2,
+  "Dust": 2,
+  "Snow": 3,
+  "(snow)": 3,
+  "snow": 3,
+  "(swamp)": 3,
+  "(volcano)": 3,
+  "(ocean)": 3,
+  "(windmill)": 3,
+  "Continent": 3,
+  "(continent)": 3,
+  "(tornado)": 3,
+  "(sea)": 3,
+  "(surf)": 3,
+  "Dust Bowl": 3,
+  "Cloud": 3,
+  "(forest)": 3,
+  "(wood)": 3,
+  "(leaf)": 3,
+  "(ashes)": 3,
+  "(clay)": 3,
+  "(brick)": 3,
+  "(dust cloud)": 3,
+  "Rainbow": 3,
+  "Steam": 3,
+  "Flood": 3,
+  "Mud": 3,
+  "Storm": 3,
+  "Thunder": 3,
+  "(rainbow)": 3,
+  "Dust Devil": 3,
+  "(soil)": 3,
+  "(dust Storm)": 3,
+  "mud": 3,
+  "(dust Bowl)": 3,
+  "(dust Devil)": 3,
+  "Volcano": 3,
+  "Destruction": 3,
+  "Sand": 3,
+  "Dust Storm": 3,
+  "Ash": 3,
+  "(thunder)": 4,
+  "(sand Storm)": 4,
+  "Snowman": 4,
+  "Ice": 4,
+  "Water": 4,
+  "(snowman)": 4,
+  "Snowball": 4,
+  "Blizzard": 4,
+  "(marsh)": 4,
+  "(mushroom)": 4,
+  "(dragon)": 4,
+  "(seaweed)": 4,
+  "(fog)": 4,
+  "(lava)": 4,
+  "(ash pond)": 4,
+  "(tsunami)": 4,
+  "Puddle": 4,
+  "(sand)": 4,
+  "Ocean": 4,
+  "Whirlpool": 4,
+  "(storm)": 4,
+  "Windmill": 4,
+  "(electricity)": 4,
+  "Pangaea": 4,
+  "Island": 4,
+  "Australia": 4,
+  "(dust devil)": 4,
+  "(beach)": 4,
+  "(land)": 4,
+  "Surfing": 4,
+  "(surf and turf)": 4,
+  "(turf)": 4,
+  "(kite)": 4,
+  "Flower": 4,
+  "(flower)": 4,
+  "(cactus)": 4,
+  "Desert": 4,
+  "(paper)": 4,
+  "Mudslide": 4,
+  "(smog)": 4,
+  "(pottery)": 4,
+  "(golem)": 4,
+  "(brick wall)": 4,
+  "(adobe)": 4,
+  "(house)": 4,
+  "(mud Storm)": 4,
+  "(dust Cloud)": 4,
+  "(muddy cloud)": 4,
+  "Clay": 4,
+  "Lightning": 4,
+  "Thunderstorm": 4,
+  "(earthquake)": 4,
+  "Fire Devil": 4,
+  "(human)": 4,
+  "(mortar)": 4,
+  "(volcanic ash)": 4,
+  "Adam": 4,
+  "(fire tornado)": 4,
+  "Disaster": 4,
+  "Eruption": 4,
+  "Mountain": 4,
+  "Lava": 4,
+  "Explosion": 4,
+  "Earthquake": 4,
+  "Sandstorm": 4,
+  "Glass": 4,
+  "Beach": 4,
+  "Stone": 4,
+  "Cinder": 4,
+  "Phoenix": 4,
+  "Salt": 4,
+  "electricity": 5,
+  "igloo": 5,
+  "(iceberg)": 5,
+  "(steam engine)": 5,
+  "Christmas Tree": 5,
+  "(train)": 5,
+  "Hail": 5,
+  "(desert)": 5,
+  "Ice Tornado": 5,
+  "Iceberg": 5,
+  "Lake": 5,
+  "Wave": 5,
+  "(puddle)": 5,
+  "Ice Cream": 5,
+  "Snowstorm": 5,
+  "(bog)": 5,
+  "(toadstool)": 5,
+  "(swamp tree)": 5,
+  "(sea serpent)": 5,
+  "(dragonfly)": 5,
+  "Tree": 5,
+  "(algae)": 5,
+  "(sushi)": 5,
+  "(surfboard)": 5,
+  "(mist)": 5,
+  "(boat)": 5,
+  "(lily pad)": 5,
+  "Magma": 5,
+  "(eruption)": 5,
+  "(geyser)": 5,
+  "(mud island)": 5,
+  "(ash Pond)": 5,
+  "(flood)": 5,
+  "(hurricane)": 5,
+  "(salt)": 5,
+  "Pond": 5,
+  "Fog": 5,
+  "Swamp": 5,
+  "(rainbow lake)": 5,
+  "Poseidon": 5,
+  "(surf cloud)": 5,
+  "(desert island)": 5,
+  "(Tsunami)": 5,
+  "beach": 5,
+  "(glass)": 5,
+  "(life)": 5,
+  "Sea": 5,
+  "Vortex": 5,
+  "(wind turbine)": 5,
+  "(pond surf)": 5,
+  "(frog)": 5,
+  "Wind": 5,
+  "Wind Farm": 5,
+  "Energy": 5,
+  "Electricity": 5,
+  "Supercontinent": 5,
+  "Hawaii": 5,
+  "Archipelago": 5,
+  "Tasmania": 5,
+  "Lake Eyre": 5,
+  "Bushfire": 5,
+  "Drought": 5,
+  "Oz": 5,
+  "(beach island)": 5,
+  "(bonfire)": 5,
+  "(surfing)": 5,
+  "Surfer": 5,
+  "Surfboard": 5,
+  "(seafood)": 5,
+  "Surf And Turf": 5,
+  "Turf": 5,
+  "(barbecue)": 5,
+  "(poseidon)": 5,
+  "(surf And Turf)": 5,
+  "(steak)": 5,
+  "(grass)": 5,
+  "(windsurfer)": 5,
+  "(surfer)": 5,
+  "(flight)": 5,
+  "(cigarette)": 5,
+  "(pot)": 5,
+  "Bouquet": 5,
+  "Garden": 5,
+  "Pollen": 5,
+  "Lily": 5,
+  "Plant": 5,
+  "Dandelion": 5,
+  "Tea": 5,
+  "(rose)": 5,
+  "(dandelion)": 5,
+  "(chair)": 5,
+  "(dust Tree)": 5,
+  "(tumbleweed)": 5,
+  "(crop)": 5,
+  "Cactus": 5,
+  "Oasis": 5,
+  "Tumbleweed": 5,
+  "Fire Storm": 5,
+  "Dustnami": 5,
+  "Smoke": 5,
+  "Palm": 5,
+  "Forest": 5,
+  "(wooden house)": 5,
+  "(book)": 5,
+  "(paper boat)": 5,
+  "(scissors)": 5,
+  "Pottery": 5,
+  "Rock": 5,
+  "Mudnado": 5,
+  "House": 5,
+  "Mud Tornado": 5,
+  "(statue)": 5,
+  "(smudge)": 5,
+  "acid rain": 5,
+  "(pollution)": 5,
+  "(vase)": 5,
+  "(ceramic)": 5,
+  "(pottery wheel)": 5,
+  "(ash golem)": 5,
+  "(lava golem)": 5,
+  "(air)": 5,
+  "Wall": 5,
+  "(brick Wall)": 5,
+  "(ash house)": 5,
+  "(mud house)": 5,
+  "(fireplace)": 5,
+  "(castle)": 5,
+  "Rainbow Dash": 5,
+  "(rainbow dust)": 5,
+  "Noah": 5,
+  "Pig": 5,
+  "(fossil)": 5,
+  "Muddy Cloud": 5,
+  "(muddy Rain)": 5,
+  "(muddy earth)": 5,
+  "Golem": 5,
+  "Brick": 5,
+  "Pot": 5,
+  "(mountain)": 5,
+  "(typhoon)": 5,
+  "Double Rainbow": 5,
+  "(rainbow tornado)": 5,
+  "Dust Bunny": 5,
+  "Sandy": 5,
+  "(robot)": 5,
+  "(robe)": 5,
+  "(pestle)": 5,
+  "(cement)": 5,
+  "(dusty house)": 5,
+  "Mud Bowl": 5,
+  "Mud Devil": 5,
+  "Sandman": 5,
+  "Human": 5,
+  "Eve": 5,
+  "Twister": 5,
+  "Firefighter": 5,
+  "Geyser": 5,
+  "Mountain Range": 5,
+  "Chaos": 5,
+  "Fireworks": 5,
+  "Meteor": 5,
+  "Crack": 5,
+  "Dune": 5,
+  "Pyramid": 5,
+  "Telescope": 5,
+  "Window": 5,
+  "Hourglass": 5,
+  "Shatter": 5,
+  "Lens": 5,
+  "Wine": 5,
+  "Bottle": 5,
+  "Sandcastle": 5,
+  "Statue": 5,
+  "Boulder": 5,
+  "Avalanche": 5,
+  "Fountain": 5,
+  "Rebirth": 5,
+  "Firebird": 5,
+  "Fire": 5,
+  "Sodium": 5,
+  "Salt Lick": 5,
+  "Volcanic Rock": 5,
+  "(fire Tornado)": 5
+}

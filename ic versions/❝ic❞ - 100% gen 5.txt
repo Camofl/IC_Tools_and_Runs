@@ -1,0 +1,6534 @@
+  // 0
+
+
+
+Gen 1 - 9 Elements -> 9 Total Elements
+Gen 2 - 23 Elements -> 32 Total Elements
+Gen 3 - 51 Elements -> 83 Total Elements
+Gen 4 - 139 Elements -> 222 Total Elements
+Gen 5 - 448 Elements -> 670 Total Elements
+
+
+
+1 - ❝lava❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+
+1 - ❝steam❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+
+1 - ❝lake❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+
+1 - ❝ash❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+
+1 - ❝rain❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+
+1 - Tornado: 
+❝wind❞ + ❝wind❞ = Tornado
+
+1 - ❝plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+
+1 - ❝dust❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+
+1 - ❝mountain❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+
+2 - ❝magma❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝fire❞ + ❝lava❞ = ❝magma❞
+
+2 - ❝volcano❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lava❞ + ❝wind❞ = ❝volcano❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+
+2 - ❝steam engine❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+
+2 - ❝ice❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+
+2 - ❝cloud❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+
+2 - ❝ocean❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+
+2 - ❝sea❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+
+2 - ❝wave❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+
+2 - ❝mud❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+
+2 - ❝ashfire❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+
+2 - ❝ashes❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+
+2 - ❝pond❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+
+2 - ❝storm❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+
+2 - Hurricane: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + Tornado = Hurricane
+
+2 - Volcano: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+
+2 - Tsunami: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+
+2 - Dust: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+
+2 - ❝flower❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+
+2 - ❝coal❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+
+2 - ❝tree❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+
+2 - ❝dust storm❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+
+2 - ❝soil❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝earth❞ = ❝soil❞
+
+2 - ❝mountain wind❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+
+3 - volcano: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝lava❞ + ❝mountain❞ = volcano
+
+3 - ❝ashteam❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+
+3 - Cloud: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + ❝steam❞ = Cloud
+
+3 - ❝tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+
+3 - ❝steam Engine❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝steam engine❞ = ❝steam Engine❞
+
+3 - ❝train❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+
+3 - ❝windmill❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+
+3 - ❝snow❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+
+3 - ❝ice water❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+
+3 - ❝fog❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝steam❞ = ❝fog❞
+
+3 - ❝sky❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+
+3 - ❝ash lake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+
+3 - Whirlpool: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝lake❞ = Whirlpool
+
+3 - ❝swamp❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+
+3 - ❝typhoon❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ocean❞ + ❝wind❞ = ❝typhoon❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+
+3 - ❝island❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝earth❞ + ❝sea❞ = ❝island❞
+
+3 - ❝hurricane❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wind❞ = ❝hurricane❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝storm❞ = ❝hurricane❞
+
+3 - ❝sand❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝mountain❞ = ❝sand❞
+
+3 - ❝brick❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+
+3 - ❝clay❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+
+3 - ❝ash rain❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝rain❞ = ❝ash rain❞
+
+3 - ❝ashplant❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+
+3 - ❝ashwind❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝wind❞ = ❝ashwind❞
+
+3 - Rainbow: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + ❝rain❞ = Rainbow
+
+3 - ❝waterfall❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+
+3 - ❝tsunami❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝storm❞ + ❝water❞ = ❝tsunami❞
+
+3 - Tumbleweed: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+
+3 - Dust Devil: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+Tornado + ❝dust❞ = Dust Devil
+
+3 - Eruption: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Tornado + Volcano = Eruption
+
+3 - Mountain: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + Volcano = Mountain
+
+3 - Lava: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + ❝fire❞ = Lava
+
+3 - Destruction: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+
+3 - Earthquake: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tsunami + ❝earth❞ = Earthquake
+
+3 - Sand: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+
+3 - Dust Storm: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Tornado = Dust Storm
+
+3 - Ash: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+
+3 - Mud: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+
+3 - Planet: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+
+3 - ❝rose❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+
+3 - ❝dandelion❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+
+3 - ❝coal plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+
+3 - ❝diamond❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+
+3 - ❝forest❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+
+3 - ❝leaf❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝tree❞ + ❝wind❞ = ❝leaf❞
+
+3 - ❝wood❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+
+3 - ❝dust Storm❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝dust storm❞ = ❝dust Storm❞
+
+3 - ❝sand Storm❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+
+3 - ❝dust Bowl❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝earth❞ = ❝dust Bowl❞
+
+3 - ❝dirt❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝earth❞ = ❝soil❞
+❝dust❞ + ❝soil❞ = ❝dirt❞
+
+3 - ❝mountain Wind❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝mountain❞ = ❝mountain Wind❞
+
+3 - ❝tornado❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝wind❞ = ❝tornado❞
+
+4 - ❝basalt❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝lava❞ + ❝sea❞ = ❝basalt❞
+
+4 - ❝lava wave❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝lava❞ + ❝wave❞ = ❝lava wave❞
+
+4 - ❝ash volcano❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lava❞ + ❝wind❞ = ❝volcano❞
+❝ash❞ + ❝volcano❞ = ❝ash volcano❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝ash❞ + ❝volcano❞ = ❝ash volcano❞
+
+4 - ❝ashlava❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝lava❞ = ❝ashlava❞
+
+4 - ❝steamboat❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝sea❞ + ❝steam❞ = ❝steamboat❞
+
+4 - ❝surf❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝steam❞ + ❝wave❞ = ❝surf❞
+
+4 - ❝locomotive❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝lake❞ + ❝steam engine❞ = ❝locomotive❞
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝steam engine❞ + ❝train❞ = ❝locomotive❞
+
+4 - ❝ice skating❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝lake❞ = ❝ice skating❞
+
+4 - ❝ashtearth❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝ashteam❞ + ❝earth❞ = ❝ashtearth❞
+
+4 - ❝ashsteam❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝steam❞ = ❝ashsteam❞
+
+4 - ❝smoke❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ashes❞ + ❝steam❞ = ❝smoke❞
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝steam❞ = ❝fog❞
+❝fire❞ + ❝fog❞ = ❝smoke❞
+
+4 - ❝ash cloud❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝ash❞ + ❝cloud❞ = ❝ash cloud❞
+
+4 - ❝rainbow❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝rain❞ = ❝rainbow❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝rain❞ + ❝wave❞ = ❝rainbow❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+❝waterfall❞ + ❝wind❞ = ❝rainbow❞
+
+4 - Steamboat: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + Tornado = Hurricane
+Hurricane + ❝steam❞ = Steamboat
+
+4 - Rain: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + ❝steam❞ = Cloud
+Cloud + Cloud = Rain
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + ❝rain❞ = Rainbow
+Rainbow + ❝rain❞ = Rain
+
+4 - Storm: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + ❝steam❞ = Cloud
+Cloud + ❝wind❞ = Storm
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝wind❞ = Storm
+
+4 - ❝steam tsunami❞: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝fire❞ + ❝water❞ = ❝steam❞
+Tsunami + ❝steam❞ = ❝steam tsunami❞
+
+4 - Train: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+Tornado + ❝steam engine❞ = Train
+
+4 - Snow: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+Tornado + ❝ice❞ = Snow
+
+4 - ❝perfume❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝steam❞ = ❝perfume❞
+
+4 - ❝herb❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝plant❞ + ❝tea❞ = ❝herb❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝plant❞ + ❝tea❞ = ❝herb❞
+
+4 - ❝steam tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝steam❞ + ❝tea❞ = ❝steam tea❞
+
+4 - ❝hot tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+
+4 - ❝cotton❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝plant❞ = ❝cotton❞
+
+4 - ❝sandstorm❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝steam❞ = ❝sandstorm❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝dust❞ + ❝storm❞ = ❝sandstorm❞
+
+4 - ❝avalanche❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝mountain❞ = ❝avalanche❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝mountain❞ + ❝storm❞ = ❝avalanche❞
+
+4 - ❝train wind❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝train❞ + ❝wind❞ = ❝train wind❞
+
+4 - ❝subway❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝earth❞ + ❝train❞ = ❝subway❞
+
+4 - ❝wind Turbine❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝steam engine❞ + ❝windmill❞ = ❝wind Turbine❞
+
+4 - ❝electricity❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝steam❞ + ❝windmill❞ = ❝electricity❞
+
+4 - ❝blizzard❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝ice❞ + ❝snow❞ = ❝blizzard❞
+
+4 - ❝snowman❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝earth❞ + ❝snow❞ = ❝snowman❞
+
+4 - Ice: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+❝ice water❞ + ❝ice water❞ = Ice
+
+4 - ❝mist❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝steam❞ = ❝fog❞
+❝cloud❞ + ❝fog❞ = ❝mist❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝rain❞ + ❝sea❞ = ❝mist❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝rain❞ = ❝mist❞
+
+4 - ❝cloudy❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝cloud❞ + ❝sky❞ = ❝cloudy❞
+
+4 - ❝sun❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝fire❞ + ❝sky❞ = ❝sun❞
+
+4 - ❝air❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝sky❞ + ❝wind❞ = ❝air❞
+
+4 - ❝ash Lake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝ash lake❞ = ❝ash Lake❞
+
+4 - ❝ashfirelake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝lake❞ = ❝ashfirelake❞
+
+4 - ❝poseidon❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ash❞ + ❝ocean❞ = ❝poseidon❞
+
+4 - ❝base❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝ash❞ + ❝sea❞ = ❝base❞
+
+4 - ❝ashwave❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝ash❞ + ❝wave❞ = ❝ashwave❞
+
+4 - ❝muddy❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝earth❞ + ❝pond❞ = ❝mud❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+
+4 - Vortex: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝lake❞ = Whirlpool
+Tornado + Whirlpool = Vortex
+
+4 - Ocean: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝lake❞ = Whirlpool
+Whirlpool + ❝lake❞ = Ocean
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝water❞ + ❝water❞ = ❝lake❞
+Tsunami + ❝lake❞ = Ocean
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wave❞ = Tsunami
+Tsunami + ❝lake❞ = Ocean
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝water❞ = Ocean
+
+4 - Island: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝water❞ + ❝water❞ = ❝lake❞
+Volcano + ❝lake❞ = Island
+
+4 - Mudslide: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+Tornado + ❝mud❞ = Mudslide
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+Tornado + ❝mud❞ = Mudslide
+
+4 - ❝seaweed❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ocean❞ + ❝plant❞ = ❝seaweed❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝plant❞ + ❝sea❞ = ❝seaweed❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝plant❞ + ❝wave❞ = ❝seaweed❞
+
+4 - ❝marsh❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝lake❞ + ❝swamp❞ = ❝marsh❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝lake❞ + ❝swamp❞ = ❝marsh❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝swamp❞ + ❝swamp❞ = ❝marsh❞
+
+4 - ❝mushroom❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝plant❞ + ❝swamp❞ = ❝mushroom❞
+
+4 - ❝swamp water❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝swamp❞ + ❝water❞ = ❝swamp water❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝swamp❞ + ❝water❞ = ❝swamp water❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝swamp❞ + ❝water❞ = ❝swamp water❞
+
+4 - ❝lotus❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝lake❞ = ❝lotus❞
+
+4 - ❝oil❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝lake❞ = ❝oil❞
+
+4 - ❝log❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝lake❞ + ❝tree❞ = ❝log❞
+
+4 - ❝mountain lake❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝lake❞ + ❝mountain wind❞ = ❝mountain lake❞
+
+4 - ❝atoll❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝island❞ + ❝ocean❞ = ❝atoll❞
+
+4 - ❝continent❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝earth❞ + ❝island❞ = ❝continent❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝earth❞ + ❝sea❞ = ❝island❞
+❝earth❞ + ❝island❞ = ❝continent❞
+
+4 - ❝mudsea❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝mud❞ + ❝sea❞ = ❝mudsea❞
+
+4 - ❝beach❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝lake❞ + ❝sand❞ = ❝beach❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝lake❞ = ❝beach❞
+
+4 - ❝desert❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝sand❞ + ❝sand❞ = ❝desert❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝mountain❞ = ❝sand❞
+❝sand❞ + ❝sand❞ = ❝desert❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝earth❞ + ❝sand Storm❞ = ❝desert❞
+
+4 - ❝glass❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝mountain❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+
+4 - ❝quagmire❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝mud❞ + ❝swamp❞ = ❝quagmire❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝mud❞ + ❝swamp❞ = ❝quagmire❞
+
+4 - ❝wall❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+
+4 - ❝house❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+
+4 - ❝pottery❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+
+4 - ❝pot❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+
+4 - ❝ash Rain❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝rain❞ = ❝ash rain❞
+❝ash rain❞ + ❝ash rain❞ = ❝ash Rain❞
+
+4 - ❝acid rain❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ashes❞ + ❝rain❞ = ❝acid rain❞
+
+4 - ❝ash pond❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝ash❞ + ❝pond❞ = ❝ash pond❞
+
+4 - ❝ashstorm❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝ash❞ + ❝storm❞ = ❝ashstorm❞
+
+4 - Phoenix: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+Tornado + ❝ashes❞ = Phoenix
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + ❝fire❞ = Phoenix
+
+4 - ❝steak❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+❝ashplant❞ + ❝fire❞ = ❝steak❞
+
+4 - ❝ashflower❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝ash❞ + ❝flower❞ = ❝ashflower❞
+
+4 - ❝ashcoal❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝ash❞ + ❝coal❞ = ❝ashcoal❞
+
+4 - ❝ash tree❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝ash❞ + ❝tree❞ = ❝ash tree❞
+
+4 - ❝ashes to dust❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ashes❞ + ❝dust❞ = ❝ashes to dust❞
+
+4 - ❝ashdust❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝dust❞ = ❝ashdust❞
+
+4 - ❝ash Storm❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝ash❞ + ❝dust storm❞ = ❝ash Storm❞
+
+4 - ❝ash soil❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝earth❞ = ❝soil❞
+❝ash❞ + ❝soil❞ = ❝ash soil❞
+
+4 - ❝ash Wind❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝ash❞ + ❝mountain wind❞ = ❝ash Wind❞
+
+4 - Flood: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + Tornado = Hurricane
+Hurricane + ❝rain❞ = Flood
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝water❞ + ❝wind❞ = ❝rain❞
+Tsunami + ❝rain❞ = Flood
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + ❝water❞ = Flood
+
+4 - ❝coalition❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝rain❞ = ❝coalition❞
+
+4 - ❝umbrella❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝rain❞ + ❝tree❞ = ❝umbrella❞
+
+4 - ❝lily❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝plant❞ + ❝pond❞ = ❝lily❞
+
+4 - ❝typhoon pond❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+❝pond❞ + ❝typhoon❞ = ❝typhoon pond❞
+
+4 - ❝flood❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+❝rain❞ + ❝typhoon❞ = ❝flood❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝storm❞ + ❝water❞ = ❝tsunami❞
+❝rain❞ + ❝tsunami❞ = ❝flood❞
+
+4 - ❝pondstorm❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝storm❞ = ❝pondstorm❞
+
+4 - ❝hurricane storm❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝storm❞ = ❝hurricane❞
+❝hurricane❞ + ❝storm❞ = ❝hurricane storm❞
+
+4 - ❝earthquake❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝fire❞ + ❝storm❞ = ❝volcano❞
+❝storm❞ + ❝volcano❞ = ❝earthquake❞
+
+4 - Palm: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + Tornado = Hurricane
+Hurricane + ❝plant❞ = Palm
+
+4 - Cactus: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝plant❞ = Cactus
+
+4 - Fire: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝fire❞ = Fire
+
+4 - Desert: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝earth❞ = Desert
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝sand Storm❞ + ❝sand Storm❞ = Desert
+
+4 - Flower: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝plant❞ = Flower
+
+4 - Dandelion: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+Tornado + ❝flower❞ = Dandelion
+
+4 - Diamond: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+Tornado + ❝coal❞ = Diamond
+
+4 - Forest: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+Tornado + ❝tree❞ = Forest
+
+4 - Fire Devil: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+Tornado + ❝dust❞ = Dust Devil
+Dust Devil + ❝fire❞ = Fire Devil
+
+4 - Disaster: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+
+4 - Mountain Range: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+
+4 - Lake: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + Volcano = Mountain
+Mountain + ❝water❞ = Lake
+
+4 - Stone: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + ❝fire❞ = Lava
+Lava + ❝water❞ = Stone
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + Ash = Stone
+
+4 - Explosion: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+
+4 - Hole: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + ❝earth❞ = Hole
+
+4 - Sandstorm: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Dust + Sand = Sandstorm
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Tornado = Dust Storm
+Dust + Dust Storm = Sandstorm
+
+4 - Glass: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝fire❞ = Glass
+
+4 - Beach: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝water❞ = Beach
+
+4 - Fire Storm: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Tornado = Dust Storm
+Dust Storm + ❝fire❞ = Fire Storm
+
+4 - Cinder: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + Dust = Cinder
+
+4 - Clay: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+Dust + Mud = Clay
+
+4 - Brick: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+Mud + ❝fire❞ = Brick
+
+4 - Earth: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Dust + Planet = Earth
+
+4 - Star: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + Planet = Star
+
+4 - Cyclone: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + Tornado = Cyclone
+
+4 - Sun: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝fire❞ = Sun
+
+4 - ❝cactus❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝plant❞ = ❝cactus❞
+
+4 - ❝pollen❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝dust❞ + ❝flower❞ = ❝pollen❞
+
+4 - ❝soot❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝dust❞ = ❝soot❞
+
+4 - ❝mountain tree❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝mountain❞ + ❝tree❞ = ❝mountain tree❞
+
+4 - ❝mountain flower❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝mountain❞ = ❝mountain flower❞
+
+4 - ❝rose flower❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝flower❞ + ❝rose❞ = ❝rose flower❞
+
+4 - ❝fire rose❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝fire❞ + ❝rose❞ = ❝fire rose❞
+
+4 - ❝rose wind❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝rose❞ + ❝wind❞ = ❝rose wind❞
+
+4 - ❝rose tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝flower❞ + ❝tea❞ = ❝rose tea❞
+
+4 - ❝fireworks❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝fire❞ = ❝fireworks❞
+
+4 - ❝wine❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝water❞ = ❝wine❞
+
+4 - ❝wish❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝wind❞ = ❝wish❞
+
+4 - ❝flower tree❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝tree❞ = ❝flower tree❞
+
+4 - ❝coal Plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+❝coal plant❞ + ❝coal plant❞ = ❝coal Plant❞
+
+4 - ❝graphite❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝coal❞ + ❝diamond❞ = ❝graphite❞
+
+4 - ❝emerald❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝plant❞ = ❝emerald❞
+
+4 - ❝diamond dust❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝wind❞ = ❝diamond dust❞
+
+4 - ❝charcoal❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝tree❞ = ❝charcoal❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝fire❞ + ❝wood❞ = ❝charcoal❞
+
+4 - ❝jungle❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝forest❞ = ❝jungle❞
+
+4 - ❝paper❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝tree❞ + ❝wood❞ = ❝paper❞
+
+4 - ❝human❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝dust❞ = ❝human❞
+
+4 - ❝mud Storm❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝mud❞ = ❝mud Storm❞
+
+4 - ❝Glass❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝fire❞ + ❝sand Storm❞ = ❝Glass❞
+
+4 - ❝dust Bowl Storm❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝earth❞ = ❝dust Bowl❞
+❝dust Bowl❞ + ❝dust storm❞ = ❝dust Bowl Storm❞
+
+5 - ❝geyser❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝lava❞ + ❝wind❞ = ❝volcano❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝volcano❞ = ❝geyser❞
+ ...
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝lava❞ + ❝windmill❞ = ❝geyser❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝volcano❞ = ❝geyser❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+❝volcano❞ + ❝waterfall❞ = ❝geyser❞
+
+5 - ❝Steam❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+❝ice water❞ + ❝lava❞ = ❝Steam❞
+
+5 - ❝atlantis❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝lava❞ + ❝wind❞ = ❝volcano❞
+❝ocean❞ + ❝volcano❞ = ❝atlantis❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ash❞ + ❝ocean❞ = ❝poseidon❞
+❝lake❞ + ❝poseidon❞ = ❝atlantis❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝ocean❞ + ❝volcano❞ = ❝atlantis❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝ocean❞ = ❝atlantis❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ocean❞ + ❝wind❞ = ❝typhoon❞
+❝fire❞ + ❝typhoon❞ = ❝volcano❞
+❝ocean❞ + ❝volcano❞ = ❝atlantis❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝fire❞ + ❝island❞ = ❝volcano❞
+❝ocean❞ + ❝volcano❞ = ❝atlantis❞
+
+5 - ❝boulder❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝lava❞ + ❝sea❞ = ❝basalt❞
+❝basalt❞ + ❝basalt❞ = ❝boulder❞
+
+5 - ❝Lava Lake❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝lava❞ + ❝wave❞ = ❝lava wave❞
+❝lake❞ + ❝lava wave❞ = ❝Lava Lake❞
+
+5 - ❝lava Wave❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝lava❞ + ❝wave❞ = ❝lava wave❞
+❝lava wave❞ + ❝lava wave❞ = ❝lava Wave❞
+
+5 - ❝lava Wind❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝lava❞ + ❝wave❞ = ❝lava wave❞
+❝lava wave❞ + ❝wind❞ = ❝lava Wind❞
+
+5 - ❝Hawaii❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lava❞ + ❝wind❞ = ❝volcano❞
+❝lake❞ + ❝volcano❞ = ❝island❞
+❝island❞ + ❝volcano❞ = ❝Hawaii❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝lake❞ + ❝volcano❞ = ❝island❞
+❝island❞ + ❝volcano❞ = ❝Hawaii❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝fire❞ + ❝island❞ = ❝volcano❞
+❝island❞ + ❝volcano❞ = ❝Hawaii❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝earth❞ + ❝sea❞ = ❝island❞
+❝fire❞ + ❝island❞ = ❝volcano❞
+❝island❞ + ❝volcano❞ = ❝Hawaii❞
+
+5 - ❝ash Volcano❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lava❞ + ❝wind❞ = ❝volcano❞
+❝ash❞ + ❝volcano❞ = ❝ash volcano❞
+❝ash volcano❞ + ❝volcano❞ = ❝ash Volcano❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝ash❞ + ❝volcano❞ = ❝ash volcano❞
+❝ash volcano❞ + ❝volcano❞ = ❝ash Volcano❞
+
+5 - ❝ashfire volcano❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝lava❞ + ❝wind❞ = ❝volcano❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝volcano❞ = ❝ashfire volcano❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝volcano❞ = ❝ashfire volcano❞
+
+5 - ❝ashwindlava❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝wind❞ = ❝ashwind❞
+❝ashwind❞ + ❝lava❞ = ❝ashwindlava❞
+
+5 - ❝flower volcano❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lava❞ + ❝wind❞ = ❝volcano❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝volcano❞ = ❝flower volcano❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝volcano❞ = ❝flower volcano❞
+
+5 - ❝lava tea❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝lava❞ + ❝tea❞ = ❝lava tea❞
+ ...
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝lava❞ + ❝tea❞ = ❝lava tea❞
+
+5 - ❝obsidian❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝lava❞ = ❝obsidian❞
+
+5 - ❝lava leaf❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝tree❞ + ❝wind❞ = ❝leaf❞
+❝lava❞ + ❝leaf❞ = ❝lava leaf❞
+
+5 - ❝Mountain Wind❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝lava❞ + ❝mountain❞ = volcano
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+volcano + ❝mountain wind❞ = ❝Mountain Wind❞
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+Volcano + ❝mountain wind❞ = ❝Mountain Wind❞
+
+5 - ❝steam Ship❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝ocean❞ + ❝steam engine❞ = ❝steam Ship❞
+
+5 - ❝iceberg❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ocean❞ = ❝iceberg❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝wave❞ = ❝iceberg❞
+
+5 - ❝ice sea❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝sea❞ = ❝ice sea❞
+
+5 - ❝waves❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝steam❞ + ❝wave❞ = ❝surf❞
+❝lake❞ + ❝surf❞ = ❝waves❞
+
+5 - ❝surfing❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝steam❞ + ❝wave❞ = ❝surf❞
+❝surf❞ + ❝wave❞ = ❝surfing❞
+
+5 - ❝surf and turf❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝steam❞ + ❝wave❞ = ❝surf❞
+❝surf❞ + ❝wind❞ = ❝surf and turf❞
+
+5 - Ice Rink: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝lake❞ = ❝ice skating❞
+❝ice skating❞ + ❝ice skating❞ = Ice Rink
+
+5 - Ice Skating: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝lake❞ = ❝ice skating❞
+❝ice skating❞ + ❝ice❞ = Ice Skating
+
+5 - ❝ice Skating❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝lake❞ = ❝ice skating❞
+❝ice skating❞ + ❝steam❞ = ❝ice Skating❞
+
+5 - ❝blades❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝lake❞ = ❝ice skating❞
+❝ice skating❞ + ❝wind❞ = ❝blades❞
+
+5 - Iceberg: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+❝ice water❞ + ❝lake❞ = Iceberg
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+Tsunami + ❝ice❞ = Iceberg
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+❝ice water❞ + ❝ice water❞ = Ice
+Ice + ❝water❞ = Iceberg
+
+5 - ❝lavaashteam❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝ashteam❞ + ❝lava❞ = ❝lavaashteam❞
+
+5 - ❝lakeashteam❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝ashteam❞ + ❝lake❞ = ❝lakeashteam❞
+
+5 - ❝ashteamwind❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝ashteam❞ + ❝wind❞ = ❝ashwind❞
+❝ashteam❞ + ❝ashwind❞ = ❝ashteamwind❞
+
+5 - ❝ashwindsteam❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝ashteam❞ + ❝wind❞ = ❝ashwind❞
+❝ashwind❞ + ❝steam❞ = ❝ashwindsteam❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝wind❞ = ❝ashwind❞
+❝ashwind❞ + ❝steam❞ = ❝ashwindsteam❞
+
+5 - ❝ashteplant❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝ashteam❞ + ❝earth❞ = ❝ashtearth❞
+❝ashteam❞ + ❝ashtearth❞ = ❝ashteplant❞
+
+5 - ❝ashfireteam❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝ashfire❞ + ❝ashteam❞ = ❝ashfireteam❞
+
+5 - ❝ashteam Engine❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝ashteam❞ + ❝steam engine❞ = ❝ashteam Engine❞
+
+5 - ❝icecream❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ashteam❞ + ❝ice❞ = ❝icecream❞
+
+5 - ❝ashcloud❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝steam❞ = ❝ashteam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝ashteam❞ + ❝cloud❞ = ❝ashcloud❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝ashfire❞ + ❝cloud❞ = ❝ashcloud❞
+
+5 - ❝ashsteamfire❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝steam❞ = ❝ashsteam❞
+❝ashfire❞ + ❝ashsteam❞ = ❝ashsteamfire❞
+
+5 - ❝ash train❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝ash❞ + ❝train❞ = ❝ash train❞
+
+5 - ❝ashwindmill❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝ash❞ + ❝windmill❞ = ❝ashwindmill❞
+
+5 - ❝smog❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝steam❞ = ❝fog❞
+❝ash❞ + ❝fog❞ = ❝smog❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝steam❞ = ❝fog❞
+❝dust❞ + ❝fog❞ = ❝smog❞
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝steam❞ = ❝fog❞
+❝fire❞ + ❝fog❞ = ❝smoke❞
+❝fog❞ + ❝smoke❞ = ❝smog❞
+
+5 - ❝ash sky❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝ash❞ + ❝sky❞ = ❝ash sky❞
+
+5 - ❝bow❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝rain❞ = ❝rainbow❞
+❝rainbow❞ + ❝rain❞ = ❝bow❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝rain❞ + ❝wave❞ = ❝rainbow❞
+❝rainbow❞ + ❝rain❞ = ❝bow❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+❝waterfall❞ + ❝wind❞ = ❝rainbow❞
+❝rainbow❞ + ❝rain❞ = ❝bow❞
+
+5 - ❝rainbow fire❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝rain❞ = ❝rainbow❞
+❝fire❞ + ❝rainbow❞ = ❝rainbow fire❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝rain❞ + ❝wave❞ = ❝rainbow❞
+❝fire❞ + ❝rainbow❞ = ❝rainbow fire❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+❝waterfall❞ + ❝wind❞ = ❝rainbow❞
+❝fire❞ + ❝rainbow❞ = ❝rainbow fire❞
+
+5 - ❝rain train❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝rain❞ + ❝train❞ = ❝rain train❞
+
+5 - ❝sleet❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝rain❞ + ❝snow❞ = ❝sleet❞
+
+5 - Titanic: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + Tornado = Hurricane
+Hurricane + ❝steam❞ = Steamboat
+Hurricane + Steamboat = Titanic
+
+5 - Sailboat: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + Tornado = Hurricane
+Hurricane + ❝steam❞ = Steamboat
+Steamboat + ❝wind❞ = Sailboat
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝lake❞ = Sailboat
+
+5 - Earthboat: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + Tornado = Hurricane
+Hurricane + ❝steam❞ = Steamboat
+Steamboat + ❝earth❞ = Earthboat
+
+5 - Fog: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + ❝steam❞ = Cloud
+Cloud + ❝lake❞ = Fog
+
+5 - Lightning: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + ❝steam❞ = Cloud
+Cloud + ❝wind❞ = Storm
+Storm + ❝fire❞ = Lightning
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+Volcano + ❝cloud❞ = Lightning
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝steam❞ + ❝windmill❞ = ❝electricity❞
+❝electricity❞ + ❝electricity❞ = Lightning
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+Volcano + ❝storm❞ = Lightning
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝wind❞ = Storm
+Storm + ❝fire❞ = Lightning
+
+5 - ❝steam Tsunami❞: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝fire❞ + ❝water❞ = ❝steam❞
+Tsunami + ❝steam❞ = ❝steam tsunami❞
+Tsunami + ❝steam tsunami❞ = ❝steam Tsunami❞
+
+5 - ❝Tornado❞: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝fire❞ + ❝water❞ = ❝steam❞
+Tsunami + ❝steam❞ = ❝steam tsunami❞
+❝steam tsunami❞ + ❝wind❞ = ❝Tornado❞
+
+5 - Universe: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝steam❞ = Universe
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝dust❞ = Universe
+
+5 - Wreck: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+Tornado + ❝steam engine❞ = Train
+Tornado + Train = Wreck
+
+5 - Train Station: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+Tornado + ❝steam engine❞ = Train
+Train + Train = Train Station
+
+5 - Locomotive: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+Tornado + ❝steam engine❞ = Train
+Train + ❝steam engine❞ = Locomotive
+
+5 - Steam: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+Tornado + ❝steam engine❞ = Train
+Train + ❝fire❞ = Steam
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝fire❞ = Fire
+Fire + ❝water❞ = Steam
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Tornado = Dust Storm
+Dust Storm + ❝fire❞ = Fire Storm
+Fire Storm + ❝water❞ = Steam
+
+5 - Submarine: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+Tornado + ❝steam engine❞ = Train
+Train + ❝water❞ = Submarine
+
+5 - Tunnel: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+Tornado + ❝steam engine❞ = Train
+Train + ❝earth❞ = Tunnel
+
+5 - Electricity: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+Tornado + ❝windmill❞ = Electricity
+
+5 - Blizzard: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+Tornado + ❝ice❞ = Snow
+Snow + Tornado = Blizzard
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+Tornado + ❝snow❞ = Blizzard
+
+5 - Water: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+Tornado + ❝ice❞ = Snow
+Snow + ❝fire❞ = Water
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+❝ice water❞ + ❝ice water❞ = Ice
+Ice + ❝steam❞ = Water
+
+5 - Snowman: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+Tornado + ❝ice❞ = Snow
+Snow + ❝earth❞ = Snowman
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝earth❞ + ❝snow❞ = ❝snowman❞
+❝snowman❞ + ❝snowman❞ = Snowman
+
+5 - ❝rose steam❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝rose❞ + ❝steam❞ = ❝rose steam❞
+
+5 - ❝scent❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝steam❞ = ❝perfume❞
+❝flower❞ + ❝perfume❞ = ❝scent❞
+
+5 - ❝perfume steam❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝steam❞ = ❝perfume❞
+❝perfume❞ + ❝steam❞ = ❝perfume steam❞
+
+5 - ❝fragrance❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝steam❞ = ❝perfume❞
+❝perfume❞ + ❝water❞ = ❝fragrance❞
+
+5 - ❝steamPunk❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝flower❞ + ❝steam engine❞ = ❝steamPunk❞
+
+5 - ❝snowdrop❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝flower❞ + ❝ice❞ = ❝snowdrop❞
+
+5 - ❝latte❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝lake❞ + ❝tea❞ = ❝latte❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝lake❞ + ❝tea❞ = ❝latte❞
+
+5 - ❝waste❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝ash❞ + ❝tea❞ = ❝waste❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝ash❞ + ❝tea❞ = ❝waste❞
+
+5 - ❝tear❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝rain❞ + ❝tea❞ = ❝tear❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝rain❞ + ❝tea❞ = ❝tear❞
+
+5 - Tornado Tea: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+Tornado + ❝tea❞ = Tornado Tea
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+Tornado + ❝tea❞ = Tornado Tea
+
+5 - ❝tea dust❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝dust❞ + ❝tea❞ = ❝tea dust❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝dust❞ + ❝tea❞ = ❝tea dust❞
+
+5 - ❝mountain dew❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝mountain❞ + ❝tea❞ = ❝mountain dew❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝mountain❞ + ❝tea❞ = ❝mountain dew❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝mountain❞ = ❝mountain dew❞
+
+5 - ❝weed❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝plant❞ + ❝tea❞ = ❝herb❞
+❝herb❞ + ❝plant❞ = ❝weed❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝plant❞ + ❝tea❞ = ❝herb❞
+❝herb❞ + ❝plant❞ = ❝weed❞
+
+5 - ❝herbal tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝plant❞ + ❝tea❞ = ❝herb❞
+❝herb❞ + ❝tea❞ = ❝herbal tea❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝plant❞ + ❝tea❞ = ❝herb❞
+❝herb❞ + ❝tea❞ = ❝herbal tea❞
+
+5 - ❝coal tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝tea❞ = ❝coal tea❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝coal❞ + ❝tea❞ = ❝coal tea❞
+
+5 - ❝tea tree❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝tea❞ + ❝tree❞ = ❝tea tree❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝tea❞ + ❝tree❞ = ❝tea tree❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝tree❞ + ❝wind❞ = ❝leaf❞
+❝leaf❞ + ❝water❞ = ❝tea❞
+❝tea❞ + ❝tree❞ = ❝tea tree❞
+
+5 - Tea: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝steam❞ + ❝tea❞ = ❝steam tea❞
+❝steam tea❞ + ❝steam tea❞ = Tea
+
+5 - ❝steam Tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝steam❞ + ❝tea❞ = ❝steam tea❞
+❝fire❞ + ❝steam tea❞ = ❝steam Tea❞
+
+5 - ❝wind Tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝steam❞ + ❝tea❞ = ❝steam tea❞
+❝steam tea❞ + ❝wind❞ = ❝wind Tea❞
+
+5 - ❝Steam Tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝tea❞ = ❝Steam Tea❞
+
+5 - ❝iced tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝tea❞ = ❝iced tea❞
+
+5 - ❝cloud tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝tea❞ = ❝cloud tea❞
+
+5 - ❝hot Tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+❝hot tea❞ + ❝hot tea❞ = ❝hot Tea❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+❝hot tea❞ + ❝hot tea❞ = ❝hot Tea❞
+
+5 - ❝ice Tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+❝hot tea❞ + ❝water❞ = ❝ice Tea❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+❝hot tea❞ + ❝water❞ = ❝ice Tea❞
+
+5 - ❝hot Air❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+❝hot tea❞ + ❝wind❞ = ❝hot Air❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+❝hot tea❞ + ❝wind❞ = ❝hot Air❞
+
+5 - ❝tea typhoon❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝plant❞ + ❝steam❞ = ❝tea❞
+❝tea❞ + ❝wind❞ = ❝typhoon❞
+❝tea❞ + ❝typhoon❞ = ❝tea typhoon❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝tea❞ + ❝wind❞ = ❝typhoon❞
+❝tea❞ + ❝typhoon❞ = ❝tea typhoon❞
+
+5 - ❝plantain❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝steam❞ = ❝train❞
+❝plant❞ + ❝train❞ = ❝plantain❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝plant❞ + ❝train❞ = ❝plantain❞
+
+5 - ❝cloud tree❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝tree❞ = ❝cloud tree❞
+
+5 - ❝wind turbine❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝plant❞ + ❝windmill❞ = ❝wind turbine❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+❝coal plant❞ + ❝wind❞ = ❝windmill❞
+❝plant❞ + ❝windmill❞ = ❝wind turbine❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝wind❞ + ❝wood❞ = ❝windmill❞
+❝plant❞ + ❝windmill❞ = ❝wind turbine❞
+
+5 - ❝ice Plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+❝ice water❞ + ❝plant❞ = ❝ice Plant❞
+
+5 - ❝cotton plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝plant❞ = ❝cotton❞
+❝cotton❞ + ❝plant❞ = ❝cotton plant❞
+
+5 - ❝cotton gin❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝plant❞ = ❝cotton❞
+❝cotton❞ + ❝steam❞ = ❝cotton gin❞
+
+5 - ❝cotton candy❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝plant❞ = ❝cotton❞
+❝cotton❞ + ❝fire❞ = ❝cotton candy❞
+
+5 - ❝cotton field❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝plant❞ = ❝cotton❞
+❝cotton❞ + ❝earth❞ = ❝cotton field❞
+
+5 - ❝dust train❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝dust❞ + ❝train❞ = ❝dust train❞
+
+5 - ❝fairy❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝dust❞ + ❝windmill❞ = ❝fairy❞
+
+5 - ❝snow dust❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝dust❞ + ❝snow❞ = ❝snow dust❞
+
+5 - ❝mountain train❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝mountain❞ + ❝train❞ = ❝mountain train❞
+
+5 - ❝landslide❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝mountain❞ = ❝avalanche❞
+❝avalanche❞ + ❝earth❞ = ❝landslide❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝mountain❞ + ❝storm❞ = ❝avalanche❞
+❝avalanche❞ + ❝earth❞ = ❝landslide❞
+
+5 - ❝icetrain❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝ice❞ + ❝train❞ = ❝icetrain❞
+
+5 - ❝cloud train❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝cloud❞ + ❝train❞ = ❝cloud train❞
+
+5 - ❝steam train❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝train❞ + ❝wind❞ = ❝train wind❞
+❝fire❞ + ❝train wind❞ = ❝steam train❞
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝earth❞ + ❝train❞ = ❝subway❞
+❝steam❞ + ❝subway❞ = ❝steam train❞
+
+5 - ❝subway train❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝earth❞ + ❝train❞ = ❝subway❞
+❝subway❞ + ❝train❞ = ❝subway train❞
+
+5 - ❝subway water❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝earth❞ + ❝train❞ = ❝subway❞
+❝subway❞ + ❝water❞ = ❝subway water❞
+
+5 - ❝subway wind❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝earth❞ + ❝train❞ = ❝subway❞
+❝subway❞ + ❝wind❞ = ❝subway wind❞
+
+5 - ❝tunnel❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝fire❞ + ❝steam engine❞ = ❝train❞
+❝earth❞ + ❝train❞ = ❝subway❞
+❝earth❞ + ❝subway❞ = ❝tunnel❞
+
+5 - Wind Farm: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝steam engine❞ + ❝windmill❞ = ❝wind Turbine❞
+❝wind Turbine❞ + ❝wind Turbine❞ = Wind Farm
+
+5 - ❝Energy❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝steam engine❞ + ❝windmill❞ = ❝wind Turbine❞
+❝fire❞ + ❝wind Turbine❞ = ❝Energy❞
+
+5 - ❝Wind❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝steam engine❞ + ❝windmill❞ = ❝wind Turbine❞
+❝water❞ + ❝wind Turbine❞ = ❝Wind❞
+
+5 - ❝lightning❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝steam❞ + ❝windmill❞ = ❝electricity❞
+❝electricity❞ + ❝fire❞ = ❝lightning❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝storm❞ + ❝tree❞ = ❝lightning❞
+
+5 - ❝wind chill❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝steam engine❞ + ❝wind❞ = ❝windmill❞
+❝ice❞ + ❝windmill❞ = ❝wind chill❞
+
+5 - ❝airplane❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝fire❞ + ❝steam❞ = ❝steam engine❞
+❝sky❞ + ❝steam engine❞ = ❝airplane❞
+
+5 - ❝snowstorm❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝ice❞ + ❝snow❞ = ❝blizzard❞
+❝blizzard❞ + ❝blizzard❞ = ❝snowstorm❞
+
+5 - ❝fog ice❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝snow❞ + ❝steam❞ = ❝fog❞
+❝fog❞ + ❝ice❞ = ❝fog ice❞
+ ...
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝steam❞ = ❝fog❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝fog❞ + ❝ice❞ = ❝fog ice❞
+
+5 - ❝snowball❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝earth❞ + ❝snow❞ = ❝snowman❞
+❝snowman❞ + ❝snow❞ = ❝snowball❞
+
+5 - ❝fireman❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝ice❞ = ❝snow❞
+❝earth❞ + ❝snow❞ = ❝snowman❞
+❝fire❞ + ❝snowman❞ = ❝fireman❞
+
+5 - Ice Cream: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+❝ice water❞ + ❝ice water❞ = Ice
+Ice + ❝ice water❞ = Ice Cream
+
+5 - Ice Cube: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝water❞ = ❝ice❞
+❝ice❞ + ❝water❞ = ❝ice water❞
+❝ice water❞ + ❝ice water❞ = Ice
+Ice + ❝ice❞ = Ice Cube
+
+5 - ❝rainy❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝cloud❞ + ❝sky❞ = ❝cloudy❞
+❝cloudy❞ + ❝cloudy❞ = ❝rainy❞
+
+5 - ❝cloudy cloud❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝cloud❞ + ❝sky❞ = ❝cloudy❞
+❝cloudy❞ + ❝cloud❞ = ❝cloudy cloud❞
+
+5 - ❝cloudy sky❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝cloud❞ + ❝sky❞ = ❝cloudy❞
+❝cloudy❞ + ❝sky❞ = ❝cloudy sky❞
+
+5 - ❝day❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝fire❞ + ❝sky❞ = ❝sun❞
+❝sky❞ + ❝sun❞ = ❝day❞
+
+5 - ❝star❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝fire❞ + ❝sky❞ = ❝sun❞
+❝fire❞ + ❝sun❞ = ❝star❞
+
+5 - ❝sunflower❞: 
+❝fire❞ + ❝water❞ = ❝steam❞
+❝steam❞ + ❝wind❞ = ❝cloud❞
+❝cloud❞ + ❝wind❞ = ❝sky❞
+❝fire❞ + ❝sky❞ = ❝sun❞
+❝sun❞ + ❝wind❞ = ❝sunflower❞
+
+5 - ❝lava Lake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝lava❞ = ❝lava Lake❞
+
+5 - ❝ash Steam❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝steam❞ = ❝ash Steam❞
+
+5 - ❝ash Plant❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝plant❞ = ❝ash Plant❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+❝ash❞ + ❝coal plant❞ = ❝ash Plant❞
+
+5 - ❝ash dust❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝dust❞ = ❝ash dust❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝rain❞ = ❝ash rain❞
+❝ash rain❞ + ❝dust❞ = ❝ash dust❞
+
+5 - ❝ashes Lake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ash lake❞ + ❝ashes❞ = ❝ashes Lake❞
+
+5 - ❝ash Ocean❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝ocean❞ = ❝ash Ocean❞
+
+5 - ❝lake sea❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝sea❞ = ❝lake sea❞
+
+5 - ❝ash wave❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝wave❞ = ❝ash wave❞
+
+5 - ❝ash Mud❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝ash❞ + ❝lake❞ = ❝ash lake❞
+❝ash lake❞ + ❝mud❞ = ❝ash Mud❞
+
+5 - ❝firelake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝lake❞ = ❝ashfirelake❞
+❝ashfirelake❞ + ❝ash❞ = ❝firelake❞
+
+5 - ❝ashfirelakewind❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝lake❞ = ❝ashfirelake❞
+❝ashfirelake❞ + ❝wind❞ = ❝ashfirelakewind❞
+
+5 - ❝ashwindlake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝wind❞ = ❝ashwind❞
+❝ashwind❞ + ❝lake❞ = ❝ashwindlake❞
+
+5 - ❝ashmud❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝mud❞ = ❝ashmud❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝mud❞ = ❝ashmud❞
+
+5 - ❝ashposeidon❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ash❞ + ❝ocean❞ = ❝poseidon❞
+❝ash❞ + ❝poseidon❞ = ❝ashposeidon❞
+
+5 - ❝king❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ash❞ + ❝ocean❞ = ❝poseidon❞
+❝ocean❞ + ❝poseidon❞ = ❝king❞
+
+5 - ❝trident❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ash❞ + ❝ocean❞ = ❝poseidon❞
+❝poseidon❞ + ❝water❞ = ❝trident❞
+
+5 - ❝ash typhoon❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ocean❞ + ❝wind❞ = ❝typhoon❞
+❝ash❞ + ❝typhoon❞ = ❝ash typhoon❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+❝ash❞ + ❝typhoon❞ = ❝ash typhoon❞
+
+5 - ❝ashland❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝ash❞ + ❝island❞ = ❝ashland❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝earth❞ + ❝sea❞ = ❝island❞
+❝ash❞ + ❝island❞ = ❝ashland❞
+
+5 - ❝abas❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝ash❞ + ❝sea❞ = ❝base❞
+❝ash❞ + ❝base❞ = ❝abas❞
+
+5 - ❝baselake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝ash❞ + ❝sea❞ = ❝base❞
+❝base❞ + ❝lake❞ = ❝baselake❞
+
+5 - ❝ashlake❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝ash❞ + ❝wave❞ = ❝ashwave❞
+❝ashwave❞ + ❝lake❞ = ❝ashlake❞
+
+5 - ❝ash hurricane❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wind❞ = ❝hurricane❞
+❝ash❞ + ❝hurricane❞ = ❝ash hurricane❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝storm❞ = ❝hurricane❞
+❝ash❞ + ❝hurricane❞ = ❝ash hurricane❞
+
+5 - ❝golem❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝ash❞ + ❝clay❞ = ❝golem❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝ash❞ + ❝clay❞ = ❝golem❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝dust❞ = ❝human❞
+❝clay❞ + ❝human❞ = ❝golem❞
+
+5 - ❝ash swamp❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝ash❞ + ❝swamp❞ = ❝ash swamp❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝ash❞ + ❝swamp❞ = ❝ash swamp❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝ash❞ + ❝swamp❞ = ❝ash swamp❞
+
+5 - ❝ashbrick❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝ash❞ + ❝brick❞ = ❝ashbrick❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝ash❞ + ❝brick❞ = ❝ashbrick❞
+
+5 - ❝muddy mud❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝mud❞ = ❝muddy mud❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝mud❞ = ❝muddy mud❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝earth❞ + ❝pond❞ = ❝mud❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝mud❞ = ❝muddy mud❞
+
+5 - ❝muddy rain❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝rain❞ = ❝muddy rain❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝rain❞ = ❝muddy rain❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝earth❞ + ❝pond❞ = ❝mud❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝rain❞ = ❝muddy rain❞
+
+5 - ❝muddy water❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝water❞ = ❝muddy water❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝water❞ = ❝muddy water❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝earth❞ + ❝pond❞ = ❝mud❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝muddy❞ + ❝water❞ = ❝muddy water❞
+
+5 - ❝mudstorm❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝mud❞ + ❝storm❞ = ❝mudstorm❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝sea❞ + ❝wind❞ = ❝storm❞
+❝mud❞ + ❝storm❞ = ❝mudstorm❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝mud❞ + ❝storm❞ = ❝mudstorm❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝earth❞ + ❝pond❞ = ❝mud❞
+❝mud❞ + ❝storm❞ = ❝mudstorm❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝fire❞ + ❝storm❞ = ❝volcano❞
+❝rain❞ + ❝volcano❞ = ❝mud❞
+❝mud❞ + ❝storm❞ = ❝mudstorm❞
+
+5 - Lily: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝lake❞ = Whirlpool
+Whirlpool + ❝plant❞ = Lily
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝plant❞ = Flower
+Flower + ❝water❞ = Lily
+
+5 - Fireball: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝lake❞ = Whirlpool
+Tornado + Whirlpool = Vortex
+Vortex + ❝fire❞ = Fireball
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝fire❞ = Fire
+Fire + Tumbleweed = Fireball
+
+5 - Maelstrom: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝lake❞ = Whirlpool
+Tsunami + Whirlpool = Maelstrom
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝lake❞ = Whirlpool
+Whirlpool + ❝lake❞ = Ocean
+Ocean + Whirlpool = Maelstrom
+
+5 - Sea: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝lake❞ = Whirlpool
+Whirlpool + ❝lake❞ = Ocean
+Ocean + Ocean = Sea
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝water❞ + ❝water❞ = ❝lake❞
+Tsunami + ❝lake❞ = Ocean
+Ocean + Ocean = Sea
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wave❞ = Tsunami
+Tsunami + ❝lake❞ = Ocean
+Ocean + Ocean = Sea
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝water❞ = Ocean
+Ocean + Ocean = Sea
+
+5 - Poseidon: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝lake❞ = Whirlpool
+Whirlpool + ❝lake❞ = Ocean
+Ocean + ❝fire❞ = Poseidon
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝water❞ + ❝water❞ = ❝lake❞
+Tsunami + ❝lake❞ = Ocean
+Ocean + ❝fire❞ = Poseidon
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wave❞ = Tsunami
+Tsunami + ❝lake❞ = Ocean
+Ocean + ❝fire❞ = Poseidon
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝water❞ = Ocean
+Ocean + ❝fire❞ = Poseidon
+
+5 - Muddy Water: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+Tornado + ❝lake❞ = Whirlpool
+Whirlpool + ❝mud❞ = Muddy Water
+
+5 - Continent: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝water❞ + ❝water❞ = ❝lake❞
+Volcano + ❝lake❞ = Island
+Island + Island = Continent
+
+5 - Hawaii: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝water❞ + ❝water❞ = ❝lake❞
+Volcano + ❝lake❞ = Island
+Island + Volcano = Hawaii
+
+5 - Dust Bowl: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝earth❞ = Dust
+Dust + Tornado = Dust Storm
+Dust Storm + ❝lake❞ = Dust Bowl
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Tornado = Dust Storm
+Dust + Dust Storm = Sandstorm
+Dust Storm + Sandstorm = Dust Bowl
+
+5 - Swamp: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+Mud + ❝lake❞ = Swamp
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝swamp❞ + ❝water❞ = ❝swamp water❞
+❝swamp water❞ + ❝swamp water❞ = Swamp
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝mud❞ + ❝swamp❞ = ❝quagmire❞
+❝quagmire❞ + ❝quagmire❞ = Swamp
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝swamp❞ + ❝water❞ = ❝swamp water❞
+❝swamp water❞ + ❝swamp water❞ = Swamp
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+Mud + ❝plant❞ = Swamp
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+Tornado + ❝tree❞ = Forest
+Forest + ❝water❞ = Swamp
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + Volcano = Mountain
+Mountain + ❝water❞ = Lake
+Lake + ❝earth❞ = Swamp
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝mud❞ + ❝swamp❞ = ❝quagmire❞
+❝quagmire❞ + ❝quagmire❞ = Swamp
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝swamp❞ + ❝water❞ = ❝swamp water❞
+❝swamp water❞ + ❝swamp water❞ = Swamp
+
+5 - Pumice: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + ❝lake❞ = Pumice
+
+5 - Rock: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+Tornado + ❝mud❞ = Mudslide
+Mudslide + Mudslide = Rock
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝earth❞ + ❝wind❞ = ❝dust❞
+Volcano + ❝fire❞ = Lava
+Lava + ❝dust❞ = Rock
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝earth❞ = ❝soil❞
+Volcano + ❝soil❞ = Rock
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+Tornado + ❝mud❞ = Mudslide
+Mudslide + Mudslide = Rock
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + ❝fire❞ = Lava
+Lava + ❝water❞ = Stone
+Stone + ❝earth❞ = Rock
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + Ash = Stone
+Stone + ❝earth❞ = Rock
+
+5 - Mudnado: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+Tornado + ❝mud❞ = Mudslide
+Mudslide + Tornado = Mudnado
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+Tornado + ❝mud❞ = Mudslide
+Mudslide + Tornado = Mudnado
+
+5 - House: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+Tornado + ❝brick❞ = House
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+Tornado + ❝brick❞ = House
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+Mud + ❝fire❞ = Brick
+Brick + Tornado = House
+
+5 - Golem: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+Tornado + ❝clay❞ = Golem
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+Tornado + ❝clay❞ = Golem
+
+5 - ❝algae❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ocean❞ + ❝plant❞ = ❝seaweed❞
+❝plant❞ + ❝seaweed❞ = ❝algae❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝plant❞ + ❝sea❞ = ❝seaweed❞
+❝plant❞ + ❝seaweed❞ = ❝algae❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝plant❞ + ❝wave❞ = ❝seaweed❞
+❝plant❞ + ❝seaweed❞ = ❝algae❞
+
+5 - Kelp: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ocean❞ + ❝plant❞ = ❝seaweed❞
+❝seaweed❞ + ❝seaweed❞ = Kelp
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝plant❞ + ❝sea❞ = ❝seaweed❞
+❝seaweed❞ + ❝seaweed❞ = Kelp
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝plant❞ + ❝wave❞ = ❝seaweed❞
+❝seaweed❞ + ❝seaweed❞ = Kelp
+
+5 - ❝sushi❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ocean❞ + ❝plant❞ = ❝seaweed❞
+❝fire❞ + ❝seaweed❞ = ❝sushi❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝plant❞ + ❝sea❞ = ❝seaweed❞
+❝fire❞ + ❝seaweed❞ = ❝sushi❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝plant❞ + ❝wave❞ = ❝seaweed❞
+❝fire❞ + ❝seaweed❞ = ❝sushi❞
+
+5 - ❝kelp❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ocean❞ + ❝plant❞ = ❝seaweed❞
+❝seaweed❞ + ❝water❞ = ❝kelp❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝plant❞ + ❝sea❞ = ❝seaweed❞
+❝seaweed❞ + ❝water❞ = ❝kelp❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝plant❞ + ❝wave❞ = ❝seaweed❞
+❝seaweed❞ + ❝water❞ = ❝kelp❞
+
+5 - ❝coconut❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝island❞ + ❝plant❞ = ❝coconut❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝earth❞ + ❝sea❞ = ❝island❞
+❝island❞ + ❝plant❞ = ❝coconut❞
+
+5 - ❝coral❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝ocean❞ = ❝coral❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝sea❞ = ❝coral❞
+
+5 - ❝palm❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝ocean❞ + ❝tree❞ = ❝palm❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝swamp❞ + ❝tree❞ = ❝palm❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝forest❞ = ❝jungle❞
+❝jungle❞ + ❝tree❞ = ❝palm❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝water❞ = ❝swamp❞
+❝swamp❞ + ❝tree❞ = ❝palm❞
+
+5 - ❝marshmallow❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝lake❞ + ❝swamp❞ = ❝marsh❞
+❝marsh❞ + ❝swamp❞ = ❝marshmallow❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝lake❞ + ❝swamp❞ = ❝marsh❞
+❝marsh❞ + ❝swamp❞ = ❝marshmallow❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝swamp❞ + ❝swamp❞ = ❝marsh❞
+❝marsh❞ + ❝swamp❞ = ❝marshmallow❞
+
+5 - ❝marshwind❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝lake❞ + ❝swamp❞ = ❝marsh❞
+❝marsh❞ + ❝wind❞ = ❝marshwind❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝lake❞ + ❝swamp❞ = ❝marsh❞
+❝marsh❞ + ❝wind❞ = ❝marshwind❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝swamp❞ + ❝swamp❞ = ❝marsh❞
+❝marsh❞ + ❝wind❞ = ❝marshwind❞
+
+5 - ❝toadstool❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝plant❞ + ❝swamp❞ = ❝mushroom❞
+❝mushroom❞ + ❝swamp❞ = ❝toadstool❞
+
+5 - ❝soup❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝plant❞ + ❝swamp❞ = ❝mushroom❞
+❝mushroom❞ + ❝water❞ = ❝soup❞
+
+5 - ❝spore❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝plant❞ + ❝swamp❞ = ❝mushroom❞
+❝mushroom❞ + ❝wind❞ = ❝spore❞
+
+5 - ❝truffle❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝plant❞ + ❝swamp❞ = ❝mushroom❞
+❝earth❞ + ❝mushroom❞ = ❝truffle❞
+
+5 - ❝fossil❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝plant❞ = ❝swamp❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝swamp❞ = ❝fossil❞
+
+5 - ❝tulip❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wave❞ = ❝tulip❞
+
+5 - ❝coal wave❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝wave❞ = ❝coal wave❞
+
+5 - ❝palm tree❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wind❞ = ❝hurricane❞
+❝hurricane❞ + ❝plant❞ = ❝palm tree❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝storm❞ = ❝hurricane❞
+❝hurricane❞ + ❝plant❞ = ❝palm tree❞
+
+5 - ❝mud tree❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝mud❞ + ❝tree❞ = ❝mud tree❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝mud❞ + ❝tree❞ = ❝mud tree❞
+
+5 - ❝lotus flower❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝lake❞ = ❝lotus❞
+❝flower❞ + ❝lotus❞ = ❝lotus flower❞
+
+5 - ❝water lily❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝lake❞ = ❝lotus❞
+❝lake❞ + ❝lotus❞ = ❝water lily❞
+
+5 - ❝phoenix❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝lake❞ = ❝lotus❞
+❝fire❞ + ❝lotus❞ = ❝phoenix❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝plant❞ + ❝pond❞ = ❝lily❞
+❝fire❞ + ❝lily❞ = ❝phoenix❞
+
+5 - ❝fuel❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝lake❞ = ❝oil❞
+❝coal❞ + ❝oil❞ = ❝fuel❞
+
+5 - ❝slick❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝lake❞ = ❝oil❞
+❝lake❞ + ❝oil❞ = ❝slick❞
+
+5 - ❝biofuel❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝lake❞ = ❝oil❞
+❝oil❞ + ❝plant❞ = ❝biofuel❞
+
+5 - ❝frying pan❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝lake❞ = ❝oil❞
+❝fire❞ + ❝oil❞ = ❝frying pan❞
+
+5 - ❝sail❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝lake❞ = ❝oil❞
+❝oil❞ + ❝wind❞ = ❝sail❞
+
+5 - ❝petrol❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝lake❞ = ❝oil❞
+❝earth❞ + ❝oil❞ = ❝petrol❞
+
+5 - ❝log plant❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝lake❞ + ❝tree❞ = ❝log❞
+❝log❞ + ❝plant❞ = ❝log plant❞
+
+5 - ❝logtree❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝lake❞ + ❝tree❞ = ❝log❞
+❝log❞ + ❝tree❞ = ❝logtree❞
+
+5 - ❝campfire❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝lake❞ + ❝tree❞ = ❝log❞
+❝fire❞ + ❝log❞ = ❝campfire❞
+
+5 - ❝log water❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝lake❞ + ❝tree❞ = ❝log❞
+❝log❞ + ❝water❞ = ❝log water❞
+
+5 - ❝logwind❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝lake❞ + ❝tree❞ = ❝log❞
+❝log❞ + ❝wind❞ = ❝logwind❞
+
+5 - ❝maple❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝tree❞ + ❝wind❞ = ❝leaf❞
+❝lake❞ + ❝leaf❞ = ❝maple❞
+
+5 - ❝mudslide❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝mud❞ = ❝mudslide❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ocean❞ + ❝wind❞ = ❝typhoon❞
+❝mud❞ + ❝typhoon❞ = ❝mudslide❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝mud❞ + ❝wave❞ = ❝tsunami❞
+❝mud❞ + ❝tsunami❞ = ❝mudslide❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wind❞ = ❝hurricane❞
+❝hurricane❞ + ❝mud❞ = ❝mudslide❞
+ ...
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝mountain❞ + ❝storm❞ = ❝avalanche❞
+❝avalanche❞ + ❝rain❞ = ❝mudslide❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+❝earth❞ + ❝pond❞ = ❝mud❞
+❝mud❞ + ❝typhoon❞ = ❝mudslide❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝fire❞ + ❝storm❞ = ❝volcano❞
+❝storm❞ + ❝volcano❞ = ❝earthquake❞
+❝earthquake❞ + ❝rain❞ = ❝mudslide❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝mud❞ = ❝mudslide❞
+
+5 - ❝pyramid❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝mountain❞ = ❝pyramid❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝mountain❞ = ❝pyramid❞
+
+5 - ❝statue❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mountain❞ = ❝statue❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mountain❞ = ❝statue❞
+
+5 - ❝typhoon island❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ocean❞ + ❝wind❞ = ❝typhoon❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝island❞ + ❝typhoon❞ = ❝typhoon island❞
+
+5 - ❝cyclone❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ocean❞ + ❝wind❞ = ❝typhoon❞
+❝typhoon❞ + ❝typhoon❞ = ❝hurricane❞
+❝hurricane❞ + ❝typhoon❞ = ❝cyclone❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wind❞ = ❝hurricane❞
+❝hurricane❞ + ❝hurricane❞ = ❝typhoon❞
+❝hurricane❞ + ❝typhoon❞ = ❝cyclone❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+❝typhoon❞ + ❝typhoon❞ = ❝hurricane❞
+❝hurricane❞ + ❝typhoon❞ = ❝cyclone❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝storm❞ = ❝hurricane❞
+❝hurricane❞ + ❝hurricane❞ = ❝typhoon❞
+❝hurricane❞ + ❝typhoon❞ = ❝cyclone❞
+
+5 - ❝typhoon volcano❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝ocean❞ + ❝wind❞ = ❝typhoon❞
+❝fire❞ + ❝typhoon❞ = ❝volcano❞
+❝typhoon❞ + ❝volcano❞ = ❝typhoon volcano❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+❝fire❞ + ❝typhoon❞ = ❝volcano❞
+❝typhoon❞ + ❝volcano❞ = ❝typhoon volcano❞
+
+5 - ❝atoll island❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝island❞ + ❝ocean❞ = ❝atoll❞
+❝atoll❞ + ❝island❞ = ❝atoll island❞
+
+5 - ❝planet❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝lake❞ = ❝ocean❞
+❝earth❞ + ❝ocean❞ = ❝island❞
+❝earth❞ + ❝island❞ = ❝continent❞
+❝continent❞ + ❝earth❞ = ❝planet❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝earth❞ + ❝sea❞ = ❝island❞
+❝earth❞ + ❝island❞ = ❝continent❞
+❝continent❞ + ❝earth❞ = ❝planet❞
+
+5 - ❝sea brick❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝water❞ = ❝sea❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝sea❞ = ❝sea brick❞
+
+5 - Sandcastle: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wave❞ = Tsunami
+❝earth❞ + ❝wave❞ = ❝sand❞
+Tsunami + ❝sand❞ = Sandcastle
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝water❞ = Beach
+Beach + Sand = Sandcastle
+
+5 - ❝disaster❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝wave❞ + ❝wind❞ = ❝hurricane❞
+❝hurricane❞ + ❝lake❞ = ❝tsunami❞
+❝hurricane❞ + ❝tsunami❞ = ❝disaster❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝storm❞ + ❝water❞ = ❝tsunami❞
+❝rain❞ + ❝storm❞ = ❝hurricane❞
+❝hurricane❞ + ❝tsunami❞ = ❝disaster❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝fire❞ + ❝storm❞ = ❝volcano❞
+❝storm❞ + ❝volcano❞ = ❝earthquake❞
+❝earthquake❞ + ❝volcano❞ = ❝disaster❞
+
+5 - ❝sandcastle❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝lake❞ + ❝sand❞ = ❝beach❞
+❝beach❞ + ❝sand❞ = ❝sandcastle❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝lake❞ = ❝beach❞
+❝beach❞ + ❝brick❞ = ❝sandcastle❞
+
+5 - ❝bonfire❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝lake❞ + ❝sand❞ = ❝beach❞
+❝beach❞ + ❝fire❞ = ❝bonfire❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝lake❞ = ❝beach❞
+❝beach❞ + ❝fire❞ = ❝bonfire❞
+
+5 - ❝mirage❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝sand❞ + ❝sand❞ = ❝desert❞
+❝desert❞ + ❝lake❞ = ❝mirage❞
+
+5 - ❝oasis❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝sand❞ + ❝sand❞ = ❝desert❞
+❝desert❞ + ❝water❞ = ❝oasis❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝mountain❞ = ❝sand❞
+❝sand❞ + ❝sand❞ = ❝desert❞
+❝desert❞ + ❝water❞ = ❝oasis❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝earth❞ + ❝sand Storm❞ = ❝desert❞
+❝desert❞ + ❝water❞ = ❝oasis❞
+
+5 - ❝mirror❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+❝glass❞ + ❝lake❞ = ❝mirror❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝mountain❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+❝glass❞ + ❝wind❞ = ❝mirror❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝fire❞ + ❝sand Storm❞ = ❝Glass❞
+❝Glass❞ + ❝wind❞ = ❝mirror❞
+
+5 - ❝time❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+❝glass❞ + ❝sand❞ = ❝time❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝mountain❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+❝glass❞ + ❝sand❞ = ❝time❞
+
+5 - ❝glass wave❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+❝glass❞ + ❝wave❞ = ❝glass wave❞
+
+5 - ❝lens❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝lake❞ + ❝wind❞ = ❝wave❞
+❝earth❞ + ❝wave❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+❝fire❞ + ❝glass❞ = ❝lens❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝mountain❞ = ❝sand❞
+❝fire❞ + ❝sand❞ = ❝glass❞
+❝fire❞ + ❝glass❞ = ❝lens❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝fire❞ + ❝sand Storm❞ = ❝Glass❞
+❝fire❞ + ❝Glass❞ = ❝lens❞
+
+5 - ❝mire❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝mud❞ + ❝swamp❞ = ❝quagmire❞
+❝quagmire❞ + ❝swamp❞ = ❝mire❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝mud❞ + ❝swamp❞ = ❝quagmire❞
+❝quagmire❞ + ❝swamp❞ = ❝mire❞
+
+5 - ❝dust devil❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝lake❞ + ❝mud❞ = ❝swamp❞
+❝swamp❞ + ❝wind❞ = ❝tornado❞
+❝mud❞ + ❝tornado❞ = ❝dust devil❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝wind❞ = ❝tornado❞
+❝dust❞ + ❝tornado❞ = ❝dust devil❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝mud❞ + ❝water❞ = ❝swamp❞
+❝swamp❞ + ❝wind❞ = ❝tornado❞
+❝mud❞ + ❝tornado❞ = ❝dust devil❞
+
+5 - ❝dam❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+❝lake❞ + ❝wall❞ = ❝dam❞
+
+5 - ❝mud wall❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+❝mud❞ + ❝wall❞ = ❝mud wall❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+❝mud❞ + ❝wall❞ = ❝mud wall❞
+
+5 - ❝firewall❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+❝fire❞ + ❝wall❞ = ❝firewall❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+❝fire❞ + ❝wall❞ = ❝firewall❞
+
+5 - ❝cliff❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+❝earth❞ + ❝wall❞ = ❝cliff❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+❝earth❞ + ❝wall❞ = ❝cliff❞
+
+5 - ❝beach mud❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝lake❞ = ❝beach❞
+❝beach❞ + ❝mud❞ = ❝beach mud❞
+
+5 - ❝home❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝brick❞ + ❝house❞ = ❝home❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝brick❞ + ❝house❞ = ❝home❞
+
+5 - ❝houseboat❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝house❞ + ❝lake❞ = ❝houseboat❞
+
+5 - ❝mudhouse❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝house❞ + ❝mud❞ = ❝mudhouse❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝house❞ + ❝mud❞ = ❝mudhouse❞
+
+5 - ❝fireplace❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝fire❞ + ❝house❞ = ❝fireplace❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝fire❞ + ❝house❞ = ❝fireplace❞
+
+5 - ❝pool❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝house❞ + ❝water❞ = ❝pool❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝house❞ + ❝water❞ = ❝pool❞
+
+5 - ❝vase❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+❝clay❞ + ❝pottery❞ = ❝vase❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝clay❞ + ❝pot❞ = ❝vase❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+❝clay❞ + ❝pottery❞ = ❝vase❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝clay❞ + ❝pot❞ = ❝vase❞
+
+5 - ❝ceramic❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+❝fire❞ + ❝pottery❞ = ❝ceramic❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+❝fire❞ + ❝pottery❞ = ❝ceramic❞
+
+5 - ❝teapot❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+❝pottery❞ + ❝water❞ = ❝teapot❞
+ ...
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝lake❞ + ❝pot❞ = ❝teapot❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+❝pottery❞ + ❝water❞ = ❝teapot❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝pot❞ + ❝water❞ = ❝teapot❞
+
+5 - ❝pottery wheel❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+❝pottery❞ + ❝wind❞ = ❝pottery wheel❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝mud❞ = ❝pottery❞
+❝pottery❞ + ❝wind❞ = ❝pottery wheel❞
+
+5 - ❝cauldron❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝fire❞ + ❝pot❞ = ❝cauldron❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝fire❞ + ❝pot❞ = ❝cauldron❞
+
+5 - ❝pot wind❞: 
+❝water❞ + ❝water❞ = ❝lake❞
+❝earth❞ + ❝lake❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝pot❞ + ❝wind❞ = ❝pot wind❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝pot❞ + ❝wind❞ = ❝pot wind❞
+
+5 - ❝ash Pond❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝rain❞ = ❝ash rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝ash rain❞ + ❝pond❞ = ❝ash Pond❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝ash❞ + ❝pond❞ = ❝ash pond❞
+❝ash pond❞ + ❝ash pond❞ = ❝ash Pond❞
+
+5 - ❝acid Rain❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝ash❞ + ❝rain❞ = ❝ash rain❞
+❝ash rain❞ + ❝storm❞ = ❝acid Rain❞
+ ...
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ashes❞ + ❝rain❞ = ❝acid rain❞
+❝acid rain❞ + ❝ashes❞ = ❝acid Rain❞
+
+5 - ❝ashwindrain❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝wind❞ = ❝ashwind❞
+❝ashwind❞ + ❝rain❞ = ❝ashwindrain❞
+
+5 - ❝ashpond❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝ashfire❞ + ❝pond❞ = ❝ashpond❞
+
+5 - Acid: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ashes❞ + ❝rain❞ = ❝acid rain❞
+❝acid rain❞ + ❝acid rain❞ = Acid
+
+5 - Acid Rain: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ashes❞ + ❝rain❞ = ❝acid rain❞
+❝acid rain❞ + ❝rain❞ = Acid Rain
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + Volcano = Eruption
+Eruption + ❝rain❞ = Acid Rain
+
+5 - ❝acid❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ashes❞ + ❝rain❞ = ❝acid rain❞
+❝acid rain❞ + ❝water❞ = ❝acid❞
+
+5 - ❝ash tsunami❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝storm❞ + ❝water❞ = ❝tsunami❞
+❝ash❞ + ❝tsunami❞ = ❝ash tsunami❞
+
+5 - Firebird: 
+❝wind❞ + ❝wind❞ = Tornado
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+Tornado + ❝ashes❞ = Phoenix
+Phoenix + Tornado = Firebird
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + ❝fire❞ = Phoenix
+Phoenix + Tornado = Firebird
+
+5 - ❝ashplantsteam❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝water❞ = ❝steam❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+❝ashplant❞ + ❝steam❞ = ❝ashplantsteam❞
+
+5 - ❝ashplantsteak❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+❝ashplant❞ + ❝fire❞ = ❝steak❞
+❝ashplant❞ + ❝steak❞ = ❝ashplantsteak❞
+
+5 - ❝ash steak❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+❝ashplant❞ + ❝fire❞ = ❝steak❞
+❝ash❞ + ❝steak❞ = ❝ash steak❞
+
+5 - ❝burger❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+❝ashplant❞ + ❝fire❞ = ❝steak❞
+❝plant❞ + ❝steak❞ = ❝burger❞
+
+5 - ❝barbecue❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+❝ashplant❞ + ❝fire❞ = ❝steak❞
+❝fire❞ + ❝steak❞ = ❝barbecue❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝tree❞ = ❝charcoal❞
+❝charcoal❞ + ❝fire❞ = ❝barbecue❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝fire❞ + ❝wood❞ = ❝charcoal❞
+❝charcoal❞ + ❝fire❞ = ❝barbecue❞
+
+5 - ❝sandwich❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+❝ashplant❞ + ❝fire❞ = ❝steak❞
+❝steak❞ + ❝wind❞ = ❝sandwich❞
+
+5 - ❝ashsteak❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ash❞ + ❝plant❞ = ❝ashplant❞
+❝ashfire❞ + ❝ashplant❞ = ❝ashsteak❞
+
+5 - ❝ashwind plant❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝wind❞ = ❝ashwind❞
+❝ashwind❞ + ❝plant❞ = ❝ashwind plant❞
+
+5 - ❝ashfireflower❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝ashfire❞ + ❝flower❞ = ❝ashfireflower❞
+
+5 - ❝ash rose❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝ash❞ + ❝rose❞ = ❝ash rose❞
+
+5 - ❝ashdandelion❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝ash❞ + ❝dandelion❞ = ❝ashdandelion❞
+
+5 - ❝ashdiamond❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝ash❞ + ❝diamond❞ = ❝ashdiamond❞
+
+5 - ❝ash Tree❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝ash❞ + ❝tree❞ = ❝ash tree❞
+❝ash tree❞ + ❝ash tree❞ = ❝ash Tree❞
+
+5 - ❝ash Water❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝ash❞ + ❝tree❞ = ❝ash tree❞
+❝ash tree❞ + ❝water❞ = ❝ash Water❞
+
+5 - ❝ashforest❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝ash❞ + ❝forest❞ = ❝ashforest❞
+
+5 - ❝ashleaf❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝tree❞ + ❝wind❞ = ❝leaf❞
+❝ash❞ + ❝leaf❞ = ❝ashleaf❞
+
+5 - ❝ashwood❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝ash❞ + ❝wood❞ = ❝ashwood❞
+
+5 - ❝ashes To Dust❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝ash❞ + ❝earth❞ = ❝ashes❞
+❝ashes❞ + ❝dust❞ = ❝ashes to dust❞
+❝ashes to dust❞ + ❝ashes to dust❞ = ❝ashes To Dust❞
+
+5 - ❝ashdustwind❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝dust❞ = ❝ashdust❞
+❝ashdust❞ + ❝wind❞ = ❝ashdustwind❞
+
+5 - ❝ashwinddust❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝ash❞ + ❝fire❞ = ❝ashfire❞
+❝ashfire❞ + ❝wind❞ = ❝ashwind❞
+❝ashwind❞ + ❝dust❞ = ❝ashwinddust❞
+
+5 - Ash Soil: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝earth❞ = ❝soil❞
+❝ash❞ + ❝soil❞ = ❝ash soil❞
+❝ash soil❞ + ❝ash soil❞ = Ash Soil
+
+5 - ❝ashdirt❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝earth❞ = ❝soil❞
+❝dust❞ + ❝soil❞ = ❝dirt❞
+❝ash❞ + ❝dirt❞ = ❝ashdirt❞
+
+5 - ❝Mount Vesuvius❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝mountain❞ = ❝volcano❞
+❝ash❞ + ❝volcano❞ = ❝ash volcano❞
+❝ash volcano❞ + ❝mountain❞ = ❝Mount Vesuvius❞
+
+5 - ❝ash tornado❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝wind❞ = ❝tornado❞
+❝ash❞ + ❝tornado❞ = ❝ash tornado❞
+
+5 - Rainbow Trout: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝water❞ = ❝lake❞
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + ❝rain❞ = Rainbow
+Rainbow + ❝lake❞ = Rainbow Trout
+
+5 - Unicorn: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + ❝rain❞ = Rainbow
+Rainbow + ❝dust❞ = Unicorn
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + ❝rain❞ = Rainbow
+Rainbow + Volcano = Unicorn
+
+5 - Rainbow Mountain: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + ❝rain❞ = Rainbow
+Rainbow + ❝mountain❞ = Rainbow Mountain
+
+5 - Pond: 
+❝wind❞ + ❝wind❞ = Tornado
+❝water❞ + ❝wind❞ = ❝rain❞
+Tornado + ❝rain❞ = Rainbow
+❝rain❞ + ❝water❞ = ❝pond❞
+Rainbow + ❝pond❞ = Pond
+
+5 - ❝coalition plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝rain❞ = ❝coalition❞
+❝coalition❞ + ❝plant❞ = ❝coalition plant❞
+
+5 - ❝reign❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝rain❞ = ❝coalition❞
+❝coalition❞ + ❝rain❞ = ❝reign❞
+
+5 - ❝war❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝rain❞ = ❝coalition❞
+❝coalition❞ + ❝fire❞ = ❝war❞
+
+5 - ❝coalition water❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝rain❞ = ❝coalition❞
+❝coalition❞ + ❝water❞ = ❝coalition water❞
+
+5 - ❝coalition of the willing❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝rain❞ = ❝coalition❞
+❝coalition❞ + ❝earth❞ = ❝coalition of the willing❞
+
+5 - ❝coal pond❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝coal❞ + ❝pond❞ = ❝coal pond❞
+
+5 - ❝thunder❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝storm❞ = ❝thunder❞
+
+5 - ❝parasol❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝rain❞ + ❝tree❞ = ❝umbrella❞
+❝plant❞ + ❝umbrella❞ = ❝parasol❞
+
+5 - ❝firefighter❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝rain❞ + ❝tree❞ = ❝umbrella❞
+❝fire❞ + ❝umbrella❞ = ❝firefighter❞
+
+5 - ❝parachute❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝rain❞ + ❝tree❞ = ❝umbrella❞
+❝umbrella❞ + ❝wind❞ = ❝parachute❞
+
+5 - ❝lily pond❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝plant❞ + ❝pond❞ = ❝lily❞
+❝lily❞ + ❝pond❞ = ❝lily pond❞
+
+5 - ❝lilyrain❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝plant❞ + ❝pond❞ = ❝lily❞
+❝lily❞ + ❝rain❞ = ❝lilyrain❞
+
+5 - ❝lily pad❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝plant❞ + ❝pond❞ = ❝lily❞
+❝lily❞ + ❝water❞ = ❝lily pad❞
+
+5 - ❝lily wind❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝plant❞ + ❝pond❞ = ❝lily❞
+❝lily❞ + ❝wind❞ = ❝lily wind❞
+
+5 - ❝tsunami plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝storm❞ + ❝water❞ = ❝tsunami❞
+❝plant❞ + ❝tsunami❞ = ❝tsunami plant❞
+
+5 - ❝dusty❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mud❞ + ❝rain❞ = ❝muddy❞
+❝dust❞ + ❝muddy❞ = ❝dusty❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝brick❞ = ❝wall❞
+❝dust❞ + ❝wall❞ = ❝dusty❞
+
+5 - ❝lavafall❞: 
+❝fire❞ + ❝fire❞ = ❝lava❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+❝lava❞ + ❝waterfall❞ = ❝lavafall❞
+
+5 - ❝ashfall❞: 
+❝fire❞ + ❝wind❞ = ❝ash❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+❝ash❞ + ❝waterfall❞ = ❝ashfall❞
+
+5 - Niagara Falls: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+Tornado + ❝waterfall❞ = Niagara Falls
+
+5 - ❝rainbow mountain❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝water❞ + ❝wind❞ = ❝rain❞
+❝mountain❞ + ❝rain❞ = ❝waterfall❞
+❝waterfall❞ + ❝wind❞ = ❝rainbow❞
+❝mountain❞ + ❝rainbow❞ = ❝rainbow mountain❞
+
+5 - ❝typhoon Pond❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+❝pond❞ + ❝typhoon❞ = ❝typhoon pond❞
+❝typhoon pond❞ + ❝typhoon pond❞ = ❝typhoon Pond❞
+
+5 - ❝floodwater❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝wind❞ = ❝typhoon❞
+❝rain❞ + ❝typhoon❞ = ❝flood❞
+❝flood❞ + ❝water❞ = ❝floodwater❞
+ ...
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝storm❞ + ❝water❞ = ❝tsunami❞
+❝rain❞ + ❝tsunami❞ = ❝flood❞
+❝flood❞ + ❝water❞ = ❝floodwater❞
+
+5 - ❝pondstormrain❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝storm❞ = ❝pondstorm❞
+❝pondstorm❞ + ❝rain❞ = ❝pondstormrain❞
+
+5 - ❝pondfire❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝storm❞ = ❝pondstorm❞
+❝fire❞ + ❝pondstorm❞ = ❝pondfire❞
+
+5 - ❝pondstormwater❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝water❞ = ❝pond❞
+❝pond❞ + ❝storm❞ = ❝pondstorm❞
+❝pondstorm❞ + ❝water❞ = ❝pondstormwater❞
+
+5 - ❝hurricane Storm❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝storm❞ = ❝hurricane❞
+❝hurricane❞ + ❝storm❞ = ❝hurricane storm❞
+❝hurricane storm❞ + ❝hurricane storm❞ = ❝hurricane Storm❞
+
+5 - ❝rain Storm❞: 
+❝water❞ + ❝wind❞ = ❝rain❞
+❝rain❞ + ❝wind❞ = ❝storm❞
+❝rain❞ + ❝storm❞ = ❝hurricane❞
+❝hurricane❞ + ❝storm❞ = ❝hurricane storm❞
+❝hurricane storm❞ + ❝rain❞ = ❝rain Storm❞
+
+5 - Coconut: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + Tornado = Hurricane
+Hurricane + ❝plant❞ = Palm
+Hurricane + Palm = Coconut
+
+5 - Palm Tree: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + Tornado = Hurricane
+Hurricane + ❝plant❞ = Palm
+Palm + ❝wind❞ = Palm Tree
+
+5 - Dust Bunny: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tornado + Tumbleweed = Dust Devil
+Dust Devil + Tumbleweed = Dust Bunny
+
+5 - Smoke: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝fire❞ = Fire
+Fire + ❝plant❞ = Smoke
+
+5 - Oasis: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝earth❞ = Desert
+Desert + ❝water❞ = Oasis
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+Desert + ❝water❞ = Oasis
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝sand Storm❞ + ❝sand Storm❞ = Desert
+Desert + ❝water❞ = Oasis
+
+5 - ❝tumbleweed❞: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+Tornado + ❝plant❞ = Tumbleweed
+Tumbleweed + ❝tree❞ = ❝tumbleweed❞
+ ...
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝plant❞ = ❝cactus❞
+❝cactus❞ + ❝dust storm❞ = ❝tumbleweed❞
+
+5 - Tree: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+❝earth❞ + ❝water❞ = ❝plant❞
+Volcano + Volcano = Mountain
+Mountain + ❝plant❞ = Tree
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝earth❞ + ❝water❞ = ❝plant❞
+Tsunami + ❝earth❞ = Earthquake
+Earthquake + ❝plant❞ = Tree
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+Tornado + ❝tree❞ = Forest
+Forest + ❝plant❞ = Tree
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+Tornado + ❝wood❞ = Tree
+
+5 - Lotus: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+Tsunami + ❝flower❞ = Lotus
+
+5 - Pollen: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝plant❞ = Flower
+Dust + Flower = Pollen
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝earth❞ = Dust
+❝plant❞ + ❝plant❞ = ❝flower❞
+Dust + ❝flower❞ = Pollen
+
+5 - Garden: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝plant❞ = Flower
+Flower + Flower = Garden
+
+5 - Tobacco: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + ❝plant❞ = Tobacco
+
+5 - Wood: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝tree❞ = Wood
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+Tornado + ❝tree❞ = Forest
+Forest + ❝tree❞ = Wood
+
+5 - Dandelion Patch: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+Tornado + ❝flower❞ = Dandelion
+Dandelion + Dandelion = Dandelion Patch
+
+5 - Seed: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+Tornado + ❝flower❞ = Dandelion
+Dandelion + Tornado = Seed
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+Tornado + ❝dandelion❞ = Seed
+
+5 - Wish: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+Tornado + ❝flower❞ = Dandelion
+Dandelion + ❝fire❞ = Wish
+
+5 - Wine: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+Tornado + ❝flower❞ = Dandelion
+Dandelion + ❝water❞ = Wine
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝fire❞ = Glass
+Glass + ❝water❞ = Wine
+
+5 - Rose: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+Tornado + ❝rose❞ = Rose
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝flower❞ + ❝rose❞ = ❝rose flower❞
+❝flower❞ + ❝rose flower❞ = Rose
+
+5 - Diamond Block: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+Tornado + ❝coal❞ = Diamond
+Diamond + Diamond = Diamond Block
+
+5 - Emerald: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+Tornado + ❝coal❞ = Diamond
+Diamond + ❝plant❞ = Emerald
+
+5 - Coal: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+Tornado + ❝coal❞ = Diamond
+Diamond + ❝fire❞ = Coal
+
+5 - Global Warming: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+Tornado + ❝coal plant❞ = Global Warming
+
+5 - Jungle: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+Tornado + ❝tree❞ = Forest
+Forest + Forest = Jungle
+
+5 - Leaf: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝tree❞ + ❝wind❞ = ❝leaf❞
+Tornado + ❝leaf❞ = Leaf
+
+5 - ❝steam devil❞: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝fire❞ + ❝water❞ = ❝steam❞
+Tornado + ❝dust❞ = Dust Devil
+Dust Devil + ❝steam❞ = ❝steam devil❞
+
+5 - Fire Tornado: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+Tornado + ❝dust❞ = Dust Devil
+Dust Devil + ❝fire❞ = Fire Devil
+Fire Devil + Tornado = Fire Tornado
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + Tornado = Cyclone
+Cyclone + ❝fire❞ = Fire Tornado
+
+5 - Steam Devil: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+Tornado + ❝dust❞ = Dust Devil
+Dust Devil + ❝fire❞ = Fire Devil
+Fire Devil + ❝water❞ = Steam Devil
+
+5 - Mud Devil: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+Tornado + ❝dust❞ = Dust Devil
+Dust Devil + ❝mud❞ = Mud Devil
+
+5 - Plant: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝earth❞ = ❝soil❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝soil❞ = Plant
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Dust + Planet = Earth
+Earth + ❝fire❞ = Plant
+
+5 - ❝Mountain Tsunami❞: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+Tsunami + ❝mountain wind❞ = ❝Mountain Tsunami❞
+
+5 - Moon: 
+❝wind❞ + ❝wind❞ = Tornado
+❝earth❞ + ❝earth❞ = ❝mountain❞
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝mountain❞ = Moon
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Dust + Planet = Earth
+Earth + Planet = Moon
+
+5 - Twister: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+Disaster + Tornado = Twister
+
+5 - Firefighter: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+Disaster + ❝fire❞ = Firefighter
+
+5 - Avalanche: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Tornado = Avalanche
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + ❝fire❞ = Lava
+Lava + ❝water❞ = Stone
+Stone + Tornado = Avalanche
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + Ash = Stone
+Stone + Tornado = Avalanche
+
+5 - Yellowstone: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+
+5 - River: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ❝water❞ = River
+
+5 - Fjord: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + Volcano = Mountain
+Mountain + ❝water❞ = Lake
+Lake + Mountain = Fjord
+
+5 - Obsidian: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + ❝fire❞ = Lava
+Lava + ❝water❞ = Stone
+Lava + Stone = Obsidian
+
+5 - Boulder: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + ❝fire❞ = Lava
+Lava + ❝water❞ = Stone
+Stone + Stone = Boulder
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + Ash = Stone
+Stone + Stone = Boulder
+
+5 - Waterfall: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝fire❞ = Volcano
+Volcano + ❝fire❞ = Lava
+Lava + ❝water❞ = Stone
+Stone + ❝water❞ = Waterfall
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + Ash = Stone
+Stone + ❝water❞ = Waterfall
+
+5 - Chaos: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+
+5 - Fireworks: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Explosion + ❝fire❞ = Fireworks
+
+5 - Noah: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + ❝water❞ = Flood
+Destruction + Flood = Noah
+
+5 - Black Hole: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + ❝earth❞ = Hole
+Destruction + Hole = Black Hole
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + Planet = Star
+Star + Tornado = Black Hole
+
+5 - Cave: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + ❝earth❞ = Hole
+Hole + Hole = Cave
+
+5 - Well: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝water❞ = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + ❝earth❞ = Hole
+Hole + ❝water❞ = Well
+
+5 - Pyramid: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+
+5 - Telescope: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝fire❞ = Glass
+Dust + Glass = Telescope
+
+5 - Window: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝fire❞ = Glass
+Glass + Glass = Window
+
+5 - Hourglass: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝fire❞ = Glass
+Glass + Sand = Hourglass
+
+5 - Shatter: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝fire❞ = Glass
+Glass + Tornado = Shatter
+
+5 - Lens: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Dust = Sand
+Sand + ❝fire❞ = Glass
+Glass + ❝fire❞ = Lens
+
+5 - Mars: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Tornado = Dust Storm
+Dust + ❝earth❞ = Planet
+Dust Storm + Planet = Mars
+
+5 - Sand Storm: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + Tornado = Dust Storm
+Dust Storm + ❝fire❞ = Fire Storm
+Dust Storm + Fire Storm = Sand Storm
+
+5 - Statue: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+
+5 - Cinderella: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + Dust = Cinder
+Cinder + ❝earth❞ = Cinderella
+
+5 - Rebirth: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝fire❞ = Ash
+Ash + ❝fire❞ = Phoenix
+Ash + Phoenix = Rebirth
+
+5 - Pottery: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+Dust + Mud = Clay
+Clay + Dust = Pottery
+
+5 - Wall: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+Mud + ❝fire❞ = Brick
+Brick + Brick = Wall
+
+5 - Adobe: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝water❞ = Mud
+Mud + ❝fire❞ = Brick
+Brick + Mud = Adobe
+
+5 - Comet: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + Planet = Star
+Dust + Star = Comet
+
+5 - Solar System: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + Planet = Star
+Planet + Star = Solar System
+ ...
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝fire❞ = Sun
+Planet + Sun = Solar System
+
+5 - Galaxy: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + Planet = Star
+Star + Star = Galaxy
+
+5 - Jupiter: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + Tornado = Cyclone
+Cyclone + Planet = Jupiter
+
+5 - Sunflower: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝fire❞ = Sun
+Sun + Sun = Sunflower
+
+5 - Solar Flare: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝fire❞ = Sun
+Sun + Tornado = Solar Flare
+
+5 - Solar: 
+❝wind❞ + ❝wind❞ = Tornado
+Tornado + ❝earth❞ = Dust
+Dust + ❝earth❞ = Planet
+Planet + ❝fire❞ = Sun
+Sun + ❝fire❞ = Solar
+
+5 - ❝toy❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝dust❞ + ❝wood❞ = ❝toy❞
+
+5 - ❝dusty cactus❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝plant❞ = ❝cactus❞
+❝cactus❞ + ❝dust❞ = ❝dusty cactus❞
+
+5 - ❝cactus plant❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝plant❞ = ❝cactus❞
+❝cactus❞ + ❝plant❞ = ❝cactus plant❞
+
+5 - ❝crop❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝earth❞ = ❝dust Bowl❞
+❝dust Bowl❞ + ❝plant❞ = ❝crop❞
+
+5 - ❝honey❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝dust❞ + ❝flower❞ = ❝pollen❞
+❝flower❞ + ❝pollen❞ = ❝honey❞
+
+5 - ❝dust rose❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝dust❞ + ❝rose❞ = ❝dust rose❞
+
+5 - ❝ink❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝dust❞ = ❝soot❞
+❝plant❞ + ❝soot❞ = ❝ink❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝tree❞ = ❝charcoal❞
+❝charcoal❞ + ❝water❞ = ❝ink❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝fire❞ + ❝wood❞ = ❝charcoal❞
+❝charcoal❞ + ❝water❞ = ❝ink❞
+
+5 - ❝coal Dust❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+❝coal plant❞ + ❝dust❞ = ❝coal Dust❞
+
+5 - ❝tree Wind❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝tree❞ = ❝tree Wind❞
+
+5 - ❝mountain forest❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝mountain❞ = ❝mountain forest❞
+
+5 - ❝mountain Flower❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝mountain❞ = ❝mountain flower❞
+❝flower❞ + ❝mountain flower❞ = ❝mountain Flower❞
+
+5 - ❝mountain rose❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝mountain❞ + ❝rose❞ = ❝mountain rose❞
+
+5 - ❝diamond mountain❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝mountain❞ = ❝diamond mountain❞
+
+5 - ❝coal Mine❞: 
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+❝coal plant❞ + ❝mountain❞ = ❝coal Mine❞
+
+5 - ❝rose Flower❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝flower❞ + ❝rose❞ = ❝rose flower❞
+❝rose flower❞ + ❝rose flower❞ = ❝rose Flower❞
+
+5 - ❝rose Water❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝flower❞ + ❝rose❞ = ❝rose flower❞
+❝rose flower❞ + ❝water❞ = ❝rose Water❞
+
+5 - ❝rosetea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝rose❞ + ❝tea❞ = ❝rosetea❞
+
+5 - ❝coal rose❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝coal❞ + ❝rose❞ = ❝coal rose❞
+
+5 - ❝rosemary❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝rose❞ + ❝tree❞ = ❝rosemary❞
+
+5 - ❝fire Rose❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝fire❞ + ❝rose❞ = ❝fire rose❞
+❝fire rose❞ + ❝fire rose❞ = ❝fire Rose❞
+
+5 - ❝Rose❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝fire❞ + ❝rose❞ = ❝fire rose❞
+❝earth❞ + ❝fire rose❞ = ❝Rose❞
+
+5 - ❝rose Wind flower❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝rose❞ + ❝wind❞ = ❝rose wind❞
+❝flower❞ + ❝rose wind❞ = ❝rose Wind flower❞
+
+5 - ❝rose Wind❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝rose❞ + ❝wind❞ = ❝rose wind❞
+❝rose wind❞ + ❝rose wind❞ = ❝rose Wind❞
+ ...
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝flower❞ + ❝tea❞ = ❝rose tea❞
+❝rose tea❞ + ❝wind❞ = ❝rose Wind❞
+
+5 - ❝fire Rose Wind❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝rose❞ + ❝wind❞ = ❝rose wind❞
+❝fire❞ + ❝rose wind❞ = ❝fire Rose Wind❞
+
+5 - ❝earth rose Wind❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝plant❞ = ❝rose❞
+❝rose❞ + ❝wind❞ = ❝rose wind❞
+❝earth❞ + ❝rose wind❞ = ❝earth rose Wind❞
+
+5 - ❝rose Tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝flower❞ + ❝tea❞ = ❝rose tea❞
+❝rose tea❞ + ❝rose tea❞ = ❝rose Tea❞
+
+5 - ❝dandelion tea❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝tea❞ = ❝dandelion tea❞
+
+5 - ❝hot flower❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝fire❞ + ❝tea❞ = ❝hot tea❞
+❝flower❞ + ❝hot tea❞ = ❝hot flower❞
+
+5 - ❝typhoon lily❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝water❞ = ❝tea❞
+❝tea❞ + ❝wind❞ = ❝typhoon❞
+❝flower❞ + ❝typhoon❞ = ❝typhoon lily❞
+
+5 - ❝fireflower❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝fire❞ = ❝fireworks❞
+❝fireworks❞ + ❝flower❞ = ❝fireflower❞
+
+5 - ❝explosion❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝fire❞ = ❝fireworks❞
+❝fireworks❞ + ❝wind❞ = ❝explosion❞
+
+5 - ❝dandelion wine❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝water❞ = ❝wine❞
+❝dandelion❞ + ❝wine❞ = ❝dandelion wine❞
+
+5 - ❝grape❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝water❞ = ❝wine❞
+❝plant❞ + ❝wine❞ = ❝grape❞
+
+5 - ❝burning❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝water❞ = ❝wine❞
+❝fire❞ + ❝wine❞ = ❝burning❞
+
+5 - ❝whine❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝water❞ = ❝wine❞
+❝wind❞ + ❝wine❞ = ❝whine❞
+
+5 - ❝vineyard❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝water❞ = ❝wine❞
+❝earth❞ + ❝wine❞ = ❝vineyard❞
+
+5 - ❝dandelion wish❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝wind❞ = ❝wish❞
+❝dandelion❞ + ❝wish❞ = ❝dandelion wish❞
+
+5 - ❝wash❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝wind❞ = ❝wish❞
+❝water❞ + ❝wish❞ = ❝wash❞
+
+5 - ❝windwish❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wind❞ = ❝dandelion❞
+❝dandelion❞ + ❝wind❞ = ❝wish❞
+❝wind❞ + ❝wish❞ = ❝windwish❞
+
+5 - ❝flower Tree❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝tree❞ = ❝flower tree❞
+❝flower tree❞ + ❝flower tree❞ = ❝flower Tree❞
+
+5 - ❝fire Tree❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝tree❞ = ❝flower tree❞
+❝fire❞ + ❝flower tree❞ = ❝fire Tree❞
+
+5 - ❝flower forest❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝flower❞ + ❝forest❞ = ❝flower forest❞
+
+5 - ❝flower leaf❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝tree❞ + ❝wind❞ = ❝leaf❞
+❝flower❞ + ❝leaf❞ = ❝flower leaf❞
+
+5 - ❝flowerwood❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝plant❞ + ❝plant❞ = ❝flower❞
+❝flower❞ + ❝wood❞ = ❝flowerwood❞
+
+5 - ❝power Plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+❝coal plant❞ + ❝wind❞ = ❝windmill❞
+❝coal plant❞ + ❝windmill❞ = ❝power Plant❞
+
+5 - ❝diamond Plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝coal❞ + ❝plant❞ = ❝coal plant❞
+❝coal plant❞ + ❝diamond❞ = ❝diamond Plant❞
+
+5 - ❝carbon❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝coal❞ + ❝diamond❞ = ❝graphite❞
+❝diamond❞ + ❝graphite❞ = ❝carbon❞
+
+5 - ❝pencil❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝coal❞ + ❝diamond❞ = ❝graphite❞
+❝graphite❞ + ❝plant❞ = ❝pencil❞
+
+5 - ❝gem❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝plant❞ = ❝emerald❞
+❝diamond❞ + ❝emerald❞ = ❝gem❞
+
+5 - ❝emerald plant❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝plant❞ = ❝emerald❞
+❝emerald❞ + ❝plant❞ = ❝emerald plant❞
+
+5 - ❝emerald fire❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝plant❞ = ❝emerald❞
+❝emerald❞ + ❝fire❞ = ❝emerald fire❞
+
+5 - ❝aquamarine❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝plant❞ = ❝emerald❞
+❝emerald❞ + ❝water❞ = ❝aquamarine❞
+
+5 - ❝emerald wind❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝plant❞ = ❝emerald❞
+❝emerald❞ + ❝wind❞ = ❝emerald wind❞
+
+5 - ❝green❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝plant❞ = ❝emerald❞
+❝earth❞ + ❝emerald❞ = ❝green❞
+
+5 - ❝diamond ice❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝water❞ = ❝ice❞
+❝diamond❞ + ❝ice❞ = ❝diamond ice❞
+
+5 - ❝diamond Dust❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝wind❞ = ❝diamond dust❞
+❝diamond dust❞ + ❝diamond❞ = ❝diamond Dust❞
+
+5 - ❝money❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝fire❞ + ❝plant❞ = ❝coal❞
+❝coal❞ + ❝fire❞ = ❝diamond❞
+❝diamond❞ + ❝tree❞ = ❝money❞
+
+5 - ❝rainforest❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝forest❞ = ❝jungle❞
+❝forest❞ + ❝jungle❞ = ❝rainforest❞
+
+5 - ❝river❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝forest❞ = ❝jungle❞
+❝jungle❞ + ❝water❞ = ❝river❞
+
+5 - ❝bog❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝water❞ = ❝swamp❞
+❝forest❞ + ❝swamp❞ = ❝bog❞
+
+5 - ❝tornado forest❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝wind❞ = ❝tornado❞
+❝forest❞ + ❝tornado❞ = ❝tornado forest❞
+
+5 - ❝broken tree❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝plant❞ + ❝tree❞ = ❝forest❞
+❝forest❞ + ❝wind❞ = ❝tornado❞
+❝tornado❞ + ❝tree❞ = ❝broken tree❞
+
+5 - ❝book❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝tree❞ + ❝wood❞ = ❝paper❞
+❝paper❞ + ❝plant❞ = ❝book❞
+
+5 - ❝wet paper❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝tree❞ + ❝wood❞ = ❝paper❞
+❝paper❞ + ❝water❞ = ❝wet paper❞
+
+5 - ❝fan❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝tree❞ + ❝wood❞ = ❝paper❞
+❝paper❞ + ❝wind❞ = ❝fan❞
+
+5 - ❝rock❞: 
+❝earth❞ + ❝water❞ = ❝plant❞
+❝earth❞ + ❝plant❞ = ❝tree❞
+❝earth❞ + ❝tree❞ = ❝wood❞
+❝tree❞ + ❝wood❞ = ❝paper❞
+❝earth❞ + ❝paper❞ = ❝rock❞
+
+5 - ❝dune❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝mountain❞ = ❝sand❞
+❝mountain❞ + ❝wind❞ = ❝mountain wind❞
+❝mountain wind❞ + ❝sand❞ = ❝dune❞
+
+5 - ❝Sand Mountain❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝earth❞ + ❝earth❞ = ❝mountain❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝mountain❞ + ❝sand Storm❞ = ❝Sand Mountain❞
+
+5 - ❝baby❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝dust❞ = ❝human❞
+❝human❞ + ❝human❞ = ❝baby❞
+
+5 - ❝monster❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝dust❞ = ❝human❞
+❝human❞ + ❝mud❞ = ❝monster❞
+
+5 - ❝sneeze❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝dust❞ = ❝human❞
+❝human❞ + ❝wind❞ = ❝sneeze❞
+
+5 - ❝farmer❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝dust❞ = ❝human❞
+❝earth❞ + ❝human❞ = ❝farmer❞
+
+5 - ❝dustpot❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝earth❞ + ❝mud❞ = ❝clay❞
+❝clay❞ + ❝earth❞ = ❝pot❞
+❝dust❞ + ❝pot❞ = ❝dustpot❞
+
+5 - ❝dustbin❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝water❞ = ❝mud❞
+❝fire❞ + ❝mud❞ = ❝brick❞
+❝brick❞ + ❝wind❞ = ❝house❞
+❝dust❞ + ❝house❞ = ❝dustbin❞
+
+5 - ❝hourglass❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝fire❞ + ❝sand Storm❞ = ❝Glass❞
+❝Glass❞ + ❝sand Storm❞ = ❝hourglass❞
+
+5 - ❝Sandstorm❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝earth❞ + ❝sand Storm❞ = ❝desert❞
+❝desert❞ + ❝dust storm❞ = ❝Sandstorm❞
+
+5 - ❝Sand❞: 
+❝earth❞ + ❝wind❞ = ❝dust❞
+❝dust❞ + ❝wind❞ = ❝dust storm❞
+❝dust storm❞ + ❝wind❞ = ❝sand Storm❞
+❝earth❞ + ❝sand Storm❞ = ❝desert❞
+❝desert❞ + ❝sand Storm❞ = ❝Sand❞
+
+
+
+{
+  "❝lava❞": 1,
+  "❝steam❞": 1,
+  "❝lake❞": 1,
+  "❝ash❞": 1,
+  "❝rain❞": 1,
+  "Tornado": 1,
+  "❝plant❞": 1,
+  "❝dust❞": 1,
+  "❝mountain❞": 1,
+  "❝magma❞": 2,
+  "❝volcano❞": 2,
+  "❝steam engine❞": 2,
+  "❝ice❞": 2,
+  "❝cloud❞": 2,
+  "❝ocean❞": 2,
+  "❝sea❞": 2,
+  "❝wave❞": 2,
+  "❝mud❞": 2,
+  "❝ashfire❞": 2,
+  "❝ashes❞": 2,
+  "❝pond❞": 2,
+  "❝storm❞": 2,
+  "Hurricane": 2,
+  "Volcano": 2,
+  "Tsunami": 2,
+  "Dust": 2,
+  "❝flower❞": 2,
+  "❝coal❞": 2,
+  "❝tree❞": 2,
+  "❝dust storm❞": 2,
+  "❝soil❞": 2,
+  "❝mountain wind❞": 2,
+  "volcano": 3,
+  "❝ashteam❞": 3,
+  "Cloud": 3,
+  "❝tea❞": 3,
+  "❝steam Engine❞": 3,
+  "❝train❞": 3,
+  "❝windmill❞": 3,
+  "❝snow❞": 3,
+  "❝ice water❞": 3,
+  "❝fog❞": 3,
+  "❝sky❞": 3,
+  "❝ash lake❞": 3,
+  "Whirlpool": 3,
+  "❝swamp❞": 3,
+  "❝typhoon❞": 3,
+  "❝island❞": 3,
+  "❝hurricane❞": 3,
+  "❝sand❞": 3,
+  "❝brick❞": 3,
+  "❝clay❞": 3,
+  "❝ash rain❞": 3,
+  "❝ashplant❞": 3,
+  "❝ashwind❞": 3,
+  "Rainbow": 3,
+  "❝waterfall❞": 3,
+  "❝tsunami❞": 3,
+  "Tumbleweed": 3,
+  "Dust Devil": 3,
+  "Eruption": 3,
+  "Mountain": 3,
+  "Lava": 3,
+  "Destruction": 3,
+  "Earthquake": 3,
+  "Sand": 3,
+  "Dust Storm": 3,
+  "Ash": 3,
+  "Mud": 3,
+  "Planet": 3,
+  "❝rose❞": 3,
+  "❝dandelion❞": 3,
+  "❝coal plant❞": 3,
+  "❝diamond❞": 3,
+  "❝forest❞": 3,
+  "❝leaf❞": 3,
+  "❝wood❞": 3,
+  "❝dust Storm❞": 3,
+  "❝sand Storm❞": 3,
+  "❝dust Bowl❞": 3,
+  "❝dirt❞": 3,
+  "❝mountain Wind❞": 3,
+  "❝tornado❞": 3,
+  "❝basalt❞": 4,
+  "❝lava wave❞": 4,
+  "❝ash volcano❞": 4,
+  "❝ashlava❞": 4,
+  "❝steamboat❞": 4,
+  "❝surf❞": 4,
+  "❝locomotive❞": 4,
+  "❝ice skating❞": 4,
+  "❝ashtearth❞": 4,
+  "❝ashsteam❞": 4,
+  "❝smoke❞": 4,
+  "❝ash cloud❞": 4,
+  "❝rainbow❞": 4,
+  "Steamboat": 4,
+  "Rain": 4,
+  "Storm": 4,
+  "❝steam tsunami❞": 4,
+  "Train": 4,
+  "Snow": 4,
+  "❝perfume❞": 4,
+  "❝herb❞": 4,
+  "❝steam tea❞": 4,
+  "❝hot tea❞": 4,
+  "❝cotton❞": 4,
+  "❝sandstorm❞": 4,
+  "❝avalanche❞": 4,
+  "❝train wind❞": 4,
+  "❝subway❞": 4,
+  "❝wind Turbine❞": 4,
+  "❝electricity❞": 4,
+  "❝blizzard❞": 4,
+  "❝snowman❞": 4,
+  "Ice": 4,
+  "❝mist❞": 4,
+  "❝cloudy❞": 4,
+  "❝sun❞": 4,
+  "❝air❞": 4,
+  "❝ash Lake❞": 4,
+  "❝ashfirelake❞": 4,
+  "❝poseidon❞": 4,
+  "❝base❞": 4,
+  "❝ashwave❞": 4,
+  "❝muddy❞": 4,
+  "Vortex": 4,
+  "Ocean": 4,
+  "Island": 4,
+  "Mudslide": 4,
+  "❝seaweed❞": 4,
+  "❝marsh❞": 4,
+  "❝mushroom❞": 4,
+  "❝swamp water❞": 4,
+  "❝lotus❞": 4,
+  "❝oil❞": 4,
+  "❝log❞": 4,
+  "❝mountain lake❞": 4,
+  "❝atoll❞": 4,
+  "❝continent❞": 4,
+  "❝mudsea❞": 4,
+  "❝beach❞": 4,
+  "❝desert❞": 4,
+  "❝glass❞": 4,
+  "❝quagmire❞": 4,
+  "❝wall❞": 4,
+  "❝house❞": 4,
+  "❝pottery❞": 4,
+  "❝pot❞": 4,
+  "❝ash Rain❞": 4,
+  "❝acid rain❞": 4,
+  "❝ash pond❞": 4,
+  "❝ashstorm❞": 4,
+  "Phoenix": 4,
+  "❝steak❞": 4,
+  "❝ashflower❞": 4,
+  "❝ashcoal❞": 4,
+  "❝ash tree❞": 4,
+  "❝ashes to dust❞": 4,
+  "❝ashdust❞": 4,
+  "❝ash Storm❞": 4,
+  "❝ash soil❞": 4,
+  "❝ash Wind❞": 4,
+  "Flood": 4,
+  "❝coalition❞": 4,
+  "❝umbrella❞": 4,
+  "❝lily❞": 4,
+  "❝typhoon pond❞": 4,
+  "❝flood❞": 4,
+  "❝pondstorm❞": 4,
+  "❝hurricane storm❞": 4,
+  "❝earthquake❞": 4,
+  "Palm": 4,
+  "Cactus": 4,
+  "Fire": 4,
+  "Desert": 4,
+  "Flower": 4,
+  "Dandelion": 4,
+  "Diamond": 4,
+  "Forest": 4,
+  "Fire Devil": 4,
+  "Disaster": 4,
+  "Mountain Range": 4,
+  "Lake": 4,
+  "Stone": 4,
+  "Explosion": 4,
+  "Hole": 4,
+  "Sandstorm": 4,
+  "Glass": 4,
+  "Beach": 4,
+  "Fire Storm": 4,
+  "Cinder": 4,
+  "Clay": 4,
+  "Brick": 4,
+  "Earth": 4,
+  "Star": 4,
+  "Cyclone": 4,
+  "Sun": 4,
+  "❝cactus❞": 4,
+  "❝pollen❞": 4,
+  "❝soot❞": 4,
+  "❝mountain tree❞": 4,
+  "❝mountain flower❞": 4,
+  "❝rose flower❞": 4,
+  "❝fire rose❞": 4,
+  "❝rose wind❞": 4,
+  "❝rose tea❞": 4,
+  "❝fireworks❞": 4,
+  "❝wine❞": 4,
+  "❝wish❞": 4,
+  "❝flower tree❞": 4,
+  "❝coal Plant❞": 4,
+  "❝graphite❞": 4,
+  "❝emerald❞": 4,
+  "❝diamond dust❞": 4,
+  "❝charcoal❞": 4,
+  "❝jungle❞": 4,
+  "❝paper❞": 4,
+  "❝human❞": 4,
+  "❝mud Storm❞": 4,
+  "❝Glass❞": 4,
+  "❝dust Bowl Storm❞": 4,
+  "❝geyser❞": 5,
+  "❝Steam❞": 5,
+  "❝atlantis❞": 5,
+  "❝boulder❞": 5,
+  "❝Lava Lake❞": 5,
+  "❝lava Wave❞": 5,
+  "❝lava Wind❞": 5,
+  "❝Hawaii❞": 5,
+  "❝ash Volcano❞": 5,
+  "❝ashfire volcano❞": 5,
+  "❝ashwindlava❞": 5,
+  "❝flower volcano❞": 5,
+  "❝lava tea❞": 5,
+  "❝obsidian❞": 5,
+  "❝lava leaf❞": 5,
+  "❝Mountain Wind❞": 5,
+  "❝steam Ship❞": 5,
+  "❝iceberg❞": 5,
+  "❝ice sea❞": 5,
+  "❝waves❞": 5,
+  "❝surfing❞": 5,
+  "❝surf and turf❞": 5,
+  "Ice Rink": 5,
+  "Ice Skating": 5,
+  "❝ice Skating❞": 5,
+  "❝blades❞": 5,
+  "Iceberg": 5,
+  "❝lavaashteam❞": 5,
+  "❝lakeashteam❞": 5,
+  "❝ashteamwind❞": 5,
+  "❝ashwindsteam❞": 5,
+  "❝ashteplant❞": 5,
+  "❝ashfireteam❞": 5,
+  "❝ashteam Engine❞": 5,
+  "❝icecream❞": 5,
+  "❝ashcloud❞": 5,
+  "❝ashsteamfire❞": 5,
+  "❝ash train❞": 5,
+  "❝ashwindmill❞": 5,
+  "❝smog❞": 5,
+  "❝ash sky❞": 5,
+  "❝bow❞": 5,
+  "❝rainbow fire❞": 5,
+  "❝rain train❞": 5,
+  "❝sleet❞": 5,
+  "Titanic": 5,
+  "Sailboat": 5,
+  "Earthboat": 5,
+  "Fog": 5,
+  "Lightning": 5,
+  "❝steam Tsunami❞": 5,
+  "❝Tornado❞": 5,
+  "Universe": 5,
+  "Wreck": 5,
+  "Train Station": 5,
+  "Locomotive": 5,
+  "Steam": 5,
+  "Submarine": 5,
+  "Tunnel": 5,
+  "Electricity": 5,
+  "Blizzard": 5,
+  "Water": 5,
+  "Snowman": 5,
+  "❝rose steam❞": 5,
+  "❝scent❞": 5,
+  "❝perfume steam❞": 5,
+  "❝fragrance❞": 5,
+  "❝steamPunk❞": 5,
+  "❝snowdrop❞": 5,
+  "❝latte❞": 5,
+  "❝waste❞": 5,
+  "❝tear❞": 5,
+  "Tornado Tea": 5,
+  "❝tea dust❞": 5,
+  "❝mountain dew❞": 5,
+  "❝weed❞": 5,
+  "❝herbal tea❞": 5,
+  "❝coal tea❞": 5,
+  "❝tea tree❞": 5,
+  "Tea": 5,
+  "❝steam Tea❞": 5,
+  "❝wind Tea❞": 5,
+  "❝Steam Tea❞": 5,
+  "❝iced tea❞": 5,
+  "❝cloud tea❞": 5,
+  "❝hot Tea❞": 5,
+  "❝ice Tea❞": 5,
+  "❝hot Air❞": 5,
+  "❝tea typhoon❞": 5,
+  "❝plantain❞": 5,
+  "❝cloud tree❞": 5,
+  "❝wind turbine❞": 5,
+  "❝ice Plant❞": 5,
+  "❝cotton plant❞": 5,
+  "❝cotton gin❞": 5,
+  "❝cotton candy❞": 5,
+  "❝cotton field❞": 5,
+  "❝dust train❞": 5,
+  "❝fairy❞": 5,
+  "❝snow dust❞": 5,
+  "❝mountain train❞": 5,
+  "❝landslide❞": 5,
+  "❝icetrain❞": 5,
+  "❝cloud train❞": 5,
+  "❝steam train❞": 5,
+  "❝subway train❞": 5,
+  "❝subway water❞": 5,
+  "❝subway wind❞": 5,
+  "❝tunnel❞": 5,
+  "Wind Farm": 5,
+  "❝Energy❞": 5,
+  "❝Wind❞": 5,
+  "❝lightning❞": 5,
+  "❝wind chill❞": 5,
+  "❝airplane❞": 5,
+  "❝snowstorm❞": 5,
+  "❝fog ice❞": 5,
+  "❝snowball❞": 5,
+  "❝fireman❞": 5,
+  "Ice Cream": 5,
+  "Ice Cube": 5,
+  "❝rainy❞": 5,
+  "❝cloudy cloud❞": 5,
+  "❝cloudy sky❞": 5,
+  "❝day❞": 5,
+  "❝star❞": 5,
+  "❝sunflower❞": 5,
+  "❝lava Lake❞": 5,
+  "❝ash Steam❞": 5,
+  "❝ash Plant❞": 5,
+  "❝ash dust❞": 5,
+  "❝ashes Lake❞": 5,
+  "❝ash Ocean❞": 5,
+  "❝lake sea❞": 5,
+  "❝ash wave❞": 5,
+  "❝ash Mud❞": 5,
+  "❝firelake❞": 5,
+  "❝ashfirelakewind❞": 5,
+  "❝ashwindlake❞": 5,
+  "❝ashmud❞": 5,
+  "❝ashposeidon❞": 5,
+  "❝king❞": 5,
+  "❝trident❞": 5,
+  "❝ash typhoon❞": 5,
+  "❝ashland❞": 5,
+  "❝abas❞": 5,
+  "❝baselake❞": 5,
+  "❝ashlake❞": 5,
+  "❝ash hurricane❞": 5,
+  "❝golem❞": 5,
+  "❝ash swamp❞": 5,
+  "❝ashbrick❞": 5,
+  "❝muddy mud❞": 5,
+  "❝muddy rain❞": 5,
+  "❝muddy water❞": 5,
+  "❝mudstorm❞": 5,
+  "Lily": 5,
+  "Fireball": 5,
+  "Maelstrom": 5,
+  "Sea": 5,
+  "Poseidon": 5,
+  "Muddy Water": 5,
+  "Continent": 5,
+  "Hawaii": 5,
+  "Dust Bowl": 5,
+  "Swamp": 5,
+  "Pumice": 5,
+  "Rock": 5,
+  "Mudnado": 5,
+  "House": 5,
+  "Golem": 5,
+  "❝algae❞": 5,
+  "Kelp": 5,
+  "❝sushi❞": 5,
+  "❝kelp❞": 5,
+  "❝coconut❞": 5,
+  "❝coral❞": 5,
+  "❝palm❞": 5,
+  "❝marshmallow❞": 5,
+  "❝marshwind❞": 5,
+  "❝toadstool❞": 5,
+  "❝soup❞": 5,
+  "❝spore❞": 5,
+  "❝truffle❞": 5,
+  "❝fossil❞": 5,
+  "❝tulip❞": 5,
+  "❝coal wave❞": 5,
+  "❝palm tree❞": 5,
+  "❝mud tree❞": 5,
+  "❝lotus flower❞": 5,
+  "❝water lily❞": 5,
+  "❝phoenix❞": 5,
+  "❝fuel❞": 5,
+  "❝slick❞": 5,
+  "❝biofuel❞": 5,
+  "❝frying pan❞": 5,
+  "❝sail❞": 5,
+  "❝petrol❞": 5,
+  "❝log plant❞": 5,
+  "❝logtree❞": 5,
+  "❝campfire❞": 5,
+  "❝log water❞": 5,
+  "❝logwind❞": 5,
+  "❝maple❞": 5,
+  "❝mudslide❞": 5,
+  "❝pyramid❞": 5,
+  "❝statue❞": 5,
+  "❝typhoon island❞": 5,
+  "❝cyclone❞": 5,
+  "❝typhoon volcano❞": 5,
+  "❝atoll island❞": 5,
+  "❝planet❞": 5,
+  "❝sea brick❞": 5,
+  "Sandcastle": 5,
+  "❝disaster❞": 5,
+  "❝sandcastle❞": 5,
+  "❝bonfire❞": 5,
+  "❝mirage❞": 5,
+  "❝oasis❞": 5,
+  "❝mirror❞": 5,
+  "❝time❞": 5,
+  "❝glass wave❞": 5,
+  "❝lens❞": 5,
+  "❝mire❞": 5,
+  "❝dust devil❞": 5,
+  "❝dam❞": 5,
+  "❝mud wall❞": 5,
+  "❝firewall❞": 5,
+  "❝cliff❞": 5,
+  "❝beach mud❞": 5,
+  "❝home❞": 5,
+  "❝houseboat❞": 5,
+  "❝mudhouse❞": 5,
+  "❝fireplace❞": 5,
+  "❝pool❞": 5,
+  "❝vase❞": 5,
+  "❝ceramic❞": 5,
+  "❝teapot❞": 5,
+  "❝pottery wheel❞": 5,
+  "❝cauldron❞": 5,
+  "❝pot wind❞": 5,
+  "❝ash Pond❞": 5,
+  "❝acid Rain❞": 5,
+  "❝ashwindrain❞": 5,
+  "❝ashpond❞": 5,
+  "Acid": 5,
+  "Acid Rain": 5,
+  "❝acid❞": 5,
+  "❝ash tsunami❞": 5,
+  "Firebird": 5,
+  "❝ashplantsteam❞": 5,
+  "❝ashplantsteak❞": 5,
+  "❝ash steak❞": 5,
+  "❝burger❞": 5,
+  "❝barbecue❞": 5,
+  "❝sandwich❞": 5,
+  "❝ashsteak❞": 5,
+  "❝ashwind plant❞": 5,
+  "❝ashfireflower❞": 5,
+  "❝ash rose❞": 5,
+  "❝ashdandelion❞": 5,
+  "❝ashdiamond❞": 5,
+  "❝ash Tree❞": 5,
+  "❝ash Water❞": 5,
+  "❝ashforest❞": 5,
+  "❝ashleaf❞": 5,
+  "❝ashwood❞": 5,
+  "❝ashes To Dust❞": 5,
+  "❝ashdustwind❞": 5,
+  "❝ashwinddust❞": 5,
+  "Ash Soil": 5,
+  "❝ashdirt❞": 5,
+  "❝Mount Vesuvius❞": 5,
+  "❝ash tornado❞": 5,
+  "Rainbow Trout": 5,
+  "Unicorn": 5,
+  "Rainbow Mountain": 5,
+  "Pond": 5,
+  "❝coalition plant❞": 5,
+  "❝reign❞": 5,
+  "❝war❞": 5,
+  "❝coalition water❞": 5,
+  "❝coalition of the willing❞": 5,
+  "❝coal pond❞": 5,
+  "❝thunder❞": 5,
+  "❝parasol❞": 5,
+  "❝firefighter❞": 5,
+  "❝parachute❞": 5,
+  "❝lily pond❞": 5,
+  "❝lilyrain❞": 5,
+  "❝lily pad❞": 5,
+  "❝lily wind❞": 5,
+  "❝tsunami plant❞": 5,
+  "❝dusty❞": 5,
+  "❝lavafall❞": 5,
+  "❝ashfall❞": 5,
+  "Niagara Falls": 5,
+  "❝rainbow mountain❞": 5,
+  "❝typhoon Pond❞": 5,
+  "❝floodwater❞": 5,
+  "❝pondstormrain❞": 5,
+  "❝pondfire❞": 5,
+  "❝pondstormwater❞": 5,
+  "❝hurricane Storm❞": 5,
+  "❝rain Storm❞": 5,
+  "Coconut": 5,
+  "Palm Tree": 5,
+  "Dust Bunny": 5,
+  "Smoke": 5,
+  "Oasis": 5,
+  "❝tumbleweed❞": 5,
+  "Tree": 5,
+  "Lotus": 5,
+  "Pollen": 5,
+  "Garden": 5,
+  "Tobacco": 5,
+  "Wood": 5,
+  "Dandelion Patch": 5,
+  "Seed": 5,
+  "Wish": 5,
+  "Wine": 5,
+  "Rose": 5,
+  "Diamond Block": 5,
+  "Emerald": 5,
+  "Coal": 5,
+  "Global Warming": 5,
+  "Jungle": 5,
+  "Leaf": 5,
+  "❝steam devil❞": 5,
+  "Fire Tornado": 5,
+  "Steam Devil": 5,
+  "Mud Devil": 5,
+  "Plant": 5,
+  "❝Mountain Tsunami❞": 5,
+  "Moon": 5,
+  "Twister": 5,
+  "Firefighter": 5,
+  "Avalanche": 5,
+  "Yellowstone": 5,
+  "River": 5,
+  "Fjord": 5,
+  "Obsidian": 5,
+  "Boulder": 5,
+  "Waterfall": 5,
+  "Chaos": 5,
+  "Fireworks": 5,
+  "Noah": 5,
+  "Black Hole": 5,
+  "Cave": 5,
+  "Well": 5,
+  "Pyramid": 5,
+  "Telescope": 5,
+  "Window": 5,
+  "Hourglass": 5,
+  "Shatter": 5,
+  "Lens": 5,
+  "Mars": 5,
+  "Sand Storm": 5,
+  "Statue": 5,
+  "Cinderella": 5,
+  "Rebirth": 5,
+  "Pottery": 5,
+  "Wall": 5,
+  "Adobe": 5,
+  "Comet": 5,
+  "Solar System": 5,
+  "Galaxy": 5,
+  "Jupiter": 5,
+  "Sunflower": 5,
+  "Solar Flare": 5,
+  "Solar": 5,
+  "❝toy❞": 5,
+  "❝dusty cactus❞": 5,
+  "❝cactus plant❞": 5,
+  "❝crop❞": 5,
+  "❝honey❞": 5,
+  "❝dust rose❞": 5,
+  "❝ink❞": 5,
+  "❝coal Dust❞": 5,
+  "❝tree Wind❞": 5,
+  "❝mountain forest❞": 5,
+  "❝mountain Flower❞": 5,
+  "❝mountain rose❞": 5,
+  "❝diamond mountain❞": 5,
+  "❝coal Mine❞": 5,
+  "❝rose Flower❞": 5,
+  "❝rose Water❞": 5,
+  "❝rosetea❞": 5,
+  "❝coal rose❞": 5,
+  "❝rosemary❞": 5,
+  "❝fire Rose❞": 5,
+  "❝Rose❞": 5,
+  "❝rose Wind flower❞": 5,
+  "❝rose Wind❞": 5,
+  "❝fire Rose Wind❞": 5,
+  "❝earth rose Wind❞": 5,
+  "❝rose Tea❞": 5,
+  "❝dandelion tea❞": 5,
+  "❝hot flower❞": 5,
+  "❝typhoon lily❞": 5,
+  "❝fireflower❞": 5,
+  "❝explosion❞": 5,
+  "❝dandelion wine❞": 5,
+  "❝grape❞": 5,
+  "❝burning❞": 5,
+  "❝whine❞": 5,
+  "❝vineyard❞": 5,
+  "❝dandelion wish❞": 5,
+  "❝wash❞": 5,
+  "❝windwish❞": 5,
+  "❝flower Tree❞": 5,
+  "❝fire Tree❞": 5,
+  "❝flower forest❞": 5,
+  "❝flower leaf❞": 5,
+  "❝flowerwood❞": 5,
+  "❝power Plant❞": 5,
+  "❝diamond Plant❞": 5,
+  "❝carbon❞": 5,
+  "❝pencil❞": 5,
+  "❝gem❞": 5,
+  "❝emerald plant❞": 5,
+  "❝emerald fire❞": 5,
+  "❝aquamarine❞": 5,
+  "❝emerald wind❞": 5,
+  "❝green❞": 5,
+  "❝diamond ice❞": 5,
+  "❝diamond Dust❞": 5,
+  "❝money❞": 5,
+  "❝rainforest❞": 5,
+  "❝river❞": 5,
+  "❝bog❞": 5,
+  "❝tornado forest❞": 5,
+  "❝broken tree❞": 5,
+  "❝book❞": 5,
+  "❝wet paper❞": 5,
+  "❝fan❞": 5,
+  "❝rock❞": 5,
+  "❝dune❞": 5,
+  "❝Sand Mountain❞": 5,
+  "❝baby❞": 5,
+  "❝monster❞": 5,
+  "❝sneeze❞": 5,
+  "❝farmer❞": 5,
+  "❝dustpot❞": 5,
+  "❝dustbin❞": 5,
+  "❝hourglass❞": 5,
+  "❝Sandstorm❞": 5,
+  "❝Sand❞": 5
+}

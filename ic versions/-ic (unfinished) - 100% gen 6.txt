@@ -1,0 +1,7961 @@
+  // 0
+
+
+
+Gen 1 - 7 Elements -> 7 Total Elements
+Gen 2 - 14 Elements -> 21 Total Elements
+Gen 3 - 39 Elements -> 60 Total Elements
+Gen 4 - 64 Elements -> 124 Total Elements
+Gen 5 - 150 Elements -> 274 Total Elements
+Gen 6 - 404 Elements -> 678 Total Elements
+
+
+
+1 - -steam: 
+-fire + -water = -steam
+
+1 - -lake: 
+-water + -water = -lake
+
+1 - -plant: 
+-earth + -fire = -plant
+
+1 - -air: 
+-fire + -wind = -air
+
+1 - -rain: 
+-water + -wind = -rain
+
+1 - -dust: 
+-earth + -wind = -dust
+
+1 - Tornado: 
+-wind + -wind = Tornado
+
+2 - fire: 
+-fire + -water = -steam
+-steam + -water = fire
+
+2 - -cloud: 
+-fire + -water = -steam
+-steam + -wind = -cloud
+
+2 - -land: 
+-water + -water = -lake
+-earth + -lake = -land
+
+2 - -sand: 
+-water + -water = -lake
+-lake + -wind = -sand
+
+2 - -tree: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+
+2 - -ice: 
+-fire + -wind = -air
+-air + -water = -ice
+
+2 - -storm: 
+-water + -wind = -rain
+-rain + -wind = -storm
+
+2 - -ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+
+2 - -mud: 
+-earth + -wind = -dust
+-dust + -water = -mud
+
+2 - -dustearth: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+
+2 - -dustwind: 
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+
+2 - Hurricane: 
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+
+2 - Volcano: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+
+2 - Dust: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+
+3 - Water: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+
+3 - Ash: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+
+3 - Steam: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+
+3 - Lava: 
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+
+3 - Smoke: 
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+
+3 - -mountain: 
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+
+3 - -swamp: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+
+3 - -dustlake: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -lake = -dustlake
+
+3 - Tsunami: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+
+3 - -sea: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+
+3 - -island: 
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+
+3 - -landwind: 
+-water + -water = -lake
+-earth + -lake = -land
+-land + -wind = -landwind
+
+3 - -desert: 
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+
+3 - -glass: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+
+3 - -dustplant: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-dust + -plant = -dustplant
+
+3 - Dust Bowl: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+
+3 - -forest: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-plant + -tree = -forest
+
+3 - -wood: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+
+3 - -leaf: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+
+3 - -rainbow: 
+-fire + -wind = -air
+-water + -wind = -rain
+-air + -rain = -rainbow
+
+3 - Iceberg: 
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+
+3 - water: 
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+
+3 - -blizzard: 
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -wind = -blizzard
+
+3 - -dustrain: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -rain = -dustrain
+
+3 - -rainstorm: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+
+3 - -hurricane: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+
+3 - Dust Devil: 
+-earth + -wind = -dust
+-wind + -wind = Tornado
+-dust + Tornado = Dust Devil
+
+3 - -ashdust: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -dust = -ashdust
+
+3 - -ashfire: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -fire = -ashfire
+
+3 - -ashwater: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -water = -ashwater
+
+3 - -ash-earth: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+
+3 - -dustmud: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -mud = -dustmud
+
+3 - -lava: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -mud = -lava
+
+3 - -dustearthwind: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+
+3 - Eruption: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Tornado + Volcano = Eruption
+
+3 - Mountain: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+
+3 - Sand: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+
+3 - Dust Storm: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Tornado = Dust Storm
+
+3 - Dirt: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+
+4 - -landsteam: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-land + -steam = -landsteam
+
+4 - Rain: 
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -wind = -cloud
+-cloud + Tornado = Rain
+
+4 - Ice: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-steam + Water = Ice
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+-air + Iceberg = Ice
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-fire + water = Ice
+
+4 - Lake: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+Water + Water = Lake
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+water + water = Lake
+
+4 - Mud: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+
+4 - Stone: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+-water + Lava = Stone
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+
+4 - Phoenix: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + fire = Phoenix
+
+4 - Fire: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+-fire + Ash = Fire
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-water + Steam = Fire
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-water + Smoke = Fire
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+-fire + Ash = Fire
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+-fire + Ash = Fire
+
+4 - Cloud: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+Steam + Steam = Cloud
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-steam + Smoke = Cloud
+
+4 - Engine: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+
+4 - Air: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+
+4 - Magma: 
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+-steam + Lava = Magma
+
+4 - -volcano: 
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-cloud + -mountain = -volcano
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-fire + -island = -volcano
+ ...
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -mud = -lava
+-dust + -lava = -volcano
+
+4 - -river: 
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-mountain + -water = -river
+
+4 - -marsh: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+
+4 - -ice lake: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-ice + -lake = -ice lake
+
+4 - dust: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -lake = -dustlake
+-dustlake + -lake = dust
+
+4 - -duststorm: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -lake = -dustlake
+-dustlake + -wind = -duststorm
+ ...
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-water + -wind = -rain
+-dustwind + -rain = -duststorm
+ ...
+-earth + -wind = -dust
+-water + -wind = -rain
+-rain + -wind = -storm
+-dust + -storm = -duststorm
+ ...
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -mud = -dustmud
+-dustmud + -wind = -duststorm
+ ...
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -wind = -dustwind
+-dustearth + -dustwind = -duststorm
+
+4 - -salt: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -lake = -salt
+
+4 - -dustearthlake: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -water = -lake
+-dustearth + -lake = -dustearthlake
+
+4 - -dustland: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -land = -dustland
+
+4 - Ocean: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-lake + Tsunami = Ocean
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-earth + Tsunami = Ocean
+
+4 - Destruction: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+
+4 - Earth: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-water + Tsunami = Earth
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-water + Tsunami = Earth
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dust = Earth
+
+4 - Island: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -island = Island
+
+4 - -ocean: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-lake + -sea = -ocean
+
+4 - -landsea: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-land + -sea = -landsea
+
+4 - -is: 
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -land = -is
+
+4 - -oasis: 
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-desert + -lake = -oasis
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-desert + -water = -oasis
+
+4 - -sandstorm: 
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-desert + -wind = -sandstorm
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-desert + -wind = -sandstorm
+
+4 - -time: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -sand = -time
+
+4 - -wine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+
+4 - -iceplant: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-ice + -plant = -iceplant
+
+4 - -ashplant: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-dust + -fire = -ash
+-ash + -plant = -ashplant
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ash + -ashwater = -ashplant
+
+4 - Desert: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+
+4 - Forest: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+
+4 - Flower: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+
+4 - -lumber: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-tree + -wood = -lumber
+
+4 - -paper: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+
+4 - -leafwind: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-leaf + -wind = -leafwind
+
+4 - -snow: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -wind = -rain
+-ice + -rain = -snow
+ ...
+-fire + -wind = -air
+-earth + -wind = -dust
+-air + -water = -ice
+-dust + -ice = -snow
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -wind = -blizzard
+-air + -blizzard = -snow
+
+4 - -dirt: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-dust + -water = -mud
+-air + -mud = -dirt
+
+4 - Blizzard: 
+-fire + -wind = -air
+-air + -water = -ice
+-wind + -wind = Tornado
+-ice + Tornado = Blizzard
+
+4 - Glacier: 
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+Iceberg + Iceberg = Glacier
+
+4 - -tornado: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-rainstorm + -wind = -tornado
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -hurricane = -tornado
+
+4 - sun: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+
+4 - -calm: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+
+4 - -firehurricane: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-fire + -hurricane = -firehurricane
+
+4 - -earthquake: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-earth + -hurricane = -earthquake
+
+4 - -ashlake: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -ashwater = -ashlake
+
+4 - -ash-earth-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+
+4 - -ash-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+
+4 - -dust-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+
+4 - -ashmud: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -mud = -ashmud
+
+4 - -stone: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -mud = -lava
+-lava + -mud = -stone
+
+4 - Dustin: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dust + -dustearthwind = Dustin
+
+4 - -dustearthwindfire: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dustearthwind + -fire = -dustearthwindfire
+
+4 - Disaster: 
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Hurricane + Tsunami = Disaster
+
+4 - Mountain Range: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+
+4 - Sandstorm: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+Dust + Sand = Sandstorm
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Tornado = Dust Storm
+Dust + Dust Storm = Sandstorm
+
+4 - Glass: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+
+4 - Dune: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-wind + Sand = Dune
+
+4 - Cinder: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Dust = Cinder
+
+4 - Grass: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+
+5 - -seam: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -water = -steam
+-sea + -steam = -seam
+
+5 - land: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-land + -steam = -landsteam
+-land + -landsteam = land
+
+5 - -landsteamwind: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-land + -steam = -landsteam
+-landsteam + -wind = -landsteamwind
+
+5 - Fireland: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-steam + -water = fire
+-land + fire = Fireland
+
+5 - -sky: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -land = -sky
+
+5 - River: 
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-lake + Water = River
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-fire + -ice = water
+-lake + water = River
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-fire + Tsunami = Water
+-lake + Water = River
+
+5 - Fog: 
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-lake + Smoke = Fog
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-steam + fire = Water
+Smoke + Water = Fog
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-steam + Smoke = Cloud
+Cloud + Smoke = Fog
+
+5 - -valley: 
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-lake + -mountain = -valley
+ ...
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-mountain + -water = -river
+-mountain + -river = -valley
+
+5 - -leafsteam: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-leaf + -steam = -leafsteam
+
+5 - Fish: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-plant + Water = Fish
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -ice = water
+-plant + water = Fish
+
+5 - Lightning: 
+-water + -wind = -rain
+-fire + -water = -steam
+-rain + -wind = -storm
+-steam + -water = fire
+-storm + fire = Lightning
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+Steam + Steam = Cloud
+Cloud + fire = Lightning
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-steam + Smoke = Cloud
+Cloud + fire = Lightning
+
+5 - -waterfall: 
+-water + -wind = -rain
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-mountain + -rain = -waterfall
+
+5 - -ashcloud: 
+-earth + -wind = -dust
+-fire + -water = -steam
+-dust + -fire = -ash
+-steam + -wind = -cloud
+-ash + -cloud = -ashcloud
+
+5 - Brick: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -water = -steam
+-steam + -water = fire
+-mud + fire = Brick
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+fire + Mud = Brick
+
+5 - Rainbow: 
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -wind = -cloud
+-cloud + Tornado = Rain
+-cloud + Rain = Rainbow
+ ...
+-fire + -wind = -air
+-water + -wind = -rain
+-air + -rain = -rainbow
+-wind + -wind = Tornado
+-rainbow + Tornado = Rainbow
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-hurricane + sun = Rainbow
+
+5 - Flood: 
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -wind = -cloud
+-cloud + Tornado = Rain
+Rain + Tornado = Flood
+ ...
+-water + -water = -lake
+-water + -wind = -rain
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-rain + Tsunami = Flood
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-rain + Tsunami = Flood
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Hurricane + Tsunami = Disaster
+-water + Disaster = Flood
+
+5 - Storm: 
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -wind = -cloud
+-cloud + Tornado = Rain
+-wind + Rain = Storm
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+Air + fire = Storm
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+Air + fire = Storm
+
+5 - Snow: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-steam + Water = Ice
+Ice + Ice = Snow
+ ...
+-fire + -wind = -air
+-earth + -wind = -dust
+-air + -water = -ice
+-ice + -ice = Iceberg
+-dust + Iceberg = Snow
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-wind + -wind = Tornado
+-ice + Tornado = Blizzard
+-air + Blizzard = Snow
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-ice + Dust = Snow
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+-air + Iceberg = Ice
+Ice + Ice = Snow
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+Iceberg + Iceberg = Glacier
+-wind + Glacier = Snow
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-fire + water = Ice
+Ice + Ice = Snow
+
+5 - Land: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+Water + Water = Lake
+-water + Lake = Land
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-water + Tsunami = Earth
+-lake + Earth = Land
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+-water + Island = Land
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -island = Island
+-water + Island = Land
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+water + water = Lake
+-water + Lake = Land
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+-water + Grass = Land
+
+5 - Clay: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-steam + Mud = Clay
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+Mud + Mud = Clay
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+Mud + Mud = Clay
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+Mud + Mud = Clay
+
+5 - Swamp: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+Mud + Water = Swamp
+ ...
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -marsh = Swamp
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+Mud + water = Swamp
+
+5 - Pig: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-earth + Mud = Pig
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-earth + Mud = Pig
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+-earth + Mud = Pig
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+-earth + Mud = Pig
+
+5 - Puddle: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+-steam + fire = Water
+Ash + Water = Puddle
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-ice + Mud = Puddle
+
+5 - Vapor: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + -wind = -cloud
+-wind + fire = Smoke
+-cloud + Smoke = Vapor
+
+5 - Statue: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+
+5 - Boulder: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+Stone + Stone = Boulder
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+-water + Lava = Stone
+Stone + Stone = Boulder
+ ...
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -mud = -lava
+-lava + -mud = -stone
+-stone + -stone = Boulder
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+Stone + Stone = Boulder
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Stone + Stone = Boulder
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Stone + Stone = Boulder
+
+5 - Rock: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+-fire + Stone = Rock
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+-water + Lava = Stone
+-fire + Stone = Rock
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+-fire + Stone = Rock
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+-fire + Stone = Rock
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+-fire + Stone = Rock
+
+5 - Rebirth: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + fire = Phoenix
+Ash + Phoenix = Rebirth
+
+5 - Train: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-steam + Engine = Train
+
+5 - Rocket: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+Engine + Engine = Rocket
+
+5 - Car: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-fire + Engine = Car
+
+5 - Tractor: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-earth + Engine = Tractor
+
+5 - Airplane: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-wind + Engine = Airplane
+
+5 - Sky: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+Air + Air = Sky
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+Air + Air = Sky
+
+5 - Kite: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+-wind + Air = Kite
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+-wind + Air = Kite
+
+5 - Obsidian: 
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+-water + Lava = Stone
+Lava + Stone = Obsidian
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+Lava + Stone = Obsidian
+
+5 - -dustswamp: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-dust + -swamp = -dustswamp
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -water = -mud
+-lake + -mud = -swamp
+-dust + -swamp = -dustswamp
+
+5 - -marshswamp: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -swamp = -marshswamp
+
+5 - -firemarsh: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-fire + -marsh = -firemarsh
+
+5 - -marshwind: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -wind = -marshwind
+
+5 - -islandplant: 
+-water + -water = -lake
+-earth + -lake = -land
+-earth + -fire = -plant
+-land + -water = -island
+-island + -plant = -islandplant
+
+5 - -lakewood: 
+-water + -water = -lake
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-lake + -wood = -lakewood
+
+5 - -ice-land: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-earth + -lake = -land
+-ice + -land = -ice-land
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-ice + -land = -ice-land
+
+5 - -airisland: 
+-fire + -wind = -air
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-air + -island = -airisland
+
+5 - -mirror: 
+-fire + -wind = -air
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-air + -glass = -mirror
+
+5 - -landstorm: 
+-water + -water = -lake
+-earth + -lake = -land
+-water + -wind = -rain
+-rain + -wind = -storm
+-land + -storm = -landstorm
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-sea + -wind = -storm
+-land + -storm = -landstorm
+
+5 - -dune: 
+-water + -water = -lake
+-water + -wind = -rain
+-lake + -wind = -sand
+-rain + -wind = -storm
+-sand + -storm = -dune
+
+5 - -umbrella: 
+-water + -water = -lake
+-water + -wind = -rain
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -rain = -umbrella
+
+5 - -drought: 
+-water + -water = -lake
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-lake + -rainstorm = -drought
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-fire + -plant = -tree
+-plant + -tree = -forest
+-forest + -rain = -drought
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-plant + -rainstorm = -drought
+
+5 - -dustbowl: 
+-earth + -wind = -dust
+-water + -water = -lake
+-water + -wind = -rain
+-dust + -lake = -dustlake
+-dustlake + -rain = -dustbowl
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -lake = -dustlake
+-dustlake + -wind = -duststorm
+-dust + -duststorm = -dustbowl
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -land = -dustland
+-dustland + -lake = -dustbowl
+ ...
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-water + -wind = -rain
+-dustwind + -rain = -duststorm
+-dust + -duststorm = -dustbowl
+ ...
+-earth + -wind = -dust
+-water + -wind = -rain
+-rain + -wind = -storm
+-dust + -storm = -duststorm
+-dust + -duststorm = -dustbowl
+ ...
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -mud = -dustmud
+-dustmud + -wind = -duststorm
+-dust + -duststorm = -dustbowl
+ ...
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -wind = -dustwind
+-dustearth + -dustwind = -duststorm
+-dust + -duststorm = -dustbowl
+
+5 - -dustwater: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -water = -lake
+-dust + -lake = -dustlake
+-dustearth + -dustlake = -dustwater
+ ...
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -dustearth = -dustwater
+ ...
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -dustwind = -dustwater
+
+5 - -ashsalt: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -lake = -salt
+-ash + -salt = -ashsalt
+
+5 - -sland: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -fire = -ash
+-ash + -land = -sland
+
+5 - -landmud: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -water = -mud
+-land + -mud = -landmud
+
+5 - -dustearthlakewind: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -water = -lake
+-dustearth + -lake = -dustearthlake
+-dustearthlake + -wind = -dustearthlakewind
+
+5 - -dustearthwindlake: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-water + -water = -lake
+-dustearthwind + -lake = -dustearthwindlake
+
+5 - -dustsea: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-dust + -sea = -dustsea
+
+5 - -dust-island: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-dust + -island = -dust-island
+
+5 - -dustlandwind: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-land + -wind = -landwind
+-dust + -landwind = -dustlandwind
+
+5 - Sea: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-lake + Tsunami = Ocean
+-lake + Ocean = Sea
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-earth + Tsunami = Ocean
+Ocean + Ocean = Sea
+
+5 - Earthquake: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+-lake + Destruction = Earthquake
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-fire + Tornado = Volcano
+Tsunami + Volcano = Earthquake
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Tsunami = Earthquake
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tsunami + Volcano = Earthquake
+
+5 - Explosion: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+
+5 - Shatter: 
+-water + -water = -lake
+-lake + -wind = -sand
+-wind + -wind = Tornado
+-fire + -sand = -glass
+-glass + Tornado = Shatter
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Tornado = Shatter
+
+5 - Continent: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+Island + Island = Continent
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -island = Island
+Island + Island = Continent
+
+5 - Hawaii: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+Island + Volcano = Hawaii
+
+5 - Beach: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-lake + Sand = Beach
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-earth + Dust = Dirt
+Dirt + Sand = Beach
+
+5 - -mirage: 
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-desert + -lake = -oasis
+-desert + -oasis = -mirage
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-desert + -water = -oasis
+-desert + -oasis = -mirage
+
+5 - -space: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -sand = -time
+-lake + -time = -space
+
+5 - -sandtime: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -sand = -time
+-sand + -time = -sandtime
+
+5 - -wineglass: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-glass + -wine = -wineglass
+
+5 - -whine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-lake + -wine = -whine
+
+5 - -sandwine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-sand + -wine = -sandwine
+
+5 - -vine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-earth + -wine = -vine
+
+5 - -ice-tree: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -plant = -tree
+-ice + -tree = -ice-tree
+
+5 - Penguin: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-ice + -ice = Iceberg
+-plant + Iceberg = Penguin
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+-air + Iceberg = Ice
+Ice + Iceberg = Penguin
+
+5 - -stormtree: 
+-earth + -fire = -plant
+-water + -wind = -rain
+-rain + -wind = -storm
+-fire + -plant = -tree
+-storm + -tree = -stormtree
+
+5 - -dusttree: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-earth + -fire = -plant
+-dust + -plant = -dustplant
+-dustearth + -dustplant = -dusttree
+
+5 - -ash-tree: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-fire + -plant = -tree
+-dust + -fire = -ash
+-ash + -tree = -ash-tree
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-plant + -tree = -forest
+-fire + -forest = -ash
+-ash + -tree = -ash-tree
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-ash + -tree = -ash-tree
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-fire + -leaf = -ash
+-ash + -tree = -ash-tree
+
+5 - -dustleaf: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-dust + -leaf = -dustleaf
+
+5 - Cactus: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+-plant + Desert = Cactus
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-plant + Sand = Cactus
+
+5 - Tree: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+-plant + Forest = Tree
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+-plant + Mountain = Tree
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-plant + Dirt = Tree
+
+5 - Wood: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+-tree + Forest = Wood
+
+5 - Jungle: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+Forest + Forest = Jungle
+
+5 - Wooden: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-wind + -wind = Tornado
+-wood + Tornado = Wooden
+
+5 - Palm: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+-tree + Hurricane = Palm
+
+5 - Sawdust: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-tree + Dust = Sawdust
+
+5 - Rose: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-plant + Flower = Rose
+
+5 - Pollen: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+Dust + Flower = Pollen
+
+5 - Garden: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+Flower + Flower = Garden
+
+5 - Cyclone: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+Flower + Tornado = Cyclone
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-wind + -wind = Tornado
+-storm + -wind = -hurricane
+-hurricane + Tornado = Cyclone
+
+5 - Plant: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-water + Flower = Plant
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+-fire + Grass = Plant
+
+5 - Dandelion: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-wind + Flower = Dandelion
+
+5 - -ashforest: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-plant + -tree = -forest
+-fire + -forest = -ash
+-ash + -forest = -ashforest
+
+5 - -saw: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-tree + -wood = -lumber
+-lumber + -wind = -saw
+
+5 - -ashwood: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-ash + -wood = -ashwood
+
+5 - -rock: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-earth + -paper = -rock
+
+5 - -kite: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-paper + -wind = -kite
+
+5 - -ashleaf: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-fire + -leaf = -ash
+-ash + -leaf = -ashleaf
+
+5 - -flower: 
+-fire + -wind = -air
+-earth + -fire = -plant
+-water + -wind = -rain
+-air + -rain = -rainbow
+-plant + -rainbow = -flower
+
+5 - -clean: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-dust + -water = -mud
+-air + -mud = -dirt
+-dirt + -mud = -clean
+
+5 - -soil: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-dust + -water = -mud
+-air + -mud = -dirt
+-dirt + -earth = -soil
+
+5 - Avalanche: 
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+-wind + -wind = Tornado
+Iceberg + Tornado = Avalanche
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Tornado = Avalanche
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+Stone + Tornado = Avalanche
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Stone + Tornado = Avalanche
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Stone + Tornado = Avalanche
+
+5 - Snowstorm: 
+-fire + -wind = -air
+-air + -water = -ice
+-wind + -wind = Tornado
+-ice + Tornado = Blizzard
+Blizzard + Blizzard = Snowstorm
+
+5 - -snowstorm: 
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -wind = -blizzard
+-air + -blizzard = -snow
+-blizzard + -snow = -snowstorm
+
+5 - -dustrainlake: 
+-earth + -wind = -dust
+-water + -water = -lake
+-water + -wind = -rain
+-dust + -rain = -dustrain
+-dustrain + -lake = -dustrainlake
+
+5 - -ashdustrain: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-dust + -rain = -dustrain
+-ash + -dustrain = -ashdustrain
+
+5 - -rainwater: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -rain = -rainwater
+
+5 - -mud-: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -rain = -mud-
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-dust- + -water = -mud-
+
+5 - -dustearthwindrain: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-water + -wind = -rain
+-dustearthwind + -rain = -dustearthwindrain
+
+5 - -dustearthstorm: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -wind = -rain
+-rain + -wind = -storm
+-dustearth + -storm = -dustearthstorm
+
+5 - -dusthurricane: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-dust + -hurricane = -dusthurricane
+
+5 - -flood: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-earth + -rainstorm = -mud
+-mud + -rainstorm = -flood
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-earth + -hurricane = -earthquake
+-earthquake + -rain = -flood
+
+5 - -firetornado: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-rainstorm + -wind = -tornado
+-fire + -tornado = -firetornado
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -hurricane = -tornado
+-fire + -tornado = -firetornado
+
+5 - Sunflower: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+sun + sun = Sunflower
+
+5 - Moon: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-fire + sun = Moon
+
+5 - -calmstorm: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -storm = -calmstorm
+
+5 - -calmfire: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -fire = -calmfire
+
+5 - -calmearth: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -earth = -calmearth
+
+5 - -disaster: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-earth + -hurricane = -earthquake
+-earthquake + -hurricane = -disaster
+
+5 - -tsunami: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-earth + -hurricane = -earthquake
+-earthquake + -storm = -tsunami
+
+5 - Soil: 
+-earth + -wind = -dust
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-dust + Dirt = Soil
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+-earth + Dust = Dirt
+Ash + Dirt = Soil
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dust = Earth
+Dirt + Earth = Soil
+
+5 - -ashsteam: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -fire = -ashfire
+-ash-earth + -ashfire = -ashsteam
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ash + -ashwater = -ashplant
+-ashplant + -ashwater = -ashsteam
+
+5 - -dustfire: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -fire = -ash
+-ash + -fire = -ashfire
+-ashfire + -dustearth = -dustfire
+ ...
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-dust + -fire = -ash
+-ash + -fire = -ashfire
+-ashfire + -dustwind = -dustfire
+
+5 - -ash-plant: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -water = -ashwater
+-ash-earth + -ashwater = -ash-plant
+
+5 - -ashwind: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -ashwater = -ashlake
+-ashlake + -wind = -ashwind
+
+5 - -ash-earth-ash-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+
+5 - -ash-earth-ash-fire-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -fire = -ash-earth-ash-fire-
+
+5 - -ash-earth-ash-water-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -water = -ash-earth-ash-water-
+
+5 - -ashdust-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -dust = -ashdust-
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-ash + -dust- = -ashdust-
+
+5 - -ash-wind: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -wind = -ash-wind
+
+5 - -dust storm-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-dust- + -wind = -dust storm-
+
+5 - -ashmudwind: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -mud = -ashmud
+-ashmud + -wind = -ashmudwind
+
+5 - -dustearthwindash: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dust + -fire = -ash
+-ash + -dustearthwind = -dustearthwindash
+
+5 - -dustclay: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -water = -mud
+-dust + -mud = -dustmud
+-dustearth + -dustmud = -dustclay
+
+5 - -dustlava: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -mud = -dustmud
+-fire + -mud = -lava
+-dustmud + -lava = -dustlava
+
+5 - lava: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -mud = -lava
+-dust + -lava = -volcano
+-mud + -volcano = lava
+
+5 - -dustsand: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -wind = -dustwind
+-dustearth + -dustwind = -duststorm
+-dustearth + -duststorm = -dustsand
+
+5 - -dustearthwindfireearth: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dustearthwind + -fire = -dustearthwindfire
+-dustearthwindfire + -earth = -dustearthwindfireearth
+
+5 - -dustearthfire: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dustearthwind + -fire = -dustearthwindfire
+-dustearthwindfire + -wind = -dustearthfire
+
+5 - Twister: 
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Hurricane + Tsunami = Disaster
+Disaster + Tornado = Twister
+
+5 - Firefighter: 
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Hurricane + Tsunami = Disaster
+-fire + Disaster = Firefighter
+
+5 - Yellowstone: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+
+5 - Pyramid: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+
+5 - Telescope: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Dust + Glass = Telescope
+
+5 - Window: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Glass = Window
+
+5 - Hourglass: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Sand = Hourglass
+
+5 - Lens: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-fire + Glass = Lens
+
+5 - Wine: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-water + Glass = Wine
+
+5 - Lawn: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+Dirt + Grass = Lawn
+
+5 - Planet: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dust = Earth
+Dust + Earth = Planet
+
+6 - island: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-land + -water = -island
+-land + -steam = -landsteam
+-island + -landsteam = island
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-land + -water = -island
+-land + -sea = -landsea
+-island + -landsea = island
+ ...
+-fire + -wind = -air
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-air + -island = -airisland
+-air + -airisland = island
+
+6 - Smog: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-land + Smoke = Smog
+
+6 - -train: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-fire + -plant = -tree
+-fire + -tree = -wood
+-tree + -wood = -lumber
+-lumber + -steam = -train
+
+6 - Leaf: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-fire + -plant = -tree
+-steam + -water = fire
+-water + fire = Steam
+-tree + Steam = Leaf
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+-plant + Mountain = Tree
+-wind + Tree = Leaf
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-plant + Dirt = Tree
+-wind + Tree = Leaf
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+-plant + Forest = Tree
+-wind + Tree = Leaf
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+Dirt + Grass = Lawn
+-wind + Lawn = Leaf
+
+6 - Snowman: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-steam + Water = Ice
+-plant + Ice = Snowman
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-steam + Water = Ice
+Ice + Ice = Snow
+Ice + Snow = Snowman
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-ice + -ice = Iceberg
+-air + Iceberg = Ice
+-plant + Ice = Snowman
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -ice = water
+-fire + water = Ice
+-plant + Ice = Snowman
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-ice + Tornado = Blizzard
+-plant + Blizzard = Snowman
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-wind + -wind = Tornado
+-ice + Tornado = Blizzard
+-air + Blizzard = Snow
+-earth + Snow = Snowman
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-ice + Dust = Snow
+-earth + Snow = Snowman
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+-air + Iceberg = Ice
+Ice + Ice = Snow
+Ice + Snow = Snowman
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+Iceberg + Iceberg = Glacier
+-wind + Glacier = Snow
+-earth + Snow = Snowman
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-fire + water = Ice
+Ice + Ice = Snow
+Ice + Snow = Snowman
+ ...
+-fire + -wind = -air
+-earth + -wind = -dust
+-air + -water = -ice
+-ice + -ice = Iceberg
+-dust + Iceberg = Snow
+-earth + Snow = Snowman
+
+6 - Boat: 
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-lake + Engine = Boat
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-fire + Engine = Car
+-water + Car = Boat
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-wind + -wind = Tornado
+-wood + Tornado = Wooden
+-water + Wooden = Boat
+
+6 - Steamboat: 
+-water + -wind = -rain
+-fire + -water = -steam
+-rain + -wind = -storm
+-steam + -water = fire
+-water + fire = Steam
+-storm + Steam = Steamboat
+ ...
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -water = fire
+Tornado + Tornado = Hurricane
+-water + fire = Steam
+Hurricane + Steam = Steamboat
+
+6 - Fire Tornado: 
+-earth + -wind = -dust
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -water = fire
+-dust + Tornado = Dust Devil
+Dust Devil + fire = Fire Tornado
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Hurricane + Tsunami = Disaster
+-fire + Disaster = Firefighter
+Firefighter + Tornado = Fire Tornado
+
+6 - -rainforest: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-fire + -plant = -tree
+-steam + -wind = -cloud
+-plant + -tree = -forest
+-cloud + -forest = -rainforest
+
+6 - Firebird: 
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -water = fire
+-fire + fire = Ash
+Ash + fire = Phoenix
+Phoenix + Tornado = Firebird
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + fire = Phoenix
+fire + fire = Volcano
+Phoenix + Volcano = Firebird
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+-earth + fire = Lava
+Ash + fire = Phoenix
+Lava + Phoenix = Firebird
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+-fire + Ash = Fire
+Ash + Fire = Phoenix
+Phoenix + Tornado = Firebird
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+-fire + Ash = Fire
+Ash + Fire = Phoenix
+Phoenix + Tornado = Firebird
+
+6 - Splash: 
+-earth + -wind = -dust
+-fire + -water = -steam
+-steam + -water = fire
+-dust + -fire = -ash
+-steam + fire = Water
+-ash + Water = Splash
+ ...
+-fire + -wind = -air
+-earth + -wind = -dust
+-air + -water = -ice
+-fire + -ice = water
+-dust + -fire = -ash
+-ash + water = Splash
+
+6 - Clean: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-mud + Steam = Clean
+ ...
+-earth + -wind = -dust
+-dust + -water = -mud
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-mud + Dirt = Clean
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Glass = Window
+Dust + Window = Clean
+
+6 - Ice Cream: 
+-fire + -water = -steam
+-steam + -water = fire
+fire + fire = Volcano
+-steam + fire = Water
+-steam + Water = Ice
+Ice + Volcano = Ice Cream
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Iceberg + Volcano = Ice Cream
+
+6 - Ship: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+Water + Water = Lake
+-earth + Lake = Island
+Island + Water = Ship
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+water + water = Lake
+-earth + Lake = Island
+Island + water = Ship
+
+6 - Rust: 
+-earth + -wind = -dust
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-dust + Engine = Rust
+
+6 - -steam-earth-ash: 
+-earth + -wind = -dust
+-fire + -water = -steam
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -steam = -steam-earth-ash
+
+6 - -cloudrain: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-fire + -water = -steam
+-steam + -wind = -cloud
+-dust + -rain = -dustrain
+-cloud + -dustrain = -cloudrain
+
+6 - -mist-: 
+-earth + -wind = -dust
+-fire + -water = -steam
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-dust- + -steam = -mist-
+
+6 - Geysir: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+-water + fire = Steam
+Ash + Ash = Stone
+Steam + Stone = Geysir
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+-water + fire = Steam
+-water + Lava = Stone
+Steam + Stone = Geysir
+
+6 - -rain-: 
+-earth + -wind = -dust
+-fire + -water = -steam
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-steam + -wind = -cloud
+-ash-earth + -cloud = -rain-
+ ...
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -rain = -rain-
+
+6 - Steampunk: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + fire = Phoenix
+-water + fire = Steam
+Phoenix + Steam = Steampunk
+
+6 - Jet: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+Steam + Steam = Cloud
+fire + Steam = Engine
+Cloud + Engine = Jet
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+fire + Steam = Engine
+Air + Engine = Jet
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-steam + -wind = -cloud
+-water + fire = Steam
+fire + Steam = Engine
+-cloud + Engine = Jet
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-wind + Engine = Airplane
+-steam + Airplane = Jet
+
+6 - Steam Engine: 
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-dustwind + Steam = Steam Engine
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-steam + Engine = Train
+fire + Train = Steam Engine
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+Engine + Engine = Rocket
+Rocket + Steam = Steam Engine
+
+6 - Tea: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-steam + Flower = Tea
+
+6 - -calmsteam: 
+-water + -wind = -rain
+-fire + -water = -steam
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -steam = -calmsteam
+
+6 - Cow: 
+-fire + -water = -steam
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+-steam + Grass = Cow
+
+6 - Cinderella: 
+-water + -wind = -rain
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+-rain + Ash = Cinder
+-steam + Cinder = Cinderella
+ ...
+-fire + -water = -steam
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Dust = Cinder
+-steam + Cinder = Cinderella
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+-water + Ash = Dust
+Ash + Dust = Cinder
+-steam + Cinder = Cinderella
+ ...
+-earth + -wind = -dust
+-fire + -water = -steam
+-steam + -water = fire
+-dust + -fire = -ash
+-ash + fire = Cinder
+-ash + Cinder = Cinderella
+ ...
+-earth + -wind = -dust
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Dust = Cinder
+-dust + Cinder = Cinderella
+
+6 - Mist: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + -wind = -cloud
+-steam + fire = Water
+Water + Water = Lake
+-cloud + Lake = Mist
+ ...
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-lake + Smoke = Fog
+-lake + Fog = Mist
+
+6 - Waterfall: 
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-cloud + Tornado = Rain
+-mountain + Rain = Waterfall
+
+6 - Mirror: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -water = -steam
+-steam + -water = fire
+-sand + fire = Glass
+-steam + Glass = Mirror
+ ...
+-fire + -water = -steam
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-steam + Glass = Mirror
+
+6 - -woodland: 
+-water + -water = -lake
+-earth + -lake = -land
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-land + -wood = -woodland
+
+6 - -sandwood: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -wind = -sand
+-fire + -plant = -tree
+-fire + -tree = -wood
+-sand + -wood = -sandwood
+
+6 - -ashswamp: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-dust + -fire = -ash
+-ash + -swamp = -ashswamp
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -water = -mud
+-lake + -mud = -swamp
+-dust + -fire = -ash
+-ash + -swamp = -ashswamp
+
+6 - -mist: 
+-water + -water = -lake
+-earth + -fire = -plant
+-fire + -water = -steam
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -steam = -mist
+
+6 - -marsh-tree: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-fire + -plant = -tree
+-lake + -swamp = -marsh
+-marsh + -tree = -marsh-tree
+
+6 - -marshland: 
+-water + -water = -lake
+-earth + -lake = -land
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-land + -marsh = -marshland
+
+6 - -sea-tree: 
+-water + -water = -lake
+-earth + -lake = -land
+-earth + -fire = -plant
+-lake + -land = -sea
+-fire + -plant = -tree
+-sea + -tree = -sea-tree
+
+6 - -king: 
+-water + -water = -lake
+-earth + -lake = -land
+-earth + -fire = -plant
+-lake + -land = -sea
+-lake + -sea = -ocean
+-ocean + -plant = -king
+
+6 - -palm: 
+-water + -water = -lake
+-earth + -lake = -land
+-earth + -fire = -plant
+-fire + -plant = -tree
+-land + -water = -island
+-island + -tree = -palm
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-earth + -fire = -plant
+-land + -water = -island
+-island + -plant = -islandplant
+-islandplant + -wind = -palm
+
+6 - -grape: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-plant + -wine = -grape
+
+6 - Canyon: 
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-lake + Water = River
+-earth + River = Canyon
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-fire + -ice = water
+-lake + water = River
+-earth + River = Canyon
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-fire + Tsunami = Water
+-lake + Water = River
+-earth + River = Canyon
+ ...
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-lake + -mountain = -valley
+-valley + -valley = Canyon
+ ...
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-mountain + -water = -river
+-mountain + -river = -valley
+-valley + -valley = Canyon
+
+6 - Icebergland: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-earth + -lake = -land
+-ice + -ice = Iceberg
+-land + Iceberg = Icebergland
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-ice + -ice = Iceberg
+-land + Iceberg = Icebergland
+
+6 - -bow: 
+-fire + -wind = -air
+-water + -water = -lake
+-earth + -lake = -land
+-water + -wind = -rain
+-air + -rain = -rainbow
+-land + -rainbow = -bow
+
+6 - Thunder: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+Steam + Steam = Cloud
+Cloud + fire = Lightning
+Cloud + Lightning = Thunder
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-steam + Smoke = Cloud
+Cloud + fire = Lightning
+Cloud + Lightning = Thunder
+ ...
+-water + -wind = -rain
+-fire + -water = -steam
+-rain + -wind = -storm
+-steam + -water = fire
+-storm + fire = Lightning
+-rain + Lightning = Thunder
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+Air + fire = Storm
+Smoke + Storm = Thunder
+
+6 - Electricity: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+Steam + Steam = Cloud
+Cloud + fire = Lightning
+Lightning + Steam = Electricity
+
+6 - Sun: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+Steam + Steam = Cloud
+Cloud + fire = Lightning
+fire + Lightning = Sun
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-steam + Smoke = Cloud
+Cloud + fire = Lightning
+fire + Lightning = Sun
+ ...
+-water + -wind = -rain
+-fire + -water = -steam
+-rain + -wind = -storm
+-steam + -water = fire
+-storm + fire = Lightning
+fire + Lightning = Sun
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+Air + Air = Sky
+fire + Sky = Sun
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+Air + Air = Sky
+fire + Sky = Sun
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+sun + sun = Sunflower
+-hurricane + Sunflower = Sun
+
+6 - -dustrainland: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-water + -wind = -rain
+-dust + -rain = -dustrain
+-dustrain + -land = -dustrainland
+
+6 - -ais: 
+-fire + -wind = -air
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -land = -is
+-air + -is = -ais
+
+6 - Sunset: 
+-water + -water = -lake
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-lake + sun = Sunset
+
+6 - Ice River: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-fire + -ice = water
+-lake + water = River
+-ice + River = Ice River
+
+6 - -dust storm: 
+-fire + -wind = -air
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-desert + -wind = -sandstorm
+-air + -sandstorm = -dust storm
+ ...
+-fire + -wind = -air
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-desert + -wind = -sandstorm
+-air + -sandstorm = -dust storm
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-desert + -wind = -sandstorm
+-rain + -sandstorm = -rainstorm
+-rainstorm + -sandstorm = -dust storm
+
+6 - -rainland: 
+-water + -water = -lake
+-earth + -lake = -land
+-water + -wind = -rain
+-lake + -land = -sea
+-land + -sea = -landsea
+-landsea + -rain = -rainland
+
+6 - -landrainstorm: 
+-water + -water = -lake
+-earth + -lake = -land
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-land + -rainstorm = -landrainstorm
+
+6 - -islandstorm: 
+-water + -water = -lake
+-earth + -lake = -land
+-water + -wind = -rain
+-rain + -wind = -storm
+-land + -water = -island
+-island + -storm = -islandstorm
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-sea + -wind = -storm
+-land + -water = -island
+-island + -storm = -islandstorm
+
+6 - Pottery: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-steam + Mud = Clay
+-steam + Clay = Pottery
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+Mud + Mud = Clay
+Clay + Mud = Pottery
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+Mud + Mud = Clay
+Clay + Mud = Pottery
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+Mud + Mud = Clay
+Clay + Mud = Pottery
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+-earth + Dust = Dirt
+Ash + Dirt = Soil
+Ash + Soil = Pottery
+
+6 - Pond: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+-steam + fire = Water
+Ash + Water = Puddle
+Puddle + Puddle = Pond
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-ice + Mud = Puddle
+Puddle + Puddle = Pond
+
+6 - Duststorm: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -lake = -dustlake
+-dustlake + -wind = -duststorm
+-dustlake + -lake = dust
+-duststorm + dust = Duststorm
+
+6 - Pork: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-earth + Mud = Pig
+-steam + Pig = Pork
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-earth + Mud = Pig
+-earth + Pig = Pork
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+-earth + Mud = Pig
+-earth + Pig = Pork
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+-earth + Mud = Pig
+-earth + Pig = Pork
+
+6 - Pigpen: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-earth + Mud = Pig
+Mud + Pig = Pigpen
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-earth + Mud = Pig
+Mud + Pig = Pigpen
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+-earth + Mud = Pig
+Mud + Pig = Pigpen
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+-earth + Mud = Pig
+Mud + Pig = Pigpen
+
+6 - Piglet: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-earth + Mud = Pig
+Pig + Pig = Piglet
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-earth + Mud = Pig
+Pig + Pig = Piglet
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+-earth + Mud = Pig
+Pig + Pig = Piglet
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+-earth + Mud = Pig
+Pig + Pig = Piglet
+
+6 - Piggyback: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-earth + Mud = Pig
+Pig + Water = Piggyback
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-earth + Mud = Pig
+Pig + water = Piggyback
+
+6 - Bacon: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-earth + Mud = Pig
+fire + Pig = Bacon
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-earth + Mud = Pig
+-fire + Pig = Bacon
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+-earth + Mud = Pig
+-fire + Pig = Bacon
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+-earth + Mud = Pig
+-fire + Pig = Bacon
+
+6 - Ham: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+-earth + Mud = Pig
+-water + Pig = Ham
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-earth + Mud = Pig
+-water + Pig = Ham
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+-earth + Mud = Pig
+-water + Pig = Ham
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+-earth + Mud = Pig
+-water + Pig = Ham
+
+6 - Blade: 
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+-water + Lava = Stone
+Lava + Stone = Obsidian
+Obsidian + Stone = Blade
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+Lava + Stone = Obsidian
+Obsidian + Stone = Blade
+
+6 - Diamond: 
+-fire + -water = -steam
+-steam + -water = fire
+-earth + fire = Lava
+-water + Lava = Stone
+Lava + Stone = Obsidian
+-earth + Obsidian = Diamond
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+Lava + Stone = Obsidian
+-earth + Obsidian = Diamond
+
+6 - Locomotive: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-steam + Engine = Train
+-steam + Train = Locomotive
+
+6 - Train Station: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-steam + Engine = Train
+Train + Train = Train Station
+
+6 - Sailboat: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-steam + Engine = Train
+-wind + Train = Sailboat
+
+6 - Quagmire: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+Mud + Water = Swamp
+Mud + Swamp = Quagmire
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+Mud + water = Swamp
+Mud + Swamp = Quagmire
+
+6 - Bog: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+Mud + Water = Swamp
+Swamp + Swamp = Bog
+ ...
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -marsh = Swamp
+Swamp + Swamp = Bog
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+Mud + water = Swamp
+Swamp + Swamp = Bog
+
+6 - Marsh: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+Mud + Water = Swamp
+Swamp + Water = Marsh
+ ...
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -marsh = Swamp
+-fire + Swamp = Marsh
+ ...
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -swamp = -marshswamp
+-marsh + -marshswamp = Marsh
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+Mud + water = Swamp
+Swamp + water = Marsh
+
+6 - Dragon: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+Mud + Water = Swamp
+fire + Swamp = Dragon
+
+6 - Marshmallow: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -marsh = Swamp
+-marsh + Swamp = Marshmallow
+
+6 - Lily: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-marsh + -marsh = Swamp
+-plant + Swamp = Lily
+ ...
+-water + -water = -lake
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-lake + Flower = Lily
+
+6 - Truck: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-fire + Engine = Car
+Car + Car = Truck
+
+6 - Racecar: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-fire + Engine = Car
+Car + Engine = Racecar
+
+6 - Crash: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-fire + Engine = Car
+Car + fire = Crash
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-wind + Engine = Airplane
+Airplane + fire = Crash
+
+6 - Cart: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-fire + Engine = Car
+-earth + Car = Cart
+
+6 - House: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+fire + Mud = Brick
+-steam + Brick = House
+ ...
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -water = -steam
+-steam + -water = fire
+-mud + fire = Brick
+-dust + Brick = House
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-wind + -wind = Tornado
+-wood + Tornado = Wooden
+Tornado + Wooden = House
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Glass = Window
+Glass + Window = House
+
+6 - Wall: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+fire + Mud = Brick
+Brick + Brick = Wall
+ ...
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -water = -steam
+-steam + -water = fire
+-mud + fire = Brick
+Brick + Brick = Wall
+
+6 - Adobe: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+fire + Mud = Brick
+Brick + Mud = Adobe
+
+6 - Kiln: 
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-earth + Water = Mud
+fire + Mud = Brick
+Brick + fire = Kiln
+ ...
+-earth + -wind = -dust
+-dust + -water = -mud
+-fire + -water = -steam
+-steam + -water = fire
+-mud + fire = Brick
+Brick + fire = Kiln
+
+6 - Noah: 
+-fire + -water = -steam
+-wind + -wind = Tornado
+-steam + -wind = -cloud
+-cloud + Tornado = Rain
+Rain + Tornado = Flood
+-water + Flood = Noah
+ ...
+-water + -water = -lake
+-water + -wind = -rain
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-rain + Tsunami = Flood
+-water + Flood = Noah
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-rain + Tsunami = Flood
+-water + Flood = Noah
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Hurricane + Tsunami = Disaster
+-water + Disaster = Flood
+-water + Flood = Noah
+
+6 - Wind: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+-wind + Air = Kite
+Air + Kite = Wind
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+-wind + Air = Kite
+Air + Kite = Wind
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + fire = Phoenix
+Ash + Phoenix = Rebirth
+-wind + Rebirth = Wind
+
+6 - Windmill: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+-wind + Air = Kite
+Kite + Kite = Windmill
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+-wind + Air = Kite
+Kite + Kite = Windmill
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+Flower + Flower = Garden
+-wind + Garden = Windmill
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+sun + sun = Sunflower
+-wind + Sunflower = Windmill
+
+6 - Fireworks: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+-wind + Air = Kite
+fire + Kite = Fireworks
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+-wind + Air = Kite
+fire + Kite = Fireworks
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+-fire + Explosion = Fireworks
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+-fire + Explosion = Fireworks
+
+6 - Paper: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+-earth + Steam = Air
+-wind + Air = Kite
+-fire + Kite = Paper
+ ...
+-fire + -water = -steam
+-steam + -water = fire
+-wind + fire = Smoke
+-fire + Smoke = Air
+-wind + Air = Kite
+-fire + Kite = Paper
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+-tree + Forest = Wood
+-water + Wood = Paper
+
+6 - Plane: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-wind + Engine = Airplane
+Airplane + Engine = Plane
+
+6 - Space: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+Engine + Engine = Rocket
+-steam + Rocket = Space
+
+6 - Space Ship: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+Engine + Engine = Rocket
+Engine + Rocket = Space Ship
+
+6 - Satellite: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+Engine + Engine = Rocket
+Rocket + Rocket = Satellite
+
+6 - Tank: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-earth + Engine = Tractor
+Engine + Tractor = Tank
+
+6 - Farm: 
+-fire + -water = -steam
+-steam + -water = fire
+-water + fire = Steam
+fire + Steam = Engine
+-earth + Engine = Tractor
+-earth + Tractor = Farm
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+-water + Grass = Land
+Dirt + Land = Farm
+
+6 - ash: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -ashwater = -ashlake
+-ashlake + -lake = ash
+
+6 - Poseidon: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-steam + Statue = Poseidon
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-water + Statue = Poseidon
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-water + Statue = Poseidon
+
+6 - Golem: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Ash + Statue = Golem
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Ash + Statue = Golem
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Ash + Statue = Golem
+
+6 - Sphinx: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Statue + Stone = Sphinx
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Statue + Stone = Sphinx
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Tornado = Dust Storm
+-fire + Dust = Ash
+Ash + Ash = Stone
+Dust Storm + Stone = Sphinx
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Statue + Stone = Sphinx
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+Desert + Pyramid = Sphinx
+
+6 - Human: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-fire + Statue = Human
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-fire + Statue = Human
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-fire + Statue = Human
+
+6 - Colossus: 
+-fire + -water = -steam
+-steam + -water = fire
+-fire + fire = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-earth + Statue = Colossus
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-earth + Statue = Colossus
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+-earth + Statue = Colossus
+
+6 - -world: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -land = -sky
+-land + -sky = -world
+
+6 - -landseam: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -water = -steam
+-sea + -steam = -seam
+-land + -seam = -landseam
+
+6 - -eam: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -water = -steam
+-sea + -steam = -seam
+-seam + -steam = -eam
+
+6 - Shark: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-plant + Water = Fish
+Fish + Fish = Shark
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -ice = water
+-plant + water = Fish
+Fish + Fish = Shark
+
+6 - Fishbowl: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-plant + Water = Fish
+Fish + Water = Fishbowl
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -ice = water
+-plant + water = Fish
+Fish + water = Fishbowl
+
+6 - Sushi: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-plant + Water = Fish
+fire + Fish = Sushi
+
+6 - Piranha: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-steam + -water = fire
+-steam + fire = Water
+-plant + Water = Fish
+-earth + Fish = Piranha
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -ice = water
+-plant + water = Fish
+-earth + Fish = Piranha
+
+6 - glass: 
+-earth + -wind = -dust
+-water + -water = -lake
+-lake + -wind = -sand
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -sand = glass
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -water = -ashwater
+-ashwater + -wind = -sand
+-ash-earth + -sand = glass
+
+6 - -saltwater: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ash + -lake = -salt
+-ashwater + -salt = -saltwater
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -lake = -salt
+-ash + -salt = -ashsalt
+-ashsalt + -water = -saltwater
+
+6 - -dustlakeisland: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -lake = -dustlake
+-land + -water = -island
+-dustlake + -island = -dustlakeisland
+
+6 - -salt-earth: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -lake = -salt
+-ash-earth + -salt = -salt-earth
+
+6 - Dustnami: 
+-water + -water = -lake
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-plant + Tornado = Dust Bowl
+Dust Bowl + Tsunami = Dustnami
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Dust Bowl + Tsunami = Dustnami
+
+6 - -ashlake-: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -lake = -ashlake-
+
+6 - Atlantis: 
+-water + -water = -lake
+-earth + -lake = -land
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-land + Tsunami = Island
+Island + Tsunami = Atlantis
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+Island + Tsunami = Atlantis
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-water + Tsunami = Earth
+Earth + Tsunami = Island
+Island + Tsunami = Atlantis
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -island = Island
+-dust + Island = Atlantis
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+-dust + Island = Atlantis
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-water + Tsunami = Earth
+Earth + Tsunami = Island
+Island + Tsunami = Atlantis
+
+6 - -ashsea: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-dust + -fire = -ash
+-ash + -sea = -ashsea
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -lake = -salt
+-salt + -water = -sea
+-ash + -sea = -ashsea
+
+6 - -ash-land: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -land = -ash-land
+
+6 - -ashland: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -fire = -ash
+-ash + -fire = -ashfire
+-ashfire + -land = -ashland
+ ...
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -fire = -ash
+-ash + -land = -sland
+-ash + -sland = -ashland
+
+6 - -ash-earth-ash-lake: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -lake = -ash-earth-ash-lake
+
+6 - Mudslide: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-fire + Tsunami = Water
+-earth + Water = Mud
+Mud + Tsunami = Mudslide
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-ice + -wind = -blizzard
+-earth + water = Mud
+-blizzard + Mud = Mudslide
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Tornado + Tornado = Hurricane
+-rain + Dust = Mud
+Hurricane + Mud = Mudslide
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-fire + Tsunami = Water
+-earth + Water = Mud
+Mud + Tsunami = Mudslide
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Tornado + Tornado = Hurricane
+-earth + Dust = Dirt
+-water + Dirt = Mud
+Hurricane + Mud = Mudslide
+
+6 - -ashmudlake: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -mud = -ashmud
+-ashmud + -lake = -ashmudlake
+
+6 - -ashdesert: 
+-earth + -wind = -dust
+-water + -water = -lake
+-lake + -wind = -sand
+-dust + -fire = -ash
+-lake + -sand = -desert
+-ash + -desert = -ashdesert
+ ...
+-earth + -wind = -dust
+-earth + -fire = -plant
+-water + -wind = -rain
+-dust + -fire = -ash
+-plant + -rain = -desert
+-ash + -desert = -ashdesert
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -wind = -sand
+-sand + -sand = -desert
+-ash + -desert = -ashdesert
+
+6 - -ashglass: 
+-earth + -wind = -dust
+-water + -water = -lake
+-lake + -wind = -sand
+-dust + -fire = -ash
+-fire + -sand = -glass
+-ash + -glass = -ashglass
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -wind = -sand
+-fire + -sand = -glass
+-ash + -glass = -ashglass
+
+6 - -ash-island: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -fire = -ash
+-land + -water = -island
+-ash + -island = -ash-island
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-fire + -island = -volcano
+-volcano + -wind = -ash
+-ash + -island = -ash-island
+
+6 - -mudsea: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -water = -mud
+-lake + -land = -sea
+-mud + -sea = -mudsea
+
+6 - Dustland: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -land = -dustland
+-dustland + -land = dust
+-dustland + dust = Dustland
+
+6 - Vacuum: 
+-fire + -wind = -air
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+-air + Destruction = Vacuum
+ ...
+-fire + -wind = -air
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+-air + Destruction = Vacuum
+
+6 - Weed: 
+-water + -water = -lake
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+-plant + Destruction = Weed
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+-plant + Destruction = Weed
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-wind + Flower = Dandelion
+-plant + Dandelion = Weed
+
+6 - Seaweed: 
+-water + -water = -lake
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-lake + Tsunami = Ocean
+-plant + Ocean = Seaweed
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-earth + Tsunami = Ocean
+-plant + Ocean = Seaweed
+
+6 - -dustisland: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-dustearth + -island = -dustisland
+
+6 - -dustearthsea: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-dustearth + -sea = -dustearthsea
+
+6 - -dustearthlandwind: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -water = -lake
+-earth + -lake = -land
+-land + -wind = -landwind
+-dustearth + -landwind = -dustearthlandwind
+
+6 - -dustearthwindland: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-water + -water = -lake
+-earth + -lake = -land
+-dustearthwind + -land = -dustearthwindland
+
+6 - Japan: 
+-water + -water = -lake
+-earth + -lake = -land
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-land + -water = -island
+-island + Tsunami = Japan
+
+6 - Tornadoes: 
+-water + -water = -lake
+-earth + -lake = -land
+-wind + -wind = Tornado
+-land + -water = -island
+-island + -land = -is
+-is + Tornado = Tornadoes
+
+6 - Eye: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+-sea + Hurricane = Eye
+
+6 - -dustlandsea: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-land + -sea = -landsea
+-dust + -landsea = -dustlandsea
+
+6 - -dustlandisland: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -land = -dustland
+-land + -water = -island
+-dustland + -island = -dustlandisland
+
+6 - -dustis: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -land = -is
+-dust + -is = -dustis
+
+6 - -glassstorm: 
+-water + -water = -lake
+-water + -wind = -rain
+-lake + -wind = -sand
+-rain + -wind = -storm
+-fire + -sand = -glass
+-glass + -storm = -glassstorm
+ ...
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-fire + -sand = -glass
+-desert + -wind = -sandstorm
+-glass + -sandstorm = -glassstorm
+
+6 - Oasis: 
+-water + -water = -lake
+-lake + -wind = -sand
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-lake + -sand = -desert
+-desert + Tsunami = Oasis
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+-lake + Desert = Oasis
+ ...
+-water + -water = -lake
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-wind + Sand = Dune
+-lake + Dune = Oasis
+ ...
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-desert + -lake = -oasis
+-oasis + -oasis = Desert
+-lake + Desert = Oasis
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-desert + -water = -oasis
+-oasis + -oasis = Desert
+-desert + Desert = Oasis
+ ...
+-water + -water = -lake
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+-lake + Desert = Oasis
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+-rain + Desert = Oasis
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+-plant + Desert = Cactus
+Cactus + Desert = Oasis
+ ...
+-water + -wind = -rain
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+-rain + Desert = Oasis
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+Dust + Sand = Sandstorm
+Sand + Sand = Desert
+Desert + Sandstorm = Oasis
+
+6 - leaf: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-leaf + -steam = -leafsteam
+-leaf + -leafsteam = leaf
+
+6 - plant: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-leaf + -steam = -leafsteam
+-earth + -leafsteam = plant
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-fire + -leaf = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -leaf = plant
+
+6 - -leafsteamwind: 
+-earth + -fire = -plant
+-fire + -water = -steam
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-leaf + -steam = -leafsteam
+-leafsteam + -wind = -leafsteamwind
+
+6 - Whine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-wind + -wind = Tornado
+-fire + -sand = -glass
+-glass + -water = -wine
+-wine + Tornado = Whine
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-water + Glass = Wine
+-wind + Wine = Whine
+
+6 - -saltsea: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -lake = -salt
+-salt + -water = -sea
+-salt + -sea = -saltsea
+
+6 - -glassisland: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -wind = -sand
+-fire + -sand = -glass
+-land + -water = -island
+-glass + -island = -glassisland
+
+6 - Time Tornado: 
+-water + -water = -lake
+-lake + -wind = -sand
+-wind + -wind = Tornado
+-fire + -sand = -glass
+-glass + -sand = -time
+-time + Tornado = Time Tornado
+
+6 - -beach: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -water = -mud
+-lake + -wind = -sand
+-mud + -sand = -dirt
+-dirt + -sand = -beach
+
+6 - Meadow: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+-lake + Grass = Meadow
+
+6 - -iceocean: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-lake + -sea = -ocean
+-ice + -ocean = -iceocean
+
+6 - -iceberg: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-ice + -wind = -blizzard
+-blizzard + -sea = -iceberg
+
+6 - -landsteamwindland: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-land + -steam = -landsteam
+-landsteam + -wind = -landsteamwind
+-land + -landsteamwind = -landsteamwindland
+
+6 - -landsteamwindwind: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-land + -steam = -landsteam
+-landsteam + -wind = -landsteamwind
+-landsteam + -landsteamwind = -landsteamwindwind
+
+6 - -landsteamwindwater: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-land + -steam = -landsteam
+-landsteam + -wind = -landsteamwind
+-landsteamwind + -water = -landsteamwindwater
+
+6 - air: 
+-water + -water = -lake
+-earth + -lake = -land
+-fire + -water = -steam
+-land + -steam = -landsteam
+-landsteam + -wind = -landsteamwind
+-earth + -landsteamwind = air
+ ...
+-fire + -wind = -air
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-air + -island = -airisland
+-airisland + -island = air
+
+6 - -desertwind: 
+-water + -water = -lake
+-earth + -lake = -land
+-land + -wind = -landwind
+-lake + -wind = -sand
+-lake + -sand = -desert
+-desert + -landwind = -desertwind
+
+6 - -landtime: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -sand = -time
+-land + -time = -landtime
+
+6 - -stormwood: 
+-earth + -fire = -plant
+-water + -wind = -rain
+-rain + -wind = -storm
+-fire + -plant = -tree
+-fire + -tree = -wood
+-storm + -wood = -stormwood
+
+6 - Iceplant: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-ice + -ice = Iceberg
+-ice + -plant = -iceplant
+-iceplant + Iceberg = Iceplant
+
+6 - -landwine: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-land + -wine = -landwine
+
+6 - -iceis: 
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -land = -is
+-is + -water = -ice
+-ice + -is = -iceis
+
+6 - -rainbow tree: 
+-fire + -wind = -air
+-earth + -fire = -plant
+-water + -wind = -rain
+-air + -rain = -rainbow
+-fire + -plant = -tree
+-rainbow + -tree = -rainbow tree
+
+6 - -isvolcano: 
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-fire + -island = -volcano
+-island + -land = -is
+-is + -volcano = -isvolcano
+
+6 - -airplane: 
+-fire + -wind = -air
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-air + -paper = -airplane
+
+6 - -eternity: 
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-fire + -sand = -glass
+-glass + -sand = -time
+-desert + -time = -eternity
+
+6 - sand: 
+-earth + -fire = -plant
+-water + -wind = -rain
+-rain + -wind = -storm
+-plant + -rain = -desert
+-desert + -wind = -sandstorm
+-sandstorm + -storm = sand
+
+6 - -icewood: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-ice + -wood = -icewood
+
+6 - -ice-time: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -sand = -time
+-fire + -time = -ice
+-ice + -time = -ice-time
+
+6 - -snowman: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -plant = -tree
+-ice + -wind = -blizzard
+-blizzard + -tree = -snowman
+
+6 - lake: 
+-water + -water = -lake
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-lake + -wood = -lakewood
+-lakewood + -wood = lake
+
+6 - Rainforest: 
+-earth + -fire = -plant
+-water + -wind = -rain
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+-rain + Forest = Rainforest
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+Forest + Forest = Jungle
+Forest + Jungle = Rainforest
+
+6 - -iceleaf: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-ice + -leaf = -iceleaf
+
+6 - -desertrain: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-dust + -rain = -dustrain
+-desert + -dustrain = -desertrain
+
+6 - Salt: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-lake + Tsunami = Ocean
+-lake + Ocean = Sea
+-water + Sea = Salt
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-earth + Tsunami = Ocean
+Ocean + Ocean = Sea
+-water + Sea = Salt
+
+6 - Sail: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+-lake + Tsunami = Ocean
+-lake + Ocean = Sea
+-wind + Sea = Sail
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+-earth + Tsunami = Ocean
+Ocean + Ocean = Sea
+-wind + Sea = Sail
+
+6 - Mirage: 
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-desert + -lake = -oasis
+-oasis + -oasis = Desert
+-oasis + Desert = Mirage
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-desert + -water = -oasis
+-oasis + -oasis = Desert
+-oasis + Desert = Mirage
+
+6 - -jungle: 
+-earth + -fire = -plant
+-water + -wind = -rain
+-fire + -plant = -tree
+-plant + -rain = -desert
+-plant + -tree = -forest
+-desert + -forest = -jungle
+
+6 - Ice Fish: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -ice = water
+-plant + water = Fish
+-ice + Fish = Ice Fish
+
+6 - -calm-land: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-sea + -wind = -storm
+-sea + -storm = -calm
+-calm + -land = -calm-land
+
+6 - -calmsea: 
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-sea + -wind = -storm
+-sea + -storm = -calm
+-calm + -sea = -calmsea
+
+6 - -firemarshlake: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-fire + -marsh = -firemarsh
+-firemarsh + -lake = -firemarshlake
+
+6 - firemarsh: 
+-water + -water = -lake
+-earth + -fire = -plant
+-lake + -plant = -swamp
+-lake + -swamp = -marsh
+-fire + -marsh = -firemarsh
+-fire + -firemarsh = firemarsh
+
+6 - Fairy: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-tree + Tornado = Forest
+Dust + Forest = Fairy
+
+6 - -dustplantrain: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-water + -wind = -rain
+-dust + -plant = -dustplant
+-dust + -rain = -dustrain
+-dustplant + -dustrain = -dustplantrain
+
+6 - Chaos: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-lake + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+ ...
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+
+6 - -calmplant: 
+-earth + -fire = -plant
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -plant = -calmplant
+
+6 - Cigarette: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-fire + Dust = Ash
+Ash + Flower = Cigarette
+
+6 - -ash-ash: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -plant = -ashplant
+-ash-earth + -ashplant = -ash-ash
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -water = -ashwater
+-ash + -ashwater = -ashplant
+-ash-earth + -ashplant = -ash-ash
+
+6 - Tumbleweed: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-dust + Tornado = Dust Devil
+-tree + Dust Devil = Tumbleweed
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+Dust Bowl + Tornado = Dust Devil
+-tree + Dust Devil = Tumbleweed
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Tornado = Dust Storm
+-tree + Dust Storm = Tumbleweed
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-plant + Tornado = Dust Bowl
+Dust Bowl + Dust Bowl = Desert
+-plant + Desert = Cactus
+Cactus + Dust Bowl = Tumbleweed
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-plant + Sand = Cactus
+-wind + Cactus = Tumbleweed
+
+6 - -ashplant-: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -plant = -ashplant-
+
+6 - Sandcastle: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-lake + Sand = Beach
+Beach + Sand = Sandcastle
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-earth + Dust = Dirt
+Dirt + Sand = Beach
+Beach + Sand = Sandcastle
+
+6 - Pangaea: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+Island + Island = Continent
+Continent + Continent = Pangaea
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -island = Island
+Island + Island = Continent
+Continent + Continent = Pangaea
+
+6 - Archipelago: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+Island + Island = Continent
+Continent + Island = Archipelago
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -island = Island
+Island + Island = Continent
+Continent + Island = Archipelago
+
+6 - Europe: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+Island + Island = Continent
+-fire + Continent = Europe
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-island + -island = Island
+Island + Island = Continent
+-fire + Continent = Europe
+
+6 - -ashlumber: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-tree + -wood = -lumber
+-ash + -lumber = -ashlumber
+
+6 - -dustpaper: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-dust + -paper = -dustpaper
+
+6 - -earthstorm: 
+-water + -water = -lake
+-earth + -lake = -land
+-water + -wind = -rain
+-rain + -wind = -storm
+-land + -storm = -landstorm
+-earth + -landstorm = -earthstorm
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-sea + -wind = -storm
+-land + -storm = -landstorm
+-earth + -landstorm = -earthstorm
+
+6 - Confetti: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-wind + -wind = Tornado
+-water + -wood = -paper
+-paper + Tornado = Confetti
+
+6 - Greenhouse: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-plant + Glass = Greenhouse
+
+6 - Iceland: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-earth + -lake = -land
+-ice + -land = -ice-land
+-ice + -ice-land = Iceland
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-ice + -land = -ice-land
+-ice + -ice-land = Iceland
+
+6 - iceland: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-earth + -lake = -land
+-ice + -land = -ice-land
+-ice-land + -lake = iceland
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-ice + -land = -ice-land
+-ice-land + -lake = iceland
+
+6 - ice: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-earth + -lake = -land
+-ice + -land = -ice-land
+-ice-land + -land = ice
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-ice + -land = -ice-land
+-ice-land + -land = ice
+
+6 - -fire-land: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-earth + -lake = -land
+-ice + -land = -ice-land
+-fire + -ice-land = -fire-land
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-ice + -land = -ice-land
+-fire + -ice-land = -fire-land
+
+6 - -ice-wind: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -water = -lake
+-earth + -lake = -land
+-ice + -land = -ice-land
+-ice-land + -wind = -ice-wind
+ ...
+-water + -water = -lake
+-earth + -lake = -land
+-lake + -land = -sea
+-fire + -sea = -ice
+-ice + -land = -ice-land
+-ice-land + -wind = -ice-wind
+
+6 - Sapling: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-tree + Flower = Sapling
+
+6 - Hula: 
+-water + -water = -lake
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-lake + Volcano = Island
+Island + Volcano = Hawaii
+-wind + Hawaii = Hula
+
+6 - -vacuum: 
+-fire + -wind = -air
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-air + -glass = -mirror
+-air + -mirror = -vacuum
+
+6 - -window: 
+-fire + -wind = -air
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-air + -glass = -mirror
+-glass + -mirror = -window
+
+6 - -mirrorwind: 
+-fire + -wind = -air
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-air + -glass = -mirror
+-mirror + -wind = -mirrorwind
+
+6 - -dustleafwind: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-leaf + -wind = -leafwind
+-dust + -leafwind = -dustleafwind
+
+6 - -food: 
+-earth + -fire = -plant
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-plant + -rainstorm = -drought
+-drought + -plant = -food
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-fire + -plant = -tree
+-plant + -tree = -forest
+-forest + -rain = -drought
+-drought + -plant = -food
+
+6 - -book: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-tree + -wind = -leaf
+-water + -wood = -paper
+-leaf + -paper = -book
+
+6 - Broken: 
+-water + -water = -lake
+-lake + -wind = -sand
+-wind + -wind = Tornado
+-fire + -sand = -glass
+-glass + Tornado = Shatter
+-glass + Shatter = Broken
+
+6 - Meteor: 
+-water + -water = -lake
+-lake + -wind = -sand
+-wind + -wind = Tornado
+-fire + -sand = -glass
+-glass + Tornado = Shatter
+-earth + Shatter = Meteor
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+Stone + Stone = Boulder
+Boulder + Volcano = Meteor
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-fire + Volcano = Lava
+-water + Lava = Stone
+-fire + Stone = Rock
+Rock + Tornado = Meteor
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Stone + Stone = Boulder
+Boulder + Volcano = Meteor
+ ...
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+-fire + Stone = Rock
+Rock + Tornado = Meteor
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Tornado = Shatter
+-earth + Shatter = Meteor
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+-fire + Stone = Rock
+Rock + Tornado = Meteor
+
+6 - Gold: 
+-fire + -wind = -air
+-water + -wind = -rain
+-air + -rain = -rainbow
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rainbow + Dust = Gold
+
+6 - Ice cream: 
+-fire + -wind = -air
+-air + -water = -ice
+-water + -wind = -rain
+-air + -rain = -rainbow
+-ice + -ice = Iceberg
+-rainbow + Iceberg = Ice cream
+
+6 - Rainbow Volcano: 
+-fire + -wind = -air
+-water + -wind = -rain
+-air + -rain = -rainbow
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-rainbow + Volcano = Rainbow Volcano
+
+6 - -dustearthwindtree: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-earth + -fire = -plant
+-fire + -plant = -tree
+-dustearthwind + -tree = -dustearthwindtree
+
+6 - -saltlake: 
+-earth + -wind = -dust
+-water + -water = -lake
+-dust + -fire = -ash
+-ash + -lake = -salt
+-ash + -salt = -ashsalt
+-ashsalt + -lake = -saltlake
+
+6 - Day: 
+-fire + -wind = -air
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-air + sun = Day
+
+6 - -ashleafwind: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-leaf + -wind = -leafwind
+-fire + -leaf = -ash
+-ash + -leafwind = -ashleafwind
+
+6 - Snow Devil: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-air + -water = -ice
+-wind + -wind = Tornado
+-dust + Tornado = Dust Devil
+-ice + Dust Devil = Snow Devil
+
+6 - -and: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-dust + -fire = -ash
+-ash + -land = -sland
+-lake + -sland = -and
+
+6 - -ashpaper: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-water + -wood = -paper
+-ash + -paper = -ashpaper
+
+6 - -glassumbrella: 
+-water + -water = -lake
+-water + -wind = -rain
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -rain = -umbrella
+-glass + -umbrella = -glassumbrella
+
+6 - -sandumbrella: 
+-water + -water = -lake
+-water + -wind = -rain
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -rain = -umbrella
+-sand + -umbrella = -sandumbrella
+
+6 - snow: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-air + -water = -ice
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -ice = snow
+
+6 - -dustearthwindlakewater: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-water + -water = -lake
+-dustearthwind + -lake = -dustearthwindlake
+-dustearthwindlake + -water = -dustearthwindlakewater
+
+6 - mud: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-dust + -water = -mud
+-air + -mud = -dirt
+-dust + -mud = -dustmud
+-dirt + -dustmud = mud
+ ...
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-dust + -rain = -dustrain
+-ash-earth + -dustrain = mud
+
+6 - Dustrain: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-wind + -wind = Tornado
+-dust + -rain = -dustrain
+-dust + Tornado = Dust Devil
+-dustrain + Dust Devil = Dustrain
+
+6 - oasis: 
+-water + -water = -lake
+-lake + -wind = -sand
+-lake + -sand = -desert
+-desert + -lake = -oasis
+-desert + -oasis = -mirage
+-desert + -mirage = oasis
+ ...
+-earth + -fire = -plant
+-water + -wind = -rain
+-plant + -rain = -desert
+-desert + -water = -oasis
+-desert + -oasis = -mirage
+-desert + -mirage = oasis
+
+6 - -ash-earth-air: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-air + -ash-earth-ash = -ash-earth-air
+
+6 - dustland: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-dust + -island = -dust-island
+-dust-island + -land = dustland
+
+6 - -dust-storm: 
+-earth + -wind = -dust
+-water + -water = -lake
+-earth + -lake = -land
+-land + -water = -island
+-dust + -island = -dust-island
+-dust-island + -wind = -dust-storm
+
+6 - -dustearthlakewindwater: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -water = -lake
+-dustearth + -lake = -dustearthlake
+-dustearthlake + -wind = -dustearthlakewind
+-dustearthlakewind + -water = -dustearthlakewindwater
+
+6 - -dustlakewind: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -water = -lake
+-dustearth + -lake = -dustearthlake
+-dustearthlake + -wind = -dustearthlakewind
+-dustearthlakewind + -earth = -dustlakewind
+
+6 - Pigcicle: 
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+-earth + water = Mud
+-earth + Mud = Pig
+-ice + Pig = Pigcicle
+
+6 - Solar Flare: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-wind + -wind = Tornado
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+sun + Tornado = Solar Flare
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-fire + -hurricane = -firehurricane
+-firehurricane + sun = Solar Flare
+
+6 - -hill: 
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-lake + -mountain = -valley
+-mountain + -valley = -hill
+ ...
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-mountain + -water = -river
+-mountain + -river = -valley
+-mountain + -valley = -hill
+
+6 - -steamvalley: 
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-lake + -mountain = -valley
+-steam + -valley = -steamvalley
+ ...
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-mountain + -water = -river
+-mountain + -river = -valley
+-steam + -valley = -steamvalley
+
+6 - -valleywind: 
+-water + -water = -lake
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-lake + -mountain = -valley
+-valley + -wind = -valleywind
+ ...
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-mountain + -water = -river
+-mountain + -river = -valley
+-valley + -wind = -valleywind
+
+6 - -canyon: 
+-fire + -water = -steam
+-steam + -wind = -cloud
+-cloud + -earth = -mountain
+-mountain + -water = -river
+-mountain + -river = -valley
+-river + -valley = -canyon
+
+6 - Pineapple: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-ice + -ice = Iceberg
+-plant + Iceberg = Penguin
+-plant + Penguin = Pineapple
+
+6 - Titanic: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-ice + -ice = Iceberg
+-plant + Iceberg = Penguin
+Iceberg + Penguin = Titanic
+ ...
+-fire + -wind = -air
+-air + -water = -ice
+-ice + -ice = Iceberg
+-air + Iceberg = Ice
+Ice + Iceberg = Penguin
+Iceberg + Penguin = Titanic
+
+6 - -ashrain: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -fire = -ashfire
+-dust + -rain = -dustrain
+-ashfire + -dustrain = -ashrain
+
+6 - -dustash: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-dust + -rain = -dustrain
+-ashwater + -dustrain = -dustash
+
+6 - Dandelion Patch: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-wind + Flower = Dandelion
+Dandelion + Dandelion = Dandelion Patch
+
+6 - Wish: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-wind + Flower = Dandelion
+Dandelion + Dust = Wish
+
+6 - Seed: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-wind + Flower = Dandelion
+Dandelion + Flower = Seed
+
+6 - Allergy: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+Dust + Flower = Pollen
+Dust + Pollen = Allergy
+
+6 - Bee: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+Dust + Flower = Pollen
+Flower + Pollen = Bee
+
+6 - Ice Land: 
+-fire + -wind = -air
+-air + -water = -ice
+-fire + -ice = water
+water + water = Lake
+-water + Lake = Land
+-ice + Land = Ice Land
+
+6 - Bouquet: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+Flower + Flower = Garden
+Flower + Garden = Bouquet
+ ...
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-plant + Flower = Rose
+Flower + Rose = Bouquet
+
+6 - Park: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+Flower + Flower = Garden
+Garden + Garden = Park
+
+6 - Thorn: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-plant + Flower = Rose
+-plant + Rose = Thorn
+
+6 - Rosebud: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-plant + Flower = Rose
+Rose + Tornado = Rosebud
+
+6 - Dry Rose: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-plant + Flower = Rose
+-water + Rose = Dry Rose
+
+6 - Wind Rose: 
+-earth + -fire = -plant
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-plant + Dust = Flower
+-plant + Flower = Rose
+-wind + Rose = Wind Rose
+
+6 - -dustmudrain: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-water + -wind = -rain
+-dust + -mud = -dustmud
+-dust + -rain = -dustrain
+-dustmud + -dustrain = -dustmudrain
+ ...
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -wind = -rain
+-dust + -rain = -dustrain
+-dustearth + -dustrain = -dustmud
+-dustmud + -dustrain = -dustmudrain
+
+6 - -ashrainstorm: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-rain + -wind = -storm
+-dust + -fire = -ash
+-rain + -storm = -rainstorm
+-ash + -rainstorm = -ashrainstorm
+
+6 - -ashhurricane: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-rain + -wind = -storm
+-dust + -fire = -ash
+-storm + -wind = -hurricane
+-ash + -hurricane = -ashhurricane
+
+6 - Firehurricane: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-wind + -wind = Tornado
+-storm + -wind = -hurricane
+-fire + -hurricane = -firehurricane
+-firehurricane + Tornado = Firehurricane
+
+6 - Sun-dust: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-dust + sun = Sun-dust
+
+6 - Mudstorm: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-rain + Dust = Mud
+-storm + Mud = Mudstorm
+
+6 - -dustearthwindstorm: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-water + -wind = -rain
+-rain + -wind = -storm
+-dustearthwind + -storm = -dustearthwindstorm
+
+6 - Palm Tree: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+-tree + Hurricane = Palm
+-plant + Palm = Palm Tree
+
+6 - Coconut: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+-tree + Hurricane = Palm
+Hurricane + Palm = Coconut
+
+6 - -sandvine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-earth + -wine = -vine
+-sand + -vine = -sandvine
+
+6 - -ine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-earth + -wine = -vine
+-vine + -wine = -ine
+
+6 - Saw: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-tree + Dust = Sawdust
+-tree + Sawdust = Saw
+
+6 - -sandwineglass: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-glass + -wine = -wineglass
+-sand + -wineglass = -sandwineglass
+
+6 - Log: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-wind + -wind = Tornado
+-tree + Tornado = Forest
+-tree + Forest = Wood
+-tree + Wood = Log
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-wind + -wind = Tornado
+-wood + Tornado = Wooden
+-tree + Wooden = Log
+
+6 - Sunny: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-hurricane + -storm = -calm
+-calm + sun = Sunny
+
+6 - -dustquake: 
+-earth + -wind = -dust
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-earth + -hurricane = -earthquake
+-dust + -earthquake = -dustquake
+
+6 - Sunquake: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-earth + -hurricane = -earthquake
+-earthquake + sun = Sunquake
+
+6 - -space-time: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -sand = -time
+-lake + -time = -space
+-space + -time = -space-time
+
+6 - -moon: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -sand = -time
+-lake + -time = -space
+-earth + -space = -moon
+
+6 - -sandwhine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-lake + -wine = -whine
+-sand + -whine = -sandwhine
+
+6 - -hine: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-lake + -wine = -whine
+-whine + -wine = -hine
+
+6 - -sandwitch: 
+-water + -water = -lake
+-lake + -wind = -sand
+-fire + -sand = -glass
+-glass + -water = -wine
+-sand + -wine = -sandwine
+-sand + -sandwine = -sandwitch
+
+6 - Dustinado: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dust + -dustearthwind = Dustin
+-wind + -wind = Tornado
+Dustin + Tornado = Dustinado
+
+6 - -dustwood: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-earth + -fire = -plant
+-dust + -plant = -dustplant
+-dustearth + -dustplant = -dusttree
+-dustplant + -dusttree = -dustwood
+
+6 - Match: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-wind + -wind = Tornado
+-wood + Tornado = Wooden
+-fire + Wooden = Match
+
+6 - Pinocchio: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-wind + -wind = Tornado
+-wood + Tornado = Wooden
+-wind + Wooden = Pinocchio
+
+6 - -ash-ash-tree: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-plant + -tree = -forest
+-fire + -forest = -ash
+-ash + -tree = -ash-tree
+-ash + -ash-tree = -ash-ash-tree
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-fire + -leaf = -ash
+-ash + -tree = -ash-tree
+-ash + -ash-tree = -ash-ash-tree
+ ...
+-earth + -wind = -dust
+-earth + -fire = -plant
+-fire + -plant = -tree
+-dust + -fire = -ash
+-ash + -tree = -ash-tree
+-ash + -ash-tree = -ash-ash-tree
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-ash + -tree = -ash-tree
+-ash + -ash-tree = -ash-ash-tree
+
+6 - -ash-grove-: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-plant + -tree = -forest
+-fire + -forest = -ash
+-ash + -tree = -ash-tree
+-ash-tree + -ash-tree = -ash-grove-
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-fire + -leaf = -ash
+-ash + -tree = -ash-tree
+-ash-tree + -ash-tree = -ash-grove-
+ ...
+-earth + -wind = -dust
+-earth + -fire = -plant
+-fire + -plant = -tree
+-dust + -fire = -ash
+-ash + -tree = -ash-tree
+-ash-tree + -ash-tree = -ash-grove-
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-ash + -tree = -ash-tree
+-ash-tree + -ash-tree = -ash-grove-
+
+6 - -ash-forest: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-plant + -tree = -forest
+-fire + -forest = -ash
+-ash + -tree = -ash-tree
+-ash-tree + -forest = -ash-forest
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-plant + -tree = -forest
+-fire + -forest = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -forest = -ash-forest
+
+6 - -ash-wood: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-ash + -tree = -ash-tree
+-ash-tree + -wood = -ash-wood
+
+6 - -ice-plant: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -plant = -tree
+-ice + -tree = -ice-tree
+-ice-tree + -plant = -ice-plant
+
+6 - -earth-ice-tree: 
+-fire + -wind = -air
+-air + -water = -ice
+-earth + -fire = -plant
+-fire + -plant = -tree
+-ice + -tree = -ice-tree
+-earth + -ice-tree = -earth-ice-tree
+
+6 - -scissors: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-earth + -paper = -rock
+-paper + -rock = -scissors
+
+6 - -boulder: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-earth + -paper = -rock
+-rock + -rock = -boulder
+
+6 - Snowpocalypse: 
+-fire + -wind = -air
+-air + -water = -ice
+-wind + -wind = Tornado
+-ice + Tornado = Blizzard
+Blizzard + Blizzard = Snowstorm
+Blizzard + Snowstorm = Snowpocalypse
+
+6 - Ashfire: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -fire = -ashfire
+-ash-earth + -fire = -ash-
+-ash- + -ashfire = Ashfire
+
+6 - -dustearthwindashdust: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dust + -fire = -ash
+-ash + -dust = -ashdust
+-ashdust + -dustearthwind = -dustearthwindashdust
+
+6 - -ash-earth-ash-fire-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -fire = -ashfire
+-ash-earth-ash + -ashfire = -ash-earth-ash-fire-ash
+
+6 - -ashmud-: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -mud = -ashmud-
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-dust- + -water = -mud-
+-ash + -mud- = -ashmud-
+ ...
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -rain = -mud-
+-ash + -mud- = -ashmud-
+
+6 - -ash-earth-ashdust: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -dust = -ashdust
+-ash-earth-ash + -ashdust = -ash-earth-ashdust
+
+6 - Apocalypse: 
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Tornado + Tsunami = Destruction
+Hurricane + Tsunami = Disaster
+Destruction + Disaster = Apocalypse
+
+6 - Mars: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-wind + Sand = Dune
+Dune + Volcano = Mars
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dust = Earth
+Dust + Earth = Planet
+-earth + Planet = Mars
+
+6 - Ozymandias: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Statue + Tornado = Ozymandias
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-fire + Dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Statue + Tornado = Ozymandias
+
+6 - Pompeii: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+-wind + Volcano = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+Statue + Volcano = Pompeii
+
+6 - Vase: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Dust = Ash
+-fire + Sand = Glass
+Ash + Glass = Vase
+
+6 - -dustwater-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -water = -ashwater
+-ash-earth + -wind = -dust-
+-ashwater + -dust- = -dustwater-
+
+6 - Shards: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Tornado = Shatter
+Glass + Shatter = Shards
+
+6 - -ash-earth-ash-water: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -water = -ashwater
+-ash-earth-ash + -ashwater = -ash-earth-ash-water
+
+6 - -mud-earth-ash: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -mud = -mud-earth-ash
+
+6 - Pot: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+-water + Dirt = Mud
+Mud + Mud = Clay
+Clay + Dirt = Pot
+
+6 - -dust-earth-ash: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -dustearth = -dust-earth-ash
+
+6 - -ash-mud: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -mud = -ashmud
+-ash-earth + -ashmud = -ash-mud
+
+6 - -clay-: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-dust- + -mud = -clay-
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-dust- + -water = -mud-
+-dust- + -mud- = -clay-
+
+6 - -volcano-: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-fire + -mud = -lava
+-ash-earth + -lava = -volcano-
+
+6 - -ashmuddustwind: 
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -mud = -ashmud
+-ashmud + -dustwind = -ashmuddustwind
+
+6 - -ashdustmud: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-ash + -mud = -ashmud
+-dust + -mud = -dustmud
+-ashmud + -dustmud = -ashdustmud
+
+6 - -ash-earth-ash-ash-ash-ash-ash-ash-ash-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth + -fire = -ash-
+-ash- + -ash-earth-ash = -ash-earth-ash-ash-ash-ash-ash-ash-ash-
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+-ash-earth + -ash-earth-ash-ash = -ash-earth-ash-ash-ash-ash-ash-ash-ash-
+
+6 - -dust-earth-dust: 
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -dustwind = -dust-earth-dust
+
+6 - -ashdustwind-: 
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -dustwind = -ashdustwind-
+
+6 - -ashstone: 
+-earth + -wind = -dust
+-dust + -water = -mud
+-dust + -fire = -ash
+-fire + -mud = -lava
+-lava + -mud = -stone
+-ash + -stone = -ashstone
+
+6 - -ashdustwater: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -dustearth = -dustwater
+-ash + -dustwater = -ashdustwater
+ ...
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -dustwind = -dustwater
+-ash + -dustwater = -ashdustwater
+
+6 - -dustearthwindashwater: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dust + -fire = -ash
+-ash + -water = -ashwater
+-ashwater + -dustearthwind = -dustearthwindashwater
+
+6 - Ashwood: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-ash + -wood = -ashwood
+-ash + -ashwood = Ashwood
+
+6 - -ashwoodwind: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-ash + -wood = -ashwood
+-ashwood + -wind = -ashwoodwind
+
+6 - -kitepaper: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-paper + -wind = -kite
+-kite + -paper = -kitepaper
+
+6 - -kitewood: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-paper + -wind = -kite
+-kite + -wood = -kitewood
+
+6 - -firekite: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-paper + -wind = -kite
+-fire + -kite = -firekite
+
+6 - -earthkite: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-water + -wood = -paper
+-paper + -wind = -kite
+-earth + -kite = -earthkite
+
+6 - -rose: 
+-fire + -wind = -air
+-earth + -fire = -plant
+-water + -wind = -rain
+-air + -rain = -rainbow
+-plant + -rainbow = -flower
+-air + -flower = -rose
+
+6 - -seed: 
+-fire + -wind = -air
+-earth + -fire = -plant
+-water + -wind = -rain
+-air + -rain = -rainbow
+-plant + -rainbow = -flower
+-flower + -plant = -seed
+
+6 - Star: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Dust + Glass = Telescope
+Dust + Telescope = Star
+ ...
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dust = Earth
+Dust + Earth = Planet
+Planet + Planet = Star
+
+6 - Observatory: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Dust + Glass = Telescope
+Telescope + Telescope = Observatory
+
+6 - Black Hole: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Dust + Glass = Telescope
+Telescope + Tornado = Black Hole
+
+6 - Vinegar: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-water + Glass = Wine
+Dust + Wine = Vinegar
+
+6 - Drunk: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-water + Glass = Wine
+Glass + Wine = Drunk
+
+6 - Sandwich: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-water + Glass = Wine
+Sand + Wine = Sandwich
+
+6 - Bottle: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-water + Glass = Wine
+Wine + Wine = Bottle
+
+6 - Vine: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-water + Glass = Wine
+-earth + Wine = Vine
+
+6 - Fire Truck: 
+-wind + -wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + Tornado = Tsunami
+Hurricane + Tsunami = Disaster
+-fire + Disaster = Firefighter
+Firefighter + Firefighter = Fire Truck
+
+6 - Super Volcano: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Mountain Range + Yellowstone = Super Volcano
+
+6 - Supervolcano: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Tornado + Yellowstone = Supervolcano
+
+6 - National Park: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+-fire + Yellowstone = National Park
+
+6 - Old Faithful: 
+-wind + -wind = Tornado
+-fire + Tornado = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+-water + Yellowstone = Old Faithful
+
+6 - Broken Window: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Glass = Window
+Tornado + Window = Broken Window
+
+6 - Draft: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Glass = Window
+-wind + Window = Draft
+
+6 - Time: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+Glass + Sand = Hourglass
+Dust + Hourglass = Time
+
+6 - Magnifying Glass: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-fire + Glass = Lens
+-fire + Lens = Magnifying Glass
+
+6 - Microscope: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+-fire + Sand = Glass
+-fire + Glass = Lens
+-water + Lens = Microscope
+
+6 - -pollution: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-dust + -water = -mud
+-air + -mud = -dirt
+-dirt + -mud = -clean
+-air + -clean = -pollution
+
+6 - -cleanmud: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-dust + -water = -mud
+-air + -mud = -dirt
+-dirt + -mud = -clean
+-clean + -mud = -cleanmud
+
+6 - -dirty: 
+-fire + -wind = -air
+-earth + -wind = -dust
+-dust + -water = -mud
+-air + -mud = -dirt
+-dirt + -mud = -clean
+-clean + -water = -dirty
+
+6 - Rake: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+Dirt + Grass = Lawn
+Dust + Lawn = Rake
+
+6 - Mower: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+-earth + Dust = Dirt
+Dirt + Dirt = Grass
+Dirt + Grass = Lawn
+Grass + Lawn = Mower
+
+6 - Mummy: 
+-wind + -wind = Tornado
+-earth + Tornado = Dust
+Dust + Dust = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+Dust + Pyramid = Mummy
+
+6 - -dry: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-earth + -rainstorm = -mud
+-mud + -rainstorm = -flood
+-flood + -mud = -dry
+
+6 - Tide: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-fire + sun = Moon
+-hurricane + Moon = Tide
+
+6 - Lunar: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-fire + sun = Moon
+-storm + Moon = Lunar
+
+6 - Eclipse: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -rain = sun
+-fire + sun = Moon
+Moon + sun = Eclipse
+
+6 - calm: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -fire = -calmfire
+-calmfire + -fire = calm
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -earth = -calmearth
+-calmearth + -earth = calm
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -storm = -calmstorm
+-calmstorm + -storm = calm
+
+6 - -earthtornado: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -hurricane = -tornado
+-fire + -tornado = -firetornado
+-earth + -firetornado = -earthtornado
+ ...
+-water + -wind = -rain
+-rain + -wind = -storm
+-rain + -storm = -rainstorm
+-rainstorm + -wind = -tornado
+-fire + -tornado = -firetornado
+-earth + -firetornado = -earthtornado
+
+6 - -dustearthwindrainfire: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-water + -wind = -rain
+-dustearthwind + -rain = -dustearthwindrain
+-dustearthwindrain + -fire = -dustearthwindrainfire
+
+6 - -dustearthrain: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-water + -wind = -rain
+-dustearthwind + -rain = -dustearthwindrain
+-dustearthwindrain + -wind = -dustearthrain
+
+6 - calmearth: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -earth = -calmearth
+-calm + -calmearth = calmearth
+
+6 - dustlake: 
+-earth + -wind = -dust
+-water + -water = -lake
+-water + -wind = -rain
+-dust + -rain = -dustrain
+-dustrain + -lake = -dustrainlake
+-dustrainlake + -rain = dustlake
+
+6 - -ash-steam: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -fire = -ashfire
+-ash-earth + -ashfire = -ashsteam
+-ash-earth + -ashsteam = -ash-steam
+
+6 - -sawdust: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-tree + -wood = -lumber
+-lumber + -wind = -saw
+-saw + -wood = -sawdust
+
+6 - -sawwater: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-tree + -wood = -lumber
+-lumber + -wind = -saw
+-saw + -water = -sawwater
+
+6 - -earthsaw: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-tree + -wood = -lumber
+-lumber + -wind = -saw
+-earth + -saw = -earthsaw
+
+6 - -sawwind: 
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-tree + -wood = -lumber
+-lumber + -wind = -saw
+-saw + -wind = -sawwind
+
+6 - calmstorm: 
+-water + -wind = -rain
+-rain + -wind = -storm
+-storm + -wind = -hurricane
+-hurricane + -storm = -calm
+-calm + -storm = -calmstorm
+-calm + -calmstorm = calmstorm
+
+6 - -wood-: 
+-earth + -wind = -dust
+-earth + -fire = -plant
+-fire + -plant = -tree
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -tree = -wood-
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-tree + -wind = -leaf
+-fire + -leaf = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -tree = -wood-
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-plant + -tree = -forest
+-fire + -forest = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -tree = -wood-
+ ...
+-earth + -fire = -plant
+-fire + -plant = -tree
+-fire + -tree = -wood
+-fire + -wood = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -tree = -wood-
+
+6 - -dustmud-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-dust- + -water = -mud-
+-dust + -mud- = -dustmud-
+ ...
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -rain = -mud-
+-dust + -mud- = -dustmud-
+
+6 - -lava-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-dust- + -water = -mud-
+-fire + -mud- = -lava-
+ ...
+-earth + -wind = -dust
+-water + -wind = -rain
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -rain = -mud-
+-fire + -mud- = -lava-
+
+6 - -ashdustfire: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -fire = -ash
+-ash + -fire = -ashfire
+-ashfire + -dustearth = -dustfire
+-ash + -dustfire = -ashdustfire
+ ...
+-earth + -wind = -dust
+-dust + -wind = -dustwind
+-dust + -fire = -ash
+-ash + -fire = -ashfire
+-ashfire + -dustwind = -dustfire
+-ash + -dustfire = -ashdustfire
+
+6 - -duststeam: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -fire = -ash
+-ash + -fire = -ashfire
+-ashfire + -dustearth = -dustfire
+-dustearth + -dustfire = -duststeam
+
+6 - -ash-wind-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -wind = -ash-wind
+-ash + -ash-wind = -ash-wind-ash
+
+6 - -ash-dust: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -wind = -ash-wind
+-ash-earth + -ash-wind = -ash-dust
+
+6 - -dustearthstormrain: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -wind = -rain
+-rain + -wind = -storm
+-dustearth + -storm = -dustearthstorm
+-dustearthstorm + -rain = -dustearthstormrain
+
+6 - -dustearthstormfire: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -wind = -rain
+-rain + -wind = -storm
+-dustearth + -storm = -dustearthstorm
+-dustearthstorm + -fire = -dustearthstormfire
+
+6 - -dustearthstormwind: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-water + -wind = -rain
+-rain + -wind = -storm
+-dustearth + -storm = -dustearthstorm
+-dustearthstorm + -wind = -dustearthstormwind
+
+6 - -ash-plant-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -water = -ashwater
+-ash-earth + -ashwater = -ash-plant
+-ash + -ash-plant = -ash-plant-ash
+
+6 - -ash-plantwater: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -water = -ashwater
+-ash-earth + -ashwater = -ash-plant
+-ash-plant + -ashwater = -ash-plantwater
+
+6 - -dust-earth-ash-fire-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -fire = -ash-earth-ash-fire-
+-ash-earth-ash-fire- + -dust = -dust-earth-ash-fire-
+
+6 - steam: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -fire = -ash-earth-ash-fire-
+-ash-earth-ash-fire- + -water = steam
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -water = -ash-earth-ash-water-
+-ash-earth-ash-water- + -fire = steam
+
+6 - -ash-earth-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -fire = -ash-earth-ash-fire-
+-ash-earth-ash-fire- + -wind = -ash-earth-
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -water = -ash-earth-ash-water-
+-ash-earth-ash-water- + -wind = -ash-earth-
+
+6 - -ash-earthdust-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -dust = -ashdust-
+-ash-earth + -ashdust- = -ash-earthdust-
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-ash + -dust- = -ashdust-
+-ash-earth + -ashdust- = -ash-earthdust-
+
+6 - -steam-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -fire = -ash-
+-ash- + -dust = -ashdust-
+-ashdust- + -water = -steam-
+ ...
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash-earth + -wind = -dust-
+-ash + -dust- = -ashdust-
+-ashdust- + -water = -steam-
+
+6 - -dustglass: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -wind = -dustwind
+-dustearth + -dustwind = -duststorm
+-dustearth + -duststorm = -dustsand
+-dustearth + -dustsand = -dustglass
+
+6 - -dustearthfirewind: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dustearthwind + -fire = -dustearthwindfire
+-dustearthwindfire + -wind = -dustearthfire
+-dustearthfire + -wind = -dustearthfirewind
+
+6 - -dustearthwindashfire: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dust + -fire = -ash
+-ash + -dustearthwind = -dustearthwindash
+-dustearthwindash + -fire = -dustearthwindashfire
+
+6 - -dustwindash: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dust + -fire = -ash
+-ash + -dustearthwind = -dustearthwindash
+-dustearthwindash + -earth = -dustwindash
+
+6 - -dustearthash: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dustearth + -wind = -dustearthwind
+-dust + -fire = -ash
+-ash + -dustearthwind = -dustearthwindash
+-dustearthwindash + -wind = -dustearthash
+
+6 - -ash-earth-ash-water-ash-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -water = -ash-earth-ash-water-
+-ash + -ash-earth-ash-water- = -ash-earth-ash-water-ash-
+
+6 - -ash-earth-ash-water-ash-earth-ash-water-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -water = -ash-earth-ash-water-
+-ash-earth + -ash-earth-ash-water- = -ash-earth-ash-water-ash-earth-ash-water-ash
+
+6 - -ash-earth-ash-water-ash-earth-ash-water-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -water = -ash-earth-ash-water-
+-ash-earth-ash + -ash-earth-ash-water- = -ash-earth-ash-water-ash-earth-ash-water-
+
+6 - -dust-earth-ash-water-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash-earth-ash + -water = -ash-earth-ash-water-
+-ash-earth-ash-water- + -dust = -dust-earth-ash-water-
+
+6 - -ash-earth-ash-ash-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+-ash + -ash-earth-ash-ash = -ash-earth-ash-ash-ash
+
+6 - -ash-earth-ash-ash-ash-earth-ash-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+-ash-earth-ash + -ash-earth-ash-ash = -ash-earth-ash-ash-ash-earth-ash-ash
+
+6 - -ash-earth-ash-ash-earth-ash-ash-ash-ear: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+-ash-earth-ash-ash + -ash-earth-ash-ash = -ash-earth-ash-ash-earth-ash-ash-ash-ear
+
+6 - -ash-earth-ash-ash-fire-ash-ash-ash-ash-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+-ash-earth-ash-ash + -fire = -ash-earth-ash-ash-fire-ash-ash-ash-ash-
+
+6 - -ash-earth-ash-ash-water-ash-ash-ash-ash-: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+-ash-earth-ash-ash + -water = -ash-earth-ash-ash-water-ash-ash-ash-ash-
+
+6 - -ash-earth-ash-ash-earth-ash-ash: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+-ash-earth-ash-ash + -earth = -ash-earth-ash-ash-earth-ash-ash
+
+6 - -ash-earth-ash-ash-wind: 
+-earth + -wind = -dust
+-dust + -fire = -ash
+-ash + -earth = -ash-earth
+-ash + -ash-earth = -ash-earth-ash
+-ash + -ash-earth-ash = -ash-earth-ash-ash
+-ash-earth-ash-ash + -wind = -ash-earth-ash-ash-wind
+
+6 - -dustclayearth: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -water = -mud
+-dust + -mud = -dustmud
+-dustearth + -dustmud = -dustclay
+-dustclay + -dustearth = -dustclayearth
+
+6 - -dustclaymud: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -water = -mud
+-dust + -mud = -dustmud
+-dustearth + -dustmud = -dustclay
+-dustclay + -dustmud = -dustclaymud
+
+6 - -clay: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -water = -mud
+-dust + -mud = -dustmud
+-dustearth + -dustmud = -dustclay
+-dustclay + -mud = -clay
+
+6 - -brick: 
+-earth + -wind = -dust
+-dust + -earth = -dustearth
+-dust + -water = -mud
+-dust + -mud = -dustmud
+-dustearth + -dustmud = -dustclay
+-dustclay + -fire = -brick
+
+
+
+{
+  "-steam": 1,
+  "-lake": 1,
+  "-plant": 1,
+  "-air": 1,
+  "-rain": 1,
+  "-dust": 1,
+  "Tornado": 1,
+  "fire": 2,
+  "-cloud": 2,
+  "-land": 2,
+  "-sand": 2,
+  "-tree": 2,
+  "-ice": 2,
+  "-storm": 2,
+  "-ash": 2,
+  "-mud": 2,
+  "-dustearth": 2,
+  "-dustwind": 2,
+  "Hurricane": 2,
+  "Volcano": 2,
+  "Dust": 2,
+  "Water": 3,
+  "Ash": 3,
+  "Steam": 3,
+  "Lava": 3,
+  "Smoke": 3,
+  "-mountain": 3,
+  "-swamp": 3,
+  "-dustlake": 3,
+  "Tsunami": 3,
+  "-sea": 3,
+  "-island": 3,
+  "-landwind": 3,
+  "-desert": 3,
+  "-glass": 3,
+  "-dustplant": 3,
+  "Dust Bowl": 3,
+  "-forest": 3,
+  "-wood": 3,
+  "-leaf": 3,
+  "-rainbow": 3,
+  "Iceberg": 3,
+  "water": 3,
+  "-blizzard": 3,
+  "-dustrain": 3,
+  "-rainstorm": 3,
+  "-hurricane": 3,
+  "Dust Devil": 3,
+  "-ashdust": 3,
+  "-ashfire": 3,
+  "-ashwater": 3,
+  "-ash-earth": 3,
+  "-dustmud": 3,
+  "-lava": 3,
+  "-dustearthwind": 3,
+  "Eruption": 3,
+  "Mountain": 3,
+  "Sand": 3,
+  "Dust Storm": 3,
+  "Dirt": 3,
+  "-landsteam": 4,
+  "Rain": 4,
+  "Ice": 4,
+  "Lake": 4,
+  "Mud": 4,
+  "Stone": 4,
+  "Phoenix": 4,
+  "Fire": 4,
+  "Cloud": 4,
+  "Engine": 4,
+  "Air": 4,
+  "Magma": 4,
+  "-volcano": 4,
+  "-river": 4,
+  "-marsh": 4,
+  "-ice lake": 4,
+  "dust": 4,
+  "-duststorm": 4,
+  "-salt": 4,
+  "-dustearthlake": 4,
+  "-dustland": 4,
+  "Ocean": 4,
+  "Destruction": 4,
+  "Earth": 4,
+  "Island": 4,
+  "-ocean": 4,
+  "-landsea": 4,
+  "-is": 4,
+  "-oasis": 4,
+  "-sandstorm": 4,
+  "-time": 4,
+  "-wine": 4,
+  "-iceplant": 4,
+  "-ashplant": 4,
+  "Desert": 4,
+  "Forest": 4,
+  "Flower": 4,
+  "-lumber": 4,
+  "-paper": 4,
+  "-leafwind": 4,
+  "-snow": 4,
+  "-dirt": 4,
+  "Blizzard": 4,
+  "Glacier": 4,
+  "-tornado": 4,
+  "sun": 4,
+  "-calm": 4,
+  "-firehurricane": 4,
+  "-earthquake": 4,
+  "-ashlake": 4,
+  "-ash-earth-ash": 4,
+  "-ash-": 4,
+  "-dust-": 4,
+  "-ashmud": 4,
+  "-stone": 4,
+  "Dustin": 4,
+  "-dustearthwindfire": 4,
+  "Disaster": 4,
+  "Mountain Range": 4,
+  "Sandstorm": 4,
+  "Glass": 4,
+  "Dune": 4,
+  "Cinder": 4,
+  "Grass": 4,
+  "-seam": 5,
+  "land": 5,
+  "-landsteamwind": 5,
+  "Fireland": 5,
+  "-sky": 5,
+  "River": 5,
+  "Fog": 5,
+  "-valley": 5,
+  "-leafsteam": 5,
+  "Fish": 5,
+  "Lightning": 5,
+  "-waterfall": 5,
+  "-ashcloud": 5,
+  "Brick": 5,
+  "Rainbow": 5,
+  "Flood": 5,
+  "Storm": 5,
+  "Snow": 5,
+  "Land": 5,
+  "Clay": 5,
+  "Swamp": 5,
+  "Pig": 5,
+  "Puddle": 5,
+  "Vapor": 5,
+  "Statue": 5,
+  "Boulder": 5,
+  "Rock": 5,
+  "Rebirth": 5,
+  "Train": 5,
+  "Rocket": 5,
+  "Car": 5,
+  "Tractor": 5,
+  "Airplane": 5,
+  "Sky": 5,
+  "Kite": 5,
+  "Obsidian": 5,
+  "-dustswamp": 5,
+  "-marshswamp": 5,
+  "-firemarsh": 5,
+  "-marshwind": 5,
+  "-islandplant": 5,
+  "-lakewood": 5,
+  "-ice-land": 5,
+  "-airisland": 5,
+  "-mirror": 5,
+  "-landstorm": 5,
+  "-dune": 5,
+  "-umbrella": 5,
+  "-drought": 5,
+  "-dustbowl": 5,
+  "-dustwater": 5,
+  "-ashsalt": 5,
+  "-sland": 5,
+  "-landmud": 5,
+  "-dustearthlakewind": 5,
+  "-dustearthwindlake": 5,
+  "-dustsea": 5,
+  "-dust-island": 5,
+  "-dustlandwind": 5,
+  "Sea": 5,
+  "Earthquake": 5,
+  "Explosion": 5,
+  "Shatter": 5,
+  "Continent": 5,
+  "Hawaii": 5,
+  "Beach": 5,
+  "-mirage": 5,
+  "-space": 5,
+  "-sandtime": 5,
+  "-wineglass": 5,
+  "-whine": 5,
+  "-sandwine": 5,
+  "-vine": 5,
+  "-ice-tree": 5,
+  "Penguin": 5,
+  "-stormtree": 5,
+  "-dusttree": 5,
+  "-ash-tree": 5,
+  "-dustleaf": 5,
+  "Cactus": 5,
+  "Tree": 5,
+  "Wood": 5,
+  "Jungle": 5,
+  "Wooden": 5,
+  "Palm": 5,
+  "Sawdust": 5,
+  "Rose": 5,
+  "Pollen": 5,
+  "Garden": 5,
+  "Cyclone": 5,
+  "Plant": 5,
+  "Dandelion": 5,
+  "-ashforest": 5,
+  "-saw": 5,
+  "-ashwood": 5,
+  "-rock": 5,
+  "-kite": 5,
+  "-ashleaf": 5,
+  "-flower": 5,
+  "-clean": 5,
+  "-soil": 5,
+  "Avalanche": 5,
+  "Snowstorm": 5,
+  "-snowstorm": 5,
+  "-dustrainlake": 5,
+  "-ashdustrain": 5,
+  "-rainwater": 5,
+  "-mud-": 5,
+  "-dustearthwindrain": 5,
+  "-dustearthstorm": 5,
+  "-dusthurricane": 5,
+  "-flood": 5,
+  "-firetornado": 5,
+  "Sunflower": 5,
+  "Moon": 5,
+  "-calmstorm": 5,
+  "-calmfire": 5,
+  "-calmearth": 5,
+  "-disaster": 5,
+  "-tsunami": 5,
+  "Soil": 5,
+  "-ashsteam": 5,
+  "-dustfire": 5,
+  "-ash-plant": 5,
+  "-ashwind": 5,
+  "-ash-earth-ash-ash": 5,
+  "-ash-earth-ash-fire-": 5,
+  "-ash-earth-ash-water-": 5,
+  "-ashdust-": 5,
+  "-ash-wind": 5,
+  "-dust storm-": 5,
+  "-ashmudwind": 5,
+  "-dustearthwindash": 5,
+  "-dustclay": 5,
+  "-dustlava": 5,
+  "lava": 5,
+  "-dustsand": 5,
+  "-dustearthwindfireearth": 5,
+  "-dustearthfire": 5,
+  "Twister": 5,
+  "Firefighter": 5,
+  "Yellowstone": 5,
+  "Pyramid": 5,
+  "Telescope": 5,
+  "Window": 5,
+  "Hourglass": 5,
+  "Lens": 5,
+  "Wine": 5,
+  "Lawn": 5,
+  "Planet": 5,
+  "island": 6,
+  "Smog": 6,
+  "-train": 6,
+  "Leaf": 6,
+  "Snowman": 6,
+  "Boat": 6,
+  "Steamboat": 6,
+  "Fire Tornado": 6,
+  "-rainforest": 6,
+  "Firebird": 6,
+  "Splash": 6,
+  "Clean": 6,
+  "Ice Cream": 6,
+  "Ship": 6,
+  "Rust": 6,
+  "-steam-earth-ash": 6,
+  "-cloudrain": 6,
+  "-mist-": 6,
+  "Geysir": 6,
+  "-rain-": 6,
+  "Steampunk": 6,
+  "Jet": 6,
+  "Steam Engine": 6,
+  "Tea": 6,
+  "-calmsteam": 6,
+  "Cow": 6,
+  "Cinderella": 6,
+  "Mist": 6,
+  "Waterfall": 6,
+  "Mirror": 6,
+  "-woodland": 6,
+  "-sandwood": 6,
+  "-ashswamp": 6,
+  "-mist": 6,
+  "-marsh-tree": 6,
+  "-marshland": 6,
+  "-sea-tree": 6,
+  "-king": 6,
+  "-palm": 6,
+  "-grape": 6,
+  "Canyon": 6,
+  "Icebergland": 6,
+  "-bow": 6,
+  "Thunder": 6,
+  "Electricity": 6,
+  "Sun": 6,
+  "-dustrainland": 6,
+  "-ais": 6,
+  "Sunset": 6,
+  "Ice River": 6,
+  "-dust storm": 6,
+  "-rainland": 6,
+  "-landrainstorm": 6,
+  "-islandstorm": 6,
+  "Pottery": 6,
+  "Pond": 6,
+  "Duststorm": 6,
+  "Pork": 6,
+  "Pigpen": 6,
+  "Piglet": 6,
+  "Piggyback": 6,
+  "Bacon": 6,
+  "Ham": 6,
+  "Blade": 6,
+  "Diamond": 6,
+  "Locomotive": 6,
+  "Train Station": 6,
+  "Sailboat": 6,
+  "Quagmire": 6,
+  "Bog": 6,
+  "Marsh": 6,
+  "Dragon": 6,
+  "Marshmallow": 6,
+  "Lily": 6,
+  "Truck": 6,
+  "Racecar": 6,
+  "Crash": 6,
+  "Cart": 6,
+  "House": 6,
+  "Wall": 6,
+  "Adobe": 6,
+  "Kiln": 6,
+  "Noah": 6,
+  "Wind": 6,
+  "Windmill": 6,
+  "Fireworks": 6,
+  "Paper": 6,
+  "Plane": 6,
+  "Space": 6,
+  "Space Ship": 6,
+  "Satellite": 6,
+  "Tank": 6,
+  "Farm": 6,
+  "ash": 6,
+  "Poseidon": 6,
+  "Golem": 6,
+  "Sphinx": 6,
+  "Human": 6,
+  "Colossus": 6,
+  "-world": 6,
+  "-landseam": 6,
+  "-eam": 6,
+  "Shark": 6,
+  "Fishbowl": 6,
+  "Sushi": 6,
+  "Piranha": 6,
+  "glass": 6,
+  "-saltwater": 6,
+  "-dustlakeisland": 6,
+  "-salt-earth": 6,
+  "Dustnami": 6,
+  "-ashlake-": 6,
+  "Atlantis": 6,
+  "-ashsea": 6,
+  "-ash-land": 6,
+  "-ashland": 6,
+  "-ash-earth-ash-lake": 6,
+  "Mudslide": 6,
+  "-ashmudlake": 6,
+  "-ashdesert": 6,
+  "-ashglass": 6,
+  "-ash-island": 6,
+  "-mudsea": 6,
+  "Dustland": 6,
+  "Vacuum": 6,
+  "Weed": 6,
+  "Seaweed": 6,
+  "-dustisland": 6,
+  "-dustearthsea": 6,
+  "-dustearthlandwind": 6,
+  "-dustearthwindland": 6,
+  "Japan": 6,
+  "Tornadoes": 6,
+  "Eye": 6,
+  "-dustlandsea": 6,
+  "-dustlandisland": 6,
+  "-dustis": 6,
+  "-glassstorm": 6,
+  "Oasis": 6,
+  "leaf": 6,
+  "plant": 6,
+  "-leafsteamwind": 6,
+  "Whine": 6,
+  "-saltsea": 6,
+  "-glassisland": 6,
+  "Time Tornado": 6,
+  "-beach": 6,
+  "Meadow": 6,
+  "-iceocean": 6,
+  "-iceberg": 6,
+  "-landsteamwindland": 6,
+  "-landsteamwindwind": 6,
+  "-landsteamwindwater": 6,
+  "air": 6,
+  "-desertwind": 6,
+  "-landtime": 6,
+  "-stormwood": 6,
+  "Iceplant": 6,
+  "-landwine": 6,
+  "-iceis": 6,
+  "-rainbow tree": 6,
+  "-isvolcano": 6,
+  "-airplane": 6,
+  "-eternity": 6,
+  "sand": 6,
+  "-icewood": 6,
+  "-ice-time": 6,
+  "-snowman": 6,
+  "lake": 6,
+  "Rainforest": 6,
+  "-iceleaf": 6,
+  "-desertrain": 6,
+  "Salt": 6,
+  "Sail": 6,
+  "Mirage": 6,
+  "-jungle": 6,
+  "Ice Fish": 6,
+  "-calm-land": 6,
+  "-calmsea": 6,
+  "-firemarshlake": 6,
+  "firemarsh": 6,
+  "Fairy": 6,
+  "-dustplantrain": 6,
+  "Chaos": 6,
+  "-calmplant": 6,
+  "Cigarette": 6,
+  "-ash-ash": 6,
+  "Tumbleweed": 6,
+  "-ashplant-": 6,
+  "Sandcastle": 6,
+  "Pangaea": 6,
+  "Archipelago": 6,
+  "Europe": 6,
+  "-ashlumber": 6,
+  "-dustpaper": 6,
+  "-earthstorm": 6,
+  "Confetti": 6,
+  "Greenhouse": 6,
+  "Iceland": 6,
+  "iceland": 6,
+  "ice": 6,
+  "-fire-land": 6,
+  "-ice-wind": 6,
+  "Sapling": 6,
+  "Hula": 6,
+  "-vacuum": 6,
+  "-window": 6,
+  "-mirrorwind": 6,
+  "-dustleafwind": 6,
+  "-food": 6,
+  "-book": 6,
+  "Broken": 6,
+  "Meteor": 6,
+  "Gold": 6,
+  "Ice cream": 6,
+  "Rainbow Volcano": 6,
+  "-dustearthwindtree": 6,
+  "-saltlake": 6,
+  "Day": 6,
+  "-ashleafwind": 6,
+  "Snow Devil": 6,
+  "-and": 6,
+  "-ashpaper": 6,
+  "-glassumbrella": 6,
+  "-sandumbrella": 6,
+  "snow": 6,
+  "-dustearthwindlakewater": 6,
+  "mud": 6,
+  "Dustrain": 6,
+  "oasis": 6,
+  "-ash-earth-air": 6,
+  "dustland": 6,
+  "-dust-storm": 6,
+  "-dustearthlakewindwater": 6,
+  "-dustlakewind": 6,
+  "Pigcicle": 6,
+  "Solar Flare": 6,
+  "-hill": 6,
+  "-steamvalley": 6,
+  "-valleywind": 6,
+  "-canyon": 6,
+  "Pineapple": 6,
+  "Titanic": 6,
+  "-ashrain": 6,
+  "-dustash": 6,
+  "Dandelion Patch": 6,
+  "Wish": 6,
+  "Seed": 6,
+  "Allergy": 6,
+  "Bee": 6,
+  "Ice Land": 6,
+  "Bouquet": 6,
+  "Park": 6,
+  "Thorn": 6,
+  "Rosebud": 6,
+  "Dry Rose": 6,
+  "Wind Rose": 6,
+  "-dustmudrain": 6,
+  "-ashrainstorm": 6,
+  "-ashhurricane": 6,
+  "Firehurricane": 6,
+  "Sun-dust": 6,
+  "Mudstorm": 6,
+  "-dustearthwindstorm": 6,
+  "Palm Tree": 6,
+  "Coconut": 6,
+  "-sandvine": 6,
+  "-ine": 6,
+  "Saw": 6,
+  "-sandwineglass": 6,
+  "Log": 6,
+  "Sunny": 6,
+  "-dustquake": 6,
+  "Sunquake": 6,
+  "-space-time": 6,
+  "-moon": 6,
+  "-sandwhine": 6,
+  "-hine": 6,
+  "-sandwitch": 6,
+  "Dustinado": 6,
+  "-dustwood": 6,
+  "Match": 6,
+  "Pinocchio": 6,
+  "-ash-ash-tree": 6,
+  "-ash-grove-": 6,
+  "-ash-forest": 6,
+  "-ash-wood": 6,
+  "-ice-plant": 6,
+  "-earth-ice-tree": 6,
+  "-scissors": 6,
+  "-boulder": 6,
+  "Snowpocalypse": 6,
+  "Ashfire": 6,
+  "-dustearthwindashdust": 6,
+  "-ash-earth-ash-fire-ash": 6,
+  "-ashmud-": 6,
+  "-ash-earth-ashdust": 6,
+  "Apocalypse": 6,
+  "Mars": 6,
+  "Ozymandias": 6,
+  "Pompeii": 6,
+  "Vase": 6,
+  "-dustwater-": 6,
+  "Shards": 6,
+  "-ash-earth-ash-water": 6,
+  "-mud-earth-ash": 6,
+  "Pot": 6,
+  "-dust-earth-ash": 6,
+  "-ash-mud": 6,
+  "-clay-": 6,
+  "-volcano-": 6,
+  "-ashmuddustwind": 6,
+  "-ashdustmud": 6,
+  "-ash-earth-ash-ash-ash-ash-ash-ash-ash-": 6,
+  "-dust-earth-dust": 6,
+  "-ashdustwind-": 6,
+  "-ashstone": 6,
+  "-ashdustwater": 6,
+  "-dustearthwindashwater": 6,
+  "Ashwood": 6,
+  "-ashwoodwind": 6,
+  "-kitepaper": 6,
+  "-kitewood": 6,
+  "-firekite": 6,
+  "-earthkite": 6,
+  "-rose": 6,
+  "-seed": 6,
+  "Star": 6,
+  "Observatory": 6,
+  "Black Hole": 6,
+  "Vinegar": 6,
+  "Drunk": 6,
+  "Sandwich": 6,
+  "Bottle": 6,
+  "Vine": 6,
+  "Fire Truck": 6,
+  "Super Volcano": 6,
+  "Supervolcano": 6,
+  "National Park": 6,
+  "Old Faithful": 6,
+  "Broken Window": 6,
+  "Draft": 6,
+  "Time": 6,
+  "Magnifying Glass": 6,
+  "Microscope": 6,
+  "-pollution": 6,
+  "-cleanmud": 6,
+  "-dirty": 6,
+  "Rake": 6,
+  "Mower": 6,
+  "Mummy": 6,
+  "-dry": 6,
+  "Tide": 6,
+  "Lunar": 6,
+  "Eclipse": 6,
+  "calm": 6,
+  "-earthtornado": 6,
+  "-dustearthwindrainfire": 6,
+  "-dustearthrain": 6,
+  "calmearth": 6,
+  "dustlake": 6,
+  "-ash-steam": 6,
+  "-sawdust": 6,
+  "-sawwater": 6,
+  "-earthsaw": 6,
+  "-sawwind": 6,
+  "calmstorm": 6,
+  "-wood-": 6,
+  "-dustmud-": 6,
+  "-lava-": 6,
+  "-ashdustfire": 6,
+  "-duststeam": 6,
+  "-ash-wind-ash": 6,
+  "-ash-dust": 6,
+  "-dustearthstormrain": 6,
+  "-dustearthstormfire": 6,
+  "-dustearthstormwind": 6,
+  "-ash-plant-ash": 6,
+  "-ash-plantwater": 6,
+  "-dust-earth-ash-fire-": 6,
+  "steam": 6,
+  "-ash-earth-": 6,
+  "-ash-earthdust-": 6,
+  "-steam-": 6,
+  "-dustglass": 6,
+  "-dustearthfirewind": 6,
+  "-dustearthwindashfire": 6,
+  "-dustwindash": 6,
+  "-dustearthash": 6,
+  "-ash-earth-ash-water-ash-": 6,
+  "-ash-earth-ash-water-ash-earth-ash-water-ash": 6,
+  "-ash-earth-ash-water-ash-earth-ash-water-": 6,
+  "-dust-earth-ash-water-": 6,
+  "-ash-earth-ash-ash-ash": 6,
+  "-ash-earth-ash-ash-ash-earth-ash-ash": 6,
+  "-ash-earth-ash-ash-earth-ash-ash-ash-ear": 6,
+  "-ash-earth-ash-ash-fire-ash-ash-ash-ash-": 6,
+  "-ash-earth-ash-ash-water-ash-ash-ash-ash-": 6,
+  "-ash-earth-ash-ash-earth-ash-ash": 6,
+  "-ash-earth-ash-ash-wind": 6,
+  "-dustclayearth": 6,
+  "-dustclaymud": 6,
+  "-clay": 6,
+  "-brick": 6
+}
