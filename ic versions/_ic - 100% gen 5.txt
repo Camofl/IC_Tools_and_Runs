@@ -1,0 +1,3991 @@
+  // 0
+
+
+
+Gen 1 - 9 Elements -> 9 Total Elements
+Gen 2 - 23 Elements -> 32 Total Elements
+Gen 3 - 50 Elements -> 82 Total Elements
+Gen 4 - 102 Elements -> 184 Total Elements
+Gen 5 - 233 Elements -> 417 Total Elements
+
+
+
+1 - Volcano: 
+_fire + _fire = Volcano
+
+1 - _steam: 
+_fire + _water = _steam
+
+1 - _lake: 
+_water + _water = _lake
+
+1 - _smoke: 
+_fire + _wind = _smoke
+
+1 - _rain: 
+_water + _wind = _rain
+
+1 - Tornado: 
+_wind + _wind = Tornado
+
+1 - _lava: 
+_earth + _fire = _lava
+
+1 - _plant: 
+_earth + _water = _plant
+
+1 - _dust: 
+_earth + _wind = _dust
+
+2 - Mountain: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+
+2 - Lava: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+
+2 - Eruption: 
+_fire + _fire = Volcano
+Volcano + _wind = Eruption
+
+2 - _earthquake: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+
+2 - Cloud: 
+_fire + _water = _steam
+_steam + _steam = Cloud
+ ...
+_fire + _wind = _smoke
+_smoke + _smoke = Cloud
+
+2 - _ice: 
+_fire + _water = _steam
+_steam + _water = _ice
+
+2 - _cloud: 
+_fire + _water = _steam
+_steam + _wind = _cloud
+
+2 - Ocean: 
+_water + _water = _lake
+_lake + _lake = Ocean
+
+2 - _volcano: 
+_water + _water = _lake
+_fire + _lake = _volcano
+ ...
+_fire + _wind = _smoke
+_earth + _smoke = _volcano
+ ...
+_wind + _wind = Tornado
+Tornado + _fire = _volcano
+ ...
+_earth + _fire = _lava
+_fire + _lava = _volcano
+
+2 - _wave: 
+_water + _water = _lake
+_lake + _wind = _wave
+
+2 - _island: 
+_water + _water = _lake
+_earth + _lake = _island
+
+2 - _fog: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+
+2 - Rainbow: 
+_water + _wind = _rain
+_rain + _rain = Rainbow
+
+2 - _rainwater: 
+_water + _wind = _rain
+_rain + _water = _rainwater
+
+2 - _storm: 
+_water + _wind = _rain
+_rain + _wind = _storm
+
+2 - Hurricane: 
+_wind + _wind = Tornado
+Tornado + Tornado = Hurricane
+
+2 - Tsunami: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+
+2 - Dust: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+
+2 - Magma: 
+_earth + _fire = _lava
+_lava + _lava = Magma
+
+2 - Flower: 
+_earth + _water = _plant
+_plant + _plant = Flower
+
+2 - _tree: 
+_earth + _water = _plant
+_earth + _plant = _tree
+
+2 - Sand: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+
+2 - _mud: 
+_earth + _wind = _dust
+_dust + _water = _mud
+
+3 - Island: 
+_fire + _fire = Volcano
+_water + _water = _lake
+Volcano + _lake = Island
+
+3 - Ash: 
+_fire + _fire = Volcano
+_fire + _wind = _smoke
+Volcano + _smoke = Ash
+ ...
+_fire + _fire = Volcano
+_earth + _wind = _dust
+Volcano + _dust = Ash
+ ...
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _fire = Ash
+
+3 - _rainbow: 
+_fire + _fire = Volcano
+_water + _wind = _rain
+Volcano + _rain = _rainbow
+
+3 - _____: 
+_fire + _fire = Volcano
+_earth + _water = _plant
+Volcano + _plant = _____
+ ...
+_fire + _fire = Volcano
+Volcano + _wind = Eruption
+Eruption + _wind = _____
+ ...
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+Volcano + _earthquake = _____
+ ...
+_wind + _wind = Tornado
+_fire + _water = _steam
+Tornado + _steam = _____
+ ...
+_wind + _wind = Tornado
+_water + _water = _lake
+Tornado + _lake = _____
+ ...
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _fire = _____
+ ...
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tsunami + _wind = _____
+ ...
+_earth + _fire = _lava
+_lava + _lava = Magma
+Magma + _wind = _____
+ ...
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _wind = _____
+
+3 - Mountain Range: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+
+3 - Waterfall: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _water = Waterfall
+
+3 - Avalanche: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _wind = Avalanche
+
+3 - _stone: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+
+3 - Stone: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+
+3 - _tsunami: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earthquake + _water = _tsunami
+
+3 - _tornado: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earthquake + _wind = _tornado
+
+3 - _mountain: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earth + _earthquake = _mountain
+
+3 - Rain: 
+_fire + _water = _steam
+_steam + _steam = Cloud
+Cloud + Cloud = Rain
+ ...
+_fire + _wind = _smoke
+_smoke + _smoke = Cloud
+Cloud + Cloud = Rain
+ ...
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _wind = Rain
+
+3 - _: 
+_fire + _water = _steam
+_steam + _steam = Cloud
+Cloud + _fire = _
+ ...
+_fire + _wind = _smoke
+_smoke + _smoke = Cloud
+Cloud + _fire = _
+ ...
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _fire = _
+ ...
+_wind + _wind = Tornado
+Tornado + Tornado = Hurricane
+Hurricane + _fire = _
+ ...
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tsunami + _fire = _
+ ...
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _fire = _
+
+3 - Snow: 
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+
+3 - _blizzard: 
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _wind = _blizzard
+
+3 - _snow: 
+_fire + _water = _steam
+_steam + _water = _ice
+_earth + _ice = _snow
+
+3 - _lightning: 
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _fire = _lightning
+
+3 - _sky: 
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _earth = _sky
+
+3 - _swamp: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _plant = _swamp
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+
+3 - Sea: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+
+3 - Beach: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+
+3 - _ash: 
+_water + _water = _lake
+_fire + _lake = _volcano
+_volcano + _wind = _ash
+ ...
+_fire + _wind = _smoke
+_earth + _smoke = _volcano
+_volcano + _wind = _ash
+ ...
+_wind + _wind = Tornado
+Tornado + _fire = _volcano
+_volcano + _wind = _ash
+ ...
+_earth + _fire = _lava
+_fire + _lava = _volcano
+_volcano + _wind = _ash
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_fire + _tree = _ash
+
+3 - _sea: 
+_water + _water = _lake
+_lake + _wind = _wave
+_lake + _wave = _sea
+
+3 - _surf: 
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+
+3 - _sand: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+
+3 - Archipelago: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _island = Archipelago
+
+3 - volcano: 
+_water + _water = _lake
+_earth + _lake = _island
+_fire + _island = volcano
+
+3 - _ocean: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _water = _ocean
+
+3 - _windmill: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _wind = _windmill
+
+3 - _smog: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+
+3 - _mist: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_earth + _fog = _mist
+
+3 - _flower: 
+_earth + _water = _plant
+_water + _wind = _rain
+_plant + _rain = _flower
+
+3 - _hurricane: 
+_water + _wind = _rain
+_rain + _wind = _storm
+_rain + _storm = _hurricane
+
+3 - Dust Devil: 
+_wind + _wind = Tornado
+_earth + _wind = _dust
+Tornado + _dust = Dust Devil
+
+3 - Destruction: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tsunami = Destruction
+
+3 - Dust Storm: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + Tornado = Dust Storm
+
+3 - Mud: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _water = Mud
+
+3 - Sandstorm: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _wind = Sandstorm
+
+3 - Garden: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+
+3 - _forest: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_plant + _tree = _forest
+
+3 - Forest: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+
+3 - _river: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _water = _river
+
+3 - _leaf: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _wind = _leaf
+
+3 - _wood: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+
+3 - Desert: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+
+3 - Glass: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+
+3 - Dune: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _wind = Dune
+
+3 - _clay: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+
+3 - _brick: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+
+4 - Continent: 
+_fire + _fire = Volcano
+_water + _water = _lake
+Volcano + _lake = Island
+Island + Island = Continent
+
+4 - Hawaii: 
+_fire + _fire = Volcano
+_water + _water = _lake
+Volcano + _lake = Island
+Island + Volcano = Hawaii
+ ...
+_fire + _fire = Volcano
+_water + _water = _lake
+_earth + _lake = _island
+Volcano + _island = Hawaii
+ ...
+_water + _water = _lake
+_fire + _lake = _volcano
+_earth + _lake = _island
+_island + _volcano = Hawaii
+ ...
+_water + _water = _lake
+_earth + _lake = _island
+_fire + _island = volcano
+volcano + _island = Hawaii
+
+4 - Atlantis: 
+_fire + _fire = Volcano
+_water + _water = _lake
+Volcano + _lake = Island
+Island + _lake = Atlantis
+ ...
+_water + _water = _lake
+_lake + _lake = Ocean
+_earth + _lake = _island
+Ocean + _island = Atlantis
+ ...
+_water + _water = _lake
+_earth + _lake = _island
+_island + _island = Archipelago
+Archipelago + _earth = Atlantis
+
+4 - Fire: 
+_fire + _fire = Volcano
+_fire + _wind = _smoke
+Volcano + _smoke = Ash
+Ash + _smoke = Fire
+
+4 - Smoke: 
+_fire + _fire = Volcano
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+Volcano + _fog = Smoke
+
+4 - _waterfall: 
+_fire + _fire = Volcano
+_water + _wind = _rain
+Volcano + Volcano = Mountain
+Mountain + _rain = _waterfall
+ ...
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earth + _earthquake = _mountain
+_mountain + _water = _waterfall
+
+4 - _mudslide: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_water + _wind = _rain
+_earthquake + _rain = _mudslide
+
+4 - Unicorn: 
+_fire + _fire = Volcano
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + Volcano = Unicorn
+ ...
+_earth + _wind = _dust
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _dust = Unicorn
+
+4 - Earthquake: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+_fire + _fire = Volcano
+Tsunami + Volcano = Earthquake
+ ...
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + _fire = _volcano
+Tsunami + _volcano = Earthquake
+ ...
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Tsunami = Earthquake
+ ...
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tsunami + _wind = _____
+Tsunami + _____ = Earthquake
+ ...
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earthquake + _water = _tsunami
+Volcano + _tsunami = Earthquake
+
+4 - Tree: 
+_fire + _fire = Volcano
+_earth + _water = _plant
+Volcano + Volcano = Mountain
+Mountain + _plant = Tree
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+Forest + _plant = Tree
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _wind = _leaf
+_leaf + _leaf = Tree
+
+4 - Yellowstone: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+
+4 - River: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + _water = River
+ ...
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _water = Waterfall
+Mountain + Waterfall = River
+
+4 - Geyser: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _water = Waterfall
+Volcano + Waterfall = Geyser
+
+4 - Iceberg: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _wind = Avalanche
+Avalanche + _water = Iceberg
+
+4 - Blizzard: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _wind = Avalanche
+Avalanche + _wind = Blizzard
+ ...
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+Snow + _wind = Blizzard
+
+4 - Obsidian: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Lava + Stone = Obsidian
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+Lava + _stone = Obsidian
+
+4 - Boulder: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + Stone = Boulder
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_stone + _stone = Boulder
+
+4 - Ice: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + _water = Ice
+ ...
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+Snow + Snow = Ice
+
+4 - _steamboat: 
+_water + _water = _lake
+_fire + _water = _steam
+_earth + _lake = _island
+_island + _steam = _steamboat
+
+4 - _skate: 
+_water + _water = _lake
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _lake = _skate
+
+4 - _hail: 
+_water + _wind = _rain
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _rain = _hail
+
+4 - Storm: 
+_fire + _water = _steam
+_steam + _steam = Cloud
+Cloud + Cloud = Rain
+Rain + _wind = Storm
+ ...
+_fire + _wind = _smoke
+_smoke + _smoke = Cloud
+Cloud + Cloud = Rain
+Rain + _wind = Storm
+ ...
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _wind = Rain
+Rain + _wind = Storm
+
+4 - _snowman: 
+_fire + _water = _steam
+_steam + _water = _ice
+_earth + _ice = _snow
+_earth + _snow = _snowman
+
+4 - Coral: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _lake = Ocean
+Ocean + _plant = Coral
+
+4 - _coconut: 
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _lake = _island
+_island + _plant = _coconut
+
+4 - Lotus: 
+_water + _water = _lake
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _lake = Lotus
+
+4 - Fish: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+
+4 - _sail: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Sea + _wind = _sail
+
+4 - Poseidon: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _fire = _____
+Ocean + _____ = Poseidon
+
+4 - Sun: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _fire = Sun
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _fire = Sun
+
+4 - Kite: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _wind = Kite
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _wind = Kite
+
+4 - _ashlake: 
+_water + _water = _lake
+_fire + _lake = _volcano
+_volcano + _wind = _ash
+_ash + _lake = _ashlake
+
+4 - _moss: 
+_earth + _water = _plant
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _plant = _moss
+
+4 - _desert: 
+_earth + _wind = _dust
+_fire + _wind = _smoke
+_dust + _dust = Sand
+Sand + _smoke = _desert
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_lake + _sand = _desert
+
+4 - Flood: 
+_wind + _wind = Tornado
+_water + _wind = _rain
+Tornado + Tornado = Hurricane
+Hurricane + _rain = Flood
+
+4 - _torm: 
+_earth + _wind = _dust
+_water + _wind = _rain
+_rain + _wind = _storm
+_dust + _storm = _torm
+
+4 - _thunderstorm: 
+_water + _wind = _rain
+_rain + _water = _rainwater
+_rain + _wind = _storm
+_rainwater + _storm = _thunderstorm
+
+4 - _eruption: 
+_water + _wind = _rain
+_rain + _wind = _storm
+_fire + _storm = _volcano
+_storm + _volcano = _eruption
+
+4 - Palm Tree: 
+_wind + _wind = Tornado
+_earth + _water = _plant
+Tornado + Tornado = Hurricane
+Hurricane + _plant = Palm Tree
+
+4 - Cyclone: 
+_wind + _wind = Tornado
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Tornado = Cyclone
+
+4 - _dirt: 
+_wind + _wind = Tornado
+_earth + _wind = _dust
+_dust + _water = _mud
+Tornado + _mud = _dirt
+
+4 - Disaster: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+
+4 - Explosion: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+
+4 - _hole: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + _earth = _hole
+
+4 - Cinder: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _fire = Ash
+Ash + Dust = Cinder
+
+4 - Clay: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _water = Mud
+Dust + Mud = Clay
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+_clay + _clay = Clay
+
+4 - Brick: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _water = Mud
+Mud + _fire = Brick
+
+4 - Cactus: 
+_earth + _wind = _dust
+_earth + _water = _plant
+_dust + _dust = Sand
+Sand + _plant = Cactus
+
+4 - Pollen: 
+_earth + _wind = _dust
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _dust = Pollen
+
+4 - Bouquet: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Flower + Garden = Bouquet
+
+4 - Park: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + Garden = Park
+
+4 - Pond: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + _water = Pond
+
+4 - _eart: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + _earth = _eart
+
+4 - Perfume: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _wind = _____
+Flower + _____ = Perfume
+
+4 - Jungle: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_plant + _tree = _forest
+_forest + _forest = Jungle
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+Forest + Forest = Jungle
+
+4 - Swamp: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+Forest + _water = Swamp
+ ...
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _plant = _swamp
+_swamp + _swamp = Swamp
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_swamp + _swamp = Swamp
+
+4 - _ashplant: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_fire + _tree = _ash
+_ash + _plant = _ashplant
+
+4 - _ash_tree: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_fire + _tree = _ash
+_ash + _tree = _ash_tree
+
+4 - Pyramid: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+
+4 - Phoenix: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + _fire = Phoenix
+
+4 - Oasis: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + _water = Oasis
+
+4 - Window: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + Glass = Window
+
+4 - Hourglass: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + Sand = Hourglass
+
+4 - Sandcastle: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + Sand = Sandcastle
+
+4 - Snowstorm: 
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _wind = _blizzard
+_blizzard + _blizzard = Snowstorm
+
+4 - Snowman: 
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+Snow + _ice = Snowman
+
+4 - _rose: 
+_earth + _water = _plant
+_water + _wind = _rain
+_plant + _rain = _flower
+_fire + _flower = _rose
+
+4 - _dandelion: 
+_earth + _water = _plant
+_water + _wind = _rain
+_plant + _rain = _flower
+_flower + _wind = _dandelion
+
+4 - _tea: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _wind = _leaf
+_leaf + _water = _tea
+
+4 - _metal: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_fire + _stone = _metal
+
+4 - _rock: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_earth + _stone = _rock
+
+4 - _marsh: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _plant = _swamp
+_lake + _swamp = _marsh
+
+4 - _dragon: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _plant = _swamp
+_fire + _swamp = _dragon
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_fire + _swamp = _dragon
+
+4 - _quagmire: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_mud + _swamp = _quagmire
+
+4 - Sky: 
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _earth = _sky
+_sky + _sky = Sky
+
+4 - _sun: 
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _earth = _sky
+_fire + _sky = _sun
+
+4 - _beach: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_sand + _wave = _beach
+
+4 - _glass: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_fire + _sand = _glass
+
+4 - _dune: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_sand + _wind = _dune
+
+4 - _acid rain: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_smog + _water = _acid rain
+
+4 - _pollution: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_earth + _smog = _pollution
+
+4 - _avalanche: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earth + _earthquake = _mountain
+_earthquake + _mountain = _avalanche
+
+4 - Surfing: 
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_surf + _wave = Surfing
+
+4 - _surfer: 
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_fire + _surf = _surfer
+
+4 - _surfwind: 
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_surf + _wind = _surfwind
+
+4 - _poseidon: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _water = _ocean
+_fire + _ocean = _poseidon
+
+4 - Wall: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+_brick + _brick = Wall
+
+4 - _adobe: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+_brick + _mud = _adobe
+
+4 - _house: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+_brick + _wind = _house
+
+4 - Windmill: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _wind = _windmill
+_windmill + _windmill = Windmill
+
+4 - _energy: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _wind = _windmill
+_fire + _windmill = _energy
+
+4 - _typhoon: 
+_water + _wind = _rain
+_rain + _wind = _storm
+_rain + _storm = _hurricane
+_hurricane + _storm = _typhoon
+
+4 - _paper: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_plant + _wood = _paper
+
+4 - _lumber: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_tree + _wood = _lumber
+
+4 - Log: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_wood + _wood = Log
+
+4 - _land: 
+_water + _water = _lake
+_lake + _wind = _wave
+_lake + _wave = _sea
+_earth + _sea = _land
+
+4 - _thunder: 
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _fire = _lightning
+_cloud + _lightning = _thunder
+
+4 - Thunder: 
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _fire = _lightning
+_lightning + _lightning = Thunder
+
+4 - Fog: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_earth + _fog = _mist
+_mist + _mist = Fog
+
+4 - _human: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+_clay + _dust = _human
+
+4 - _delta: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _water = _river
+_plant + _river = _delta
+
+4 - Lake: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _water = _river
+_river + _river = Lake
+
+5 - Niagara Falls: 
+_wind + _wind = Tornado
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _water = Waterfall
+Tornado + Waterfall = Niagara Falls
+ ...
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain + _water = Waterfall
+Mountain Range + Waterfall = Niagara Falls
+
+5 - Smog: 
+_fire + _fire = Volcano
+_fire + _wind = _smoke
+Volcano + _wind = Eruption
+_smoke + _wind = _fog
+Eruption + _fog = Smog
+ ...
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_earth + _fog = _mist
+_mist + _mist = Fog
+Fog + _smoke = Smog
+
+5 - Rose: 
+_fire + _fire = Volcano
+_earth + _water = _plant
+_plant + _plant = Flower
+Volcano + Volcano = Mountain
+Flower + Mountain = Rose
+ ...
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Flower + Garden = Bouquet
+Bouquet + Flower = Rose
+ ...
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _wind = _____
+Flower + _____ = Perfume
+Flower + Perfume = Rose
+
+5 - Pompeii: 
+_fire + _fire = Volcano
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + Volcano = Pompeii
+
+5 - Statue: 
+_fire + _fire = Volcano
+_fire + _wind = _smoke
+Volcano + _smoke = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+ ...
+_fire + _fire = Volcano
+_fire + _wind = _smoke
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + _smoke = Statue
+ ...
+_fire + _fire = Volcano
+_water + _wind = _rain
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + _rain = Statue
+ ...
+_fire + _fire = Volcano
+_earth + _wind = _dust
+Volcano + _dust = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + _wind = _____
+Stone + _____ = Statue
+ ...
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _fire = Ash
+Ash + Ash = Stone
+Ash + Stone = Statue
+
+5 - _statue: 
+_fire + _fire = Volcano
+_fire + _wind = _smoke
+Volcano + _fire = Lava
+Lava + _water = _stone
+_smoke + _stone = _statue
+ ...
+_fire + _fire = Volcano
+_earth + _water = _plant
+Volcano + _fire = Lava
+Lava + _water = _stone
+_plant + _stone = _statue
+ ...
+_fire + _fire = Volcano
+_fire + _water = _steam
+Volcano + _fire = Lava
+Lava + _water = _stone
+_steam + _stone = _statue
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _wind = _smoke
+_dust + _mud = _clay
+_clay + _smoke = _statue
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_fire + _stone = _metal
+_metal + _stone = _statue
+
+5 - _rainbowdust: 
+_fire + _fire = Volcano
+_earth + _wind = _dust
+_water + _wind = _rain
+Volcano + _rain = _rainbow
+_dust + _rainbow = _rainbowdust
+
+5 - Mars: 
+_fire + _fire = Volcano
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _wind = Dune
+Dune + Volcano = Mars
+
+5 - _rainbow trout: 
+_fire + _fire = Volcano
+_water + _water = _lake
+_water + _wind = _rain
+Volcano + _rain = _rainbow
+_lake + _rainbow = _rainbow trout
+ ...
+_water + _water = _lake
+_water + _wind = _rain
+_lake + _lake = Ocean
+Ocean + _rain = _rainbow
+_lake + _rainbow = _rainbow trout
+ ...
+_water + _water = _lake
+_water + _wind = _rain
+_lake + _wind = _wave
+_rain + _wave = _rainbow
+_lake + _rainbow = _rainbow trout
+ ...
+_water + _water = _lake
+_water + _wind = _rain
+_earth + _lake = _island
+_island + _rain = _rainbow
+_lake + _rainbow = _rainbow trout
+
+5 - Rock: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain + _wind = Avalanche
+Avalanche + Mountain Range = Rock
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Volcano + Volcano = Mountain
+Lava + _earth = Stone
+Mountain + Stone = Rock
+ ...
+_fire + _fire = Volcano
+_earth + _wind = _dust
+_dust + _water = _mud
+Volcano + _fire = Lava
+Lava + _mud = Rock
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + Stone = Boulder
+Boulder + Stone = Rock
+ ...
+_earth + _wind = _dust
+_earth + _fire = _lava
+_dust + _water = _mud
+_lava + _lava = Magma
+Magma + _mud = Rock
+
+5 - _obsidian: 
+_fire + _fire = Volcano
+_earth + _fire = _lava
+Volcano + _fire = Lava
+Lava + _water = _stone
+_lava + _stone = _obsidian
+ ...
+_earth + _fire = _lava
+_lava + _lava = Magma
+Magma + _fire = Lava
+Lava + _water = _stone
+_lava + _stone = _obsidian
+ ...
+_earth + _wind = _dust
+_earth + _fire = _lava
+_dust + _water = _mud
+_lava + _mud = _stone
+_lava + _stone = _obsidian
+
+5 - _flood: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_water + _wind = _rain
+_earthquake + _water = _tsunami
+_rain + _tsunami = _flood
+ ...
+_water + _wind = _rain
+_rain + _water = _rainwater
+_rain + _wind = _storm
+_rain + _storm = _hurricane
+_hurricane + _rainwater = _flood
+ ...
+_water + _wind = _rain
+_rain + _wind = _storm
+_rain + _storm = _hurricane
+_hurricane + _water = _tsunami
+_rain + _tsunami = _flood
+
+5 - Fault: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + _earthquake = Fault
+
+5 - Stonehenge: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Lava + _water = _stone
+Stone + _stone = Stonehenge
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_stone + _stone = Boulder
+Boulder + _stone = Stonehenge
+
+5 - _dustnami: 
+_fire + _fire = Volcano
+_earth + _wind = _dust
+Volcano + _earth = _earthquake
+_earthquake + _water = _tsunami
+_dust + _tsunami = _dustnami
+
+5 - _duststorm: 
+_fire + _fire = Volcano
+_earth + _wind = _dust
+Volcano + _earth = _earthquake
+_earthquake + _wind = _tornado
+_dust + _tornado = _duststorm
+
+5 - Fjord: 
+_fire + _fire = Volcano
+_water + _water = _lake
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + _lake = Fjord
+
+5 - _icequake: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_fire + _water = _steam
+_steam + _water = _ice
+_earthquake + _ice = _icequake
+
+5 - igloo: 
+_water + _water = _lake
+_fire + _water = _steam
+_steam + _water = _ice
+_earth + _lake = _island
+_ice + _island = igloo
+
+5 - _pond: 
+_water + _water = _lake
+_fire + _water = _steam
+_steam + _steam = Cloud
+Cloud + Cloud = Rain
+Rain + _lake = _pond
+ ...
+_water + _water = _lake
+_fire + _wind = _smoke
+_smoke + _smoke = Cloud
+Cloud + Cloud = Rain
+Rain + _lake = _pond
+ ...
+_water + _water = _lake
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _wind = Rain
+Rain + _lake = _pond
+ ...
+_earth + _water = _plant
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _plant = _moss
+_moss + _water = _pond
+
+5 - _berg: 
+_water + _water = _lake
+_fire + _water = _steam
+_lake + _wind = _wave
+_steam + _water = _ice
+_ice + _wave = _berg
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_stone + _water = _ice
+_ice + _stone = _berg
+
+5 - _electricity: 
+_water + _water = _lake
+_fire + _water = _steam
+_earth + _lake = _island
+_island + _wind = _windmill
+_steam + _windmill = _electricity
+ ...
+_water + _water = _lake
+_earth + _lake = _island
+_island + _wind = _windmill
+_fire + _windmill = _energy
+_energy + _windmill = _electricity
+
+5 - _cloudwave: 
+_water + _water = _lake
+_fire + _water = _steam
+_lake + _wind = _wave
+_steam + _wind = _cloud
+_cloud + _wave = _cloudwave
+
+5 - _steamship: 
+_water + _water = _lake
+_fire + _water = _steam
+_lake + _wind = _wave
+_lake + _wave = _sea
+_sea + _steam = _steamship
+
+5 - Snowflake: 
+_earth + _water = _plant
+_fire + _water = _steam
+_plant + _plant = Flower
+_steam + _water = _ice
+Flower + _ice = Snowflake
+
+5 - _ashquake: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earthquake + _fire = _volcano
+_volcano + _wind = _ash
+_ash + _earthquake = _ashquake
+
+5 - Thunderstorm: 
+_wind + _wind = Tornado
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _fire = _lightning
+Tornado + _lightning = Thunderstorm
+ ...
+_water + _wind = _rain
+_rain + _wind = _storm
+_rain + _rain = Rainbow
+Rainbow + _wind = Rain
+Rain + _storm = Thunderstorm
+
+5 - Surf: 
+_fire + _fire = Volcano
+_water + _water = _lake
+Volcano + _lake = Island
+Island + Volcano = Hawaii
+Hawaii + _water = Surf
+ ...
+_fire + _fire = Volcano
+_water + _water = _lake
+_earth + _lake = _island
+Volcano + _island = Hawaii
+Hawaii + _water = Surf
+ ...
+_water + _water = _lake
+_earth + _lake = _island
+_fire + _island = volcano
+volcano + _island = Hawaii
+Hawaii + _water = Surf
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _wave = Surf
+ ...
+_water + _water = _lake
+_fire + _lake = _volcano
+_earth + _lake = _island
+_island + _volcano = Hawaii
+Hawaii + _water = Surf
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_surf + _surf = Beach
+Beach + _wave = Surf
+
+5 - Hula: 
+_fire + _fire = Volcano
+_water + _water = _lake
+Volcano + _lake = Island
+Island + Volcano = Hawaii
+Hawaii + _wind = Hula
+ ...
+_fire + _fire = Volcano
+_water + _water = _lake
+_earth + _lake = _island
+Volcano + _island = Hawaii
+Hawaii + _wind = Hula
+ ...
+_water + _water = _lake
+_earth + _lake = _island
+_fire + _island = volcano
+volcano + _island = Hawaii
+Hawaii + _wind = Hula
+ ...
+_water + _water = _lake
+_fire + _lake = _volcano
+_earth + _lake = _island
+_island + _volcano = Hawaii
+Hawaii + _wind = Hula
+
+5 - _sandstorm: 
+_wind + _wind = Tornado
+_fire + _water = _steam
+Tornado + _earth = Dust
+Dust + _wind = Sandstorm
+Sandstorm + _steam = _sandstorm
+ ...
+_earth + _wind = _dust
+_fire + _wind = _smoke
+_dust + _dust = Sand
+Sand + _smoke = _desert
+_desert + _wind = _sandstorm
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_lake + _sand = _desert
+_desert + _wind = _sandstorm
+
+5 - steam: 
+_fire + _fire = Volcano
+_fire + _wind = _smoke
+Volcano + _smoke = Ash
+Ash + _smoke = Fire
+Fire + _water = steam
+
+5 - Pangaea: 
+_fire + _fire = Volcano
+_water + _water = _lake
+Volcano + _lake = Island
+Island + Island = Continent
+Continent + Continent = Pangaea
+
+5 - _boat: 
+_earth + _water = _plant
+_fire + _water = _steam
+_earth + _plant = _tree
+_earth + _tree = _wood
+_steam + _wood = _boat
+ ...
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_lake + _wood = _boat
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_tree + _water = _river
+_river + _wood = _boat
+ ...
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Sea + _wind = _sail
+_lake + _sail = _boat
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_plant + _wood = _paper
+_paper + _water = _boat
+
+5 - Mirror: 
+_earth + _wind = _dust
+_fire + _water = _steam
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + _steam = Mirror
+ ...
+_earth + _wind = _dust
+_fire + _wind = _smoke
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + _smoke = Mirror
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + _fire = _
+Glass + _ = Mirror
+
+5 - _sleet: 
+_water + _wind = _rain
+_fire + _water = _steam
+_steam + _water = _ice
+_earth + _ice = _snow
+_rain + _snow = _sleet
+
+5 - _ashdust: 
+_fire + _fire = Volcano
+_earth + _wind = _dust
+Volcano + _dust = Ash
+Ash + _earth = _ash
+_ash + _dust = _ashdust
+ ...
+_earth + _wind = _dust
+_water + _water = _lake
+_fire + _lake = _volcano
+_volcano + _wind = _ash
+_ash + _dust = _ashdust
+ ...
+_earth + _wind = _dust
+_fire + _wind = _smoke
+_earth + _smoke = _volcano
+_volcano + _wind = _ash
+_ash + _dust = _ashdust
+ ...
+_wind + _wind = Tornado
+_earth + _wind = _dust
+Tornado + _fire = _volcano
+_volcano + _wind = _ash
+_ash + _dust = _ashdust
+ ...
+_earth + _wind = _dust
+_earth + _fire = _lava
+_fire + _lava = _volcano
+_volcano + _wind = _ash
+_ash + _dust = _ashdust
+ ...
+_earth + _wind = _dust
+_earth + _water = _plant
+_earth + _plant = _tree
+_fire + _tree = _ash
+_ash + _dust = _ashdust
+
+5 - _pine: 
+_earth + _water = _plant
+_fire + _water = _steam
+_earth + _plant = _tree
+_steam + _water = _ice
+_ice + _tree = _pine
+
+5 - _pottery: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _water = _steam
+_dust + _mud = _clay
+_clay + _steam = _pottery
+
+5 - _smoke signal: 
+_water + _water = _lake
+_fire + _wind = _smoke
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _smoke = _smoke signal
+ ...
+_earth + _wind = _dust
+_fire + _wind = _smoke
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _smoke = _smoke signal
+
+5 - _train: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _water = _steam
+_fire + _mud = _brick
+_brick + _steam = _train
+
+5 - Ice Cream: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + _water = Ice
+Ice + Volcano = Ice Cream
+ ...
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _wind = Avalanche
+Avalanche + _water = Iceberg
+Iceberg + Volcano = Ice Cream
+ ...
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+Snow + Snow = Ice
+Ice + _ice = Ice Cream
+
+5 - Water: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + _water = Ice
+Ice + _fire = Water
+ ...
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _water = Waterfall
+Mountain + Waterfall = River
+River + Waterfall = Water
+ ...
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+Snow + Snow = Ice
+Ice + _fire = Water
+ ...
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+Snow + _ice = Snowman
+Snowman + _fire = Water
+
+5 - Rainbow Fish: 
+_water + _water = _lake
+_water + _wind = _rain
+_lake + _lake = Ocean
+Ocean + _rain = _rainbow
+Ocean + _rainbow = Rainbow Fish
+
+5 - Canyon: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + _water = River
+Mountain + River = Canyon
+ ...
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _water = Waterfall
+Mountain + Waterfall = River
+Mountain + River = Canyon
+
+5 - _snowstorm: 
+_fire + _water = _steam
+_steam + _water = _ice
+_earth + _ice = _snow
+_ice + _wind = _blizzard
+_blizzard + _snow = _snowstorm
+
+5 - Dust Bowl: 
+_wind + _wind = Tornado
+_water + _water = _lake
+Tornado + _earth = Dust
+Dust + Tornado = Dust Storm
+Dust Storm + _lake = Dust Bowl
+ ...
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + Tornado = Dust Storm
+Dust + _wind = Sandstorm
+Dust Storm + Sandstorm = Dust Bowl
+
+5 - Shore: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Ocean + _earth = Beach
+Beach + Sea = Shore
+
+5 - Glacier: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + _wind = Avalanche
+Avalanche + _water = Iceberg
+Iceberg + Iceberg = Glacier
+
+5 - Surfer: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _wind = Tsunami
+Ocean + _earth = Beach
+Beach + Tsunami = Surfer
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_wave + _wave = Tsunami
+_water + _wave = _surf
+Tsunami + _surf = Surfer
+
+5 - Blade: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Lava + Stone = Obsidian
+Obsidian + Stone = Blade
+
+5 - Electricity: 
+_wind + _wind = Tornado
+_water + _water = _lake
+_earth + _lake = _island
+_island + _wind = _windmill
+Tornado + _windmill = Electricity
+
+5 - _rainbow wave: 
+_water + _water = _lake
+_water + _wind = _rain
+_lake + _wind = _wave
+_rain + _wave = _rainbow
+_rainbow + _wave = _rainbow wave
+
+5 - _tide: 
+_water + _water = _lake
+_water + _wind = _rain
+_rain + _wind = _storm
+_lake + _wind = _wave
+_storm + _wave = _tide
+ ...
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _plant = _swamp
+_lake + _wind = _wave
+_swamp + _wave = _tide
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_lake + _wave = _sea
+_sea + _wind = _storm
+_storm + _wave = _tide
+
+5 - _rainbow island: 
+_water + _water = _lake
+_water + _wind = _rain
+_earth + _lake = _island
+_island + _rain = _rainbow
+_island + _rainbow = _rainbow island
+
+5 - Kelp: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Sea + _plant = Kelp
+
+5 - Meteor: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _earth = Stone
+Stone + Stone = Boulder
+Boulder + Volcano = Meteor
+ ...
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_stone + _stone = Boulder
+Boulder + Volcano = Meteor
+
+5 - Palm: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _plant = Palm
+ ...
+_wind + _wind = Tornado
+_earth + _water = _plant
+_earth + _plant = _tree
+Tornado + Tornado = Hurricane
+Hurricane + _tree = Palm
+ ...
+_earth + _wind = _dust
+_earth + _water = _plant
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _plant = Palm
+
+5 - _seawater: 
+_water + _water = _lake
+_water + _wind = _rain
+_rain + _water = _rainwater
+_lake + _wind = _wave
+_rainwater + _wave = _seawater
+
+5 - _shipwreck: 
+_water + _water = _lake
+_water + _wind = _rain
+_rain + _wind = _storm
+_earth + _lake = _island
+_island + _storm = _shipwreck
+
+5 - Super Volcano: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Mountain Range + Yellowstone = Super Volcano
+
+5 - Supervolcano: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Volcano + Yellowstone = Supervolcano
+
+5 - _geyser: 
+_fire + _fire = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Yellowstone + _water = _geyser
+
+5 - _geothermal: 
+_water + _water = _lake
+_earth + _fire = _lava
+_earth + _lake = _island
+_island + _wind = _windmill
+_lava + _windmill = _geothermal
+
+5 - _seaweed: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _wind = _wave
+_lake + _wave = _sea
+_plant + _sea = _seaweed
+
+5 - Double Rainbow: 
+_fire + _fire = Volcano
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + Volcano = Unicorn
+Rainbow + Unicorn = Double Rainbow
+ ...
+_earth + _wind = _dust
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _dust = Unicorn
+Rainbow + Unicorn = Double Rainbow
+
+5 - Pegasus: 
+_fire + _fire = Volcano
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + Volcano = Unicorn
+Unicorn + Volcano = Pegasus
+ ...
+_earth + _wind = _dust
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _dust = Unicorn
+Unicorn + _fire = Pegasus
+
+5 - _coral: 
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _lake = _island
+_island + _water = _ocean
+_ocean + _plant = _coral
+
+5 - _wine: 
+_earth + _wind = _dust
+_water + _water = _lake
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + _lake = _wine
+
+5 - Surfboard: 
+_water + _water = _lake
+_lake + _wind = _wave
+_lake + _lake = Ocean
+_water + _wave = _surf
+Ocean + _surf = Surfboard
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_surf + _surf = Beach
+Beach + _surf = Surfboard
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_surf + _wave = Surfing
+Surfing + Surfing = Surfboard
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_fire + _surf = _surfer
+_surf + _surfer = Surfboard
+
+5 - _cactus: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _wind = _wave
+_earth + _wave = _sand
+_plant + _sand = _cactus
+
+5 - _palm: 
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _lake = _island
+_island + _tree = _palm
+ ...
+_earth + _wind = _dust
+_earth + _water = _plant
+_earth + _plant = _tree
+_dust + _dust = Sand
+Sand + _tree = _palm
+ ...
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _lake = _island
+_island + _plant = _coconut
+_coconut + _island = _palm
+
+5 - surfing: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _lake = _island
+_water + _wave = _surf
+_island + _surf = surfing
+
+5 - _lily: 
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _wind = _leaf
+_lake + _leaf = _lily
+
+5 - Paradise: 
+_water + _water = _lake
+_lake + _lake = Ocean
+_earth + _lake = _island
+Ocean + _earth = Beach
+Beach + _island = Paradise
+
+5 - _ashwave: 
+_water + _water = _lake
+_fire + _lake = _volcano
+_lake + _wind = _wave
+_volcano + _wind = _ash
+_ash + _wave = _ashwave
+
+5 - _ashland: 
+_water + _water = _lake
+_fire + _lake = _volcano
+_volcano + _wind = _ash
+_earth + _lake = _island
+_ash + _island = _ashland
+
+5 - Mirage: 
+_earth + _wind = _dust
+_fire + _wind = _smoke
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + _smoke = Mirage
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_sand + _sand = Desert
+Desert + _wave = Mirage
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + _water = Oasis
+Desert + Oasis = Mirage
+
+5 - chimney: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _wind = _smoke
+_fire + _mud = _brick
+_brick + _smoke = chimney
+
+5 - Pig: 
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _wind = Rain
+Rain + _earth = Mud
+Mud + Rainbow = Pig
+
+5 - mud: 
+_wind + _wind = Tornado
+_water + _wind = _rain
+_rain + _water = _rainwater
+Tornado + _earth = Dust
+Dust + _rainwater = mud
+
+5 - Shatter: 
+_wind + _wind = Tornado
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + Tornado = Shatter
+ ...
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + Dust = Sand
+Sand + _fire = Glass
+Glass + Tornado = Shatter
+
+5 - Mudslide: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Tornado + Tornado = Hurricane
+Dust + _water = Mud
+Hurricane + Mud = Mudslide
+ ...
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + _earth = Dust
+Dust + _water = Mud
+Mud + Tsunami = Mudslide
+
+5 - Rainforest: 
+_earth + _water = _plant
+_water + _wind = _rain
+_earth + _plant = _tree
+_tree + _tree = Forest
+Forest + _rain = Rainforest
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+Forest + Forest = Jungle
+Forest + Jungle = Rainforest
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_plant + _tree = _forest
+_forest + _forest = Jungle
+Jungle + _forest = Rainforest
+
+5 - Telescope: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + Dust = Sand
+Sand + _fire = Glass
+Dust + Glass = Telescope
+
+5 - _rainforest: 
+_earth + _water = _plant
+_water + _wind = _rain
+_earth + _plant = _tree
+_plant + _tree = _forest
+_forest + _rain = _rainforest
+
+5 - Tumbleweed: 
+_wind + _wind = Tornado
+_earth + _water = _plant
+Tornado + _earth = Dust
+Dust + Tornado = Dust Storm
+Dust Storm + _plant = Tumbleweed
+ ...
+_wind + _wind = Tornado
+_earth + _wind = _dust
+_earth + _water = _plant
+Tornado + _dust = Dust Devil
+Dust Devil + _plant = Tumbleweed
+ ...
+_earth + _wind = _dust
+_earth + _water = _plant
+_dust + _dust = Sand
+Sand + _plant = Cactus
+Cactus + _wind = Tumbleweed
+
+5 - Creation: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tsunami + _fire = _
+Tornado + Tsunami = Destruction
+Destruction + _ = Creation
+ ...
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tsunami + _wind = _____
+Tornado + Tsunami = Destruction
+Destruction + _____ = Creation
+
+5 - _ashstorm: 
+_water + _wind = _rain
+_rain + _wind = _storm
+_fire + _storm = _volcano
+_volcano + _wind = _ash
+_ash + _storm = _ashstorm
+
+5 - Lightning: 
+_fire + _water = _steam
+_steam + _steam = Cloud
+Cloud + Cloud = Rain
+Rain + _wind = Storm
+Storm + _fire = Lightning
+ ...
+_fire + _wind = _smoke
+_smoke + _smoke = Cloud
+Cloud + Cloud = Rain
+Rain + _wind = Storm
+Storm + _fire = Lightning
+ ...
+_water + _wind = _rain
+_rain + _rain = Rainbow
+Rainbow + _wind = Rain
+Rain + _wind = Storm
+Storm + _fire = Lightning
+ ...
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _fire = _lightning
+_lightning + _lightning = Thunder
+Thunder + _cloud = Lightning
+
+5 - _palm tree: 
+_earth + _water = _plant
+_water + _wind = _rain
+_rain + _wind = _storm
+_rain + _storm = _hurricane
+_hurricane + _plant = _palm tree
+
+5 - Duststorm: 
+_wind + _wind = Tornado
+_earth + _wind = _dust
+Tornado + _earth = Dust
+Dust + _wind = Sandstorm
+Sandstorm + _dust = Duststorm
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + _wind = Sandstorm
+Sandstorm + _dust = Duststorm
+
+5 - _mudstorm: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_water + _wind = _rain
+_rain + _wind = _storm
+_mud + _storm = _mudstorm
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_swamp + _wind = _storm
+_mud + _storm = _mudstorm
+
+5 - _mosquito: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_water + _wind = _rain
+_mud + _water = _swamp
+_rain + _swamp = _mosquito
+ ...
+_water + _water = _lake
+_earth + _water = _plant
+_water + _wind = _rain
+_lake + _plant = _swamp
+_rain + _swamp = _mosquito
+
+5 - _landslide: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_water + _wind = _rain
+_earthquake + _rain = _mudslide
+_earthquake + _mudslide = _landslide
+ ...
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earth + _earthquake = _mountain
+_earthquake + _mountain = _avalanche
+_avalanche + _earth = _landslide
+
+5 - _dust storm: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_water + _wind = _rain
+_earthquake + _rain = _mudslide
+_mudslide + _wind = _dust storm
+
+5 - House: 
+_wind + _wind = Tornado
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+Tornado + _brick = House
+ ...
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _water = Mud
+Mud + _fire = Brick
+Brick + Tornado = House
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + Glass = Window
+Glass + Window = House
+
+5 - _smud: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _wind = _smoke
+_mud + _smoke = _smog
+_mud + _smog = _smud
+
+5 - _pot: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_earth + _water = _plant
+_dust + _mud = _clay
+_clay + _plant = _pot
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _wind = _leaf
+_leaf + _water = _tea
+_earth + _tea = _pot
+
+5 - _lava_brick: 
+_earth + _wind = _dust
+_earth + _fire = _lava
+_dust + _water = _mud
+_fire + _mud = _brick
+_brick + _lava = _lava_brick
+
+5 - Amazon: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+_tree + _water = _river
+Forest + _river = Amazon
+
+5 - Wood: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+Forest + _plant = Tree
+Forest + Tree = Wood
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_wood + _wood = Log
+Log + _tree = Wood
+
+5 - Shark: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+Fish + Fish = Shark
+
+5 - Mermaid: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Ocean + Sea = Fish
+Fish + Sea = Mermaid
+
+5 - Quicksand: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_dust + _dust = Sand
+Sand + _swamp = Quicksand
+
+5 - _ashforest: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_fire + _tree = _ash
+_plant + _tree = _forest
+_ash + _forest = _ashforest
+
+5 - _ashleaf: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_fire + _tree = _ash
+_tree + _wind = _leaf
+_ash + _leaf = _ashleaf
+
+5 - Reef: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _lake = Ocean
+Ocean + _plant = Coral
+Coral + Coral = Reef
+
+5 - Wind: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _wind = Kite
+Beach + Kite = Wind
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _wind = Kite
+Beach + Kite = Wind
+
+5 - Sailboat: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _wind = Kite
+Kite + Ocean = Sailboat
+
+5 - Dragon: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _wind = Kite
+Kite + _fire = Dragon
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _wind = Kite
+Kite + _fire = Dragon
+
+5 - Flying: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _wind = Kite
+Kite + _wind = Flying
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _wind = Kite
+Kite + _wind = Flying
+
+5 - Sandwich: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _wind = Kite
+Kite + Sand = Sandwich
+
+5 - Buddha: 
+_water + _water = _lake
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _lake = Lotus
+Flower + Lotus = Buddha
+
+5 - Lotus Flower: 
+_water + _water = _lake
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _lake = Lotus
+Lotus + Lotus = Lotus Flower
+
+5 - _lotus: 
+_water + _water = _lake
+_earth + _water = _plant
+_water + _wind = _rain
+_plant + _rain = _flower
+_flower + _lake = _lotus
+
+5 - _incense: 
+_earth + _water = _plant
+_water + _wind = _rain
+_fire + _wind = _smoke
+_plant + _rain = _flower
+_flower + _smoke = _incense
+
+5 - _ashwood: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_fire + _tree = _ash
+_ash + _wood = _ashwood
+
+5 - _sailboat: 
+_water + _water = _lake
+_fire + _water = _steam
+_earth + _lake = _island
+_island + _steam = _steamboat
+_steamboat + _wind = _sailboat
+
+5 - Vacation: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _fire = Sun
+Beach + Sun = Vacation
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _fire = Sun
+Beach + Sun = Vacation
+
+5 - Sunflower: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _fire = Sun
+Sun + Sun = Sunflower
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _fire = Sun
+Sun + Sun = Sunflower
+
+5 - Sunset: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _fire = Sun
+Sun + _lake = Sunset
+
+5 - Solar: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _fire = Sun
+Sun + _fire = Solar
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _fire = Sun
+Sun + _fire = Solar
+
+5 - _day: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _earth = Beach
+Beach + _fire = Sun
+Sun + _earth = _day
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _fire = Sun
+Sun + _earth = _day
+ ...
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _earth = _sky
+_fire + _sky = _sun
+_sky + _sun = _day
+
+5 - Star: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _water = Beach
+Beach + _fire = Sun
+Sun + _dust = Star
+
+5 - _hailstorm: 
+_water + _wind = _rain
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _rain = _hail
+_hail + _rain = _hailstorm
+
+5 - Hailwind: 
+_water + _wind = _rain
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _rain = _hail
+_hail + _wind = Hailwind
+
+5 - Twister: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+Disaster + Tornado = Twister
+
+5 - Chaos: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+
+5 - Pottery: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _water = Mud
+Dust + Mud = Clay
+Clay + Dust = Pottery
+
+5 - Pot: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _water = Mud
+Dust + Mud = Clay
+Clay + _earth = Pot
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+_clay + _clay = Clay
+Clay + _earth = Pot
+
+5 - Triton: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _fire = _____
+Ocean + _____ = Poseidon
+Poseidon + Poseidon = Triton
+
+5 - Trident: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + _fire = _____
+Ocean + _____ = Poseidon
+Poseidon + _____ = Trident
+
+5 - Dandelion: 
+_wind + _wind = Tornado
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Tornado = Cyclone
+Cyclone + Flower = Dandelion
+
+5 - _skating: 
+_water + _water = _lake
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _lake = _skate
+_ice + _skate = _skating
+
+5 - _skateboard: 
+_water + _water = _lake
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _lake = _skate
+_skate + _steam = _skateboard
+
+5 - _skater: 
+_water + _water = _lake
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _lake = _skate
+_fire + _skate = _skater
+
+5 - Coconut: 
+_wind + _wind = Tornado
+_earth + _water = _plant
+Tornado + Tornado = Hurricane
+Hurricane + _plant = Palm Tree
+Hurricane + Palm Tree = Coconut
+
+5 - Adobe: 
+_wind + _wind = Tornado
+Tornado + _earth = Dust
+Dust + _water = Mud
+Mud + _fire = Brick
+Brick + Mud = Adobe
+
+5 - Pirate: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Sea + _wind = _sail
+Ocean + _sail = Pirate
+
+5 - Sailor: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Sea + _wind = _sail
+Sea + _sail = Sailor
+
+5 - Boat: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Sea + _wind = _sail
+_sail + _sail = Boat
+
+5 - _ship: 
+_water + _water = _lake
+_lake + _lake = Ocean
+Ocean + Ocean = Sea
+Sea + _wind = _sail
+_fire + _sail = _ship
+
+5 - _sandcastle: 
+_fire + _fire = Volcano
+Volcano + _earth = _earthquake
+_earth + _earthquake = _mountain
+_mountain + _wind = _sand
+_earthquake + _sand = _sandcastle
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_sand + _wave = _beach
+_beach + _sand = _sandcastle
+
+5 - _cyclone: 
+_water + _wind = _rain
+_rain + _wind = _storm
+_rain + _storm = _hurricane
+_hurricane + _wind = _tornado
+_hurricane + _tornado = _cyclone
+ ...
+_water + _wind = _rain
+_rain + _wind = _storm
+_rain + _storm = _hurricane
+_hurricane + _storm = _typhoon
+_hurricane + _typhoon = _cyclone
+
+5 - Coconut Tree: 
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _lake = _island
+_island + _plant = _coconut
+_coconut + _coconut = Coconut Tree
+
+5 - _roasted_coconut: 
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _lake = _island
+_island + _plant = _coconut
+_coconut + _fire = _roasted_coconut
+
+5 - _coconut milk: 
+_water + _water = _lake
+_earth + _water = _plant
+_earth + _lake = _island
+_island + _plant = _coconut
+_coconut + _water = _coconut milk
+
+5 - Moss: 
+_earth + _water = _plant
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _plant = _moss
+_moss + _moss = Moss
+
+5 - Mummy: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + _water = Oasis
+Oasis + _dust = Mummy
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+Pyramid + _dust = Mummy
+ ...
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + _fire = Phoenix
+Phoenix + Sand = Mummy
+
+5 - _ashwind: 
+_water + _water = _lake
+_fire + _lake = _volcano
+_volcano + _wind = _ash
+_ash + _lake = _ashlake
+_ashlake + _wind = _ashwind
+
+5 - Zoo: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + Garden = Park
+Garden + Park = Zoo
+
+5 - _park: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + Garden = Park
+Park + _fire = _park
+
+5 - Fountain: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + Garden = Park
+Park + _water = Fountain
+
+5 - _ark: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + Garden = Park
+Park + _earth = _ark
+
+5 - Time: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + Sand = Hourglass
+Glass + Hourglass = Time
+
+5 - Scent: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _wind = _____
+Flower + _____ = Perfume
+Perfume + Perfume = Scent
+
+5 - Smell: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _wind = _____
+Flower + _____ = Perfume
+Perfume + _____ = Smell
+
+5 - Sphinx: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + Sand = Desert
+Desert + Sand = Pyramid
+Desert + Pyramid = Sphinx
+
+5 - Monkey: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+Forest + Forest = Jungle
+Jungle + _wind = Monkey
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_plant + _tree = _forest
+_forest + _forest = Jungle
+Jungle + _wind = Monkey
+
+5 - lava: 
+_water + _wind = _rain
+_rain + _wind = _storm
+_fire + _storm = _volcano
+_storm + _volcano = _eruption
+_eruption + _volcano = lava
+
+5 - _mirage: 
+_earth + _wind = _dust
+_fire + _wind = _smoke
+_dust + _dust = Sand
+Sand + _smoke = _desert
+_desert + _smoke = _mirage
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_lake + _sand = _desert
+_desert + _wave = _mirage
+
+5 - _oasis: 
+_earth + _wind = _dust
+_fire + _wind = _smoke
+_dust + _dust = Sand
+Sand + _smoke = _desert
+_desert + _water = _oasis
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_lake + _sand = _desert
+_desert + _lake = _oasis
+
+5 - Bee: 
+_earth + _wind = _dust
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _dust = Pollen
+Flower + Pollen = Bee
+
+5 - Allergy: 
+_earth + _wind = _dust
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _dust = Pollen
+Pollen + _dust = Allergy
+
+5 - Honey: 
+_earth + _wind = _dust
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _dust = Pollen
+Pollen + _water = Honey
+
+5 - _honey: 
+_earth + _wind = _dust
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + _dust = Pollen
+Pollen + _wind = _honey
+
+5 - _fireplace: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + Glass = Window
+Window + _fire = _fireplace
+
+5 - _wind_ow: 
+_earth + _wind = _dust
+_dust + _dust = Sand
+Sand + _fire = Glass
+Glass + Glass = Window
+Window + _wind = _wind_ow
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_fire + _sand = _glass
+_glass + _wind = _wind_ow
+
+5 - _soil: 
+_wind + _wind = Tornado
+_earth + _wind = _dust
+_dust + _water = _mud
+Tornado + _mud = _dirt
+_dirt + _earth = _soil
+ ...
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_smog + _water = _acid rain
+_acid rain + _earth = _soil
+
+5 - Snowball: 
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+Snow + _ice = Snowman
+Snow + Snowman = Snowball
+
+5 - ?: 
+_fire + _water = _steam
+_steam + _water = _ice
+_ice + _ice = Snow
+Snow + _ice = Snowman
+Snowman + _steam = ?
+
+5 - Bog: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _tree = Forest
+Forest + _water = Swamp
+Forest + Swamp = Bog
+ ...
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _plant = _swamp
+_swamp + _swamp = Swamp
+Swamp + Swamp = Bog
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_swamp + _swamp = Swamp
+Swamp + Swamp = Bog
+
+5 - Quagmire: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_swamp + _swamp = Swamp
+Swamp + _mud = Quagmire
+
+5 - _ash_: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_fire + _tree = _ash
+_ash + _tree = _ash_tree
+_ash + _ash_tree = _ash_
+
+5 - Ash Tree: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_fire + _tree = _ash
+_ash + _tree = _ash_tree
+_ash_tree + _ash_tree = Ash Tree
+
+5 - _rainstorm: 
+_earth + _wind = _dust
+_water + _wind = _rain
+_rain + _wind = _storm
+_dust + _storm = _torm
+_rain + _torm = _rainstorm
+
+5 - _tormwater: 
+_earth + _wind = _dust
+_water + _wind = _rain
+_rain + _wind = _storm
+_dust + _storm = _torm
+_torm + _water = _tormwater
+
+5 - _seed: 
+_earth + _water = _plant
+_water + _wind = _rain
+_plant + _rain = _flower
+_flower + _wind = _dandelion
+_dandelion + _wind = _seed
+
+5 - Wakeboarding: 
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_surf + _wave = Surfing
+Surfing + _lake = Wakeboarding
+
+5 - Firewood: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_wood + _wood = Log
+Log + _fire = Firewood
+
+5 - ________: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + _earth = _hole
+Destruction + _hole = ________
+
+5 - _well: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + _earth = _hole
+_hole + _water = _well
+
+5 - _pit: 
+_wind + _wind = Tornado
+Tornado + _water = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + _earth = _hole
+_earth + _hole = _pit
+
+5 - Teapot: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _wind = _leaf
+_leaf + _water = _tea
+_tea + _tea = Teapot
+
+5 - _teapot: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _wind = _leaf
+_leaf + _water = _tea
+_tea + _tree = _teapot
+
+5 - _kite: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _wind = _leaf
+_leaf + _water = _tea
+_tea + _wind = _kite
+ ...
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_plant + _wood = _paper
+_paper + _wind = _kite
+ ...
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_fire + _surf = _surfer
+_surfer + _wind = _kite
+
+5 - _steel: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_fire + _stone = _metal
+_fire + _metal = _steel
+
+5 - _gold: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_fire + _stone = _metal
+_earth + _metal = _gold
+
+5 - _boulder: 
+_fire + _fire = Volcano
+Volcano + _fire = Lava
+Lava + _water = _stone
+_earth + _stone = _rock
+_rock + _rock = _boulder
+
+5 - Wind Farm: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _wind = _windmill
+_windmill + _windmill = Windmill
+Windmill + Windmill = Wind Farm
+
+5 - Energy: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _wind = _windmill
+_windmill + _windmill = Windmill
+Windmill + _water = Energy
+
+5 - _art: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+_brick + _brick = Wall
+Wall + _earth = _art
+
+5 - Dragon Egg: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _plant = _swamp
+_fire + _swamp = _dragon
+_dragon + _dragon = Dragon Egg
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_fire + _swamp = _dragon
+_dragon + _dragon = Dragon Egg
+
+5 - _dragonfly: 
+_water + _water = _lake
+_earth + _water = _plant
+_lake + _plant = _swamp
+_fire + _swamp = _dragon
+_dragon + _swamp = _dragonfly
+ ...
+_earth + _wind = _dust
+_dust + _water = _mud
+_mud + _water = _swamp
+_fire + _swamp = _dragon
+_dragon + _swamp = _dragonfly
+
+5 - _star: 
+_fire + _water = _steam
+_steam + _wind = _cloud
+_cloud + _earth = _sky
+_fire + _sky = _sun
+_fire + _sun = _star
+
+5 - _book: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_plant + _wood = _paper
+_paper + _tree = _book
+
+5 - _money: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_earth + _tree = _wood
+_plant + _wood = _paper
+_earth + _paper = _money
+
+5 - Lily: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _water = _river
+_river + _river = Lake
+Lake + _plant = Lily
+
+5 - smog: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_earth + _smog = _pollution
+_fog + _pollution = smog
+
+5 - _acid: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_earth + _smog = _pollution
+_pollution + _water = _acid
+
+5 - _atlantis: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _water = _ocean
+_fire + _ocean = _poseidon
+_island + _poseidon = _atlantis
+
+5 - _trident: 
+_water + _water = _lake
+_earth + _lake = _island
+_island + _water = _ocean
+_fire + _ocean = _poseidon
+_ocean + _poseidon = _trident
+
+5 - _bonfire: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_sand + _wave = _beach
+_beach + _fire = _bonfire
+
+5 - sand: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_sand + _wave = _beach
+_beach + _earth = sand
+
+5 - _wake: 
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_fire + _surf = _surfer
+_lake + _surfer = _wake
+
+5 - _surfing: 
+_water + _water = _lake
+_lake + _wind = _wave
+_water + _wave = _surf
+_fire + _surf = _surfer
+_surfer + _wave = _surfing
+
+5 - Acid: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_smog + _water = _acid rain
+_acid rain + _acid rain = Acid
+
+5 - _acid Fog: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_smog + _water = _acid rain
+_acid rain + _fog = _acid Fog
+
+5 - _acid Smog: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_smog + _water = _acid rain
+_acid rain + _smog = _acid Smog
+
+5 - _acid Smoke: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_smog + _water = _acid rain
+_acid rain + _smoke = _acid Smoke
+
+5 - _acid Water: 
+_fire + _wind = _smoke
+_smoke + _wind = _fog
+_fog + _smoke = _smog
+_smog + _water = _acid rain
+_acid rain + _water = _acid Water
+
+5 - _country: 
+_water + _water = _lake
+_lake + _wind = _wave
+_lake + _wave = _sea
+_earth + _sea = _land
+_earth + _land = _country
+
+5 - _dustbin: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+_brick + _wind = _house
+_dust + _house = _dustbin
+
+5 - _pig: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+_brick + _wind = _house
+_house + _mud = _pig
+
+5 - _farm: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_fire + _mud = _brick
+_brick + _wind = _house
+_earth + _house = _farm
+
+5 - Earth: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + _earth = _eart
+Garden + _eart = Earth
+
+5 - _eanut: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + _earth = _eart
+_eart + _plant = _eanut
+
+5 - _team: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + _earth = _eart
+_eart + _fire = _team
+
+5 - _lant: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + _earth = _eart
+_eart + _water = _lant
+
+5 - _eart_wind: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + _earth = _eart
+_eart + _wind = _eart_wind
+
+5 - Heart: 
+_earth + _water = _plant
+_plant + _plant = Flower
+Flower + Flower = Garden
+Garden + _earth = _eart
+_eart + _earth = Heart
+
+5 - _delta_plant: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _water = _river
+_plant + _river = _delta
+_delta + _plant = _delta_plant
+
+5 - _delta_tree: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _water = _river
+_plant + _river = _delta
+_delta + _tree = _delta_tree
+
+5 - _deltaearth: 
+_earth + _water = _plant
+_earth + _plant = _tree
+_tree + _water = _river
+_plant + _river = _delta
+_delta + _earth = _deltaearth
+
+5 - _rosewater: 
+_earth + _water = _plant
+_water + _wind = _rain
+_plant + _rain = _flower
+_fire + _flower = _rose
+_rose + _water = _rosewater
+
+5 - golem: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+_clay + _dust = _human
+_clay + _human = golem
+
+5 - _mudman: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+_clay + _dust = _human
+_human + _mud = _mudman
+
+5 - _steak: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+_clay + _dust = _human
+_human + _water = _steak
+
+5 - _sailor: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+_clay + _dust = _human
+_human + _wind = _sailor
+
+5 - _farmer: 
+_earth + _wind = _dust
+_dust + _water = _mud
+_dust + _mud = _clay
+_clay + _dust = _human
+_earth + _human = _farmer
+
+5 - _lens: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_fire + _sand = _glass
+_glass + _wave = _lens
+
+5 - _lamp: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_fire + _sand = _glass
+_fire + _glass = _lamp
+
+5 - _bottle: 
+_water + _water = _lake
+_lake + _wind = _wave
+_earth + _wave = _sand
+_fire + _sand = _glass
+_earth + _glass = _bottle
+
+
+
+{
+  "Volcano": 1,
+  "_steam": 1,
+  "_lake": 1,
+  "_smoke": 1,
+  "_rain": 1,
+  "Tornado": 1,
+  "_lava": 1,
+  "_plant": 1,
+  "_dust": 1,
+  "Mountain": 2,
+  "Lava": 2,
+  "Eruption": 2,
+  "_earthquake": 2,
+  "Cloud": 2,
+  "_ice": 2,
+  "_cloud": 2,
+  "Ocean": 2,
+  "_volcano": 2,
+  "_wave": 2,
+  "_island": 2,
+  "_fog": 2,
+  "Rainbow": 2,
+  "_rainwater": 2,
+  "_storm": 2,
+  "Hurricane": 2,
+  "Tsunami": 2,
+  "Dust": 2,
+  "Magma": 2,
+  "Flower": 2,
+  "_tree": 2,
+  "Sand": 2,
+  "_mud": 2,
+  "Island": 3,
+  "Ash": 3,
+  "_rainbow": 3,
+  "_____": 3,
+  "Mountain Range": 3,
+  "Waterfall": 3,
+  "Avalanche": 3,
+  "_stone": 3,
+  "Stone": 3,
+  "_tsunami": 3,
+  "_tornado": 3,
+  "_mountain": 3,
+  "Rain": 3,
+  "_": 3,
+  "Snow": 3,
+  "_blizzard": 3,
+  "_snow": 3,
+  "_lightning": 3,
+  "_sky": 3,
+  "_swamp": 3,
+  "Sea": 3,
+  "Beach": 3,
+  "_ash": 3,
+  "_sea": 3,
+  "_surf": 3,
+  "_sand": 3,
+  "Archipelago": 3,
+  "volcano": 3,
+  "_ocean": 3,
+  "_windmill": 3,
+  "_smog": 3,
+  "_mist": 3,
+  "_flower": 3,
+  "_hurricane": 3,
+  "Dust Devil": 3,
+  "Destruction": 3,
+  "Dust Storm": 3,
+  "Mud": 3,
+  "Sandstorm": 3,
+  "Garden": 3,
+  "_forest": 3,
+  "Forest": 3,
+  "_river": 3,
+  "_leaf": 3,
+  "_wood": 3,
+  "Desert": 3,
+  "Glass": 3,
+  "Dune": 3,
+  "_clay": 3,
+  "_brick": 3,
+  "Continent": 4,
+  "Hawaii": 4,
+  "Atlantis": 4,
+  "Fire": 4,
+  "Smoke": 4,
+  "_waterfall": 4,
+  "_mudslide": 4,
+  "Unicorn": 4,
+  "Earthquake": 4,
+  "Tree": 4,
+  "Yellowstone": 4,
+  "River": 4,
+  "Geyser": 4,
+  "Iceberg": 4,
+  "Blizzard": 4,
+  "Obsidian": 4,
+  "Boulder": 4,
+  "Ice": 4,
+  "_steamboat": 4,
+  "_skate": 4,
+  "_hail": 4,
+  "Storm": 4,
+  "_snowman": 4,
+  "Coral": 4,
+  "_coconut": 4,
+  "Lotus": 4,
+  "Fish": 4,
+  "_sail": 4,
+  "Poseidon": 4,
+  "Sun": 4,
+  "Kite": 4,
+  "_ashlake": 4,
+  "_moss": 4,
+  "_desert": 4,
+  "Flood": 4,
+  "_torm": 4,
+  "_thunderstorm": 4,
+  "_eruption": 4,
+  "Palm Tree": 4,
+  "Cyclone": 4,
+  "_dirt": 4,
+  "Disaster": 4,
+  "Explosion": 4,
+  "_hole": 4,
+  "Cinder": 4,
+  "Clay": 4,
+  "Brick": 4,
+  "Cactus": 4,
+  "Pollen": 4,
+  "Bouquet": 4,
+  "Park": 4,
+  "Pond": 4,
+  "_eart": 4,
+  "Perfume": 4,
+  "Jungle": 4,
+  "Swamp": 4,
+  "_ashplant": 4,
+  "_ash_tree": 4,
+  "Pyramid": 4,
+  "Phoenix": 4,
+  "Oasis": 4,
+  "Window": 4,
+  "Hourglass": 4,
+  "Sandcastle": 4,
+  "Snowstorm": 4,
+  "Snowman": 4,
+  "_rose": 4,
+  "_dandelion": 4,
+  "_tea": 4,
+  "_metal": 4,
+  "_rock": 4,
+  "_marsh": 4,
+  "_dragon": 4,
+  "_quagmire": 4,
+  "Sky": 4,
+  "_sun": 4,
+  "_beach": 4,
+  "_glass": 4,
+  "_dune": 4,
+  "_acid rain": 4,
+  "_pollution": 4,
+  "_avalanche": 4,
+  "Surfing": 4,
+  "_surfer": 4,
+  "_surfwind": 4,
+  "_poseidon": 4,
+  "Wall": 4,
+  "_adobe": 4,
+  "_house": 4,
+  "Windmill": 4,
+  "_energy": 4,
+  "_typhoon": 4,
+  "_paper": 4,
+  "_lumber": 4,
+  "Log": 4,
+  "_land": 4,
+  "_thunder": 4,
+  "Thunder": 4,
+  "Fog": 4,
+  "_human": 4,
+  "_delta": 4,
+  "Lake": 4,
+  "Niagara Falls": 5,
+  "Smog": 5,
+  "Rose": 5,
+  "Pompeii": 5,
+  "Statue": 5,
+  "_statue": 5,
+  "_rainbowdust": 5,
+  "Mars": 5,
+  "_rainbow trout": 5,
+  "Rock": 5,
+  "_obsidian": 5,
+  "_flood": 5,
+  "Fault": 5,
+  "Stonehenge": 5,
+  "_dustnami": 5,
+  "_duststorm": 5,
+  "Fjord": 5,
+  "_icequake": 5,
+  "igloo": 5,
+  "_pond": 5,
+  "_berg": 5,
+  "_electricity": 5,
+  "_cloudwave": 5,
+  "_steamship": 5,
+  "Snowflake": 5,
+  "_ashquake": 5,
+  "Thunderstorm": 5,
+  "Surf": 5,
+  "Hula": 5,
+  "_sandstorm": 5,
+  "steam": 5,
+  "Pangaea": 5,
+  "_boat": 5,
+  "Mirror": 5,
+  "_sleet": 5,
+  "_ashdust": 5,
+  "_pine": 5,
+  "_pottery": 5,
+  "_smoke signal": 5,
+  "_train": 5,
+  "Ice Cream": 5,
+  "Water": 5,
+  "Rainbow Fish": 5,
+  "Canyon": 5,
+  "_snowstorm": 5,
+  "Dust Bowl": 5,
+  "Shore": 5,
+  "Glacier": 5,
+  "Surfer": 5,
+  "Blade": 5,
+  "Electricity": 5,
+  "_rainbow wave": 5,
+  "_tide": 5,
+  "_rainbow island": 5,
+  "Kelp": 5,
+  "Meteor": 5,
+  "Palm": 5,
+  "_seawater": 5,
+  "_shipwreck": 5,
+  "Super Volcano": 5,
+  "Supervolcano": 5,
+  "_geyser": 5,
+  "_geothermal": 5,
+  "_seaweed": 5,
+  "Double Rainbow": 5,
+  "Pegasus": 5,
+  "_coral": 5,
+  "_wine": 5,
+  "Surfboard": 5,
+  "_cactus": 5,
+  "_palm": 5,
+  "surfing": 5,
+  "_lily": 5,
+  "Paradise": 5,
+  "_ashwave": 5,
+  "_ashland": 5,
+  "Mirage": 5,
+  "chimney": 5,
+  "Pig": 5,
+  "mud": 5,
+  "Shatter": 5,
+  "Mudslide": 5,
+  "Rainforest": 5,
+  "Telescope": 5,
+  "_rainforest": 5,
+  "Tumbleweed": 5,
+  "Creation": 5,
+  "_ashstorm": 5,
+  "Lightning": 5,
+  "_palm tree": 5,
+  "Duststorm": 5,
+  "_mudstorm": 5,
+  "_mosquito": 5,
+  "_landslide": 5,
+  "_dust storm": 5,
+  "House": 5,
+  "_smud": 5,
+  "_pot": 5,
+  "_lava_brick": 5,
+  "Amazon": 5,
+  "Wood": 5,
+  "Shark": 5,
+  "Mermaid": 5,
+  "Quicksand": 5,
+  "_ashforest": 5,
+  "_ashleaf": 5,
+  "Reef": 5,
+  "Wind": 5,
+  "Sailboat": 5,
+  "Dragon": 5,
+  "Flying": 5,
+  "Sandwich": 5,
+  "Buddha": 5,
+  "Lotus Flower": 5,
+  "_lotus": 5,
+  "_incense": 5,
+  "_ashwood": 5,
+  "_sailboat": 5,
+  "Vacation": 5,
+  "Sunflower": 5,
+  "Sunset": 5,
+  "Solar": 5,
+  "_day": 5,
+  "Star": 5,
+  "_hailstorm": 5,
+  "Hailwind": 5,
+  "Twister": 5,
+  "Chaos": 5,
+  "Pottery": 5,
+  "Pot": 5,
+  "Triton": 5,
+  "Trident": 5,
+  "Dandelion": 5,
+  "_skating": 5,
+  "_skateboard": 5,
+  "_skater": 5,
+  "Coconut": 5,
+  "Adobe": 5,
+  "Pirate": 5,
+  "Sailor": 5,
+  "Boat": 5,
+  "_ship": 5,
+  "_sandcastle": 5,
+  "_cyclone": 5,
+  "Coconut Tree": 5,
+  "_roasted_coconut": 5,
+  "_coconut milk": 5,
+  "Moss": 5,
+  "Mummy": 5,
+  "_ashwind": 5,
+  "Zoo": 5,
+  "_park": 5,
+  "Fountain": 5,
+  "_ark": 5,
+  "Time": 5,
+  "Scent": 5,
+  "Smell": 5,
+  "Sphinx": 5,
+  "Monkey": 5,
+  "lava": 5,
+  "_mirage": 5,
+  "_oasis": 5,
+  "Bee": 5,
+  "Allergy": 5,
+  "Honey": 5,
+  "_honey": 5,
+  "_fireplace": 5,
+  "_wind_ow": 5,
+  "_soil": 5,
+  "Snowball": 5,
+  "?": 5,
+  "Bog": 5,
+  "Quagmire": 5,
+  "_ash_": 5,
+  "Ash Tree": 5,
+  "_rainstorm": 5,
+  "_tormwater": 5,
+  "_seed": 5,
+  "Wakeboarding": 5,
+  "Firewood": 5,
+  "________": 5,
+  "_well": 5,
+  "_pit": 5,
+  "Teapot": 5,
+  "_teapot": 5,
+  "_kite": 5,
+  "_steel": 5,
+  "_gold": 5,
+  "_boulder": 5,
+  "Wind Farm": 5,
+  "Energy": 5,
+  "_art": 5,
+  "Dragon Egg": 5,
+  "_dragonfly": 5,
+  "_star": 5,
+  "_book": 5,
+  "_money": 5,
+  "Lily": 5,
+  "smog": 5,
+  "_acid": 5,
+  "_atlantis": 5,
+  "_trident": 5,
+  "_bonfire": 5,
+  "sand": 5,
+  "_wake": 5,
+  "_surfing": 5,
+  "Acid": 5,
+  "_acid Fog": 5,
+  "_acid Smog": 5,
+  "_acid Smoke": 5,
+  "_acid Water": 5,
+  "_country": 5,
+  "_dustbin": 5,
+  "_pig": 5,
+  "_farm": 5,
+  "Earth": 5,
+  "_eanut": 5,
+  "_team": 5,
+  "_lant": 5,
+  "_eart_wind": 5,
+  "Heart": 5,
+  "_delta_plant": 5,
+  "_delta_tree": 5,
+  "_deltaearth": 5,
+  "_rosewater": 5,
+  "golem": 5,
+  "_mudman": 5,
+  "_steak": 5,
+  "_sailor": 5,
+  "_farmer": 5,
+  "_lens": 5,
+  "_lamp": 5,
+  "_bottle": 5
+}
