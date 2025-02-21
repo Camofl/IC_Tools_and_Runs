@@ -1,0 +1,5202 @@
+  // 0
+
+
+
+Gen 1 - 8 Elements -> 8 Total Elements
+Gen 2 - 16 Elements -> 24 Total Elements
+Gen 3 - 25 Elements -> 49 Total Elements
+Gen 4 - 54 Elements -> 103 Total Elements
+Gen 5 - 129 Elements -> 232 Total Elements
+Gen 6 - 289 Elements -> 521 Total Elements
+
+
+
+1 - ¡steam!: 
+¡fire! + ¡water! = ¡steam!
+
+1 - ¡lake!: 
+¡water! + ¡water! = ¡lake!
+
+1 - ¡volcano!: 
+¡earth! + ¡fire! = ¡volcano!
+
+1 - ¡mud!: 
+¡earth! + ¡water! = ¡mud!
+
+1 - ¡fire tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+
+1 - ¡rain!: 
+¡water! + ¡wind! = ¡rain!
+
+1 - ¡earth wind and fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+
+1 - Tornado: 
+¡wind! + ¡wind! = Tornado
+
+2 - ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡: 
+¡fire! + ¡water! = ¡steam!
+¡fire! + ¡steam! = ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+ ...
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡water! = ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+
+2 - ¡ice!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+
+2 - ¡steamboat!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+
+2 - ¡tornado!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+
+2 - ¡lava!: 
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+
+2 - ¡ash!: 
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+
+2 - ¡clay!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+
+2 - ¡dust storm!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+
+2 - ¡fire Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡fire tornado! + ¡fire tornado! = ¡fire Tornado!
+
+2 - ¡rainbow!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+
+2 - ¡storm!: 
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+
+2 - ¡earth Wind And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth wind and fire! + ¡earth wind and fire! = ¡earth Wind And Fire!
+
+2 - ¡earth And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+
+2 - Hurricane: 
+¡wind! + ¡wind! = Tornado
+Tornado + Tornado = Hurricane
+
+2 - Volcano: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+
+2 - Tsunami: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+
+3 - ¡fog!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+
+3 - ¡ice water!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+
+3 - ¡snow!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+
+3 - ¡blizzard!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+
+3 - ¡hot springs!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+
+3 - ¡swamp!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+
+3 - Whirlpool: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+Tornado + ¡lake! = Whirlpool
+
+3 - ¡sharknado!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+
+3 - ¡dust devil!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡tornado! = ¡dust devil!
+
+3 - ¡ashwind!: 
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡wind! = ¡ashwind!
+
+3 - Mudslide: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+
+3 - ¡adobe!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡mud! = ¡adobe!
+
+3 - ¡brick!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+
+3 - ¡dust Storm!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡dust storm! = ¡dust Storm!
+
+3 - ¡dust!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+
+3 - ¡earth Wind And Fire Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+
+3 - Rainbow: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rainbow! + ¡rainbow! = Rainbow
+
+3 - ¡rainbow fire!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+
+3 - ¡lightning!: 
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+
+3 - ¡earth Wind And Fire And Earth And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡earth wind and fire! = ¡earth Wind And Fire And Earth And Fire!
+
+3 - Eruption: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Tornado + Volcano = Eruption
+
+3 - Mountain: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+
+3 - Lava: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+
+3 - Destruction: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+
+3 - Earthquake: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tsunami + ¡earth! = Earthquake
+
+4 - ¡fog lake!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡lake! = ¡fog lake!
+
+4 - ¡smoke!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fire! + ¡fog! = ¡smoke!
+
+4 - ¡mist!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡earth! + ¡fog! = ¡mist!
+
+4 - ¡steam tornado!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡steam! + ¡tornado! = ¡steam tornado!
+
+4 - ¡ice skating!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+
+4 - ¡steamboat volcano!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡earth! + ¡fire! = ¡volcano!
+¡steamboat! + ¡volcano! = ¡steamboat volcano!
+
+4 - ¡clay pot!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡steam! = ¡clay pot!
+
+4 - ¡mudboat!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡mud! + ¡steamboat! = ¡mudboat!
+
+4 - ¡rainbow steam!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡water! = ¡steam!
+¡rainbow! + ¡steam! = ¡rainbow steam!
+
+4 - Snow: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+
+4 - Steamboat Willie: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+
+4 - ¡ice Lake!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+
+4 - ¡snowman!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+
+4 - ¡hot Springs!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡hot springs! + ¡hot springs! = ¡hot Springs!
+
+4 - ¡geyser!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡earth! + ¡hot springs! = ¡geyser!
+
+4 - ¡tornado volcano!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+
+4 - ¡ash lake!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡lake! = ¡ash lake!
+
+4 - ¡marsh!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+
+4 - ¡quagmire!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡mud! + ¡swamp! = ¡quagmire!
+
+4 - ¡dragon!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡fire! + ¡swamp! = ¡dragon!
+
+4 - ¡rainbow lake!: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡lake! + ¡rainbow! = ¡rainbow lake!
+
+4 - Vortex: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+Tornado + ¡lake! = Whirlpool
+Tornado + Whirlpool = Vortex
+
+4 - Island: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡lake! = Island
+
+4 - ¡earthquake!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth! + ¡sharknado! = ¡earthquake!
+
+4 - ¡dust Devil!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡tornado! = ¡dust devil!
+¡dust devil! + ¡fire! = ¡dust Devil!
+ ...
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡fire tornado! = ¡dust Devil!
+
+4 - ¡clay volcano!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡volcano! = ¡clay volcano!
+
+4 - ¡ashmud!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡mud! = ¡ashmud!
+
+4 - ¡rainbow volcano!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡fire! = ¡volcano!
+¡rainbow! + ¡volcano! = ¡rainbow volcano!
+
+4 - ¡ash rain!: 
+¡water! + ¡wind! = ¡rain!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡rain! = ¡ash rain!
+
+4 - ¡¡volcano!!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡fire! = ¡volcano!
+Volcano + ¡volcano! = ¡¡volcano!!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+
+4 - ¡tsunamic!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡earth! + ¡fire! = ¡volcano!
+Tsunami + ¡volcano! = ¡tsunamic!
+
+4 - Fire: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+
+4 - ¡volcán!: 
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡lava! + ¡tornado! = ¡volcán!
+
+4 - ¡rainbow mud!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡mud! + ¡rainbow! = ¡rainbow mud!
+
+4 - ¡mudstorm!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡mud! + ¡storm! = ¡mudstorm!
+
+4 - ¡dust Wind And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth wind and fire! = ¡dust Wind And Fire!
+
+4 - Rock: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+
+4 - Mudnado: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Tornado = Mudnado
+
+4 - ¡slide!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+
+4 - Mud: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+
+4 - Pottery: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+Tornado + ¡clay! = Pottery
+
+4 - ¡pizza!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+
+4 - ¡gunpowder!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡fire! = ¡gunpowder!
+
+4 - ¡earth Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡fire tornado! = ¡earth Tornado!
+
+4 - Flood: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+Tornado + Tornado = Hurricane
+Hurricane + ¡rain! = Flood
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+Tsunami + ¡rain! = Flood
+
+4 - Rain: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rainbow! + ¡rainbow! = Rainbow
+Rainbow + ¡water! = Rain
+
+4 - ¡rainbow Fire!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡fire! + ¡rainbow fire! = ¡rainbow Fire!
+
+4 - ¡rainbow Steam!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡rainbow fire! + ¡water! = ¡rainbow Steam!
+
+4 - ¡rainbow Earth!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth! + ¡rainbow fire! = ¡rainbow Earth!
+
+4 - ¡thunder!: 
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡rain! = ¡thunder!
+
+4 - Disaster: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+
+4 - Mountain Range: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+
+4 - Stone: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+
+4 - Explosion: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+
+5 - ¡fog Lake!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡lake! = ¡fog lake!
+¡fog lake! + ¡fog lake! = ¡fog Lake!
+
+5 - ¡smog!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fire! + ¡fog! = ¡smoke!
+¡smoke! + ¡wind! = ¡smog!
+
+5 - ¡fogado!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡tornado! = ¡fogado!
+
+5 - ¡fogboat!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡steamboat! = ¡fogboat!
+
+5 - ¡steam Tornado!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡steam! + ¡tornado! = ¡steam tornado!
+¡steam tornado! + ¡steam tornado! = ¡steam Tornado!
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡fire! + ¡water! = ¡steam!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡steam! = ¡steam Tornado!
+
+5 - Ice Rink: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡ice skating! = Ice Rink
+
+5 - ¡ice Skating!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡fire! + ¡ice skating! = ¡ice Skating!
+
+5 - Ice: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡water! = Ice
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + Snow = Ice
+
+5 - ¡wind Skating!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡wind! = ¡wind Skating!
+
+5 - ¡iceberg!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡lake! = ¡iceberg!
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡steam! = ¡iceberg!
+
+5 - ¡magma!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡fire! + ¡volcano! = ¡lava!
+¡ice! + ¡lava! = ¡magma!
+
+5 - ¡snowcone!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡volcano! = ¡snowcone!
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡ice! + ¡snowman! = ¡snowcone!
+
+5 - ¡global warming!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡volcano! = ¡global warming!
+
+5 - ¡steamboat Volcano!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡earth! + ¡fire! = ¡volcano!
+¡steamboat! + ¡volcano! = ¡steamboat volcano!
+¡steamboat volcano! + ¡steamboat volcano! = ¡steamboat Volcano!
+
+5 - ¡steam adobe!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡mud! = ¡adobe!
+¡adobe! + ¡steam! = ¡steam adobe!
+
+5 - ¡clay Pot!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡steam! = ¡clay pot!
+¡clay pot! + ¡clay pot! = ¡clay Pot!
+
+5 - ¡train!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡steam! = ¡train!
+
+5 - ¡steamboat willie!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡steamboat! = ¡steamboat willie!
+
+5 - ¡mudslide!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡mud! = ¡mudslide!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡mud! + ¡storm! = ¡mudstorm!
+¡mud! + ¡mudstorm! = ¡mudslide!
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡mud! + ¡slide! = ¡mudslide!
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡water! = ¡mud!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡mud! = ¡mudslide!
+
+5 - ¡sailboat!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡mud! + ¡steamboat! = ¡mudboat!
+¡mudboat! + ¡wind! = ¡sailboat!
+
+5 - ¡ice Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡fire tornado! + ¡ice water! = ¡ice Tornado!
+
+5 - ¡earth Wind And Fire And Ice!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡earth wind and fire! + ¡ice water! = ¡earth Wind And Fire And Ice!
+
+5 - Steamboat: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + Tornado = Hurricane
+Hurricane + ¡steamboat! = Steamboat
+
+5 - Iceberg: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tsunami + ¡ice! = Iceberg
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡ice! = Iceberg
+
+5 - Blizzard: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + Tornado = Blizzard
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+Tornado + ¡snow! = Blizzard
+
+5 - Snowman: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + ¡ice! = Snowman
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+Tornado + ¡blizzard! = Snowman
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡snowman! + ¡snowman! = Snowman
+
+5 - Tornado Willie: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+Steamboat Willie + Tornado = Tornado Willie
+
+5 - Mickey Mouse: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+Steamboat Willie + ¡fire! = Mickey Mouse
+
+5 - ¡ice Ice!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡ice water! = ¡ice Ice!
+
+5 - ¡snowblizzard!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡snow! = ¡snowblizzard!
+
+5 - ¡snowball!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡snow! + ¡snowman! = ¡snowball!
+
+5 - ¡hot chocolate!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡fire! + ¡snowman! = ¡hot chocolate!
+
+5 - ¡snowstorm!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡snowman! + ¡wind! = ¡snowstorm!
+
+5 - ¡snowboat!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡steamboat! = ¡snowboat!
+
+5 - ¡snowmobile!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡steamboat! = ¡snowmobile!
+
+5 - ¡hot Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡fire tornado! + ¡hot springs! = ¡hot Tornado!
+
+5 - ¡hot Lava!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡earth wind and fire! + ¡hot springs! = ¡hot Lava!
+
+5 - ¡geothermal Energy!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡earth! + ¡hot springs! = ¡geyser!
+¡geyser! + ¡hot springs! = ¡geothermal Energy!
+
+5 - ¡tornado Volcano!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡tornado volcano! + ¡tornado volcano! = ¡tornado Volcano!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡tornado volcano! + ¡tornado volcano! = ¡tornado Volcano!
+
+5 - ¡sharkcano!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡water! = ¡sharknado!
+¡sharknado! + ¡volcano! = ¡sharkcano!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡sharknado! + ¡volcano! = ¡sharkcano!
+
+5 - ¡ash Lake!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡lake! = ¡ash lake!
+¡ash lake! + ¡ash lake! = ¡ash Lake!
+
+5 - ¡steam swamp!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡mud! = ¡swamp!
+¡steam! + ¡swamp! = ¡steam swamp!
+
+5 - ¡mosquito!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡lake! + ¡mud! = ¡swamp!
+¡rain! + ¡swamp! = ¡mosquito!
+
+5 - Cyclone: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+Tornado + ¡swamp! = Cyclone
+
+5 - ¡marshmallow!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+¡marsh! + ¡swamp! = ¡marshmallow!
+
+5 - ¡fire marsh!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+¡fire! + ¡marsh! = ¡fire marsh!
+
+5 - ¡hurricane!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡wind! = ¡tornado!
+¡swamp! + ¡tornado! = ¡hurricane!
+
+5 - ¡mudquagmire!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡mud! + ¡swamp! = ¡quagmire!
+¡mud! + ¡quagmire! = ¡mudquagmire!
+
+5 - ¡firequagmire!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡mud! + ¡swamp! = ¡quagmire!
+¡fire! + ¡quagmire! = ¡firequagmire!
+
+5 - ¡dinosaur!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡swamp! = ¡dinosaur!
+
+5 - ¡dragon fire!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡fire! + ¡swamp! = ¡dragon!
+¡dragon! + ¡fire! = ¡dragon fire!
+
+5 - ¡mudsharknado!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡mud! + ¡sharknado! = ¡mudsharknado!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡mud! + ¡sharknado! = ¡mudsharknado!
+
+5 - ¡rainbow Lake!: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡lake! + ¡rainbow! = ¡rainbow lake!
+¡rainbow lake! + ¡rainbow lake! = ¡rainbow Lake!
+
+5 - ¡rainbow tornado!: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡lake! + ¡wind! = ¡tornado!
+¡rainbow! + ¡tornado! = ¡rainbow tornado!
+ ...
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡storm! = ¡tornado!
+¡rainbow! + ¡tornado! = ¡rainbow tornado!
+
+5 - Rainbow Trout: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rainbow! + ¡rainbow! = Rainbow
+Rainbow + ¡lake! = Rainbow Trout
+
+5 - Muddy Water: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡lake! = Whirlpool
+Whirlpool + ¡mud! = Muddy Water
+
+5 - ¡¡fire!!: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+Tornado + ¡lake! = Whirlpool
+Tornado + Whirlpool = Vortex
+Vortex + ¡fire! = ¡¡fire!!
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡fire! = ¡¡fire!!
+
+5 - Maelstrom: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡water! = ¡lake!
+Tornado + ¡lake! = Whirlpool
+Tsunami + Whirlpool = Maelstrom
+
+5 - Continent: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡lake! = Island
+Island + Island = Continent
+
+5 - Hawaii: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡lake! = Island
+Island + Volcano = Hawaii
+
+5 - Atlantis: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡lake! = Island
+Island + ¡lake! = Atlantis
+
+5 - ¡tsunami!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+Tsunami + ¡tornado! = ¡tsunami!
+ ...
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth! + ¡sharknado! = ¡earthquake!
+¡earthquake! + ¡lake! = ¡tsunami!
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡earth! + ¡fire! = ¡volcano!
+Tsunami + ¡volcano! = ¡tsunamic!
+¡tsunamic! + ¡water! = ¡tsunami!
+
+5 - Sharknado: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+Tornado + ¡sharknado! = Sharknado
+
+5 - ¡sharkquake!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth! + ¡sharknado! = ¡earthquake!
+¡earthquake! + ¡sharknado! = ¡sharkquake!
+
+5 - ¡natural disaster!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth! + ¡sharknado! = ¡earthquake!
+¡earthquake! + ¡tornado! = ¡natural disaster!
+
+5 - ¡clay Volcano!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡volcano! = ¡clay volcano!
+¡clay volcano! + ¡earth! = ¡clay Volcano!
+
+5 - ¡golem!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡earth! + ¡mud! = ¡clay!
+¡ash! + ¡clay! = ¡golem!
+
+5 - ¡muddy ashwind!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡wind! = ¡ashwind!
+¡ashwind! + ¡mud! = ¡muddy ashwind!
+
+5 - ¡rainbow Volcano!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡fire! = ¡volcano!
+¡rainbow! + ¡volcano! = ¡rainbow volcano!
+¡rainbow volcano! + ¡rainbow volcano! = ¡rainbow Volcano!
+
+5 - ¡rainbow lava!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡rainbow! = ¡rainbow lava!
+
+5 - ¡lightning volcano!: 
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡volcano! = ¡lightning volcano!
+
+5 - ¡ashstorm!: 
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡storm! = ¡ashstorm!
+
+5 - ¡ash Rain!: 
+¡water! + ¡wind! = ¡rain!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡rain! = ¡ash rain!
+¡ash rain! + ¡ash rain! = ¡ash Rain!
+
+5 - ¡ash: 
+¡water! + ¡wind! = ¡rain!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡rain! = ¡ash rain!
+¡ash rain! + ¡earth! = ¡ash
+
+5 - ¡¡¡volcano!!!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡fire! = ¡volcano!
+Volcano + ¡volcano! = ¡¡volcano!!
+Volcano + ¡¡volcano!! = ¡¡¡volcano!!!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+Volcano + ¡¡volcano!! = ¡¡¡volcano!!!
+
+5 - ¡¡¡lava!!!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡fire! = ¡volcano!
+Volcano + ¡volcano! = ¡¡volcano!!
+¡fire! + ¡¡volcano!! = ¡¡¡lava!!!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+¡fire! + ¡¡volcano!! = ¡¡¡lava!!!
+
+5 - ¡¡¡lava!!!!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡fire! = ¡volcano!
+Volcano + ¡volcano! = ¡¡volcano!!
+¡water! + ¡¡volcano!! = ¡¡¡lava!!!!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+¡water! + ¡¡volcano!! = ¡¡¡lava!!!!
+
+5 - Fireworks: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡ash! = Fireworks
+
+5 - Steam: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡water! = Steam
+
+5 - ¡¡¡lava!!: 
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+¡ash! + ¡¡volcano!! = ¡¡¡lava!!
+
+5 - ¡dust Bowl!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡fire tornado! = ¡dust Devil!
+¡dust Devil! + ¡dust storm! = ¡dust Bowl!
+
+5 - ¡rainbow clay!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡rainbow! = ¡rainbow clay!
+
+5 - ¡rainbow Water!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡mud! + ¡rainbow! = ¡rainbow mud!
+¡rainbow mud! + ¡water! = ¡rainbow Water!
+
+5 - ¡duststorm!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡mud! + ¡storm! = ¡mudstorm!
+¡mudstorm! + ¡wind! = ¡duststorm!
+
+5 - ¡muddy lightning!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡mud! = ¡muddy lightning!
+
+5 - ¡dust And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡dust storm! + ¡earth And Fire! = ¡dust And Fire!
+
+5 - ¡dust In The Wind!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡earth wind and fire! = ¡dust In The Wind!
+
+5 - Boulder: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Mudslide + Rock = Boulder
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + Stone = Boulder
+
+5 - Meteor: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Rock + Tornado = Meteor
+
+5 - Wet: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Rock + ¡water! = Wet
+
+5 - Avalanche: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Rock + ¡wind! = Avalanche
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Tornado = Avalanche
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + Tornado = Avalanche
+
+5 - Dust Devil: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Tornado = Mudnado
+Mudnado + Tornado = Dust Devil
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+Tornado + ¡dust! = Dust Devil
+
+5 - ¡mudnado!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Tornado = Mudnado
+Mudnado + ¡fire! = ¡mudnado!
+
+5 - ¡fire slide!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡fire! + ¡slide! = ¡fire slide!
+
+5 - ¡water slide!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡water! = ¡water slide!
+
+5 - ¡windsurf!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡wind! = ¡windsurf!
+
+5 - Clay: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + Mud = Clay
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+Volcano + ¡clay! = Clay
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + Mud = Clay
+
+5 - Dust: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + Tornado = Dust
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡wind! = Dust
+
+5 - Brick: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + ¡fire! = Brick
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡fire! = Brick
+
+5 - Vase: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+Tornado + ¡clay! = Pottery
+Pottery + Pottery = Vase
+
+5 - House: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+Tornado + ¡brick! = House
+
+5 - ¡adobe brick!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡mud! = ¡adobe!
+¡clay! + ¡fire! = ¡brick!
+¡adobe! + ¡brick! = ¡adobe brick!
+
+5 - ¡adobe tornado!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡wind! = ¡tornado!
+¡clay! + ¡mud! = ¡adobe!
+¡adobe! + ¡tornado! = ¡adobe tornado!
+
+5 - ¡mudpizza!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡mud! + ¡pizza! = ¡mudpizza!
+
+5 - ¡pizza wind!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡pizza! + ¡wind! = ¡pizza wind!
+
+5 - ¡bricknado!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡wind! = ¡tornado!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡tornado! = ¡bricknado!
+
+5 - ¡claynado!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡clay! + ¡sharknado! = ¡claynado!
+
+5 - ¡adam!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡clay! + ¡dust! = ¡adam!
+
+5 - ¡explosion!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡fire! = ¡gunpowder!
+¡dust storm! + ¡gunpowder! = ¡explosion!
+
+5 - ¡bang!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡fire! = ¡gunpowder!
+¡dust! + ¡gunpowder! = ¡bang!
+
+5 - ¡boom!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡fire! = ¡gunpowder!
+¡fire! + ¡gunpowder! = ¡boom!
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Explosion + ¡fire! = ¡boom!
+
+5 - ¡rainbow Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡fire tornado! + ¡rainbow fire! = ¡rainbow Tornado!
+
+5 - ¡earth Wind And Fire And Rain!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡fire tornado! = ¡earth Tornado!
+¡earth Tornado! + ¡earth wind and fire! = ¡earth Wind And Fire And Rain!
+
+5 - ¡tornado Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡fire tornado! = ¡earth Tornado!
+¡earth Tornado! + ¡fire tornado! = ¡tornado Tornado!
+
+5 - ¡rainbow Wind And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth wind and fire! + ¡rainbow fire! = ¡rainbow Wind And Fire!
+
+5 - Ocean: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+Tornado + Tornado = Hurricane
+Hurricane + ¡rain! = Flood
+Flood + Flood = Ocean
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+Tsunami + ¡rain! = Flood
+Flood + Flood = Ocean
+
+5 - Unicorn: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+Volcano + ¡rainbow! = Unicorn
+
+5 - Thunderstorm: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+Tornado + ¡lightning! = Thunderstorm
+
+5 - ¡rainbow Plant!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡rainbow fire! + ¡water! = ¡rainbow Steam!
+¡rainbow fire! + ¡rainbow Steam! = ¡rainbow Plant!
+
+5 - ¡rainbow plant!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth! + ¡rainbow fire! = ¡rainbow Earth!
+¡rainbow Earth! + ¡water! = ¡rainbow plant!
+
+5 - ¡thunderstorm!: 
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡rain! = ¡thunder!
+¡lightning! + ¡thunder! = ¡thunderstorm!
+ ...
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡storm! = ¡tornado!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡tornado! = ¡thunderstorm!
+
+5 - Twister: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+Disaster + Tornado = Twister
+
+5 - Yellowstone: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+
+5 - Waterfall: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ¡water! = Waterfall
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡water! = Waterfall
+
+5 - Aeolus: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ¡wind! = Aeolus
+
+5 - Obsidian: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Lava + Stone = Obsidian
+
+5 - Pyramid: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡earth! = Pyramid
+
+5 - Sand: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡wind! = Sand
+
+5 - Chaos: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+
+6 - ¡eruption!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡steam! = ¡fog!
+¡fire! + ¡fog! = ¡smoke!
+¡smoke! + ¡volcano! = ¡eruption!
+
+6 - ¡swamp fog!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡swamp! = ¡swamp fog!
+
+6 - ¡rainbow fog!: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡rainbow! = ¡rainbow fog!
+
+6 - ¡fogstorm!: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡water! = ¡steam!
+¡rain! + ¡wind! = ¡storm!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡storm! = ¡fogstorm!
+
+6 - ¡smoke tornado!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡lake! + ¡steam! = ¡fog!
+¡fire! + ¡fog! = ¡smoke!
+¡smoke! + ¡tornado! = ¡smoke tornado!
+
+6 - ¡acid rain!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fire! + ¡fog! = ¡smoke!
+¡smoke! + ¡wind! = ¡smog!
+¡lake! + ¡smog! = ¡acid rain!
+
+6 - ¡pollution!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fire! + ¡fog! = ¡smoke!
+¡smoke! + ¡wind! = ¡smog!
+¡smog! + ¡steam! = ¡pollution!
+
+6 - ¡mistboat!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡lake! + ¡steam! = ¡fog!
+¡earth! + ¡fog! = ¡mist!
+¡mist! + ¡steamboat! = ¡mistboat!
+
+6 - ¡fogado tornado!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡tornado! = ¡fogado!
+¡fogado! + ¡tornado! = ¡fogado tornado!
+
+6 - ¡fuego!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡tornado! = ¡fogado!
+¡fire! + ¡fogado! = ¡fuego!
+
+6 - ¡plant!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡tornado! = ¡fogado!
+¡earth! + ¡fogado! = ¡plant!
+
+6 - ¡fognado!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡lake! + ¡steam! = ¡fog!
+¡tornado! + ¡water! = ¡sharknado!
+¡fog! + ¡sharknado! = ¡fognado!
+
+6 - ¡earthboat!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡steamboat! = ¡fogboat!
+¡earth! + ¡fogboat! = ¡earthboat!
+
+6 - ¡ice sharknado!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡wind! = ¡tornado!
+¡steam! + ¡water! = ¡ice!
+¡tornado! + ¡water! = ¡sharknado!
+¡ice! + ¡sharknado! = ¡ice sharknado!
+
+6 - ¡steamnado!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡sharknado! + ¡steamboat! = ¡steamnado!
+
+6 - ¡ice swamp!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡mud! = ¡swamp!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡swamp! = ¡ice swamp!
+
+6 - ¡ice cream!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡fire! + ¡volcano! = ¡lava!
+¡earth! + ¡ice! = ¡snow!
+¡lava! + ¡snow! = ¡ice cream!
+
+6 - ¡lava man!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡snowman! + ¡volcano! = ¡lava man!
+
+6 - ¡lavacone!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡volcano! = ¡snowcone!
+¡snowcone! + ¡volcano! = ¡lavacone!
+
+6 - ¡hot!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡volcano! = ¡snowcone!
+¡fire! + ¡snowcone! = ¡hot!
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡ice! + ¡snowman! = ¡snowcone!
+¡fire! + ¡snowcone! = ¡hot!
+
+6 - ¡diablo!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡ash! + ¡blizzard! = ¡diablo!
+
+6 - Teapot: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+Tornado + ¡clay! = Pottery
+Pottery + ¡steam! = Teapot
+
+6 - ¡adobe ice cream!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡steam! + ¡water! = ¡ice!
+¡clay! + ¡mud! = ¡adobe!
+¡adobe! + ¡ice! = ¡adobe ice cream!
+
+6 - ¡trainwreck!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡steam! = ¡train!
+¡brick! + ¡train! = ¡trainwreck!
+
+6 - ¡claytrain!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡steam! = ¡train!
+¡clay! + ¡train! = ¡claytrain!
+
+6 - ¡mud train!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡steam! = ¡train!
+¡mud! + ¡train! = ¡mud train!
+
+6 - ¡choo choo!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡steam! = ¡train!
+¡steam! + ¡train! = ¡choo choo!
+
+6 - ¡train wreck!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡steam! = ¡train!
+¡fire! + ¡train! = ¡train wreck!
+
+6 - ¡earth train!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡steam! = ¡train!
+¡earth! + ¡train! = ¡earth train!
+
+6 - ¡ice brick!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡steam! + ¡water! = ¡ice!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡ice! = ¡ice brick!
+
+6 - ¡avalanche!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡mud! = ¡mudslide!
+¡blizzard! + ¡mudslide! = ¡avalanche!
+
+6 - ¡iceboat!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡steam! + ¡water! = ¡ice!
+¡mud! + ¡steamboat! = ¡mudboat!
+¡ice! + ¡mudboat! = ¡iceboat!
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡steamboat! = ¡snowboat!
+¡snowboat! + ¡water! = ¡iceboat!
+
+6 - ¡pirate!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡mud! + ¡steamboat! = ¡mudboat!
+¡mudboat! + ¡wind! = ¡sailboat!
+¡fire! + ¡sailboat! = ¡pirate!
+
+6 - Rainbow Steamboat: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡rainbow! + ¡rainbow! = Rainbow
+Rainbow + ¡steamboat! = Rainbow Steamboat
+
+6 - ¡rainbow snow!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡rainbow! + ¡snow! = ¡rainbow snow!
+
+6 - ¡rainbow blizzard!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡rainbow! = ¡rainbow blizzard!
+
+6 - ¡steam thunder!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡water! = ¡steam!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡rain! = ¡thunder!
+¡steam! + ¡thunder! = ¡steam thunder!
+
+6 - Snowicane: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+Tornado + Tornado = Hurricane
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+Hurricane + ¡blizzard! = Snowicane
+
+6 - Titanic: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + Tornado = Hurricane
+Hurricane + ¡steamboat! = Steamboat
+Hurricane + Steamboat = Titanic
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tsunami + ¡earth! = Earthquake
+Earthquake + ¡steamboat! = Titanic
+
+6 - Magma: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡fire! + ¡water! = ¡steam!
+Volcano + ¡fire! = Lava
+¡steam! + ¡water! = ¡ice!
+Lava + ¡ice! = Magma
+
+6 - ¡steam tsunami!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+Tsunami + ¡volcano! = ¡tsunamic!
+¡steam! + ¡tsunamic! = ¡steam tsunami!
+
+6 - Ice Cream: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡fire! + ¡water! = ¡steam!
+Tornado + Tsunami = Destruction
+¡steam! + ¡water! = ¡ice!
+Destruction + ¡ice! = Ice Cream
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + Snow = Ice
+Ice + ¡ice! = Ice Cream
+ ...
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡water! = Ice
+Ice + ¡ice! = Ice Cream
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡ice water! = ¡ice Ice!
+¡ice Ice! + ¡ice! = Ice Cream
+
+6 - Glacier: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tsunami + ¡ice! = Iceberg
+Iceberg + Iceberg = Glacier
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡ice! = Iceberg
+Iceberg + Iceberg = Glacier
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡ice water! = ¡ice Ice!
+¡ice Ice! + ¡ice Ice! = Glacier
+
+6 - Ship: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tsunami + ¡ice! = Iceberg
+Iceberg + ¡steam! = Ship
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡ice! = Iceberg
+Iceberg + ¡steam! = Ship
+
+6 - Water: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tsunami + ¡ice! = Iceberg
+Iceberg + ¡fire! = Water
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + Snow = Ice
+Ice + ¡fire! = Water
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + ¡ice! = Snowman
+Snowman + ¡steam! = Water
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+Tornado + ¡blizzard! = Snowman
+Snowman + ¡steam! = Water
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡snowman! + ¡snowman! = Snowman
+Snowman + ¡steam! = Water
+ ...
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡water! = Ice
+Ice + ¡fire! = Water
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡ice! = Iceberg
+Iceberg + ¡fire! = Water
+
+6 - Snowstorm: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + Tornado = Blizzard
+Blizzard + Blizzard = Snowstorm
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + ¡ice! = Snowman
+Snowman + Tornado = Snowstorm
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+Tornado + ¡snow! = Blizzard
+Blizzard + Blizzard = Snowstorm
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+Tornado + ¡snowman! = Snowstorm
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+Tornado + ¡blizzard! = Snowman
+Snowman + Tornado = Snowstorm
+
+6 - Snowball: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+Tornado + ¡ice! = Snow
+Snow + ¡ice! = Snowman
+Snow + Snowman = Snowball
+ ...
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+Tornado + ¡blizzard! = Snowman
+Snowman + ¡earth! = Snowball
+ ...
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡snowman! + ¡snowman! = Snowman
+Snowman + ¡earth! = Snowball
+
+6 - ¡tornado Willie!: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+Steamboat Willie + Tornado = Tornado Willie
+Tornado Willie + ¡fire! = ¡tornado Willie!
+
+6 - Minnie Mouse: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+Steamboat Willie + ¡fire! = Mickey Mouse
+Mickey Mouse + Mickey Mouse = Minnie Mouse
+
+6 - Disney: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+Steamboat Willie + ¡fire! = Mickey Mouse
+Mickey Mouse + Steamboat Willie = Disney
+
+6 - ¡Mickey Mouse!: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+Steamboat Willie + ¡fire! = Mickey Mouse
+Mickey Mouse + ¡fire! = ¡Mickey Mouse!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡steamboat! = ¡steamboat willie!
+¡fire! + ¡steamboat willie! = ¡Mickey Mouse!
+
+6 - Disneyland: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+Steamboat Willie + ¡fire! = Mickey Mouse
+Mickey Mouse + ¡earth! = Disneyland
+
+6 - Donald Duck: 
+¡wind! + ¡wind! = Tornado
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+Tornado + ¡steamboat! = Steamboat Willie
+Steamboat Willie + ¡fire! = Mickey Mouse
+Mickey Mouse + ¡wind! = Donald Duck
+
+6 - ¡blizzardblizzard!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡snow! = ¡snowblizzard!
+¡blizzard! + ¡snowblizzard! = ¡blizzardblizzard!
+
+6 - ¡snowball fight!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡snow! + ¡snowman! = ¡snowball!
+¡snowball! + ¡snowman! = ¡snowball fight!
+
+6 - ¡snowsteamboat!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡steamboat! = ¡snowboat!
+¡snowboat! + ¡steamboat! = ¡snowsteamboat!
+
+6 - ¡snowmobile on fire!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡steamboat! = ¡snowmobile!
+¡fire! + ¡snowmobile! = ¡snowmobile on fire!
+
+6 - ¡sharkcanoado!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡water! = ¡sharknado!
+¡sharknado! + ¡volcano! = ¡sharkcano!
+¡sharkcano! + ¡sharknado! = ¡sharkcanoado!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡sharknado! + ¡volcano! = ¡sharkcano!
+¡sharkcano! + ¡sharknado! = ¡sharkcanoado!
+
+6 - ¡sharkcano volcano!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡water! = ¡sharknado!
+¡sharknado! + ¡volcano! = ¡sharkcano!
+¡sharkcano! + ¡volcano! = ¡sharkcano volcano!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡sharknado! + ¡volcano! = ¡sharkcano!
+¡sharkcano! + ¡volcano! = ¡sharkcano volcano!
+
+6 - ¡disaster!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth! + ¡sharknado! = ¡earthquake!
+¡earthquake! + ¡volcano! = ¡disaster!
+ ...
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth! + ¡sharknado! = ¡earthquake!
+¡earthquake! + ¡lake! = ¡tsunami!
+¡earthquake! + ¡tsunami! = ¡disaster!
+ ...
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡earth! + ¡tornado volcano! = ¡earthquake!
+¡earthquake! + ¡volcano! = ¡disaster!
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡earth! + ¡fire! = ¡volcano!
+Tsunami + ¡volcano! = ¡tsunamic!
+¡earth! + ¡tsunamic! = ¡earthquake!
+¡earthquake! + ¡volcano! = ¡disaster!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡earth! + ¡tornado volcano! = ¡earthquake!
+¡earthquake! + ¡volcano! = ¡disaster!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth! + ¡sharknado! = ¡earthquake!
+¡earthquake! + ¡volcano! = ¡disaster!
+
+6 - ¡asharknado!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡tornado! + ¡water! = ¡sharknado!
+¡ash! + ¡sharknado! = ¡asharknado!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡ash! + ¡sharknado! = ¡asharknado!
+
+6 - ¡ash swamp!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡swamp! = ¡ash swamp!
+
+6 - ¡dragon steam!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡mud! = ¡swamp!
+¡fire! + ¡swamp! = ¡dragon!
+¡dragon! + ¡steam! = ¡dragon steam!
+
+6 - ¡dragon volcano!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡swamp! = ¡dragon!
+¡dragon! + ¡volcano! = ¡dragon volcano!
+
+6 - ¡rainbow swamp!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡lake! + ¡mud! = ¡swamp!
+¡rainbow! + ¡swamp! = ¡rainbow swamp!
+
+6 - ¡flood!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡lake! + ¡mud! = ¡swamp!
+¡mud! + ¡swamp! = ¡quagmire!
+¡quagmire! + ¡rain! = ¡flood!
+ ...
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡storm! = ¡ashstorm!
+¡ashstorm! + ¡rain! = ¡flood!
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+¡earth! + ¡fire! = ¡volcano!
+Tsunami + ¡volcano! = ¡tsunamic!
+¡rain! + ¡tsunamic! = ¡flood!
+
+6 - ¡malaria!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡lake! + ¡mud! = ¡swamp!
+¡rain! + ¡swamp! = ¡mosquito!
+¡lake! + ¡mosquito! = ¡malaria!
+
+6 - ¡dragon rain!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡lake! + ¡mud! = ¡swamp!
+¡fire! + ¡swamp! = ¡dragon!
+¡dragon! + ¡rain! = ¡dragon rain!
+
+6 - Alligator: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+Tornado + Tornado = Hurricane
+Hurricane + ¡swamp! = Alligator
+
+6 - Sinkhole: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+Tornado + ¡lake! = Whirlpool
+Whirlpool + ¡swamp! = Sinkhole
+ ...
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡lake! = Whirlpool
+Whirlpool + ¡mud! = Muddy Water
+Muddy Water + Whirlpool = Sinkhole
+
+6 - Swamp: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+Tsunami + ¡swamp! = Swamp
+ ...
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+Tornado + ¡marsh! = Swamp
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡lake! = Swamp
+ ...
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡lake! = Whirlpool
+Whirlpool + ¡mud! = Muddy Water
+Muddy Water + Muddy Water = Swamp
+ ...
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + ¡lake! = Swamp
+
+6 - Tornado Dragon: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡fire! + ¡swamp! = ¡dragon!
+Tornado + ¡dragon! = Tornado Dragon
+
+6 - ¡s'more!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+¡marsh! + ¡swamp! = ¡marshmallow!
+¡lake! + ¡marshmallow! = ¡s'more!
+
+6 - ¡mudmallow!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+¡marsh! + ¡swamp! = ¡marshmallow!
+¡marshmallow! + ¡mud! = ¡mudmallow!
+
+6 - ¡marshmallow swamp!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+¡marsh! + ¡swamp! = ¡marshmallow!
+¡marshmallow! + ¡swamp! = ¡marshmallow swamp!
+
+6 - ¡toasted marshmallow!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+¡marsh! + ¡swamp! = ¡marshmallow!
+¡fire! + ¡marshmallow! = ¡toasted marshmallow!
+
+6 - ¡chocolate!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+¡marsh! + ¡swamp! = ¡marshmallow!
+¡earth! + ¡marshmallow! = ¡chocolate!
+
+6 - ¡dragon marsh!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡fire! + ¡swamp! = ¡dragon!
+¡lake! + ¡swamp! = ¡marsh!
+¡dragon! + ¡marsh! = ¡dragon marsh!
+
+6 - ¡alligator!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡wind! = ¡tornado!
+¡swamp! + ¡tornado! = ¡hurricane!
+¡hurricane! + ¡swamp! = ¡alligator!
+
+6 - ¡dragonado!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡wind! = ¡tornado!
+¡fire! + ¡swamp! = ¡dragon!
+¡dragon! + ¡tornado! = ¡dragonado!
+
+6 - ¡dragon quagmire!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡fire! + ¡swamp! = ¡dragon!
+¡mud! + ¡swamp! = ¡quagmire!
+¡dragon! + ¡quagmire! = ¡dragon quagmire!
+
+6 - ¡clayasaurus!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡swamp! = ¡dinosaur!
+¡clay! + ¡dinosaur! = ¡clayasaurus!
+
+6 - ¡Loch Ness Monster!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡swamp! = ¡dinosaur!
+¡dinosaur! + ¡lake! = ¡Loch Ness Monster!
+
+6 - ¡fossil!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡swamp! = ¡dinosaur!
+¡dinosaur! + ¡mud! = ¡fossil!
+
+6 - ¡sea monster!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡swamp! = ¡dinosaur!
+¡dinosaur! + ¡water! = ¡sea monster!
+
+6 - ¡lake pizza!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡lake! + ¡pizza! = ¡lake pizza!
+
+6 - ¡rainbow sharknado!: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡rainbow! + ¡sharknado! = ¡rainbow sharknado!
+ ...
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡storm! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡rainbow! + ¡sharknado! = ¡rainbow sharknado!
+
+6 - Pond: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rainbow! + ¡rainbow! = Rainbow
+Rainbow + ¡lake! = Rainbow Trout
+Rainbow Trout + Rainbow Trout = Pond
+
+6 - ¡Rainbow!: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rainbow! + ¡rainbow! = Rainbow
+Rainbow + ¡water! = Rain
+Rain + ¡lake! = ¡Rainbow!
+
+6 - ¡muddy lake!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡mud! + ¡storm! = ¡mudstorm!
+¡lake! + ¡mudstorm! = ¡muddy lake!
+
+6 - Sharkicane: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+Tornado + Tornado = Hurricane
+¡tornado! + ¡water! = ¡sharknado!
+Hurricane + ¡sharknado! = Sharkicane
+
+6 - Muddy Tornado: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡lake! = Whirlpool
+Whirlpool + ¡mud! = Muddy Water
+Muddy Water + Tornado = Muddy Tornado
+
+6 - Clean Water: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡lake! = Whirlpool
+Whirlpool + ¡mud! = Muddy Water
+Muddy Water + ¡water! = Clean Water
+
+6 - ¡¡¡steam!!!: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+Tornado + ¡lake! = Whirlpool
+Tornado + Whirlpool = Vortex
+Vortex + ¡fire! = ¡¡fire!!
+¡lake! + ¡¡fire!! = ¡¡¡steam!!!
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡fire! = ¡¡fire!!
+¡water! + ¡¡fire!! = ¡¡¡steam!!!
+
+6 - ¡¡¡fire!!!: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+Tornado + ¡lake! = Whirlpool
+Tornado + Whirlpool = Vortex
+Vortex + ¡fire! = ¡¡fire!!
+¡fire! + ¡¡fire!! = ¡¡¡fire!!!
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡water! = ¡lake!
+Tornado + ¡lake! = Whirlpool
+Tsunami + Whirlpool = Maelstrom
+Maelstrom + ¡fire! = ¡¡¡fire!!!
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡fire! = ¡¡fire!!
+¡fire! + ¡¡fire!! = ¡¡¡fire!!!
+
+6 - Tidal Wave: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡water! = ¡lake!
+Tornado + ¡lake! = Whirlpool
+Tsunami + Whirlpool = Maelstrom
+Maelstrom + Tsunami = Tidal Wave
+
+6 - Mud Island: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+Volcano + ¡lake! = Island
+Island + ¡mud! = Mud Island
+
+6 - Fjord: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ¡lake! = Fjord
+
+6 - Pangaea: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡lake! = Island
+Island + Island = Continent
+Continent + Continent = Pangaea
+
+6 - Archipelago: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡lake! = Island
+Island + Island = Continent
+Continent + Island = Archipelago
+
+6 - Surf: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡lake! = Island
+Island + Volcano = Hawaii
+Hawaii + ¡water! = Surf
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+Tsunami + ¡slide! = Surf
+
+6 - Hula: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡lake! = Island
+Island + Volcano = Hawaii
+Hawaii + ¡wind! = Hula
+
+6 - Loch Ness: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡water! = ¡lake!
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡lake! = Loch Ness
+
+6 - ¡Sharknado!: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+Tornado + ¡sharknado! = Sharknado
+Sharknado + ¡lake! = ¡Sharknado!
+
+6 - ¡sharknadoquake!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth! + ¡sharknado! = ¡earthquake!
+¡earthquake! + ¡sharknado! = ¡sharkquake!
+¡sharknado! + ¡sharkquake! = ¡sharknadoquake!
+
+6 - ¡adobo!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡mud! = ¡clay!
+¡fire! + ¡volcano! = ¡lava!
+¡clay! + ¡mud! = ¡adobe!
+¡adobe! + ¡lava! = ¡adobo!
+
+6 - ¡pizza volcano!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡pizza! + ¡volcano! = ¡pizza volcano!
+
+6 - ¡house!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡ash! + ¡brick! = ¡house!
+
+6 - ¡ash golem!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡earth! + ¡mud! = ¡clay!
+¡ash! + ¡clay! = ¡golem!
+¡ash! + ¡golem! = ¡ash golem!
+
+6 - ¡clay golem!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡earth! + ¡mud! = ¡clay!
+¡ash! + ¡clay! = ¡golem!
+¡clay! + ¡golem! = ¡clay golem!
+
+6 - ¡mud golem!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡earth! + ¡mud! = ¡clay!
+¡ash! + ¡clay! = ¡golem!
+¡golem! + ¡mud! = ¡mud golem!
+
+6 - ¡lava golem!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡earth! + ¡mud! = ¡clay!
+¡ash! + ¡clay! = ¡golem!
+¡golem! + ¡volcano! = ¡lava golem!
+
+6 - ¡ice golem!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡earth! + ¡mud! = ¡clay!
+¡ash! + ¡clay! = ¡golem!
+¡golem! + ¡water! = ¡ice golem!
+
+6 - ¡earth golem!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡earth! + ¡mud! = ¡clay!
+¡ash! + ¡clay! = ¡golem!
+¡earth! + ¡golem! = ¡earth golem!
+
+6 - ¡claywind!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡wind! = ¡ashwind!
+¡earth! + ¡mud! = ¡clay!
+¡ashwind! + ¡clay! = ¡claywind!
+
+6 - ¡ashmudwind!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡mud! = ¡ashmud!
+¡ash! + ¡wind! = ¡ashwind!
+¡ashmud! + ¡ashwind! = ¡ashmudwind!
+
+6 - ¡steamboat Willie!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡steamboat! = ¡steamboat Willie!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡steamboat! = ¡steamboat willie!
+¡steamboat willie! + ¡steamboat willie! = ¡steamboat Willie!
+
+6 - ¡¡lava!!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡fire! = ¡volcano!
+¡rainbow! + ¡rainbow! = Rainbow
+¡fire! + ¡volcano! = ¡lava!
+Rainbow + ¡lava! = ¡¡lava!!
+
+6 - ¡thunder volcano!: 
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡rain! = ¡thunder!
+¡thunder! + ¡volcano! = ¡thunder volcano!
+
+6 - ¡earth Wind And Fog!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡lake! = ¡fog lake!
+¡earth wind and fire! + ¡fog lake! = ¡earth Wind And Fog!
+
+6 - Lightning: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡rain! = Lightning
+ ...
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+Tornado + ¡lightning! = Thunderstorm
+Thunderstorm + Thunderstorm = Lightning
+
+6 - ¡¡¡¡¡volcano!!!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡fire! = ¡volcano!
+Volcano + ¡volcano! = ¡¡volcano!!
+Volcano + ¡¡volcano!! = ¡¡¡volcano!!!
+Volcano + ¡¡¡volcano!!! = ¡¡¡¡¡volcano!!!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+Volcano + ¡¡volcano!! = ¡¡¡volcano!!!
+Volcano + ¡¡¡volcano!!! = ¡¡¡¡¡volcano!!!
+
+6 - ¡¡¡¡volcano!!!!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡fire! = ¡volcano!
+Volcano + ¡volcano! = ¡¡volcano!!
+Volcano + ¡¡volcano!! = ¡¡¡volcano!!!
+¡volcano! + ¡¡¡volcano!!! = ¡¡¡¡volcano!!!!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+Volcano + ¡¡volcano!! = ¡¡¡volcano!!!
+¡volcano! + ¡¡¡volcano!!! = ¡¡¡¡volcano!!!!
+
+6 - ¡¡¡¡lava!!!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡fire! = ¡volcano!
+Volcano + ¡volcano! = ¡¡volcano!!
+Volcano + ¡¡volcano!! = ¡¡¡volcano!!!
+¡fire! + ¡¡¡volcano!!! = ¡¡¡¡lava!!!
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡fire! = ¡volcano!
+Volcano + ¡volcano! = ¡¡volcano!!
+¡fire! + ¡¡volcano!! = ¡¡¡lava!!!
+¡¡volcano!! + ¡¡¡lava!!! = ¡¡¡¡lava!!!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+Volcano + ¡¡volcano!! = ¡¡¡volcano!!!
+¡fire! + ¡¡¡volcano!!! = ¡¡¡¡lava!!!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+¡fire! + ¡¡volcano!! = ¡¡¡lava!!!
+¡¡volcano!! + ¡¡¡lava!!! = ¡¡¡¡lava!!!
+
+6 - Phoenix: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡earth! + ¡fire! = ¡volcano!
+Tornado + Tsunami = Destruction
+¡volcano! + ¡wind! = ¡ash!
+Destruction + ¡ash! = Phoenix
+
+6 - Boom: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡ash! = Fireworks
+Fireworks + ¡ash! = Boom
+
+6 - Engine: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡water! = Steam
+Fire + Steam = Engine
+
+6 - Cloud: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡water! = Steam
+Steam + Steam = Cloud
+
+6 - Tea: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+Tornado + ¡ash! = Fire
+Fire + ¡water! = Steam
+Steam + ¡water! = Tea
+
+6 - Statue: 
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡ash! = Statue
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡wind! = ¡rain!
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡rain! = Statue
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Tornado + Tornado = Hurricane
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Hurricane + Stone = Statue
+
+6 - ¡¡¡¡lava!!!!: 
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+¡ash! + ¡¡volcano!! = ¡¡¡lava!!
+¡volcano! + ¡¡¡lava!! = ¡¡¡¡lava!!!!
+
+6 - ¡¡¡¡lava!!: 
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+¡ash! + ¡¡volcano!! = ¡¡¡lava!!
+¡¡volcano!! + ¡¡¡lava!! = ¡¡¡¡lava!!
+
+6 - ¡¡¡¡¡lava!!!!!!!!!!!!!!!!!!!!!!!!!!!!: 
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡ash! = Volcano
+Volcano + ¡volcano! = ¡¡volcano!!
+¡ash! + ¡¡volcano!! = ¡¡¡lava!!
+¡fire! + ¡¡¡lava!! = ¡¡¡¡¡lava!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+6 - ¡pizza rain!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡pizza! + ¡rain! = ¡pizza rain!
+
+6 - ¡rainbow brick!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡rainbow! = ¡rainbow brick!
+
+6 - ¡brickstorm!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡storm! = ¡brickstorm!
+
+6 - ¡thunderbird!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡storm! = ¡thunder!
+¡clay! + ¡thunder! = ¡thunderbird!
+
+6 - ¡mudman!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡earth! + ¡mud! = ¡clay!
+¡mud! + ¡storm! = ¡mudstorm!
+¡clay! + ¡mudstorm! = ¡mudman!
+
+6 - ¡mud Lake!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡mud! = ¡mud Lake!
+
+6 - ¡dustmudstorm!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡mud! + ¡storm! = ¡mudstorm!
+¡mudstorm! + ¡wind! = ¡duststorm!
+¡duststorm! + ¡mudstorm! = ¡dustmudstorm!
+
+6 - ¡steamboat Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡wind! = ¡steamboat!
+¡earth! + ¡fire! = ¡volcano!
+¡steamboat! + ¡volcano! = ¡steamboat volcano!
+¡fire tornado! + ¡steamboat volcano! = ¡steamboat Tornado!
+
+6 - ¡fire Volcano!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡fire tornado! + ¡tornado volcano! = ¡fire Volcano!
+ ...
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡fire tornado! + ¡tornado volcano! = ¡fire Volcano!
+
+6 - ¡water park!: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡lake! + ¡slide! = ¡water park!
+
+6 - Mudcano: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+Tornado + ¡mud! = Mudslide
+Mudslide + Tornado = Mudnado
+Mudnado + ¡volcano! = Mudcano
+
+6 - Slide: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Mudslide + ¡mud! = ¡slide!
+Rock + ¡slide! = Slide
+
+6 - Meteorite: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Rock + Tornado = Meteor
+Meteor + Meteor = Meteorite
+
+6 - Meteor Shower: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Rock + Tornado = Meteor
+Meteor + Tornado = Meteor Shower
+
+6 - Puddle: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Rock + ¡water! = Wet
+Wet + Wet = Puddle
+
+6 - Smoke: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Rock + ¡water! = Wet
+Wet + ¡fire! = Smoke
+
+6 - Landslide: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Mudslide = Rock
+Rock + ¡wind! = Avalanche
+Avalanche + Mudslide = Landslide
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡earth! + ¡water! = ¡mud!
+Tsunami + ¡earth! = Earthquake
+Tornado + ¡mud! = Mudslide
+Earthquake + Mudslide = Landslide
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+Tsunami + ¡earth! = Earthquake
+Earthquake + ¡rain! = Mudslide
+Earthquake + Mudslide = Landslide
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Tornado = Avalanche
+Avalanche + ¡earth! = Landslide
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + Tornado = Avalanche
+Avalanche + ¡earth! = Landslide
+
+6 - Dust Storm: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Tornado = Mudnado
+Mudnado + Tornado = Dust Devil
+Dust Devil + Mudslide = Dust Storm
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + Tornado = Dust
+Dust + Tornado = Dust Storm
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+Tornado + ¡dust! = Dust Devil
+Dust Devil + Tornado = Dust Storm
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡wind! = Dust
+Dust + ¡wind! = Dust Storm
+
+6 - Fire Tornado: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + Tornado = Mudnado
+Mudnado + Tornado = Dust Devil
+Dust Devil + ¡fire! = Fire Tornado
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+Tornado + ¡dust! = Dust Devil
+Dust Devil + ¡fire! = Fire Tornado
+
+6 - Pig: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+Mudslide + ¡water! = Mud
+Mud + ¡slide! = Pig
+ ...
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rainbow! + ¡rainbow! = Rainbow
+Rainbow + ¡water! = Rain
+Rain + ¡earth! = Mud
+Mud + Rainbow = Pig
+
+6 - ¡clay slide!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+¡earth! + ¡mud! = ¡clay!
+Mudslide + ¡mud! = ¡slide!
+¡clay! + ¡slide! = ¡clay slide!
+
+6 - ¡landslide!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡earth! + ¡slide! = ¡earthquake!
+¡earthquake! + ¡slide! = ¡landslide!
+
+6 - Windsurfer: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡wind! = ¡windsurf!
+Tornado + ¡windsurf! = Windsurfer
+
+6 - ¡mudsurf!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡wind! = ¡windsurf!
+¡mud! + ¡windsurf! = ¡mudsurf!
+
+6 - ¡firewindsurf!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡wind! = ¡windsurf!
+¡fire! + ¡windsurf! = ¡firewindsurf!
+
+6 - ¡surf!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡wind! = ¡windsurf!
+¡water! + ¡windsurf! = ¡surf!
+
+6 - ¡earthwindsurf!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡wind! = ¡windsurf!
+¡earth! + ¡windsurf! = ¡earthwindsurf!
+
+6 - ¡windsurfing!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡wind! = ¡windsurf!
+¡wind! + ¡windsurf! = ¡windsurfing!
+
+6 - Ash: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + Tornado = Dust
+Dust + ¡fire! = Ash
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡wind! = Dust
+Dust + ¡fire! = Ash
+
+6 - Planet: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + Tornado = Dust
+Dust + ¡earth! = Planet
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡wind! = Dust
+Dust + ¡earth! = Planet
+
+6 - Wall: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + ¡fire! = Brick
+Brick + Brick = Wall
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡fire! = Brick
+Brick + Brick = Wall
+
+6 - Adobe: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡water! = Mud
+Mud + ¡fire! = Brick
+Brick + Mud = Adobe
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡fire! = Brick
+Brick + Mud = Adobe
+
+6 - Sculpture: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡water! = ¡mud!
+Volcano + Volcano = Mountain
+¡earth! + ¡mud! = ¡clay!
+Mountain + ¡clay! = Sculpture
+
+6 - Ceramic: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+Volcano + ¡clay! = Clay
+Clay + Volcano = Ceramic
+ ...
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+Tornado + ¡clay! = Pottery
+Pottery + Pottery = Vase
+Pottery + Vase = Ceramic
+
+6 - Golem: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡earth! + ¡water! = ¡mud!
+Tsunami + ¡earth! = Earthquake
+¡earth! + ¡mud! = ¡clay!
+Earthquake + ¡clay! = Golem
+
+6 - ¡industrial revolution!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡fire! = ¡gunpowder!
+¡gunpowder! + ¡steam! = ¡industrial revolution!
+
+6 - Pot: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+Tornado + ¡clay! = Pottery
+Pottery + Pottery = Vase
+Vase + Vase = Pot
+
+6 - Flower: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+Tornado + ¡clay! = Pottery
+Pottery + Pottery = Vase
+Vase + ¡water! = Flower
+
+6 - Town: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+Tornado + ¡brick! = House
+House + House = Town
+
+6 - Mudhouse: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+Tornado + ¡brick! = House
+House + ¡mud! = Mudhouse
+
+6 - Ruin: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+Tornado + ¡brick! = House
+House + ¡fire! = Ruin
+
+6 - Pool: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+Tornado + ¡brick! = House
+House + ¡water! = Pool
+
+6 - Tomb: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+Tornado + ¡brick! = House
+House + ¡earth! = Tomb
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡earth! = Pyramid
+Pyramid + ¡water! = Tomb
+
+6 - ¡ice Volcano!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡volcano! = ¡ice Volcano!
+
+6 - ¡adobizza!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡mud! = ¡adobe!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡adobe! + ¡pizza! = ¡adobizza!
+
+6 - ¡fog Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡steam! = ¡fog!
+¡fog! + ¡lake! = ¡fog lake!
+¡fire tornado! + ¡fog lake! = ¡fog Tornado!
+
+6 - ¡adobesharknado!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡wind! = ¡tornado!
+¡clay! + ¡mud! = ¡adobe!
+¡tornado! + ¡water! = ¡sharknado!
+¡adobe! + ¡sharknado! = ¡adobesharknado!
+
+6 - ¡ash Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡lake! = ¡ash lake!
+¡ash lake! + ¡fire tornado! = ¡ash Tornado!
+ ...
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡wind! = ¡rain!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡rain! = ¡ash rain!
+¡ash rain! + ¡fire tornado! = ¡ash Tornado!
+
+6 - ¡pizzatornado!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡wind! = ¡tornado!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡pizza! + ¡tornado! = ¡pizzatornado!
+
+6 - ¡brickpizza!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡mud! + ¡pizza! = ¡mudpizza!
+¡brick! + ¡mudpizza! = ¡brickpizza!
+
+6 - ¡mudpizzamud!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡mud! + ¡pizza! = ¡mudpizza!
+¡mud! + ¡mudpizza! = ¡mudpizzamud!
+
+6 - ¡earth Wind And Fire Tornado Volcano!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡earth wind and fire! + ¡tornado volcano! = ¡earth Wind And Fire Tornado Volcano!
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡earth wind and fire! + ¡tornado volcano! = ¡earth Wind And Fire Tornado Volcano!
+
+6 - ¡clarknado!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡clay! + ¡sharknado! = ¡claynado!
+¡claynado! + ¡sharknado! = ¡clarknado!
+
+6 - ¡dust Volcano!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡tornado! = ¡dust devil!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡dust devil! + ¡tornado volcano! = ¡dust Volcano!
+ ...
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡wind! = ¡tornado!
+¡earth! + ¡tornado! = ¡dust devil!
+¡tornado! + ¡volcano! = ¡tornado volcano!
+¡dust devil! + ¡tornado volcano! = ¡dust Volcano!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡mud! = ¡clay!
+¡mud! + ¡wind! = ¡dust storm!
+¡clay! + ¡volcano! = ¡clay volcano!
+¡clay volcano! + ¡dust storm! = ¡dust Volcano!
+
+6 - ¡ice And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡water! = ¡steam!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡earth And Fire! + ¡ice water! = ¡ice And Fire!
+
+6 - ¡lava Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡volcano! = ¡clay volcano!
+¡clay volcano! + ¡fire tornado! = ¡lava Tornado!
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡fire! + ¡volcano! = ¡lava!
+¡earth Wind And Fire Tornado! + ¡lava! = ¡lava Tornado!
+
+6 - ¡rainbow Lava!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡rainbow! + ¡volcano! = ¡rainbow volcano!
+¡rainbow fire! + ¡rainbow volcano! = ¡rainbow Lava!
+ ...
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡fire! = ¡volcano!
+¡fire! + ¡volcano! = ¡lava!
+¡lava! + ¡rainbow! = ¡rainbow lava!
+¡rainbow lava! + ¡rainbow lava! = ¡rainbow Lava!
+
+6 - Clay Volcano: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡volcano! = ¡clay volcano!
+¡clay volcano! + ¡clay volcano! = Volcano
+Volcano + ¡clay volcano! = Clay Volcano
+
+6 - ¡olympics!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡earth wind and fire! + ¡ice skating! = ¡olympics!
+
+6 - ¡rainbow Rainbow!: 
+¡water! + ¡water! = ¡lake!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡lake! + ¡rainbow! = ¡rainbow lake!
+¡rainbow fire! + ¡rainbow lake! = ¡rainbow Rainbow!
+ ...
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth! + ¡rainbow fire! = ¡rainbow Earth!
+¡rainbow fire! + ¡water! = ¡rainbow Steam!
+¡rainbow Earth! + ¡rainbow Steam! = ¡rainbow Rainbow!
+ ...
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡rainbow fire! + ¡water! = ¡rainbow Steam!
+¡rainbow fire! + ¡rainbow Steam! = ¡rainbow Plant!
+¡rainbow Plant! + ¡rainbow Steam! = ¡rainbow Rainbow!
+
+6 - ¡hot Lake!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡lake! + ¡volcano! = ¡hot springs!
+¡ash! + ¡lake! = ¡ash lake!
+¡ash lake! + ¡hot springs! = ¡hot Lake!
+
+6 - ¡ash Wind And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡lake! = ¡ash lake!
+¡ash lake! + ¡earth wind and fire! = ¡ash Wind And Fire!
+
+6 - ¡hot Spring!: 
+¡water! + ¡water! = ¡lake!
+¡lake! + ¡wind! = ¡tornado!
+¡earth! + ¡fire! = ¡volcano!
+¡earth! + ¡tornado! = ¡dust devil!
+¡lake! + ¡volcano! = ¡hot springs!
+¡dust devil! + ¡hot springs! = ¡hot Spring!
+
+6 - ¡rainbow Fire Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡water! = ¡steam!
+¡rainbow! + ¡steam! = ¡rainbow steam!
+¡fire tornado! + ¡rainbow steam! = ¡rainbow Fire Tornado!
+ ...
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡rainbow fire! + ¡water! = ¡rainbow Steam!
+¡fire tornado! + ¡rainbow Steam! = ¡rainbow Fire Tornado!
+ ...
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth! + ¡rainbow fire! = ¡rainbow Earth!
+¡fire tornado! + ¡rainbow Earth! = ¡rainbow Fire Tornado!
+ ...
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡fire tornado! + ¡rainbow fire! = ¡rainbow Tornado!
+¡fire tornado! + ¡rainbow Tornado! = ¡rainbow Fire Tornado!
+
+6 - ¡hot Sand!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡mud! + ¡wind! = ¡dust storm!
+¡lake! + ¡volcano! = ¡hot springs!
+¡dust storm! + ¡hot springs! = ¡hot Sand!
+
+6 - ¡rainbow Clay!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡mud! + ¡rainbow! = ¡rainbow mud!
+¡fire! + ¡rainbow mud! = ¡rainbow Fire!
+¡rainbow Fire! + ¡rainbow mud! = ¡rainbow Clay!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡mud! + ¡rainbow! = ¡rainbow mud!
+¡rainbow fire! + ¡rainbow mud! = ¡rainbow Clay!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡mud! + ¡rainbow! = ¡rainbow mud!
+¡earth! + ¡rainbow mud! = ¡rainbow Earth!
+¡rainbow Earth! + ¡rainbow mud! = ¡rainbow Clay!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡rainbow! = ¡rainbow clay!
+¡rainbow clay! + ¡water! = ¡rainbow Clay!
+
+6 - ¡ashdust!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡ash! + ¡dust! = ¡ashdust!
+
+6 - Sea: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+Tornado + Tornado = Hurricane
+Hurricane + ¡rain! = Flood
+Flood + Flood = Ocean
+Ocean + Ocean = Sea
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+Tsunami + ¡rain! = Flood
+Flood + Flood = Ocean
+Ocean + Ocean = Sea
+
+6 - Noah: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡water! = ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+Tornado + Tornado = Hurricane
+Hurricane + ¡rain! = Flood
+Flood + ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ = Noah
+ ...
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+Tornado + Tornado = Hurricane
+Hurricane + ¡rain! = Flood
+Flood + ¡rainbow! = Noah
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+Tornado + Tsunami = Destruction
+Tsunami + ¡rain! = Flood
+Destruction + Flood = Noah
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡water! = ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+Tsunami + ¡rain! = Flood
+Flood + ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ = Noah
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+Tsunami + ¡rain! = Flood
+Flood + ¡rainbow! = Noah
+
+6 - Thunder: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+Tornado + Tornado = Hurricane
+¡fire! + ¡storm! = ¡lightning!
+Hurricane + ¡lightning! = Thunder
+
+6 - Pegasus: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+Volcano + ¡rainbow! = Unicorn
+Unicorn + Volcano = Pegasus
+
+6 - Narwhal: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+Volcano + ¡rainbow! = Unicorn
+Unicorn + ¡water! = Narwhal
+
+6 - Thor: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+Tsunami + ¡lightning! = Thor
+
+6 - Storm: 
+¡wind! + ¡wind! = Tornado
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡rain! = ¡thunder!
+Tornado + ¡thunder! = Storm
+
+6 - Ice Skating: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡water! = Ice
+Ice + ¡ice skating! = Ice Skating
+ ...
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡ice skating! = Ice Rink
+Ice Rink + ¡wind! = Ice Skating
+
+6 - ¡rainbow thunder!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡rain! = ¡thunder!
+¡rainbow! + ¡thunder! = ¡rainbow thunder!
+
+6 - ¡dust Wind And Fire Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth wind and fire! = ¡dust Wind And Fire!
+¡dust Wind And Fire! + ¡fire tornado! = ¡dust Wind And Fire Tornado!
+
+6 - Apocalypse: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+Tornado + Tornado = Hurricane
+Hurricane + Tsunami = Disaster
+Destruction + Disaster = Apocalypse
+
+6 - Super Volcano: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Mountain Range + Yellowstone = Super Volcano
+
+6 - Supervolcano: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Tornado + Yellowstone = Supervolcano
+
+6 - Geysers: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + Volcano = Yellowstone
+Yellowstone + ¡water! = Geysers
+
+6 - River: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ¡water! = Waterfall
+Mountain + Waterfall = River
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡water! = Waterfall
+Waterfall + Waterfall = River
+
+6 - Niagara Falls: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ¡water! = Waterfall
+Mountain Range + Waterfall = Niagara Falls
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡water! = Waterfall
+Tornado + Waterfall = Niagara Falls
+
+6 - Geyser: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ¡water! = Waterfall
+Volcano + Waterfall = Geyser
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡water! = Waterfall
+Volcano + Waterfall = Geyser
+
+6 - Canyon: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ¡water! = Waterfall
+Waterfall + ¡earth! = Canyon
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡water! = Waterfall
+Waterfall + ¡earth! = Canyon
+
+6 - Wind: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + Volcano = Mountain
+Mountain + Mountain = Mountain Range
+Mountain Range + ¡wind! = Aeolus
+Aeolus + Mountain = Wind
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡earth wind and fire! = ¡dust In The Wind!
+¡dust In The Wind! + ¡dust! = Wind
+
+6 - Blade: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Lava + Stone = Obsidian
+Obsidian + Stone = Blade
+
+6 - Glass: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Lava + Stone = Obsidian
+Obsidian + Volcano = Glass
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡wind! = Sand
+Lava + Sand = Glass
+
+6 - Sphinx: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡earth! = Pyramid
+Pyramid + Pyramid = Sphinx
+
+6 - Sandstorm: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡earth! = Pyramid
+Pyramid + Tornado = Sandstorm
+ ...
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡wind! = Sand
+Sand + ¡wind! = Sandstorm
+
+6 - Desert: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡wind! = Sand
+Sand + Sand = Desert
+
+6 - Beach: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡fire! = Volcano
+Volcano + ¡fire! = Lava
+Lava + ¡water! = Stone
+Stone + ¡wind! = Sand
+Sand + ¡water! = Beach
+
+6 - Evil: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+Chaos + Destruction = Evil
+
+6 - Big Bang: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+Chaos + Explosion = Big Bang
+
+6 - ¡chaos!: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+Chaos + ¡fire! = ¡chaos!
+
+6 - Universe: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+Tornado + Tsunami = Destruction
+Destruction + Destruction = Explosion
+Destruction + Explosion = Chaos
+Chaos + ¡earth! = Universe
+
+6 - ¡clay Wind And Fire Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡clay! + ¡earth Wind And Fire Tornado! = ¡clay Wind And Fire Tornado!
+
+6 - ¡rain Dance!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth wind and fire! = ¡dust Wind And Fire!
+¡dust Wind And Fire! + ¡rain! = ¡rain Dance!
+
+6 - ¡rainbow Dust!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡mud! + ¡wind! = ¡dust storm!
+¡mud! + ¡rainbow! = ¡rainbow mud!
+¡dust storm! + ¡rainbow mud! = ¡rainbow Dust!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡mud! + ¡wind! = ¡dust storm!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡dust storm! + ¡rainbow fire! = ¡rainbow Dust!
+
+6 - Earth Wind And Fire: 
+¡wind! + ¡wind! = Tornado
+Tornado + ¡water! = Tsunami
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+Tsunami + ¡earth Wind And Fire Tornado! = Earth Wind And Fire
+
+6 - ¡brick dust!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡dust! = ¡brick dust!
+
+6 - Rainbow Earth: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡rainbow! + ¡rainbow! = Rainbow
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth! + ¡rainbow fire! = ¡rainbow Earth!
+Rainbow + ¡rainbow Earth! = Rainbow Earth
+
+6 - ¡earth, Wind And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡wind! = ¡ashwind!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡ashwind! + ¡earth And Fire! = ¡earth, Wind And Fire!
+
+6 - ¡adobe dust!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡clay! + ¡mud! = ¡adobe!
+¡adobe! + ¡dust! = ¡adobe dust!
+
+6 - ¡mud Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡water! = ¡mud!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡fire tornado! = ¡earth Tornado!
+¡earth Tornado! + ¡mud! = ¡mud Tornado!
+
+6 - ¡earth Wind And Fire Tornado Sharknado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡wind! = ¡tornado!
+¡tornado! + ¡water! = ¡sharknado!
+¡earth Wind And Fire Tornado! + ¡sharknado! = ¡earth Wind And Fire Tornado Sharknado!
+
+6 - ¡earth Wind And Fire Steam Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡fire! + ¡water! = ¡steam!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡steam! = ¡steam Tornado!
+¡earth Wind And Fire Tornado! + ¡steam Tornado! = ¡earth Wind And Fire Steam Tornado!
+
+6 - ¡rainbow dust!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡rainbow! = ¡rainbow dust!
+
+6 - Funk: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡fire! = Brick
+Brick + ¡earth wind and fire! = Funk
+ ...
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡earth wind and fire! + ¡wind! = ¡earth And Fire!
+¡earth And Fire! + ¡rain! = Mud
+Mud + ¡wind! = Dust
+Dust + ¡earth wind and fire! = Funk
+
+6 - ¡rainbow Rain!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡fire tornado! + ¡rainbow fire! = ¡rainbow Tornado!
+¡rainbow fire! + ¡rainbow Tornado! = ¡rainbow Rain!
+ ...
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡mud! + ¡rainbow! = ¡rainbow mud!
+¡rainbow mud! + ¡water! = ¡rainbow Water!
+¡rainbow mud! + ¡rainbow Water! = ¡rainbow Rain!
+
+6 - ¡steam Adobe!: 
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡mud! = ¡adobe!
+¡adobe! + ¡steam! = ¡steam adobe!
+¡steam adobe! + ¡steam adobe! = ¡steam Adobe!
+
+6 - ¡fire Marsh!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡lake! + ¡swamp! = ¡marsh!
+¡fire! + ¡marsh! = ¡fire marsh!
+¡fire marsh! + ¡fire marsh! = ¡fire Marsh!
+
+6 - ¡mud volcano!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡earth! + ¡hot springs! = ¡geyser!
+¡geyser! + ¡mud! = ¡mud volcano!
+
+6 - ¡dragon Fire!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡lake! + ¡mud! = ¡swamp!
+¡fire! + ¡swamp! = ¡dragon!
+¡dragon! + ¡fire! = ¡dragon fire!
+¡dragon fire! + ¡dragon fire! = ¡dragon Fire!
+
+6 - ¡water Slide!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡slide! + ¡water! = ¡water slide!
+¡water slide! + ¡water slide! = ¡water Slide!
+
+6 - ¡global Warming!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡volcano! = ¡global warming!
+¡global warming! + ¡global warming! = ¡global Warming!
+
+6 - ¡climate Change!: 
+¡fire! + ¡water! = ¡steam!
+¡earth! + ¡fire! = ¡volcano!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡wind! = ¡blizzard!
+¡blizzard! + ¡volcano! = ¡global warming!
+¡fire! + ¡global warming! = ¡climate Change!
+
+6 - ¡muddy Ashwind!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡wind! = ¡ashwind!
+¡ashwind! + ¡mud! = ¡muddy ashwind!
+¡muddy ashwind! + ¡muddy ashwind! = ¡muddy Ashwind!
+
+6 - ¡muddy earth!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡fire! = ¡volcano!
+¡volcano! + ¡wind! = ¡ash!
+¡ash! + ¡wind! = ¡ashwind!
+¡ashwind! + ¡mud! = ¡muddy ashwind!
+¡earth! + ¡muddy ashwind! = ¡muddy earth!
+
+6 - ¡muddy Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth! + ¡water! = ¡mud!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡mud! = ¡mudslide!
+¡fire tornado! + ¡mudslide! = ¡muddy Tornado!
+
+6 - ¡adobe Tornado!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡wind! = ¡tornado!
+¡clay! + ¡mud! = ¡adobe!
+¡adobe! + ¡tornado! = ¡adobe tornado!
+¡adobe tornado! + ¡adobe tornado! = ¡adobe Tornado!
+
+6 - ¡fire Slide!: 
+¡wind! + ¡wind! = Tornado
+¡earth! + ¡water! = ¡mud!
+Tornado + ¡mud! = Mudslide
+Mudslide + ¡mud! = ¡slide!
+¡fire! + ¡slide! = ¡fire slide!
+¡fire slide! + ¡fire slide! = ¡fire Slide!
+
+6 - ¡steam Swamp!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡water! = ¡mud!
+¡fire! + ¡water! = ¡steam!
+¡lake! + ¡mud! = ¡swamp!
+¡steam! + ¡swamp! = ¡steam swamp!
+¡steam swamp! + ¡steam swamp! = ¡steam Swamp!
+
+6 - ¡pizza Wind!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡pizza! + ¡wind! = ¡pizza wind!
+¡pizza wind! + ¡pizza wind! = ¡pizza Wind!
+
+6 - ¡pizza Earth!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡fire! = ¡brick!
+¡brick! + ¡fire! = ¡pizza!
+¡pizza! + ¡wind! = ¡pizza wind!
+¡earth! + ¡pizza wind! = ¡pizza Earth!
+
+6 - ¡boom dust!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡fire! = ¡gunpowder!
+¡fire! + ¡gunpowder! = ¡boom!
+¡boom! + ¡dust! = ¡boom dust!
+
+6 - ¡adobe Brick!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡clay! + ¡mud! = ¡adobe!
+¡clay! + ¡fire! = ¡brick!
+¡adobe! + ¡brick! = ¡adobe brick!
+¡adobe brick! + ¡adobe brick! = ¡adobe Brick!
+
+6 - ¡muddy Lightning!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡mud! = ¡muddy lightning!
+¡muddy lightning! + ¡muddy lightning! = ¡muddy Lightning!
+
+6 - ¡muddy Fire!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡mud! = ¡muddy lightning!
+¡fire! + ¡muddy lightning! = ¡muddy Fire!
+
+6 - ¡muddy Earth!: 
+¡earth! + ¡water! = ¡mud!
+¡water! + ¡wind! = ¡rain!
+¡rain! + ¡wind! = ¡storm!
+¡fire! + ¡storm! = ¡lightning!
+¡lightning! + ¡mud! = ¡muddy lightning!
+¡earth! + ¡muddy lightning! = ¡muddy Earth!
+
+6 - Figure Skating: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡ice skating! = Ice Rink
+Ice Rink + ¡ice skating! = Figure Skating
+
+6 - ¡ice Ice Water!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡ice water! + ¡ice water! = ¡ice Lake!
+¡ice Lake! + ¡ice water! = ¡ice Ice!
+¡ice Ice! + ¡ice water! = ¡ice Ice Water!
+
+6 - ¡hot Chocolate!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡fire! + ¡snowman! = ¡hot chocolate!
+¡hot chocolate! + ¡hot chocolate! = ¡hot Chocolate!
+
+6 - ¡hot Water!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡fire! + ¡snowman! = ¡hot chocolate!
+¡hot chocolate! + ¡water! = ¡hot Water!
+
+6 - ¡hot Air Balloon!: 
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡earth! + ¡ice! = ¡snow!
+¡snow! + ¡snow! = ¡snowman!
+¡fire! + ¡snowman! = ¡hot chocolate!
+¡hot chocolate! + ¡wind! = ¡hot Air Balloon!
+
+6 - ¡hot Tub!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡earth wind and fire! + ¡hot springs! = ¡hot Lava!
+¡hot Lava! + ¡hot springs! = ¡hot Tub!
+
+6 - ¡geothermal Geyser!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡earth! + ¡hot springs! = ¡geyser!
+¡geyser! + ¡hot springs! = ¡geothermal Energy!
+¡geothermal Energy! + ¡geyser! = ¡geothermal Geyser!
+
+6 - ¡wind Turbine!: 
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡earth! + ¡hot springs! = ¡geyser!
+¡geyser! + ¡hot springs! = ¡geothermal Energy!
+¡geothermal Energy! + ¡wind! = ¡wind Turbine!
+
+6 - ¡rainbow Flower!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡rainbow fire! + ¡water! = ¡rainbow Steam!
+¡rainbow fire! + ¡rainbow Steam! = ¡rainbow Plant!
+¡rainbow fire! + ¡rainbow Plant! = ¡rainbow Flower!
+ ...
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth! + ¡rainbow fire! = ¡rainbow Earth!
+¡rainbow Earth! + ¡water! = ¡rainbow plant!
+¡rainbow fire! + ¡rainbow plant! = ¡rainbow Flower!
+
+6 - ¡rainbow Tree!: 
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth! + ¡rainbow fire! = ¡rainbow Earth!
+¡rainbow Earth! + ¡water! = ¡rainbow plant!
+¡rainbow Earth! + ¡rainbow plant! = ¡rainbow Tree!
+
+6 - ¡human!: 
+¡earth! + ¡water! = ¡mud!
+¡earth! + ¡mud! = ¡clay!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡clay! + ¡dust! = ¡adam!
+¡adam! + ¡clay! = ¡human!
+
+6 - ¡earth Wind And Fire And Rain And Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡fire tornado! = ¡earth Tornado!
+¡earth Tornado! + ¡earth wind and fire! = ¡earth Wind And Fire And Rain!
+¡earth Tornado! + ¡earth Wind And Fire And Rain! = ¡earth Wind And Fire And Rain And Tornado!
+
+6 - ¡earth Wind And Fire And Rain And Fire Tornado!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡wind! = ¡fire tornado!
+¡earth wind and fire! + ¡fire tornado! = ¡earth Wind And Fire Tornado!
+¡earth Wind And Fire Tornado! + ¡fire tornado! = ¡earth Tornado!
+¡earth Tornado! + ¡earth wind and fire! = ¡earth Wind And Fire And Rain!
+¡earth Wind And Fire And Rain! + ¡fire tornado! = ¡earth Wind And Fire And Rain And Fire Tornado!
+
+6 - ¡rainbow Earth Wind And Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth wind and fire! + ¡rainbow fire! = ¡rainbow Wind And Fire!
+¡earth wind and fire! + ¡rainbow Wind And Fire! = ¡rainbow Earth Wind And Fire!
+
+6 - ¡rainbow Fire And Wind!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡water! + ¡wind! = ¡rain!
+¡fire! + ¡rain! = ¡rainbow!
+¡fire! + ¡rainbow! = ¡rainbow fire!
+¡earth wind and fire! + ¡rainbow fire! = ¡rainbow Wind And Fire!
+¡rainbow fire! + ¡rainbow Wind And Fire! = ¡rainbow Fire And Wind!
+
+6 - ¡dust In The Fire!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡earth wind and fire! = ¡dust In The Wind!
+¡dust In The Wind! + ¡fire! = ¡dust In The Fire!
+
+6 - ¡dust In The Water!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡earth wind and fire! = ¡dust In The Wind!
+¡dust In The Wind! + ¡water! = ¡dust In The Water!
+
+6 - ¡steam Skating!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡wind! = ¡wind Skating!
+¡steam! + ¡wind Skating! = ¡steam Skating!
+
+6 - ¡fire Skating!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡wind! = ¡wind Skating!
+¡fire! + ¡wind Skating! = ¡fire Skating!
+
+6 - ¡surfing!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡wind! = ¡wind Skating!
+¡water! + ¡wind Skating! = ¡surfing!
+
+6 - ¡earth Wind Skating!: 
+¡water! + ¡water! = ¡lake!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡lake! = ¡ice skating!
+¡ice skating! + ¡wind! = ¡wind Skating!
+¡earth! + ¡wind Skating! = ¡earth Wind Skating!
+
+6 - ¡dust Explosion!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡fire! = ¡gunpowder!
+¡dust storm! + ¡gunpowder! = ¡explosion!
+¡dust storm! + ¡explosion! = ¡dust Explosion!
+
+6 - ¡fireworks!: 
+¡earth! + ¡water! = ¡mud!
+¡mud! + ¡wind! = ¡dust storm!
+¡dust storm! + ¡earth! = ¡dust!
+¡dust! + ¡fire! = ¡gunpowder!
+¡dust storm! + ¡gunpowder! = ¡explosion!
+¡explosion! + ¡gunpowder! = ¡fireworks!
+
+6 - ¡ice Ice Baby!: 
+¡earth! + ¡wind! = ¡earth wind and fire!
+¡fire! + ¡water! = ¡steam!
+¡steam! + ¡water! = ¡ice!
+¡ice! + ¡water! = ¡ice water!
+¡earth wind and fire! + ¡ice water! = ¡earth Wind And Fire And Ice!
+¡earth Wind And Fire And Ice! + ¡ice water! = ¡ice Ice Baby!
+
+6 - ¡hot Fire Tornado!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡fire tornado! + ¡hot springs! = ¡hot Tornado!
+¡fire tornado! + ¡hot Tornado! = ¡hot Fire Tornado!
+
+6 - ¡hot fire!: 
+¡fire! + ¡wind! = ¡fire tornado!
+¡water! + ¡water! = ¡lake!
+¡earth! + ¡fire! = ¡volcano!
+¡lake! + ¡volcano! = ¡hot springs!
+¡fire tornado! + ¡hot springs! = ¡hot Tornado!
+¡fire! + ¡hot Tornado! = ¡hot fire!
+
+
+
+{
+  "¡steam!": 1,
+  "¡lake!": 1,
+  "¡volcano!": 1,
+  "¡mud!": 1,
+  "¡fire tornado!": 1,
+  "¡rain!": 1,
+  "¡earth wind and fire!": 1,
+  "Tornado": 1,
+  "¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡": 2,
+  "¡ice!": 2,
+  "¡steamboat!": 2,
+  "¡tornado!": 2,
+  "¡lava!": 2,
+  "¡ash!": 2,
+  "¡clay!": 2,
+  "¡dust storm!": 2,
+  "¡fire Tornado!": 2,
+  "¡rainbow!": 2,
+  "¡storm!": 2,
+  "¡earth Wind And Fire!": 2,
+  "¡earth And Fire!": 2,
+  "Hurricane": 2,
+  "Volcano": 2,
+  "Tsunami": 2,
+  "¡fog!": 3,
+  "¡ice water!": 3,
+  "¡snow!": 3,
+  "¡blizzard!": 3,
+  "¡hot springs!": 3,
+  "¡swamp!": 3,
+  "Whirlpool": 3,
+  "¡sharknado!": 3,
+  "¡dust devil!": 3,
+  "¡ashwind!": 3,
+  "Mudslide": 3,
+  "¡adobe!": 3,
+  "¡brick!": 3,
+  "¡dust Storm!": 3,
+  "¡dust!": 3,
+  "¡earth Wind And Fire Tornado!": 3,
+  "Rainbow": 3,
+  "¡rainbow fire!": 3,
+  "¡lightning!": 3,
+  "¡earth Wind And Fire And Earth And Fire!": 3,
+  "Eruption": 3,
+  "Mountain": 3,
+  "Lava": 3,
+  "Destruction": 3,
+  "Earthquake": 3,
+  "¡fog lake!": 4,
+  "¡smoke!": 4,
+  "¡mist!": 4,
+  "¡steam tornado!": 4,
+  "¡ice skating!": 4,
+  "¡steamboat volcano!": 4,
+  "¡clay pot!": 4,
+  "¡mudboat!": 4,
+  "¡rainbow steam!": 4,
+  "Snow": 4,
+  "Steamboat Willie": 4,
+  "¡ice Lake!": 4,
+  "¡snowman!": 4,
+  "¡hot Springs!": 4,
+  "¡geyser!": 4,
+  "¡tornado volcano!": 4,
+  "¡ash lake!": 4,
+  "¡marsh!": 4,
+  "¡quagmire!": 4,
+  "¡dragon!": 4,
+  "¡rainbow lake!": 4,
+  "Vortex": 4,
+  "Island": 4,
+  "¡earthquake!": 4,
+  "¡dust Devil!": 4,
+  "¡clay volcano!": 4,
+  "¡ashmud!": 4,
+  "¡rainbow volcano!": 4,
+  "¡ash rain!": 4,
+  "¡¡volcano!!": 4,
+  "¡tsunamic!": 4,
+  "Fire": 4,
+  "¡volcán!": 4,
+  "¡rainbow mud!": 4,
+  "¡mudstorm!": 4,
+  "¡dust Wind And Fire!": 4,
+  "Rock": 4,
+  "Mudnado": 4,
+  "¡slide!": 4,
+  "Mud": 4,
+  "Pottery": 4,
+  "¡pizza!": 4,
+  "¡gunpowder!": 4,
+  "¡earth Tornado!": 4,
+  "Flood": 4,
+  "Rain": 4,
+  "¡rainbow Fire!": 4,
+  "¡rainbow Steam!": 4,
+  "¡rainbow Earth!": 4,
+  "¡thunder!": 4,
+  "Disaster": 4,
+  "Mountain Range": 4,
+  "Stone": 4,
+  "Explosion": 4,
+  "¡fog Lake!": 5,
+  "¡smog!": 5,
+  "¡fogado!": 5,
+  "¡fogboat!": 5,
+  "¡steam Tornado!": 5,
+  "Ice Rink": 5,
+  "¡ice Skating!": 5,
+  "Ice": 5,
+  "¡wind Skating!": 5,
+  "¡iceberg!": 5,
+  "¡magma!": 5,
+  "¡snowcone!": 5,
+  "¡global warming!": 5,
+  "¡steamboat Volcano!": 5,
+  "¡steam adobe!": 5,
+  "¡clay Pot!": 5,
+  "¡train!": 5,
+  "¡steamboat willie!": 5,
+  "¡mudslide!": 5,
+  "¡sailboat!": 5,
+  "¡ice Tornado!": 5,
+  "¡earth Wind And Fire And Ice!": 5,
+  "Steamboat": 5,
+  "Iceberg": 5,
+  "Blizzard": 5,
+  "Snowman": 5,
+  "Tornado Willie": 5,
+  "Mickey Mouse": 5,
+  "¡ice Ice!": 5,
+  "¡snowblizzard!": 5,
+  "¡snowball!": 5,
+  "¡hot chocolate!": 5,
+  "¡snowstorm!": 5,
+  "¡snowboat!": 5,
+  "¡snowmobile!": 5,
+  "¡hot Tornado!": 5,
+  "¡hot Lava!": 5,
+  "¡geothermal Energy!": 5,
+  "¡tornado Volcano!": 5,
+  "¡sharkcano!": 5,
+  "¡ash Lake!": 5,
+  "¡steam swamp!": 5,
+  "¡mosquito!": 5,
+  "Cyclone": 5,
+  "¡marshmallow!": 5,
+  "¡fire marsh!": 5,
+  "¡hurricane!": 5,
+  "¡mudquagmire!": 5,
+  "¡firequagmire!": 5,
+  "¡dinosaur!": 5,
+  "¡dragon fire!": 5,
+  "¡mudsharknado!": 5,
+  "¡rainbow Lake!": 5,
+  "¡rainbow tornado!": 5,
+  "Rainbow Trout": 5,
+  "Muddy Water": 5,
+  "¡¡fire!!": 5,
+  "Maelstrom": 5,
+  "Continent": 5,
+  "Hawaii": 5,
+  "Atlantis": 5,
+  "¡tsunami!": 5,
+  "Sharknado": 5,
+  "¡sharkquake!": 5,
+  "¡natural disaster!": 5,
+  "¡clay Volcano!": 5,
+  "¡golem!": 5,
+  "¡muddy ashwind!": 5,
+  "¡rainbow Volcano!": 5,
+  "¡rainbow lava!": 5,
+  "¡lightning volcano!": 5,
+  "¡ashstorm!": 5,
+  "¡ash Rain!": 5,
+  "¡ash": 5,
+  "¡¡¡volcano!!!": 5,
+  "¡¡¡lava!!!": 5,
+  "¡¡¡lava!!!!": 5,
+  "Fireworks": 5,
+  "Steam": 5,
+  "¡¡¡lava!!": 5,
+  "¡dust Bowl!": 5,
+  "¡rainbow clay!": 5,
+  "¡rainbow Water!": 5,
+  "¡duststorm!": 5,
+  "¡muddy lightning!": 5,
+  "¡dust And Fire!": 5,
+  "¡dust In The Wind!": 5,
+  "Boulder": 5,
+  "Meteor": 5,
+  "Wet": 5,
+  "Avalanche": 5,
+  "Dust Devil": 5,
+  "¡mudnado!": 5,
+  "¡fire slide!": 5,
+  "¡water slide!": 5,
+  "¡windsurf!": 5,
+  "Clay": 5,
+  "Dust": 5,
+  "Brick": 5,
+  "Vase": 5,
+  "House": 5,
+  "¡adobe brick!": 5,
+  "¡adobe tornado!": 5,
+  "¡mudpizza!": 5,
+  "¡pizza wind!": 5,
+  "¡bricknado!": 5,
+  "¡claynado!": 5,
+  "¡adam!": 5,
+  "¡explosion!": 5,
+  "¡bang!": 5,
+  "¡boom!": 5,
+  "¡rainbow Tornado!": 5,
+  "¡earth Wind And Fire And Rain!": 5,
+  "¡tornado Tornado!": 5,
+  "¡rainbow Wind And Fire!": 5,
+  "Ocean": 5,
+  "Unicorn": 5,
+  "Thunderstorm": 5,
+  "¡rainbow Plant!": 5,
+  "¡rainbow plant!": 5,
+  "¡thunderstorm!": 5,
+  "Twister": 5,
+  "Yellowstone": 5,
+  "Waterfall": 5,
+  "Aeolus": 5,
+  "Obsidian": 5,
+  "Pyramid": 5,
+  "Sand": 5,
+  "Chaos": 5,
+  "¡eruption!": 6,
+  "¡swamp fog!": 6,
+  "¡rainbow fog!": 6,
+  "¡fogstorm!": 6,
+  "¡smoke tornado!": 6,
+  "¡acid rain!": 6,
+  "¡pollution!": 6,
+  "¡mistboat!": 6,
+  "¡fogado tornado!": 6,
+  "¡fuego!": 6,
+  "¡plant!": 6,
+  "¡fognado!": 6,
+  "¡earthboat!": 6,
+  "¡ice sharknado!": 6,
+  "¡steamnado!": 6,
+  "¡ice swamp!": 6,
+  "¡ice cream!": 6,
+  "¡lava man!": 6,
+  "¡lavacone!": 6,
+  "¡hot!": 6,
+  "¡diablo!": 6,
+  "Teapot": 6,
+  "¡adobe ice cream!": 6,
+  "¡trainwreck!": 6,
+  "¡claytrain!": 6,
+  "¡mud train!": 6,
+  "¡choo choo!": 6,
+  "¡train wreck!": 6,
+  "¡earth train!": 6,
+  "¡ice brick!": 6,
+  "¡avalanche!": 6,
+  "¡iceboat!": 6,
+  "¡pirate!": 6,
+  "Rainbow Steamboat": 6,
+  "¡rainbow snow!": 6,
+  "¡rainbow blizzard!": 6,
+  "¡steam thunder!": 6,
+  "Snowicane": 6,
+  "Titanic": 6,
+  "Magma": 6,
+  "¡steam tsunami!": 6,
+  "Ice Cream": 6,
+  "Glacier": 6,
+  "Ship": 6,
+  "Water": 6,
+  "Snowstorm": 6,
+  "Snowball": 6,
+  "¡tornado Willie!": 6,
+  "Minnie Mouse": 6,
+  "Disney": 6,
+  "¡Mickey Mouse!": 6,
+  "Disneyland": 6,
+  "Donald Duck": 6,
+  "¡blizzardblizzard!": 6,
+  "¡snowball fight!": 6,
+  "¡snowsteamboat!": 6,
+  "¡snowmobile on fire!": 6,
+  "¡sharkcanoado!": 6,
+  "¡sharkcano volcano!": 6,
+  "¡disaster!": 6,
+  "¡asharknado!": 6,
+  "¡ash swamp!": 6,
+  "¡dragon steam!": 6,
+  "¡dragon volcano!": 6,
+  "¡rainbow swamp!": 6,
+  "¡flood!": 6,
+  "¡malaria!": 6,
+  "¡dragon rain!": 6,
+  "Alligator": 6,
+  "Sinkhole": 6,
+  "Swamp": 6,
+  "Tornado Dragon": 6,
+  "¡s'more!": 6,
+  "¡mudmallow!": 6,
+  "¡marshmallow swamp!": 6,
+  "¡toasted marshmallow!": 6,
+  "¡chocolate!": 6,
+  "¡dragon marsh!": 6,
+  "¡alligator!": 6,
+  "¡dragonado!": 6,
+  "¡dragon quagmire!": 6,
+  "¡clayasaurus!": 6,
+  "¡Loch Ness Monster!": 6,
+  "¡fossil!": 6,
+  "¡sea monster!": 6,
+  "¡lake pizza!": 6,
+  "¡rainbow sharknado!": 6,
+  "Pond": 6,
+  "¡Rainbow!": 6,
+  "¡muddy lake!": 6,
+  "Sharkicane": 6,
+  "Muddy Tornado": 6,
+  "Clean Water": 6,
+  "¡¡¡steam!!!": 6,
+  "¡¡¡fire!!!": 6,
+  "Tidal Wave": 6,
+  "Mud Island": 6,
+  "Fjord": 6,
+  "Pangaea": 6,
+  "Archipelago": 6,
+  "Surf": 6,
+  "Hula": 6,
+  "Loch Ness": 6,
+  "¡Sharknado!": 6,
+  "¡sharknadoquake!": 6,
+  "¡adobo!": 6,
+  "¡pizza volcano!": 6,
+  "¡house!": 6,
+  "¡ash golem!": 6,
+  "¡clay golem!": 6,
+  "¡mud golem!": 6,
+  "¡lava golem!": 6,
+  "¡ice golem!": 6,
+  "¡earth golem!": 6,
+  "¡claywind!": 6,
+  "¡ashmudwind!": 6,
+  "¡steamboat Willie!": 6,
+  "¡¡lava!!": 6,
+  "¡thunder volcano!": 6,
+  "¡earth Wind And Fog!": 6,
+  "Lightning": 6,
+  "¡¡¡¡¡volcano!!!": 6,
+  "¡¡¡¡volcano!!!!": 6,
+  "¡¡¡¡lava!!!": 6,
+  "Phoenix": 6,
+  "Boom": 6,
+  "Engine": 6,
+  "Cloud": 6,
+  "Tea": 6,
+  "Statue": 6,
+  "¡¡¡¡lava!!!!": 6,
+  "¡¡¡¡lava!!": 6,
+  "¡¡¡¡¡lava!!!!!!!!!!!!!!!!!!!!!!!!!!!!": 6,
+  "¡pizza rain!": 6,
+  "¡rainbow brick!": 6,
+  "¡brickstorm!": 6,
+  "¡thunderbird!": 6,
+  "¡mudman!": 6,
+  "¡mud Lake!": 6,
+  "¡dustmudstorm!": 6,
+  "¡steamboat Tornado!": 6,
+  "¡fire Volcano!": 6,
+  "¡water park!": 6,
+  "Mudcano": 6,
+  "Slide": 6,
+  "Meteorite": 6,
+  "Meteor Shower": 6,
+  "Puddle": 6,
+  "Smoke": 6,
+  "Landslide": 6,
+  "Dust Storm": 6,
+  "Fire Tornado": 6,
+  "Pig": 6,
+  "¡clay slide!": 6,
+  "¡landslide!": 6,
+  "Windsurfer": 6,
+  "¡mudsurf!": 6,
+  "¡firewindsurf!": 6,
+  "¡surf!": 6,
+  "¡earthwindsurf!": 6,
+  "¡windsurfing!": 6,
+  "Ash": 6,
+  "Planet": 6,
+  "Wall": 6,
+  "Adobe": 6,
+  "Sculpture": 6,
+  "Ceramic": 6,
+  "Golem": 6,
+  "¡industrial revolution!": 6,
+  "Pot": 6,
+  "Flower": 6,
+  "Town": 6,
+  "Mudhouse": 6,
+  "Ruin": 6,
+  "Pool": 6,
+  "Tomb": 6,
+  "¡ice Volcano!": 6,
+  "¡adobizza!": 6,
+  "¡fog Tornado!": 6,
+  "¡adobesharknado!": 6,
+  "¡ash Tornado!": 6,
+  "¡pizzatornado!": 6,
+  "¡brickpizza!": 6,
+  "¡mudpizzamud!": 6,
+  "¡earth Wind And Fire Tornado Volcano!": 6,
+  "¡clarknado!": 6,
+  "¡dust Volcano!": 6,
+  "¡ice And Fire!": 6,
+  "¡lava Tornado!": 6,
+  "¡rainbow Lava!": 6,
+  "Clay Volcano": 6,
+  "¡olympics!": 6,
+  "¡rainbow Rainbow!": 6,
+  "¡hot Lake!": 6,
+  "¡ash Wind And Fire!": 6,
+  "¡hot Spring!": 6,
+  "¡rainbow Fire Tornado!": 6,
+  "¡hot Sand!": 6,
+  "¡rainbow Clay!": 6,
+  "¡ashdust!": 6,
+  "Sea": 6,
+  "Noah": 6,
+  "Thunder": 6,
+  "Pegasus": 6,
+  "Narwhal": 6,
+  "Thor": 6,
+  "Storm": 6,
+  "Ice Skating": 6,
+  "¡rainbow thunder!": 6,
+  "¡dust Wind And Fire Tornado!": 6,
+  "Apocalypse": 6,
+  "Super Volcano": 6,
+  "Supervolcano": 6,
+  "Geysers": 6,
+  "River": 6,
+  "Niagara Falls": 6,
+  "Geyser": 6,
+  "Canyon": 6,
+  "Wind": 6,
+  "Blade": 6,
+  "Glass": 6,
+  "Sphinx": 6,
+  "Sandstorm": 6,
+  "Desert": 6,
+  "Beach": 6,
+  "Evil": 6,
+  "Big Bang": 6,
+  "¡chaos!": 6,
+  "Universe": 6,
+  "¡clay Wind And Fire Tornado!": 6,
+  "¡rain Dance!": 6,
+  "¡rainbow Dust!": 6,
+  "Earth Wind And Fire": 6,
+  "¡brick dust!": 6,
+  "Rainbow Earth": 6,
+  "¡earth, Wind And Fire!": 6,
+  "¡adobe dust!": 6,
+  "¡mud Tornado!": 6,
+  "¡earth Wind And Fire Tornado Sharknado!": 6,
+  "¡earth Wind And Fire Steam Tornado!": 6,
+  "¡rainbow dust!": 6,
+  "Funk": 6,
+  "¡rainbow Rain!": 6,
+  "¡steam Adobe!": 6,
+  "¡fire Marsh!": 6,
+  "¡mud volcano!": 6,
+  "¡dragon Fire!": 6,
+  "¡water Slide!": 6,
+  "¡global Warming!": 6,
+  "¡climate Change!": 6,
+  "¡muddy Ashwind!": 6,
+  "¡muddy earth!": 6,
+  "¡muddy Tornado!": 6,
+  "¡adobe Tornado!": 6,
+  "¡fire Slide!": 6,
+  "¡steam Swamp!": 6,
+  "¡pizza Wind!": 6,
+  "¡pizza Earth!": 6,
+  "¡boom dust!": 6,
+  "¡adobe Brick!": 6,
+  "¡muddy Lightning!": 6,
+  "¡muddy Fire!": 6,
+  "¡muddy Earth!": 6,
+  "Figure Skating": 6,
+  "¡ice Ice Water!": 6,
+  "¡hot Chocolate!": 6,
+  "¡hot Water!": 6,
+  "¡hot Air Balloon!": 6,
+  "¡hot Tub!": 6,
+  "¡geothermal Geyser!": 6,
+  "¡wind Turbine!": 6,
+  "¡rainbow Flower!": 6,
+  "¡rainbow Tree!": 6,
+  "¡human!": 6,
+  "¡earth Wind And Fire And Rain And Tornado!": 6,
+  "¡earth Wind And Fire And Rain And Fire Tornado!": 6,
+  "¡rainbow Earth Wind And Fire!": 6,
+  "¡rainbow Fire And Wind!": 6,
+  "¡dust In The Fire!": 6,
+  "¡dust In The Water!": 6,
+  "¡steam Skating!": 6,
+  "¡fire Skating!": 6,
+  "¡surfing!": 6,
+  "¡earth Wind Skating!": 6,
+  "¡dust Explosion!": 6,
+  "¡fireworks!": 6,
+  "¡ice Ice Baby!": 6,
+  "¡hot Fire Tornado!": 6,
+  "¡hot fire!": 6
+}
